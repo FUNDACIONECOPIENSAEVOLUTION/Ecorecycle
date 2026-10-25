@@ -82,6 +82,14 @@ function pump(){while(running<3&&pending.length){const [img,q]=pending.shift();i
 function applyPhotos(){
  const cat=window.DATA?window.DATA.find(x=>x.id===window.active):null;
  const chosen=cat||((typeof DATA!=="undefined")?DATA.find(x=>x.id===active):null);if(!chosen)return;
+ const base=document.querySelector("#baseIcon");
+ if(base&&!base.querySelector(".eco-base-photo")){
+  const baseImg=document.createElement("img");baseImg.className="eco-base-photo";
+  baseImg.alt="Imagen de referencia para la base principal "+chosen.n;
+  const first=chosen.b[0]?.[0]||"";
+  const loc=chosen.id==="metales"?"./assets/fotos/reciclables/metales.jpg":"./assets/fotos/"+chosen.id+"/"+slug(first)+".jpg";
+  baseImg.onerror=()=>baseImg.remove();baseImg.src=loc;base.appendChild(baseImg);
+ }
  document.querySelectorAll(".item").forEach(card=>{
  const label=card.querySelector(".itemHead")?.textContent||"";
  const ix=chosen.b.findIndex(b=>b[0]===label);if(ix<0)return;
