@@ -51,7 +51,7 @@ fallbacks={
 "rcd":{"Concreto limpio":"concrete construction rubble","Tierras y materiales inertes":"soil excavation"},
 "plasticos":{"PEAD (tipo 2)":"plastic bottles containers","PEBD (tipo 4)":"plastic bags recycling"},
 "metales":{"Aluminio":"aluminium cans"},
-"madera":{"Aserrín limpio":"sawdust woodworking"},
+"madera":{"Aserrín limpio":"sawdust"},
 "vidrio":{"Vidrio mixto":"broken glass shards"},
 "llantas":{"Granulado de caucho":"rubber granules","Polvo de caucho":"black tire rubber","Acero recuperado":"steel wire","Pirólisis industrial":"industrial furnace recycling"},
 "aceites":{"Filtros aceitosos":"car oil filter"},
