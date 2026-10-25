@@ -20,7 +20,8 @@
       "license": "CC BY-SA 3.0",
       "creator": "Slaunger",
       "original_title": "File:Kongensbro gravel pit 2014-09-17.jpg",
-      "query": "gravel stones"
+      "query": "gravel stones",
+      "cached": true
     },
     {
       "material": "rio",
@@ -30,7 +31,8 @@
       "license": "CC BY-SA 4.0",
       "creator": "BogTar201213",
       "original_title": "File:Stone crushed into building material.jpg",
-      "query": "gravel construction aggregate"
+      "query": "gravel construction aggregate",
+      "cached": true
     },
     {
       "material": "rio",
@@ -40,7 +42,8 @@
       "license": "CC BY-SA 2.0",
       "creator": "Steven Brown ",
       "original_title": "File:Small gravel quarry in Shewglie Wood - geograph.org.uk - 1799072.jpg",
-      "query": "small gravel quarry"
+      "query": "small gravel quarry",
+      "cached": true
     },
     {
       "material": "rio",
@@ -127,7 +130,8 @@
       "license": "CC BY 2.0",
       "creator": "cogdogblog",
       "original_title": "File:Compost Transport Receptacle (4556918630).jpg",
-      "query": "fruit vegetable compost waste"
+      "query": "fruit vegetable compost waste",
+      "cached": true
     },
     {
       "material": "organicos",
@@ -137,7 +141,8 @@
       "license": "CC0",
       "creator": "Alf van Beem",
       "original_title": "File:Folding saw, Musée Somme 1916, pic-063.JPG",
-      "query": "garden waste leaves branches"
+      "query": "garden waste leaves branches",
+      "cached": true
     },
     {
       "material": "organicos",
@@ -191,7 +196,8 @@
       "license": "CC BY-SA 2.0",
       "creator": "Eric Jones ",
       "original_title": "File:Cladding the concrete slabs of the flood wall with slate rubble - geograph.org.uk - 7305658.jpg",
-      "query": "crushed concrete rubble"
+      "query": "crushed concrete rubble",
+      "cached": true
     },
     {
       "material": "rcd",
@@ -223,7 +229,8 @@
       "license": "CC BY-SA 4.0",
       "creator": "Dig It! Scotland",
       "original_title": "File:Moving Soil at the Waggonway Excavation 2021.jpg",
-      "query": "soil aggregate construction"
+      "query": "soil aggregate construction",
+      "cached": true
     },
     {
       "material": "rcd",
@@ -266,7 +273,8 @@
       "license": "Public domain",
       "creator": "English:  Andrew Krizhanovsky\nРусский:  Андрей Крижановский",
       "original_title": "File:Container for plastic bottles, Petrozavodsk, 2022.jpg",
-      "query": "HDPE plastic jerrycan"
+      "query": "HDPE plastic jerrycan",
+      "cached": true
     },
     {
       "material": "plasticos",
@@ -276,7 +284,8 @@
       "license": "CC0",
       "creator": "Andy Li",
       "original_title": "File:Plastic bags recycling bins in a Sainsbury's.jpg",
-      "query": "LDPE plastic wrap film"
+      "query": "LDPE plastic wrap film",
+      "cached": true
     },
     {
       "material": "plasticos",
@@ -363,7 +372,8 @@
       "license": "CC BY 2.0",
       "creator": "Marcos André",
       "original_title": "File:Drinking can ring-pull tab.jpg",
-      "query": "aluminium beverage cans scrap"
+      "query": "aluminium beverage cans scrap",
+      "cached": true
     },
     {
       "material": "metales",
@@ -505,7 +515,8 @@
       "license": "CC BY-SA 4.0",
       "creator": "Sudzie",
       "original_title": "File:Glass shards.jpg",
-      "query": "broken mixed glass recycling"
+      "query": "broken mixed glass recycling",
+      "cached": true
     },
     {
       "material": "llantas",
@@ -526,7 +537,8 @@
       "license": "CC BY 4.0",
       "creator": "Dclemens1971",
       "original_title": "File:TPV granules.jpg",
-      "query": "crumb rubber granules"
+      "query": "crumb rubber granules",
+      "cached": true
     },
     {
       "material": "llantas",
@@ -536,7 +548,8 @@
       "license": "Public domain",
       "creator": "\nUnknown authorUnknown author or not provided",
       "original_title": "File:Industries of War - Rubber Goods - Tires manufactured for use of government. Automobile tire vulcanizers - NARA - 45489247.jpg",
-      "query": "black rubber powder"
+      "query": "black rubber powder",
+      "cached": true
     },
     {
       "material": "llantas",
@@ -546,7 +559,8 @@
       "license": "CC0",
       "creator": "W.carter",
       "original_title": "File:Steel wire rope on a drum.jpg",
-      "query": "steel wire scrap tire"
+      "query": "steel wire scrap tire",
+      "cached": true
     },
     {
       "material": "llantas",
@@ -556,7 +570,8 @@
       "license": "CC BY-SA 4.0",
       "creator": "\nAll rights reserved, Laura McLean, 2010-06-14 11:37:21",
       "original_title": "File:2007 T497 Bronze Age Hoard (FindID 194464-284997).jpg",
-      "query": "tire pyrolysis industrial reactor"
+      "query": "tire pyrolysis industrial reactor",
+      "cached": true
     },
     {
       "material": "aceites",
@@ -599,7 +614,8 @@
       "license": "CC BY-SA 4.0",
       "creator": "Schumi4ever",
       "original_title": "File:Bosch Oil Filter.JPG",
-      "query": "oil filters automotive waste"
+      "query": "oil filters automotive waste",
+      "cached": true
     },
     {
       "material": "aceites",
@@ -631,7 +647,8 @@
       "license": "CC BY-SA 4.0",
       "creator": "Sopyaylynn",
       "original_title": "File:Drying the cotton silk fabric.jpg",
-      "query": "cotton fabric scrap"
+      "query": "cotton fabric scrap",
+      "cached": true
     },
     {
       "material": "textiles",
@@ -652,7 +669,8 @@
       "license": "CC BY-SA 4.0",
       "creator": "Kambai Akau",
       "original_title": "File:Sewing a new cloth with polyester fabric 7.jpg",
-      "query": "polyester fabric scrap"
+      "query": "polyester fabric scrap",
+      "cached": true
     },
     {
       "material": "textiles",
@@ -662,7 +680,8 @@
       "license": "CC BY-SA 4.0",
       "creator": "Daniel Capilla",
       "original_title": "File:Textile Recycling Container and Waste Containers.jpg",
-      "query": "mixed textile waste"
+      "query": "mixed textile waste",
+      "cached": true
     },
     {
       "material": "raee",
@@ -683,7 +702,8 @@
       "license": "CC BY-SA 4.0",
       "creator": "Petar Milošević",
       "original_title": "File:Electric guide 3×2.5 mm.jpg",
-      "query": "electric cable copper scrap"
+      "query": "electric cable copper scrap",
+      "cached": true
     },
     {
       "material": "raee",
