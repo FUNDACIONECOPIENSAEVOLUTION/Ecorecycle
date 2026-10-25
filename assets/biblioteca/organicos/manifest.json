@@ -1,0 +1,86 @@
+{
+  "linea": "Material orgánico · apoyo a ecoaldeas",
+  "tipo": "Productos derivados",
+  "imagenes": [
+    {
+      "nombre": "Compost estabilizado",
+      "archivo": "assets/biblioteca/organicos/productos/compost_estabilizado.jpg",
+      "alt": "Ilustración conceptual de Compost estabilizado",
+      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "derechos": "Creación por IA sin fotografías externas",
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+    },
+    {
+      "nombre": "Humus de lombriz",
+      "archivo": "assets/biblioteca/organicos/productos/humus_de_lombriz.jpg",
+      "alt": "Ilustración conceptual de Humus de lombriz",
+      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "derechos": "Creación por IA sin fotografías externas",
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+    },
+    {
+      "nombre": "Enmiendas de suelo",
+      "archivo": "assets/biblioteca/organicos/productos/enmiendas_de_suelo.jpg",
+      "alt": "Ilustración conceptual de Enmiendas de suelo",
+      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "derechos": "Creación por IA sin fotografías externas",
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+    },
+    {
+      "nombre": "Acolchado vegetal",
+      "archivo": "assets/biblioteca/organicos/productos/acolchado_vegetal.jpg",
+      "alt": "Ilustración conceptual de Acolchado vegetal",
+      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "derechos": "Creación por IA sin fotografías externas",
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+    },
+    {
+      "nombre": "Astillas",
+      "archivo": "assets/biblioteca/organicos/productos/astillas.jpg",
+      "alt": "Ilustración conceptual de Astillas",
+      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "derechos": "Creación por IA sin fotografías externas",
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+    },
+    {
+      "nombre": "Biocarbón",
+      "archivo": "assets/biblioteca/organicos/productos/biocarbon.jpg",
+      "alt": "Ilustración conceptual de Biocarbón",
+      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "derechos": "Creación por IA sin fotografías externas",
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+    },
+    {
+      "nombre": "Digestato tratado",
+      "archivo": "assets/biblioteca/organicos/productos/digestato_tratado.jpg",
+      "alt": "Ilustración conceptual de Digestato tratado",
+      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "derechos": "Creación por IA sin fotografías externas",
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+    },
+    {
+      "nombre": "Fertilizante formulado",
+      "archivo": "assets/biblioteca/organicos/productos/fertilizante_formulado.jpg",
+      "alt": "Ilustración conceptual de Fertilizante formulado",
+      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "derechos": "Creación por IA sin fotografías externas",
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+    },
+    {
+      "nombre": "Sustrato para hongos",
+      "archivo": "assets/biblioteca/organicos/productos/sustrato_para_hongos.jpg",
+      "alt": "Ilustración conceptual de Sustrato para hongos",
+      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "derechos": "Creación por IA sin fotografías externas",
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+    },
+    {
+      "nombre": "Bokashi",
+      "archivo": "assets/biblioteca/organicos/productos/bokashi.jpg",
+      "alt": "Ilustración conceptual de Bokashi",
+      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "derechos": "Creación por IA sin fotografías externas",
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+    }
+  ]
+}
