@@ -1,0 +1,32 @@
+name: Publicar bibliotecas ECO-CIA eco-tiendas y orgánicos
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/publicar_galerias_ecocia_ecotiendas_organicos.py'
+      - '.github/workflows/bibliotecas-ecocias-organicos.yml'
+permissions:
+  contents: write
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow==11.3.0
+      - name: Generar y validar treinta imágenes individuales
+        run: python scripts/publicar_galerias_ecocia_ecotiendas_organicos.py
+      - name: Publicar bibliotecas en el repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/biblioteca/ecocia/imagenes assets/biblioteca/ecocia/manifest.json assets/biblioteca/ecotiendas/imagenes assets/biblioteca/ecotiendas/manifest.json assets/biblioteca/organicos/productos assets/biblioteca/organicos/manifest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Publicar 30 imágenes temáticas con nombres individuales ECO-CIA, eco-tiendas y orgánicos"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
