@@ -1,0 +1,3054 @@
+{
+  "titulo": "Plan maestro de nuevas imágenes y sustituciones · ECOALDEAS/ECO-CIA/ECORECYCLE",
+  "version": "2026-10-25",
+  "reglas": [
+    "Los códigos de grupo son internos, jamás se imprimen en las imágenes ni nombres públicos.",
+    "Una imagen independiente por nodo; una sola escena; textos añadidos en HTML, no incrustados en ilustraciones.",
+    "El logo oficial se inserta desde logo ecopiensa (1).png sin editarlo.",
+    "La ecoaldea es un conjunto de parcelas o finca integral, no tiene planta circular como ECO-CIA.",
+    "Fotografías 100% locales; al hacer clic se abre un visor dentro de la web.",
+    "Fotos generadas con IA se marcan conceptuales; no hay que afirmar producción real.",
+    "Materiales de origen externo requieren verificación visual, atribución/licencia local y consentimiento aplicable.",
+    "No subir ni copiar el macroproyecto confidencial."
+  ],
+  "resumen": {
+    "fecha": "2026-10-25",
+    "repo": "FUNDACIONECOPIENSAEVOLUTION/Ecorecycle",
+    "manifestTotal": 70,
+    "referencePhotos": 67,
+    "baseCount": 13,
+    "subbaseCount": 68,
+    "productNodes": 272,
+    "rows": 353,
+    "materialNodesMissing": 265,
+    "duplicates": 1,
+    "ecoToRedo": 20,
+    "organicToRedo": 10,
+    "wrongReferences": 12,
+    "imagesToGenerate": 308,
+    "groups": 31,
+    "imagesLastGroup": 8
+  },
+  "grupos": [
+    {
+      "idInterno": "G01",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "ECOALDEAS: procesos internos",
+      "imagenes": [
+        {
+          "orden": 1,
+          "nombre": "Gallinaza: recolección segura",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER PROCESO",
+          "destino": "assets/biblioteca/ecoaldeas/procesos/gallinaza-recoleccion-segura.jpg",
+          "accion": "REHACER",
+          "observacion": "La ficha actual combina dos imágenes; producir una sola escena inequívoca por proceso."
+        },
+        {
+          "orden": 2,
+          "nombre": "Porquinaza: tratamiento",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER PROCESO",
+          "destino": "assets/biblioteca/ecoaldeas/procesos/porquinaza-tratamiento.jpg",
+          "accion": "REHACER",
+          "observacion": "La ficha actual combina dos imágenes; producir una sola escena inequívoca por proceso."
+        },
+        {
+          "orden": 3,
+          "nombre": "Estiércol bovino y caprino",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER PROCESO",
+          "destino": "assets/biblioteca/ecoaldeas/procesos/estiercol-bovino-y-caprino.jpg",
+          "accion": "REHACER",
+          "observacion": "La ficha actual combina dos imágenes; producir una sola escena inequívoca por proceso."
+        },
+        {
+          "orden": 4,
+          "nombre": "Compostaje monitoreado",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER PROCESO",
+          "destino": "assets/biblioteca/ecoaldeas/procesos/compostaje-monitoreado.jpg",
+          "accion": "REHACER",
+          "observacion": "La ficha actual combina dos imágenes; producir una sola escena inequívoca por proceso."
+        },
+        {
+          "orden": 5,
+          "nombre": "Compost maduro para suelo",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER PROCESO",
+          "destino": "assets/biblioteca/ecoaldeas/procesos/compost-maduro-para-suelo.jpg",
+          "accion": "REHACER",
+          "observacion": "La ficha actual combina dos imágenes; producir una sola escena inequívoca por proceso."
+        },
+        {
+          "orden": 6,
+          "nombre": "Cultivo de forrajes",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER PROCESO",
+          "destino": "assets/biblioteca/ecoaldeas/procesos/cultivo-de-forrajes.jpg",
+          "accion": "REHACER",
+          "observacion": "La ficha actual combina dos imágenes; producir una sola escena inequívoca por proceso."
+        },
+        {
+          "orden": 7,
+          "nombre": "Agua captada y riego protegido",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER PROCESO",
+          "destino": "assets/biblioteca/ecoaldeas/procesos/agua-captada-y-riego-protegido.jpg",
+          "accion": "REHACER",
+          "observacion": "La ficha actual combina dos imágenes; producir una sola escena inequívoca por proceso."
+        },
+        {
+          "orden": 8,
+          "nombre": "Estanque y calidad del agua",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER PROCESO",
+          "destino": "assets/biblioteca/ecoaldeas/procesos/estanque-y-calidad-del-agua.jpg",
+          "accion": "REHACER",
+          "observacion": "La ficha actual combina dos imágenes; producir una sola escena inequívoca por proceso."
+        },
+        {
+          "orden": 9,
+          "nombre": "Cosecha para autoconsumo",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER PROCESO",
+          "destino": "assets/biblioteca/ecoaldeas/procesos/cosecha-para-autoconsumo.jpg",
+          "accion": "REHACER",
+          "observacion": "La ficha actual combina dos imágenes; producir una sola escena inequívoca por proceso."
+        },
+        {
+          "orden": 10,
+          "nombre": "Excedentes hacia ECO-CIA",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER PROCESO",
+          "destino": "assets/biblioteca/ecoaldeas/procesos/excedentes-hacia-eco-cia.jpg",
+          "accion": "REHACER",
+          "observacion": "La ficha actual combina dos imágenes; producir una sola escena inequívoca por proceso."
+        }
+      ]
+    },
+    {
+      "idInterno": "G02",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "ECOALDEAS: módulos",
+      "imagenes": [
+        {
+          "orden": 11,
+          "nombre": "Parcelación colaborativa",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER MÓDULO",
+          "destino": "assets/biblioteca/ecoaldeas/imagenes/parcelacion-colaborativa.jpg",
+          "accion": "REHACER",
+          "observacion": "Recorte de una de cuatro composiciones: crear escena autónoma, sin rótulos ni imágenes dobles."
+        },
+        {
+          "orden": 12,
+          "nombre": "Finca integral sistemática",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER MÓDULO",
+          "destino": "assets/biblioteca/ecoaldeas/imagenes/finca-integral-sistematica.jpg",
+          "accion": "REHACER",
+          "observacion": "Recorte de una de cuatro composiciones: crear escena autónoma, sin rótulos ni imágenes dobles."
+        },
+        {
+          "orden": 13,
+          "nombre": "Huerta y hortalizas",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER MÓDULO",
+          "destino": "assets/biblioteca/ecoaldeas/imagenes/huerta-y-hortalizas.jpg",
+          "accion": "REHACER",
+          "observacion": "Recorte de una de cuatro composiciones: crear escena autónoma, sin rótulos ni imágenes dobles."
+        },
+        {
+          "orden": 14,
+          "nombre": "Frutales y forrajes",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER MÓDULO",
+          "destino": "assets/biblioteca/ecoaldeas/imagenes/frutales-y-forrajes.jpg",
+          "accion": "REHACER",
+          "observacion": "Recorte de una de cuatro composiciones: crear escena autónoma, sin rótulos ni imágenes dobles."
+        },
+        {
+          "orden": 15,
+          "nombre": "Gallinas y pollos",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER MÓDULO",
+          "destino": "assets/biblioteca/ecoaldeas/imagenes/gallinas-y-pollos.jpg",
+          "accion": "REHACER",
+          "observacion": "Recorte de una de cuatro composiciones: crear escena autónoma, sin rótulos ni imágenes dobles."
+        },
+        {
+          "orden": 16,
+          "nombre": "Porcicultura",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER MÓDULO",
+          "destino": "assets/biblioteca/ecoaldeas/imagenes/porcicultura.jpg",
+          "accion": "REHACER",
+          "observacion": "Recorte de una de cuatro composiciones: crear escena autónoma, sin rótulos ni imágenes dobles."
+        },
+        {
+          "orden": 17,
+          "nombre": "Bovinos y caprinos",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER MÓDULO",
+          "destino": "assets/biblioteca/ecoaldeas/imagenes/bovinos-y-caprinos.jpg",
+          "accion": "REHACER",
+          "observacion": "Recorte de una de cuatro composiciones: crear escena autónoma, sin rótulos ni imágenes dobles."
+        },
+        {
+          "orden": 18,
+          "nombre": "Piscicultura",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER MÓDULO",
+          "destino": "assets/biblioteca/ecoaldeas/imagenes/piscicultura.jpg",
+          "accion": "REHACER",
+          "observacion": "Recorte de una de cuatro composiciones: crear escena autónoma, sin rótulos ni imágenes dobles."
+        },
+        {
+          "orden": 19,
+          "nombre": "Tratamiento orgánico",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER MÓDULO",
+          "destino": "assets/biblioteca/ecoaldeas/imagenes/tratamiento-organico.jpg",
+          "accion": "REHACER",
+          "observacion": "Recorte de una de cuatro composiciones: crear escena autónoma, sin rótulos ni imágenes dobles."
+        },
+        {
+          "orden": 20,
+          "nombre": "Autoconsumo y excedentes",
+          "origen": "ecoaldeas",
+          "tipo": "REHACER MÓDULO",
+          "destino": "assets/biblioteca/ecoaldeas/imagenes/autoconsumo-y-excedentes.jpg",
+          "accion": "REHACER",
+          "observacion": "Recorte de una de cuatro composiciones: crear escena autónoma, sin rótulos ni imágenes dobles."
+        }
+      ]
+    },
+    {
+      "idInterno": "G03",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "ORGÁNICOS: productos",
+      "imagenes": [
+        {
+          "orden": 21,
+          "nombre": "Compost estabilizado",
+          "origen": "organicos",
+          "tipo": "REHACER PRODUCTO",
+          "destino": "assets/biblioteca/organicos/productos/compost-estabilizado.jpg",
+          "accion": "REHACER",
+          "observacion": "Extraído de una composición conjunta; fotografía individual específica con buena resolución."
+        },
+        {
+          "orden": 22,
+          "nombre": "Humus de lombriz",
+          "origen": "organicos",
+          "tipo": "REHACER PRODUCTO",
+          "destino": "assets/biblioteca/organicos/productos/humus-de-lombriz.jpg",
+          "accion": "REHACER",
+          "observacion": "Extraído de una composición conjunta; fotografía individual específica con buena resolución."
+        },
+        {
+          "orden": 23,
+          "nombre": "Enmiendas de suelo",
+          "origen": "organicos",
+          "tipo": "REHACER PRODUCTO",
+          "destino": "assets/biblioteca/organicos/productos/enmiendas-de-suelo.jpg",
+          "accion": "REHACER",
+          "observacion": "Extraído de una composición conjunta; fotografía individual específica con buena resolución."
+        },
+        {
+          "orden": 24,
+          "nombre": "Acolchado vegetal",
+          "origen": "organicos",
+          "tipo": "REHACER PRODUCTO",
+          "destino": "assets/biblioteca/organicos/productos/acolchado-vegetal.jpg",
+          "accion": "REHACER",
+          "observacion": "Extraído de una composición conjunta; fotografía individual específica con buena resolución."
+        },
+        {
+          "orden": 25,
+          "nombre": "Astillas",
+          "origen": "organicos",
+          "tipo": "REHACER PRODUCTO",
+          "destino": "assets/biblioteca/organicos/productos/astillas.jpg",
+          "accion": "REHACER",
+          "observacion": "Extraído de una composición conjunta; fotografía individual específica con buena resolución."
+        },
+        {
+          "orden": 26,
+          "nombre": "Biocarbón",
+          "origen": "organicos",
+          "tipo": "REHACER PRODUCTO",
+          "destino": "assets/biblioteca/organicos/productos/biocarbon.jpg",
+          "accion": "REHACER",
+          "observacion": "Extraído de una composición conjunta; fotografía individual específica con buena resolución."
+        },
+        {
+          "orden": 27,
+          "nombre": "Digestato tratado",
+          "origen": "organicos",
+          "tipo": "REHACER PRODUCTO",
+          "destino": "assets/biblioteca/organicos/productos/digestato-tratado.jpg",
+          "accion": "REHACER",
+          "observacion": "Extraído de una composición conjunta; fotografía individual específica con buena resolución."
+        },
+        {
+          "orden": 28,
+          "nombre": "Fertilizante formulado",
+          "origen": "organicos",
+          "tipo": "REHACER PRODUCTO",
+          "destino": "assets/biblioteca/organicos/productos/fertilizante-formulado.jpg",
+          "accion": "REHACER",
+          "observacion": "Extraído de una composición conjunta; fotografía individual específica con buena resolución."
+        },
+        {
+          "orden": 29,
+          "nombre": "Sustrato para hongos",
+          "origen": "organicos",
+          "tipo": "REHACER PRODUCTO",
+          "destino": "assets/biblioteca/organicos/productos/sustrato-para-hongos.jpg",
+          "accion": "REHACER",
+          "observacion": "Extraído de una composición conjunta; fotografía individual específica con buena resolución."
+        },
+        {
+          "orden": 30,
+          "nombre": "Bokashi",
+          "origen": "organicos",
+          "tipo": "REHACER PRODUCTO",
+          "destino": "assets/biblioteca/organicos/productos/bokashi.jpg",
+          "accion": "REHACER",
+          "observacion": "Extraído de una composición conjunta; fotografía individual específica con buena resolución."
+        }
+      ]
+    },
+    {
+      "idInterno": "G04",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Referencias incorrectas",
+      "imagenes": [
+        {
+          "orden": 31,
+          "nombre": "Papel",
+          "origen": "reciclables",
+          "tipo": "CORREGIR SUBBASE",
+          "destino": "assets/fotos/reciclables/papel.jpg",
+          "accion": "SUSTITUIR",
+          "observacion": "El archivo de origen identificado es cartón; la web usa un archivo local preferente, pero la referencia equivocada permanece."
+        },
+        {
+          "orden": 32,
+          "nombre": "Podas y jardinería",
+          "origen": "organicos",
+          "tipo": "CORREGIR SUBBASE",
+          "destino": "assets/fotos/organicos/podas-y-jardineria.jpg",
+          "accion": "SUSTITUIR",
+          "observacion": "La fotografía documenta una sierra en un museo, no residuos de poda."
+        },
+        {
+          "orden": 33,
+          "nombre": "Cerámicos y tejas",
+          "origen": "rcd",
+          "tipo": "CORREGIR SUBBASE",
+          "destino": "assets/fotos/rcd/ceramicos-y-tejas.jpg",
+          "accion": "SUSTITUIR",
+          "observacion": "La fotografía corresponde a una pieza arqueológica romana, no a RCD cerámico."
+        },
+        {
+          "orden": 34,
+          "nombre": "Asfalto recuperado",
+          "origen": "rcd",
+          "tipo": "CORREGIR SUBBASE",
+          "destino": "assets/fotos/rcd/asfalto-recuperado.jpg",
+          "accion": "SUSTITUIR",
+          "observacion": "El título identifica una calle; no acredita pavimento fresado recuperado."
+        },
+        {
+          "orden": 35,
+          "nombre": "Papel mixto",
+          "origen": "papel_carton",
+          "tipo": "CORREGIR SUBBASE",
+          "destino": "assets/fotos/papel_carton/papel-mixto.jpg",
+          "accion": "SUSTITUIR",
+          "observacion": "El título identifica un triciclo de transporte, no papel mixto."
+        },
+        {
+          "orden": 36,
+          "nombre": "Granulado de caucho",
+          "origen": "llantas",
+          "tipo": "CORREGIR SUBBASE",
+          "destino": "assets/fotos/llantas/granulado-de-caucho.jpg",
+          "accion": "SUSTITUIR",
+          "observacion": "El material identificado es TPV; no demuestra granulado de llanta."
+        },
+        {
+          "orden": 37,
+          "nombre": "Polvo de caucho",
+          "origen": "llantas",
+          "tipo": "CORREGIR SUBBASE",
+          "destino": "assets/fotos/llantas/polvo-de-caucho.jpg",
+          "accion": "SUSTITUIR",
+          "observacion": "La fotografía se refiere a fabricación de neumáticos, no al polvo recuperado."
+        },
+        {
+          "orden": 38,
+          "nombre": "Pirólisis industrial",
+          "origen": "llantas",
+          "tipo": "CORREGIR SUBBASE",
+          "destino": "assets/fotos/llantas/pirolisis-industrial.jpg",
+          "accion": "SUSTITUIR",
+          "observacion": "La fotografía es de un hallazgo arqueológico, no de un proceso de pirólisis."
+        },
+        {
+          "orden": 39,
+          "nombre": "Grasas alimentarias",
+          "origen": "aceites",
+          "tipo": "CORREGIR SUBBASE",
+          "destino": "assets/fotos/aceites/grasas-alimentarias.jpg",
+          "accion": "SUSTITUIR",
+          "observacion": "Archivo titulado 'The slave of grease', sin evidencia de residuos grasos alimentarios."
+        },
+        {
+          "orden": 40,
+          "nombre": "Equipos recuperables",
+          "origen": "raee",
+          "tipo": "CORREGIR SUBBASE",
+          "destino": "assets/fotos/raee/equipos-recuperables.jpg",
+          "accion": "SUSTITUIR",
+          "observacion": "Fotografía de una demostración de artes marciales, no de RAEE recuperable."
+        }
+      ]
+    },
+    {
+      "idInterno": "G05",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Referencias incorrectas y bases principales",
+      "imagenes": [
+        {
+          "orden": 41,
+          "nombre": "Carcasas plásticas",
+          "origen": "raee",
+          "tipo": "CORREGIR SUBBASE",
+          "destino": "assets/fotos/raee/carcasas-plasticas.jpg",
+          "accion": "SUSTITUIR",
+          "observacion": "Fotografía de un banco de jardín, no de carcasas de aparatos."
+        },
+        {
+          "orden": 42,
+          "nombre": "Baterías y pantallas",
+          "origen": "raee",
+          "tipo": "CORREGIR SUBBASE",
+          "destino": "assets/fotos/raee/baterias-y-pantallas.jpg",
+          "accion": "SUSTITUIR",
+          "observacion": "Archivo de conservación energética, no separación de baterías y pantallas."
+        },
+        {
+          "orden": 43,
+          "nombre": "Material de río",
+          "origen": "rio",
+          "tipo": "base",
+          "destino": "assets/biblioteca/materiales/rio/base/material-de-rio.jpg",
+          "accion": "CREAR",
+          "observacion": "Base sin imagen propia"
+        },
+        {
+          "orden": 44,
+          "nombre": "Bases y subbases viales",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/triturado-1-pulgada/bases-y-subbases-viales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 45,
+          "nombre": "Concretos de diseño",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/triturado-1-pulgada/concretos-de-diseno.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 46,
+          "nombre": "Drenajes y filtros",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/triturado-1-pulgada/drenajes-y-filtros.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 47,
+          "nombre": "Obras civiles",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/triturado-1-pulgada/obras-civiles.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 48,
+          "nombre": "Concretos",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/triturado-pulgada/concretos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 49,
+          "nombre": "Prefabricados",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/triturado-pulgada/prefabricados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 50,
+          "nombre": "Andenes",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/triturado-pulgada/andenes.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G06",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 51,
+          "nombre": "Elementos de drenaje",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/triturado-pulgada/elementos-de-drenaje.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 52,
+          "nombre": "Bloques y mezclas",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/triturado-pulgada/bloques-y-mezclas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 53,
+          "nombre": "Concreto no estructural",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/triturado-pulgada/concreto-no-estructural.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 54,
+          "nombre": "Contrapisos",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/triturado-pulgada/contrapisos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 55,
+          "nombre": "Prefabricados",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/triturado-pulgada/prefabricados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 56,
+          "nombre": "Adoquines",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/gravilla-pulgada/adoquines.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 57,
+          "nombre": "Concretos finos",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/gravilla-pulgada/concretos-finos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 58,
+          "nombre": "Acabados decorativos",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/gravilla-pulgada/acabados-decorativos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 59,
+          "nombre": "Prefabricados",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/gravilla-pulgada/prefabricados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 60,
+          "nombre": "Morteros",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/grouting-y-arenon/morteros.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G07",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 61,
+          "nombre": "Mampostería",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/grouting-y-arenon/mamposteria.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 62,
+          "nombre": "Nivelaciones",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/grouting-y-arenon/nivelaciones.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 63,
+          "nombre": "Relleno controlado",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/grouting-y-arenon/relleno-controlado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 64,
+          "nombre": "Pega de ladrillo",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/arena-gruesa-y-fina/pega-de-ladrillo.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 65,
+          "nombre": "Repellos",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/arena-gruesa-y-fina/repellos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 66,
+          "nombre": "Acabados",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/arena-gruesa-y-fina/acabados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 67,
+          "nombre": "Mezclas de concreto",
+          "origen": "rio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rio/productos/arena-gruesa-y-fina/mezclas-de-concreto.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 68,
+          "nombre": "Material reciclable",
+          "origen": "reciclables",
+          "tipo": "base",
+          "destino": "assets/biblioteca/materiales/reciclables/base/material-reciclable.jpg",
+          "accion": "CREAR",
+          "observacion": "Base sin imagen propia"
+        },
+        {
+          "orden": 69,
+          "nombre": "Láminas prensadas",
+          "origen": "reciclables",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/reciclables/productos/carton/laminas-prensadas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 70,
+          "nombre": "Separadores",
+          "origen": "reciclables",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/reciclables/productos/carton/separadores.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G08",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 71,
+          "nombre": "Pulpa moldeada",
+          "origen": "reciclables",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/reciclables/productos/carton/pulpa-moldeada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 72,
+          "nombre": "Cuadernos",
+          "origen": "reciclables",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/reciclables/productos/papel/cuadernos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 73,
+          "nombre": "Bolsas y sobres",
+          "origen": "reciclables",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/reciclables/productos/papel/bolsas-y-sobres.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 74,
+          "nombre": "Pulpa para moldes",
+          "origen": "reciclables",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/reciclables/productos/papel/pulpa-para-moldes.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 75,
+          "nombre": "Fibra reciclada",
+          "origen": "reciclables",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/reciclables/productos/pet/fibra-reciclada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 76,
+          "nombre": "Filamento 3D",
+          "origen": "reciclables",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/reciclables/productos/pet/filamento-3d.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 77,
+          "nombre": "Escobas y cerdas",
+          "origen": "reciclables",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/reciclables/productos/pet/escobas-y-cerdas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 78,
+          "nombre": "Canecas",
+          "origen": "reciclables",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/reciclables/productos/plastico-soplado/canecas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 79,
+          "nombre": "Tuberías no presurizadas",
+          "origen": "reciclables",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/reciclables/productos/plastico-soplado/tuberias-no-presurizadas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 80,
+          "nombre": "Mobiliario plástico",
+          "origen": "reciclables",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/reciclables/productos/plastico-soplado/mobiliario-plastico.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G09",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 81,
+          "nombre": "Piezas fundidas",
+          "origen": "reciclables",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/reciclables/productos/metales/piezas-fundidas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 82,
+          "nombre": "Perfiles industriales",
+          "origen": "reciclables",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/reciclables/productos/metales/perfiles-industriales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 83,
+          "nombre": "Componentes y repuestos",
+          "origen": "reciclables",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/reciclables/productos/metales/componentes-y-repuestos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 84,
+          "nombre": "Material orgánico",
+          "origen": "organicos",
+          "tipo": "base",
+          "destino": "assets/biblioteca/materiales/organicos/base/material-organico.jpg",
+          "accion": "CREAR",
+          "observacion": "Base sin imagen propia"
+        },
+        {
+          "orden": 85,
+          "nombre": "Biogás",
+          "origen": "organicos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/organicos/productos/frutas-y-verduras/biogas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 86,
+          "nombre": "Compost vegetal",
+          "origen": "organicos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/organicos/productos/podas-y-jardineria/compost-vegetal.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 87,
+          "nombre": "Abono compostado",
+          "origen": "organicos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/organicos/productos/estiercoles-pecuarios/abono-compostado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 88,
+          "nombre": "Biogás",
+          "origen": "organicos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/organicos/productos/estiercoles-pecuarios/biogas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 89,
+          "nombre": "Compost agrícola",
+          "origen": "organicos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/organicos/productos/residuos-agroindustriales/compost-agricola.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 90,
+          "nombre": "Briquetas de biomasa",
+          "origen": "organicos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/organicos/productos/residuos-agroindustriales/briquetas-de-biomasa.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G10",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 91,
+          "nombre": "Biocarbón",
+          "origen": "organicos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/organicos/productos/residuos-agroindustriales/biocarbon-residuos-agroindustriales.jpg",
+          "accion": "CREAR",
+          "observacion": "Imagen idéntica usada en dos nodos"
+        },
+        {
+          "orden": 92,
+          "nombre": "Compost controlado",
+          "origen": "organicos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/organicos/productos/restos-alimentarios/compost-controlado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 93,
+          "nombre": "Biogás",
+          "origen": "organicos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/organicos/productos/restos-alimentarios/biogas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 94,
+          "nombre": "Mejoradores del suelo",
+          "origen": "organicos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/organicos/productos/restos-alimentarios/mejoradores-del-suelo.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 95,
+          "nombre": "Caracterización especializada",
+          "origen": "organicos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/organicos/productos/lodos-y-biosolidos-especiales/caracterizacion-especializada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 96,
+          "nombre": "Tratamiento autorizado",
+          "origen": "organicos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/organicos/productos/lodos-y-biosolidos-especiales/tratamiento-autorizado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 97,
+          "nombre": "Usos condicionados a normativa",
+          "origen": "organicos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/organicos/productos/lodos-y-biosolidos-especiales/usos-condicionados-a-normativa.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 98,
+          "nombre": "Gestión por operadores habilitados",
+          "origen": "organicos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/organicos/productos/lodos-y-biosolidos-especiales/gestion-por-operadores-habilitados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 99,
+          "nombre": "Escombros y RCD",
+          "origen": "rcd",
+          "tipo": "base",
+          "destino": "assets/biblioteca/materiales/rcd/base/escombros-y-rcd.jpg",
+          "accion": "CREAR",
+          "observacion": "Base sin imagen propia"
+        },
+        {
+          "orden": 100,
+          "nombre": "Árido reciclado",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/concreto-limpio/arido-reciclado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G11",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 101,
+          "nombre": "Subbases viales",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/concreto-limpio/subbases-viales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 102,
+          "nombre": "Bloques no estructurales",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/concreto-limpio/bloques-no-estructurales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 103,
+          "nombre": "Prefabricados",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/concreto-limpio/prefabricados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 104,
+          "nombre": "Ladrillos ecológicos",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/ladrillo-y-mamposteria/ladrillos-ecologicos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 105,
+          "nombre": "Adoquines",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/ladrillo-y-mamposteria/adoquines.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 106,
+          "nombre": "Agregados para morteros",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/ladrillo-y-mamposteria/agregados-para-morteros.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 107,
+          "nombre": "Calados y celosías",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/ladrillo-y-mamposteria/calados-y-celosias.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 108,
+          "nombre": "Granulado cerámico",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/ceramicos-y-tejas/granulado-ceramico.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 109,
+          "nombre": "Adoquines decorativos",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/ceramicos-y-tejas/adoquines-decorativos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 110,
+          "nombre": "Áridos mixtos",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/ceramicos-y-tejas/aridos-mixtos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G12",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 111,
+          "nombre": "Material para senderos",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/ceramicos-y-tejas/material-para-senderos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 112,
+          "nombre": "Rellenos autorizados",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/tierras-y-materiales-inertes/rellenos-autorizados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 113,
+          "nombre": "Nivelaciones",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/tierras-y-materiales-inertes/nivelaciones.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 114,
+          "nombre": "Estabilización de terreno",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/tierras-y-materiales-inertes/estabilizacion-de-terreno.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 115,
+          "nombre": "Bases para senderos",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/tierras-y-materiales-inertes/bases-para-senderos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 116,
+          "nombre": "Metales a reciclaje",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/fracciones-separadas/metales-a-reciclaje.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 117,
+          "nombre": "Madera aprovechable",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/fracciones-separadas/madera-aprovechable.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 118,
+          "nombre": "Plásticos recuperables",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/fracciones-separadas/plasticos-recuperables.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 119,
+          "nombre": "Reutilización de piezas",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/fracciones-separadas/reutilizacion-de-piezas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 120,
+          "nombre": "Fresado asfáltico clasificado",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/asfalto-recuperado/fresado-asfaltico-clasificado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G13",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 121,
+          "nombre": "Recuperación en mezclas",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/asfalto-recuperado/recuperacion-en-mezclas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 122,
+          "nombre": "Subbases con material recuperado",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/asfalto-recuperado/subbases-con-material-recuperado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 123,
+          "nombre": "Gestión de fracciones contaminadas",
+          "origen": "rcd",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/rcd/productos/asfalto-recuperado/gestion-de-fracciones-contaminadas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 124,
+          "nombre": "Plásticos detallados",
+          "origen": "plasticos",
+          "tipo": "base",
+          "destino": "assets/biblioteca/materiales/plasticos/base/plasticos-detallados.jpg",
+          "accion": "CREAR",
+          "observacion": "Base sin imagen propia"
+        },
+        {
+          "orden": 125,
+          "nombre": "Escamas de PET",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pet-tipo-1/escamas-de-pet.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 126,
+          "nombre": "Fibra poliéster",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pet-tipo-1/fibra-poliester.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 127,
+          "nombre": "Filamento 3D",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pet-tipo-1/filamento-3d.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 128,
+          "nombre": "Cerdas y flejes",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pet-tipo-1/cerdas-y-flejes.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 129,
+          "nombre": "Granza reciclada",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pead-tipo-2/granza-reciclada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 130,
+          "nombre": "Canecas",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pead-tipo-2/canecas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G14",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 131,
+          "nombre": "Tablas plásticas",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pead-tipo-2/tablas-plasticas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 132,
+          "nombre": "Recipientes no alimentarios",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pead-tipo-2/recipientes-no-alimentarios.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 133,
+          "nombre": "Pellets reciclados",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pebd-tipo-4/pellets-reciclados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 134,
+          "nombre": "Bolsas industriales",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pebd-tipo-4/bolsas-industriales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 135,
+          "nombre": "Láminas plásticas",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pebd-tipo-4/laminas-plasticas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 136,
+          "nombre": "Madera plástica",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pebd-tipo-4/madera-plastica.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 137,
+          "nombre": "Granza de PP",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pp-tipo-5/granza-de-pp.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 138,
+          "nombre": "Materas",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pp-tipo-5/materas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 139,
+          "nombre": "Mobiliario",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pp-tipo-5/mobiliario.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 140,
+          "nombre": "Componentes moldeados",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/pp-tipo-5/componentes-moldeados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G15",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 141,
+          "nombre": "Separación adicional",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/mezclas-aptas-para-valorizacion/separacion-adicional.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 142,
+          "nombre": "Material compuesto",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/mezclas-aptas-para-valorizacion/material-compuesto.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 143,
+          "nombre": "Aceite de pirólisis industrial",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/mezclas-aptas-para-valorizacion/aceite-de-pirolisis-industrial.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 144,
+          "nombre": "Gas energético industrial",
+          "origen": "plasticos",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/plasticos/productos/mezclas-aptas-para-valorizacion/gas-energetico-industrial.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 145,
+          "nombre": "Cartón y papel",
+          "origen": "papel_carton",
+          "tipo": "base",
+          "destino": "assets/biblioteca/materiales/papel_carton/base/carton-y-papel.jpg",
+          "accion": "CREAR",
+          "observacion": "Base sin imagen propia"
+        },
+        {
+          "orden": 146,
+          "nombre": "Cajas recicladas",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/carton-corrugado/cajas-recicladas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 147,
+          "nombre": "Láminas para empaque",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/carton-corrugado/laminas-para-empaque.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 148,
+          "nombre": "Separadores de cartón",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/carton-corrugado/separadores-de-carton.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 149,
+          "nombre": "Pulpa moldeada",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/carton-corrugado/pulpa-moldeada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 150,
+          "nombre": "Papel reciclado",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/papel-blanco/papel-reciclado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G16",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 151,
+          "nombre": "Cuadernos y libretas",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/papel-blanco/cuadernos-y-libretas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 152,
+          "nombre": "Pulpa de celulosa",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/papel-blanco/pulpa-de-celulosa.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 153,
+          "nombre": "Papel de impresión reciclado",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/papel-blanco/papel-de-impresion-reciclado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 154,
+          "nombre": "Cartón gris",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/papel-mixto/carton-gris.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 155,
+          "nombre": "Bandejas moldeadas",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/papel-mixto/bandejas-moldeadas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 156,
+          "nombre": "Papel de embalaje",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/papel-mixto/papel-de-embalaje.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 157,
+          "nombre": "Aislantes de celulosa",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/papel-mixto/aislantes-de-celulosa.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 158,
+          "nombre": "Pulpa recuperada",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/periodicos-y-revistas/pulpa-recuperada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 159,
+          "nombre": "Cartón reciclado",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/periodicos-y-revistas/carton-reciclado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 160,
+          "nombre": "Manualidades",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/periodicos-y-revistas/manualidades.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G17",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 161,
+          "nombre": "Papel recuperado",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/periodicos-y-revistas/papel-recuperado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 162,
+          "nombre": "Recuperación de fibras",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/envases-multicapa/recuperacion-de-fibras.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 163,
+          "nombre": "Paneles compuestos",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/envases-multicapa/paneles-compuestos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 164,
+          "nombre": "Separación de polialuminio",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/envases-multicapa/separacion-de-polialuminio.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 165,
+          "nombre": "Gestión industrial especializada",
+          "origen": "papel_carton",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/papel_carton/productos/envases-multicapa/gestion-industrial-especializada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 166,
+          "nombre": "Metales",
+          "origen": "metales",
+          "tipo": "base",
+          "destino": "assets/biblioteca/materiales/metales/base/metales.jpg",
+          "accion": "CREAR",
+          "observacion": "Base sin imagen propia"
+        },
+        {
+          "orden": 167,
+          "nombre": "Componentes moldeados",
+          "origen": "metales",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/metales/productos/aluminio/componentes-moldeados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 168,
+          "nombre": "Alambre industrial",
+          "origen": "metales",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/metales/productos/cobre/alambre-industrial.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 169,
+          "nombre": "Componentes recuperados",
+          "origen": "metales",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/metales/productos/cobre/componentes-recuperados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 170,
+          "nombre": "Chatarra ferrosa",
+          "origen": "metales",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/metales/productos/hierro-y-acero/chatarra-ferrosa.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G18",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 171,
+          "nombre": "Perfiles siderúrgicos",
+          "origen": "metales",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/metales/productos/hierro-y-acero/perfiles-siderurgicos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 172,
+          "nombre": "Piezas fundidas",
+          "origen": "metales",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/metales/productos/hierro-y-acero/piezas-fundidas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 173,
+          "nombre": "Varillas industriales",
+          "origen": "metales",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/metales/productos/hierro-y-acero/varillas-industriales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 174,
+          "nombre": "Retales por aleación",
+          "origen": "metales",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/metales/productos/acero-inoxidable/retales-por-aleacion.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 175,
+          "nombre": "Materia prima inoxidable",
+          "origen": "metales",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/metales/productos/acero-inoxidable/materia-prima-inoxidable.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 176,
+          "nombre": "Repuestos metálicos",
+          "origen": "metales",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/metales/productos/acero-inoxidable/repuestos-metalicos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 177,
+          "nombre": "Accesorios industriales",
+          "origen": "metales",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/metales/productos/acero-inoxidable/accesorios-industriales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 178,
+          "nombre": "Metales clasificados",
+          "origen": "metales",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/metales/productos/bronce-laton-y-otros/metales-clasificados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 179,
+          "nombre": "Aleaciones recuperadas",
+          "origen": "metales",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/metales/productos/bronce-laton-y-otros/aleaciones-recuperadas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 180,
+          "nombre": "Fundición especializada",
+          "origen": "metales",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/metales/productos/bronce-laton-y-otros/fundicion-especializada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G19",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 181,
+          "nombre": "Piezas industriales",
+          "origen": "metales",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/metales/productos/bronce-laton-y-otros/piezas-industriales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 182,
+          "nombre": "Madera recuperada",
+          "origen": "madera",
+          "tipo": "base",
+          "destino": "assets/biblioteca/materiales/madera/base/madera-recuperada.jpg",
+          "accion": "CREAR",
+          "observacion": "Base sin imagen propia"
+        },
+        {
+          "orden": 183,
+          "nombre": "Muebles restaurados",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/estibas-y-pallets/muebles-restaurados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 184,
+          "nombre": "Huertas elevadas",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/estibas-y-pallets/huertas-elevadas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 185,
+          "nombre": "Tablas reutilizadas",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/estibas-y-pallets/tablas-reutilizadas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 186,
+          "nombre": "Embalajes",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/estibas-y-pallets/embalajes.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 187,
+          "nombre": "Artesanías",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/retales-y-recortes/artesanias.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 188,
+          "nombre": "Juguetes y objetos",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/retales-y-recortes/juguetes-y-objetos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 189,
+          "nombre": "Revestimientos",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/retales-y-recortes/revestimientos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 190,
+          "nombre": "Pequeño mobiliario",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/retales-y-recortes/pequeno-mobiliario.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G20",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 191,
+          "nombre": "Aserrín limpio",
+          "origen": "madera",
+          "tipo": "subbase",
+          "destino": "assets/biblioteca/materiales/madera/subbases/aserrin-limpio.jpg",
+          "accion": "CREAR",
+          "observacion": "Subbase sin imagen"
+        },
+        {
+          "orden": 192,
+          "nombre": "Briquetas",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/aserrin-limpio/briquetas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 193,
+          "nombre": "Pellets",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/aserrin-limpio/pellets.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 194,
+          "nombre": "Sustratos acondicionados",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/aserrin-limpio/sustratos-acondicionados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 195,
+          "nombre": "Absorbentes industriales",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/aserrin-limpio/absorbentes-industriales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 196,
+          "nombre": "Acolchado",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/astillas-limpias/acolchado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 197,
+          "nombre": "Camas vegetales",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/astillas-limpias/camas-vegetales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 198,
+          "nombre": "Biocarbón",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/astillas-limpias/biocarbon.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 199,
+          "nombre": "Compost con aporte carbono",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/astillas-limpias/compost-con-aporte-carbono.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 200,
+          "nombre": "Clasificación específica",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/madera-no-apta/clasificacion-especifica.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G21",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 201,
+          "nombre": "Aislamiento de tratadas",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/madera-no-apta/aislamiento-de-tratadas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 202,
+          "nombre": "Gestor autorizado",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/madera-no-apta/gestor-autorizado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 203,
+          "nombre": "No mezclar en compost",
+          "origen": "madera",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/madera/productos/madera-no-apta/no-mezclar-en-compost.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 204,
+          "nombre": "Vidrio",
+          "origen": "vidrio",
+          "tipo": "base",
+          "destino": "assets/biblioteca/materiales/vidrio/base/vidrio.jpg",
+          "accion": "CREAR",
+          "observacion": "Base sin imagen propia"
+        },
+        {
+          "orden": 205,
+          "nombre": "Lavado autorizado",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/envases-retornables/lavado-autorizado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 206,
+          "nombre": "Reutilización",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/envases-retornables/reutilizacion.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 207,
+          "nombre": "Circuitos de retorno",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/envases-retornables/circuitos-de-retorno.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 208,
+          "nombre": "Envases retornados",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/envases-retornables/envases-retornados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 209,
+          "nombre": "Calcín limpio",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-transparente/calcin-limpio.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 210,
+          "nombre": "Nuevos envases industriales",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-transparente/nuevos-envases-industriales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G22",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 211,
+          "nombre": "Vidrio triturado",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-transparente/vidrio-triturado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 212,
+          "nombre": "Materias primas industriales",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-transparente/materias-primas-industriales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 213,
+          "nombre": "Calcín por color",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-verde/calcin-por-color.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 214,
+          "nombre": "Nuevos envases industriales",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-verde/nuevos-envases-industriales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 215,
+          "nombre": "Mosaicos",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-verde/mosaicos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 216,
+          "nombre": "Artesanías",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-verde/artesanias.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 217,
+          "nombre": "Calcín por color",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-ambar/calcin-por-color.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 218,
+          "nombre": "Vidrio industrial",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-ambar/vidrio-industrial.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 219,
+          "nombre": "Decoración y mosaicos",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-ambar/decoracion-y-mosaicos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 220,
+          "nombre": "Árido para usos autorizados",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-ambar/arido-para-usos-autorizados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G23",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 221,
+          "nombre": "Separación adicional",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-mixto/separacion-adicional.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 222,
+          "nombre": "Áridos decorativos",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-mixto/aridos-decorativos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 223,
+          "nombre": "Pavimentos especiales",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-mixto/pavimentos-especiales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 224,
+          "nombre": "Recuperación industrial",
+          "origen": "vidrio",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/vidrio/productos/vidrio-mixto/recuperacion-industrial.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 225,
+          "nombre": "Llantas usadas",
+          "origen": "llantas",
+          "tipo": "base",
+          "destino": "assets/biblioteca/materiales/llantas/base/llantas-usadas.jpg",
+          "accion": "CREAR",
+          "observacion": "Base sin imagen propia"
+        },
+        {
+          "orden": 226,
+          "nombre": "Reencauche certificado",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/carcasas-aptas/reencauche-certificado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 227,
+          "nombre": "Reutilización controlada",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/carcasas-aptas/reutilizacion-controlada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 228,
+          "nombre": "Segunda vida útil",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/carcasas-aptas/segunda-vida-util.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 229,
+          "nombre": "Reducción de descarte",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/carcasas-aptas/reduccion-de-descarte.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 230,
+          "nombre": "Pisos amortiguantes",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/granulado-de-caucho/pisos-amortiguantes.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G24",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 231,
+          "nombre": "Losetas de seguridad",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/granulado-de-caucho/losetas-de-seguridad.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 232,
+          "nombre": "Superficies deportivas",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/granulado-de-caucho/superficies-deportivas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 233,
+          "nombre": "Asfalto modificado",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/granulado-de-caucho/asfalto-modificado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 234,
+          "nombre": "Mezclas asfálticas",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/polvo-de-caucho/mezclas-asfalticas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 235,
+          "nombre": "Selladores",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/polvo-de-caucho/selladores.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 236,
+          "nombre": "Compuestos industriales",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/polvo-de-caucho/compuestos-industriales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 237,
+          "nombre": "Tapetes de caucho",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/polvo-de-caucho/tapetes-de-caucho.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 238,
+          "nombre": "Chatarra clasificada",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/acero-recuperado/chatarra-clasificada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 239,
+          "nombre": "Fundición industrial",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/acero-recuperado/fundicion-industrial.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 240,
+          "nombre": "Materia prima metalúrgica",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/acero-recuperado/materia-prima-metalurgica.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G25",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 241,
+          "nombre": "Recuperación comercial",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/acero-recuperado/recuperacion-comercial.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 242,
+          "nombre": "Aceite de pirólisis",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/pirolisis-industrial/aceite-de-pirolisis.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 243,
+          "nombre": "Gas energético",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/pirolisis-industrial/gas-energetico.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 244,
+          "nombre": "Negro de carbón recuperado",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/pirolisis-industrial/negro-de-carbon-recuperado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 245,
+          "nombre": "Acero separado",
+          "origen": "llantas",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/llantas/productos/pirolisis-industrial/acero-separado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 246,
+          "nombre": "Aceites usados",
+          "origen": "aceites",
+          "tipo": "base",
+          "destino": "assets/biblioteca/materiales/aceites/base/aceites-usados.jpg",
+          "accion": "CREAR",
+          "observacion": "Base sin imagen propia"
+        },
+        {
+          "orden": 247,
+          "nombre": "Biodiésel industrial",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/aceite-de-cocina-usado/biodiesel-industrial.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 248,
+          "nombre": "Jabones técnicos",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/aceite-de-cocina-usado/jabones-tecnicos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 249,
+          "nombre": "Insumo oleoquímico",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/aceite-de-cocina-usado/insumo-oleoquimico.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 250,
+          "nombre": "Gestión posconsumo",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/aceite-de-cocina-usado/gestion-posconsumo.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G26",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 251,
+          "nombre": "Pretratamiento",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/grasas-alimentarias/pretratamiento.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 252,
+          "nombre": "Materia prima técnica",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/grasas-alimentarias/materia-prima-tecnica.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 253,
+          "nombre": "Biodigestión especializada",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/grasas-alimentarias/biodigestion-especializada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 254,
+          "nombre": "Gestión diferenciada",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/grasas-alimentarias/gestion-diferenciada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 255,
+          "nombre": "Re-refinación industrial",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/lubricantes-minerales-usados/re-refinacion-industrial.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 256,
+          "nombre": "Bases lubricantes recuperadas",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/lubricantes-minerales-usados/bases-lubricantes-recuperadas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 257,
+          "nombre": "Valorización autorizada",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/lubricantes-minerales-usados/valorizacion-autorizada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 258,
+          "nombre": "Trazabilidad con gestor",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/lubricantes-minerales-usados/trazabilidad-con-gestor.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 259,
+          "nombre": "Separación controlada",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/filtros-aceitosos/separacion-controlada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 260,
+          "nombre": "Recuperación por gestor",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/filtros-aceitosos/recuperacion-por-gestor.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G27",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 261,
+          "nombre": "Metales tratados",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/filtros-aceitosos/metales-tratados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 262,
+          "nombre": "Gestión peligrosa",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/filtros-aceitosos/gestion-peligrosa.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 263,
+          "nombre": "Acopio separado",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/envases-contaminados/acopio-separado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 264,
+          "nombre": "Descontaminación autorizada",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/envases-contaminados/descontaminacion-autorizada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 265,
+          "nombre": "Recuperación condicionada",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/envases-contaminados/recuperacion-condicionada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 266,
+          "nombre": "Disposición por gestor",
+          "origen": "aceites",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/aceites/productos/envases-contaminados/disposicion-por-gestor.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 267,
+          "nombre": "Textiles",
+          "origen": "textiles",
+          "tipo": "base",
+          "destino": "assets/biblioteca/materiales/textiles/base/textiles.jpg",
+          "accion": "CREAR",
+          "observacion": "Base sin imagen propia"
+        },
+        {
+          "orden": 268,
+          "nombre": "Reutilización social",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/ropa-utilizable/reutilizacion-social.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 269,
+          "nombre": "Ropa de segunda mano",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/ropa-utilizable/ropa-de-segunda-mano.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 270,
+          "nombre": "Rediseño creativo",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/ropa-utilizable/rediseno-creativo.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G28",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 271,
+          "nombre": "Reparación",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/ropa-utilizable/reparacion.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 272,
+          "nombre": "Trapos industriales",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/algodon-y-fibras-naturales/trapos-industriales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 273,
+          "nombre": "Fibra de relleno",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/algodon-y-fibras-naturales/fibra-de-relleno.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 274,
+          "nombre": "Aislantes",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/algodon-y-fibras-naturales/aislantes.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 275,
+          "nombre": "Hilados reciclados",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/algodon-y-fibras-naturales/hilados-reciclados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 276,
+          "nombre": "Bolsos",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/denim-y-retales/bolsos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 277,
+          "nombre": "Estuches",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/denim-y-retales/estuches.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 278,
+          "nombre": "Tapicería",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/denim-y-retales/tapiceria.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 279,
+          "nombre": "Accesorios",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/denim-y-retales/accesorios.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 280,
+          "nombre": "Fibra reciclada industrial",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/poliester-separado/fibra-reciclada-industrial.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G29",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 281,
+          "nombre": "Rellenos textiles",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/poliester-separado/rellenos-textiles.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 282,
+          "nombre": "Hilatura recuperada",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/poliester-separado/hilatura-recuperada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 283,
+          "nombre": "Fieltros",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/poliester-separado/fieltros.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 284,
+          "nombre": "Clasificación",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/mezclas-textiles/clasificacion.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 285,
+          "nombre": "Paneles acústicos",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/mezclas-textiles/paneles-acusticos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 286,
+          "nombre": "Acolchados",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/mezclas-textiles/acolchados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 287,
+          "nombre": "Recuperación industrial",
+          "origen": "textiles",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/textiles/productos/mezclas-textiles/recuperacion-industrial.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 288,
+          "nombre": "Residuos electrónicos RAEE",
+          "origen": "raee",
+          "tipo": "base",
+          "destino": "assets/biblioteca/materiales/raee/base/residuos-electronicos-raee.jpg",
+          "accion": "CREAR",
+          "observacion": "Base sin imagen propia"
+        },
+        {
+          "orden": 289,
+          "nombre": "Computadores reacondicionados",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/equipos-recuperables/computadores-reacondicionados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 290,
+          "nombre": "Repuestos funcionales",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/equipos-recuperables/repuestos-funcionales.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G30",
+      "estado": "PENDIENTE",
+      "cantidad": 10,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 291,
+          "nombre": "Donaciones tecnológicas",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/equipos-recuperables/donaciones-tecnologicas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 292,
+          "nombre": "Segunda vida útil",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/equipos-recuperables/segunda-vida-util.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 293,
+          "nombre": "Cobre recuperado",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/cables/cobre-recuperado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 294,
+          "nombre": "Aluminio recuperado",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/cables/aluminio-recuperado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 295,
+          "nombre": "Fracción plástica separada",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/cables/fraccion-plastica-separada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 296,
+          "nombre": "Comercialización controlada",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/cables/comercializacion-controlada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 297,
+          "nombre": "Placas separadas",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/tarjetas-electronicas/placas-separadas.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 298,
+          "nombre": "Metales por refinador",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/tarjetas-electronicas/metales-por-refinador.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 299,
+          "nombre": "Recuperación especializada",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/tarjetas-electronicas/recuperacion-especializada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 300,
+          "nombre": "Trazabilidad",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/tarjetas-electronicas/trazabilidad.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    },
+    {
+      "idInterno": "G31",
+      "estado": "PENDIENTE",
+      "cantidad": 8,
+      "categoria": "Imágenes faltantes por nodo",
+      "imagenes": [
+        {
+          "orden": 301,
+          "nombre": "Plásticos clasificados",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/carcasas-plasticas/plasticos-clasificados.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 302,
+          "nombre": "Granza industrial",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/carcasas-plasticas/granza-industrial.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 303,
+          "nombre": "Carcasas reutilizables",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/carcasas-plasticas/carcasas-reutilizables.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 304,
+          "nombre": "Repuestos",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/carcasas-plasticas/repuestos.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 305,
+          "nombre": "Aislamiento seguro",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/baterias-y-pantallas/aislamiento-seguro.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 306,
+          "nombre": "Gestor RAEE autorizado",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/baterias-y-pantallas/gestor-raee-autorizado.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 307,
+          "nombre": "Recuperación especializada",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/baterias-y-pantallas/recuperacion-especializada.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        },
+        {
+          "orden": 308,
+          "nombre": "Prohibido tratamiento artesanal",
+          "origen": "raee",
+          "tipo": "producto/aplicación",
+          "destino": "assets/biblioteca/materiales/raee/productos/baterias-y-pantallas/prohibido-tratamiento-artesanal.jpg",
+          "accion": "CREAR",
+          "observacion": "Producto/aplicación sin imagen"
+        }
+      ]
+    }
+  ]
+}
