@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="theme-color" content="#065e3d"/>
+<title>Paquete 01 · Metales | Fundación Ecopiensa Evolution</title>
+<style>
+:root{color-scheme:light}*{box-sizing:border-box}body{margin:0;font-family:system-ui,Arial,sans-serif;background:#f4fbf5;color:#174a34}
+header{background:linear-gradient(120deg,#043e2d,#078349);color:white;padding:16px max(16px,calc((100vw - 1250px)/2));display:flex;align-items:center;gap:22px}
+header img{width:104px;max-height:120px;object-fit:contain;background:white;border-radius:10px;padding:5px}header h1{margin:0;font-size:clamp(23px,4vw,39px)}header p{margin:5px 0;opacity:.95}
+main{max-width:1310px;margin:auto;padding:23px 15px 50px}nav{display:flex;gap:10px;flex-wrap:wrap}a{color:#076c42}
+.back{display:inline-block;background:#07683d;color:white;text-decoration:none;font-weight:750;padding:11px 17px;border-radius:9px}
+.notice{background:#e5f5ea;border-left:4px solid #21a658;padding:13px 16px;margin:17px 0;border-radius:0 10px 10px 0;font-size:14px;line-height:1.5}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:16px}
+figure{margin:0;overflow:hidden;background:white;border:1px solid #a9d9b7;border-radius:15px;box-shadow:0 8px 24px #0d563318}
+figure img{width:100%;height:198px;object-fit:cover;display:block;background:#e2f1e5}
+figcaption{padding:13px 14px}figcaption h3{font-size:17px;margin:0 0 5px;color:#065b38}figcaption p{font-size:12px;margin:5px 0 12px;color:#446955}
+.links{display:flex;gap:12px;flex-wrap:wrap;font-size:13px;font-weight:700}
+.group-title{font-size:23px;color:#085b37;margin:25px 0 13px}
+footer{font-size:13px;text-align:center;padding:20px;color:#40634c}
+@media print{header{background:#075538!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}nav,.links,.notice{display:none}.grid{grid-template-columns:repeat(3,1fr)}figure{break-inside:avoid}}
+</style></head><body>
+<header><img src="../../logo%20ecopiensa%20(1).png" alt="Logotipo original oficial de Fundación Ecopiensa Evolution"/><div><p>Fundación Ecopiensa Evolution · ECORECYCLE</p><h1>Biblioteca visual — Metales</h1><p>Paquete 01 · Diez imágenes individuales con nombre correspondiente</p></div></header>
+<main>
+<nav><a class="back" href="../../index.html">Volver a los organigramas</a><button onclick="window.print()" style="border:1px solid #aed3b9;border-radius:9px;padding:11px 16px;background:white;cursor:pointer">Imprimir galería</button></nav>
+<p class="notice">Las imágenes de esta galería son fotografías externas de referencia con autor y licencia identificados. No representan instalaciones ni productos cuya fabricación haya sido certificada por la Fundación. El logotipo se muestra desde el archivo institucional original, sin alteración.</p>
+<h2 class="group-title">Subbases — 5 imágenes</h2><section class="grid" id="subbases"></section>
+<h2 class="group-title">Productos — 5 imágenes</h2><section class="grid" id="productos"></section>
+</main>
+<footer>Fundación Ecopiensa Evolution · ECORECYCLE · Paquete 01 · Metales</footer>
+<script>
+(async function(){
+ const r=await fetch('../../assets/biblioteca/metales/manifest.json');
+ const j=await r.json();
+ function render(list,target){for(const f of list){if(!f.archivo)continue;
+  const fig=document.createElement('figure'),img=document.createElement('img'),cap=document.createElement('figcaption'),h=document.createElement('h3'),p=document.createElement('p'),links=document.createElement('div'),dl=document.createElement('a'),src=document.createElement('a');
+  img.src='../../'+f.archivo;img.alt=f.nombre;img.loading='lazy';h.textContent=f.nombre;
+  p.textContent=(f.autor?'Fotografía: '+f.autor.replace(/<[^>]+>/g,'').slice(0,100)+' · ':'')+(f.licencia||'Consultar licencia');
+  links.className='links';dl.href='../../'+f.archivo;dl.download=f.archivo.split('/').at(-1);dl.textContent='Descargar imagen';
+  src.href=f.fuente||'#';src.target='_blank';src.rel='noopener noreferrer';src.textContent='Fuente y licencia';
+  links.append(dl,src);cap.append(h,p,links);fig.append(img,cap);target.appendChild(fig);
+ }}
+ render(j.imagenes.filter(x=>x.tipo==='subbases'),document.getElementById('subbases'));
+ render(j.imagenes.filter(x=>x.tipo==='productos'),document.getElementById('productos'));
+})().catch(e=>{document.getElementById('subbases').textContent='No fue posible cargar la galería';});
+</script></body></html>
