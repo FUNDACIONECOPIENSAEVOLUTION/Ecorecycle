@@ -16,12 +16,17 @@ raee:["refurbished computer laptops","electric cable copper scrap","electronic p
 };
 const memo=new Map(),pending=[],seen=new WeakSet();let running=0;
 const creditList=fetch("./assets/fotos/creditos.json").then(r=>r.ok?r.json():null).then(d=>d?.fuentes||[]).catch(()=>[]);
+const metalBatch=fetch("./assets/biblioteca/metales/manifest.json").then(r=>r.ok?r.json():null).then(d=>d?.imagenes||[]).catch(()=>[]);
+const fixedMetalProducts=new Set(["Latas compactadas","Lingotes industriales","Perfiles de aluminio","Cable separado","Cobre clasificado"]);
 function slug(s){return s.toLowerCase().replaceAll("¾","tres-cuartos").replaceAll("½","medio").replaceAll("⅜","tres-octavos").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,100);}
 function localPhoto(img,local,query){
- img.addEventListener("error",()=>{pending.push([img,query]);pump();},{once:true});
+ img.addEventListener("error",()=>{if(local.includes("/assets/biblioteca/metales/")){img.title="Foto individual pendiente de carga";return;}pending.push([img,query]);pump();},{once:true});
  img.addEventListener("load",async()=>{img.classList.add("is-loaded");const credits=await creditList;
- const v=credits.find(x=>("./"+x.filename)===local);const a=img.closest("a");
- if(v&&a){a.href=v.source;a.target="_blank";a.rel="noopener noreferrer";a.title="Wikimedia Commons · "+v.original_title+" · "+v.license;}
+ let v=credits.find(x=>("./"+x.filename)===local);
+ if(!v&&local.includes("/assets/biblioteca/metales/")){const batch=await metalBatch;v=batch.find(x=>("./"+x.archivo)===local)}
+ const a=img.closest("a");
+ if(v&&a){a.href=v.fuente||v.source;a.target="_blank";a.rel="noopener noreferrer";a.title="Referencia ilustrativa · "+(v.titulo||v.original_title||v.nombre)+" · "+(v.licencia||v.license)}
+ if(v){img.title="Imagen correspondiente a "+(v.nombre||query)+" · "+(v.licencia||v.license)}
  },{once:true});
  img.src=local;
 }
@@ -83,12 +88,17 @@ function applyPhotos(){
  const target=card.querySelector(".visual");if(target&&!target.querySelector(".eco-photo")){
   const a=document.createElement("a");a.className="eco-photo-link";a.setAttribute("aria-label","Abrir procedencia y licencia de la foto");
   const img=document.createElement("img");img.className="eco-photo";img.loading="lazy";
-  a.appendChild(img);target.appendChild(a);put(img,(topics[chosen.id]||[])[ix]||label+" material recycling","./assets/fotos/"+chosen.id+"/"+slug(label)+".jpg");
+  a.appendChild(img);target.appendChild(a);
+  const exact=chosen.id==="metales"?"./assets/biblioteca/metales/subbases/"+slug(label)+".jpg":"./assets/fotos/"+chosen.id+"/"+slug(label)+".jpg";
+  put(img,(topics[chosen.id]||[])[ix]||label+" material recycling",exact);
  }
  card.querySelectorAll(".product").forEach((p,i)=>{if(p.querySelector(".eco-thumb"))return;
- const label=p.textContent.trim();const img=document.createElement("img");img.className="eco-thumb";
- img.alt="Referencia visual: "+label;img.loading="lazy";p.insertBefore(img,p.firstChild);
- put(img,searchTerm(label,chosen.id,i));
+ const label=(p.querySelector("span:last-child")?.textContent||p.textContent).trim();const clean=label.replace(/\\*+$/,"");
+ const img=document.createElement("img");img.className="eco-thumb";
+ img.alt="Imagen individual correspondiente a: "+label;img.loading="lazy";
+ const a=document.createElement("a");a.className="eco-thumb-link";a.appendChild(img);p.insertBefore(a,p.firstChild);
+ const specific=chosen.id==="metales"&&fixedMetalProducts.has(clean)?"./assets/biblioteca/metales/productos/"+slug(clean)+".jpg":null;
+ put(img,searchTerm(label,chosen.id,i),specific);
  });
  });
 }
