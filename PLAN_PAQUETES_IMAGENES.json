@@ -6,52 +6,6 @@
   "ecoaldeas_paquete01": 10,
   "paquetes_pendientes": [
     {
-      "grupo": "P03",
-      "imagenes": [
-        {
-          "tipo": "ecocia módulo",
-          "nombre": "Recepción y pesaje"
-        },
-        {
-          "tipo": "ecocia módulo",
-          "nombre": "Inspección y clasificación"
-        },
-        {
-          "tipo": "ecocia módulo",
-          "nombre": "Transformación agroindustrial"
-        },
-        {
-          "tipo": "ecocia módulo",
-          "nombre": "Empaque y etiquetado"
-        },
-        {
-          "tipo": "ecocia módulo",
-          "nombre": "Almacenamiento seco"
-        },
-        {
-          "tipo": "ecocia módulo",
-          "nombre": "Refrigeración"
-        },
-        {
-          "tipo": "ecocia módulo",
-          "nombre": "Distribución y despacho"
-        },
-        {
-          "tipo": "ecocia módulo",
-          "nombre": "Educación y servicios"
-        },
-        {
-          "tipo": "base principal",
-          "nombre": "Material de río / Material de río"
-        },
-        {
-          "tipo": "producto/aplicación",
-          "nombre": "Material de río / Triturado 1 pulgada / Bases y subbases viales"
-        }
-      ],
-      "cantidad": 10
-    },
-    {
       "grupo": "P04",
       "imagenes": [
         {
@@ -1329,6 +1283,26 @@
       "imagenes": 10,
       "ruta": "assets/biblioteca/ecoaldeas/paquete-02/manifest.json",
       "zip": "descargas/ECOALDEAS_PAQUETE_02_10_IMAGENES.zip"
+    },
+    {
+      "linea": "ECO-CIA",
+      "imagenes": 10,
+      "manifest": "assets/biblioteca/ecocia/manifest.json",
+      "zip": "descargas/GALERIA_ECOCIA_10_IMAGENES.zip"
+    },
+    {
+      "linea": "Eco-tiendas",
+      "imagenes": 10,
+      "manifest": "assets/biblioteca/ecotiendas/manifest.json",
+      "zip": "descargas/GALERIA_ECOTIENDAS_10_IMAGENES.zip"
+    },
+    {
+      "linea": "Orgánicos derivados",
+      "imagenes": 10,
+      "manifest": "assets/biblioteca/organicos/manifest.json",
+      "zip": "descargas/GALERIA_ORGANICOS_10_IMAGENES.zip"
     }
-  ]
+  ],
+  "cubiertos_materiales_minimo": 87,
+  "pendientes_materiales_maximo": 266
 }
