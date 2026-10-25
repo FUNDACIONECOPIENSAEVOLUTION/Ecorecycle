@@ -1,0 +1,107 @@
+{
+  "categoria": "Material de río",
+  "tipo": "Productos y aplicaciones",
+  "revision": "borrador fotográfico generado con IA",
+  "imagenes": [
+    {
+      "subbase": "Triturado 1 pulgada",
+      "nombre": "Concretos de diseño",
+      "archivo": "assets/biblioteca/rio/productos/triturado_1_pulgada/concretos_de_diseno.jpg",
+      "alt": "Recreación fotorrealista de concretos de diseño, una posible aplicación de material de río",
+      "origen": "Imagen ilustrativa original generada con Adobe Firefly",
+      "derechos": "Ilustración generada con IA para ECORECYCLE; revisar condiciones de uso aplicables y evitar atribución a obra real",
+      "estado": "publicada, pendiente de revisión técnica y visual",
+      "sujeta_a_validacion": true
+    },
+    {
+      "subbase": "Triturado 1 pulgada",
+      "nombre": "Drenajes y filtros",
+      "archivo": "assets/biblioteca/rio/productos/triturado_1_pulgada/drenajes_y_filtros.jpg",
+      "alt": "Recreación fotorrealista de drenajes y filtros, una posible aplicación de material de río",
+      "origen": "Imagen ilustrativa original generada con Adobe Firefly",
+      "derechos": "Ilustración generada con IA para ECORECYCLE; revisar condiciones de uso aplicables y evitar atribución a obra real",
+      "estado": "publicada, pendiente de revisión técnica y visual",
+      "sujeta_a_validacion": true
+    },
+    {
+      "subbase": "Triturado 1 pulgada",
+      "nombre": "Obras civiles",
+      "archivo": "assets/biblioteca/rio/productos/triturado_1_pulgada/obras_civiles.jpg",
+      "alt": "Recreación fotorrealista de obras civiles, una posible aplicación de material de río",
+      "origen": "Imagen ilustrativa original generada con Adobe Firefly",
+      "derechos": "Ilustración generada con IA para ECORECYCLE; revisar condiciones de uso aplicables y evitar atribución a obra real",
+      "estado": "publicada, pendiente de revisión técnica y visual",
+      "sujeta_a_validacion": true
+    },
+    {
+      "subbase": "Triturado ¾ pulgada",
+      "nombre": "Concretos",
+      "archivo": "assets/biblioteca/rio/productos/triturado_tres_cuartos_pulgada/concretos.jpg",
+      "alt": "Recreación fotorrealista de concretos, una posible aplicación de material de río",
+      "origen": "Imagen ilustrativa original generada con Adobe Firefly",
+      "derechos": "Ilustración generada con IA para ECORECYCLE; revisar condiciones de uso aplicables y evitar atribución a obra real",
+      "estado": "publicada, pendiente de revisión técnica y visual",
+      "sujeta_a_validacion": true
+    },
+    {
+      "subbase": "Triturado ¾ pulgada",
+      "nombre": "Prefabricados",
+      "archivo": "assets/biblioteca/rio/productos/triturado_tres_cuartos_pulgada/prefabricados.jpg",
+      "alt": "Recreación fotorrealista de prefabricados, una posible aplicación de material de río",
+      "origen": "Imagen ilustrativa original generada con Adobe Firefly",
+      "derechos": "Ilustración generada con IA para ECORECYCLE; revisar condiciones de uso aplicables y evitar atribución a obra real",
+      "estado": "publicada, pendiente de revisión técnica y visual",
+      "sujeta_a_validacion": true
+    },
+    {
+      "subbase": "Triturado ¾ pulgada",
+      "nombre": "Andenes",
+      "archivo": "assets/biblioteca/rio/productos/triturado_tres_cuartos_pulgada/andenes.jpg",
+      "alt": "Recreación fotorrealista de andenes, una posible aplicación de material de río",
+      "origen": "Imagen ilustrativa original generada con Adobe Firefly",
+      "derechos": "Ilustración generada con IA para ECORECYCLE; revisar condiciones de uso aplicables y evitar atribución a obra real",
+      "estado": "publicada, pendiente de revisión técnica y visual",
+      "sujeta_a_validacion": true
+    },
+    {
+      "subbase": "Triturado ¾ pulgada",
+      "nombre": "Elementos de drenaje",
+      "archivo": "assets/biblioteca/rio/productos/triturado_tres_cuartos_pulgada/elementos_de_drenaje.jpg",
+      "alt": "Recreación fotorrealista de elementos de drenaje, una posible aplicación de material de río",
+      "origen": "Imagen ilustrativa original generada con Adobe Firefly",
+      "derechos": "Ilustración generada con IA para ECORECYCLE; revisar condiciones de uso aplicables y evitar atribución a obra real",
+      "estado": "publicada, pendiente de revisión técnica y visual",
+      "sujeta_a_validacion": true
+    },
+    {
+      "subbase": "Triturado ½ pulgada",
+      "nombre": "Bloques y mezclas",
+      "archivo": "assets/biblioteca/rio/productos/triturado_medio_pulgada/bloques_y_mezclas.jpg",
+      "alt": "Recreación fotorrealista de bloques y mezclas, una posible aplicación de material de río",
+      "origen": "Imagen ilustrativa original generada con Adobe Firefly",
+      "derechos": "Ilustración generada con IA para ECORECYCLE; revisar condiciones de uso aplicables y evitar atribución a obra real",
+      "estado": "publicada, pendiente de revisión técnica y visual",
+      "sujeta_a_validacion": true
+    },
+    {
+      "subbase": "Triturado ½ pulgada",
+      "nombre": "Concreto no estructural",
+      "archivo": "assets/biblioteca/rio/productos/triturado_medio_pulgada/concreto_no_estructural.jpg",
+      "alt": "Recreación fotorrealista de concreto no estructural, una posible aplicación de material de río",
+      "origen": "Imagen ilustrativa original generada con Adobe Firefly",
+      "derechos": "Ilustración generada con IA para ECORECYCLE; revisar condiciones de uso aplicables y evitar atribución a obra real",
+      "estado": "publicada, pendiente de revisión técnica y visual",
+      "sujeta_a_validacion": true
+    },
+    {
+      "subbase": "Triturado ½ pulgada",
+      "nombre": "Contrapisos",
+      "archivo": "assets/biblioteca/rio/productos/triturado_medio_pulgada/contrapisos.jpg",
+      "alt": "Recreación fotorrealista de contrapisos, una posible aplicación de material de río",
+      "origen": "Imagen ilustrativa original generada con Adobe Firefly",
+      "derechos": "Ilustración generada con IA para ECORECYCLE; revisar condiciones de uso aplicables y evitar atribución a obra real",
+      "estado": "publicada, pendiente de revisión técnica y visual",
+      "sujeta_a_validacion": true
+    }
+  ]
+}
