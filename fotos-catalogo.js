@@ -3,7 +3,7 @@
 "use strict";
 const base="./assets/biblioteca/reciclables-secos/";
 const pending=[];
-let packItems=[],metalItems=[],publicCredits=[],booted=false;
+let packItems=[],metalItems=[],organicItems=[],publicCredits=[],booted=false;
 const clean=s=>String(s||"").replace(/\*+$/,"").trim();
 const slug=s=>clean(s).toLowerCase().replaceAll("¾","tres-cuartos").replaceAll("½","medio").replaceAll("⅜","tres-octavos")
  .normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
@@ -11,6 +11,7 @@ async function load(){
  try{const r=await fetch(base+"manifest.json",{cache:"no-cache"});if(r.ok)packItems=(await r.json()).imagenes||[];}catch(_){}
  try{const r=await fetch("./assets/fotos/creditos.json");if(r.ok)publicCredits=(await r.json()).fuentes||[];}catch(_){}
  try{const r=await fetch('./assets/biblioteca/metales/manifest.json');if(r.ok)metalItems=(await r.json()).imagenes||[];}catch(_){}
+ try{const r=await fetch('./assets/biblioteca/organicos/manifest.json');if(r.ok)organicItems=(await r.json()).imagenes||[];}catch(_){}
  booted=true;paint();
 }
 function exactPack(group,name){
@@ -26,6 +27,7 @@ function localSub(group,name){
 }
 function productFor(name){
  const pack=exactPack("productos",name);if(pack)return pack;
+ if(active==='organicos'){const item=organicItems.find(x=>clean(x.nombre)===clean(name));if(item)return {src:'./'+item.archivo,label:item.nombre,alt:item.alt||item.nombre,license:'Creación original generada con IA',credit:'Fundación Ecopiensa Evolution',kind:'Ilustración conceptual de producto orgánico; uso agrícola condicionado a calidad y normativa'};}
  if(active==='metales'){const z=metalItems.find(x=>x.tipo==='productos'&&clean(x.nombre)===clean(name)&&x.archivo);if(z)return {src:'./'+z.archivo,label:z.nombre,alt:z.nombre,license:z.licencia||'Ver créditos',credit:z.autor||'Wikimedia Commons',kind:'Fotografía de referencia local bajo licencia indicada'};}
  // Las siguientes entregas se resolveran mediante sus propios manifiestos, nunca por fotos de otro producto.
  return null;
