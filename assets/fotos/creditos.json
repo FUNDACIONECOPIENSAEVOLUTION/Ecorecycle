@@ -1,0 +1,501 @@
+{
+  "nota": "Fotografías externas ilustrativas; no documentan operaciones propias de la Fundación.",
+  "fuentes": [
+    {
+      "material": "rio",
+      "subbase": "Triturado 1 pulgada",
+      "filename": "assets/fotos/rio/triturado-1-pulgada.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Crushing_plant_at_Caldon_Low_Quarry_-_geograph.org.uk_-_427947.jpg",
+      "license": "CC BY-SA 2.0",
+      "creator": "Alan Murray-Rust",
+      "original_title": "File:Crushing plant at Caldon Low Quarry - geograph.org.uk - 427947.jpg",
+      "query": "crushed aggregate stones quarry"
+    },
+    {
+      "material": "rio",
+      "subbase": "Triturado ¾ pulgada",
+      "filename": "assets/fotos/rio/triturado-pulgada.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Kongensbro_gravel_pit_2014-09-17.jpg",
+      "license": "CC BY-SA 3.0",
+      "creator": "Slaunger",
+      "original_title": "File:Kongensbro gravel pit 2014-09-17.jpg",
+      "query": "gravel stones"
+    },
+    {
+      "material": "rio",
+      "subbase": "Triturado ½ pulgada",
+      "filename": "assets/fotos/rio/triturado-pulgada.jpg",
+      "cached": true
+    },
+    {
+      "material": "rio",
+      "subbase": "Gravilla ⅜ pulgada",
+      "filename": "assets/fotos/rio/gravilla-pulgada.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Small_gravel_quarry_in_Shewglie_Wood_-_geograph.org.uk_-_1799072.jpg",
+      "license": "CC BY-SA 2.0",
+      "creator": "Steven Brown ",
+      "original_title": "File:Small gravel quarry in Shewglie Wood - geograph.org.uk - 1799072.jpg",
+      "query": "small gravel quarry"
+    },
+    {
+      "material": "rio",
+      "subbase": "Grouting y arenón",
+      "filename": "assets/fotos/rio/grouting-y-arenon.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Applying_grout.jpg",
+      "license": "Public domain",
+      "creator": "own",
+      "original_title": "File:Applying grout.jpg",
+      "query": "cement grout sand"
+    },
+    {
+      "material": "rio",
+      "subbase": "Arena gruesa y fina",
+      "filename": "assets/fotos/rio/arena-gruesa-y-fina.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Sand_and_coarse_aggregate_batchers_on_upper_batching_deck_at_Six_Companies%27_low_level_concrete_mixing_plant._-_NARA_-_293629.jpg",
+      "license": "Public domain",
+      "creator": "\nUnknown authorUnknown author or not provided",
+      "original_title": "File:Sand and coarse aggregate batchers on upper batching deck at Six Companies' low level concrete mixing plant. - NARA - 293629.jpg",
+      "query": "coarse sand construction"
+    },
+    {
+      "material": "reciclables",
+      "subbase": "Cartón",
+      "filename": "assets/fotos/reciclables/carton.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Full_of_cardboard._(296485291).jpg",
+      "license": "CC BY-SA 2.0",
+      "creator": "pelican",
+      "original_title": "File:Full of cardboard. (296485291).jpg",
+      "query": "corrugated cardboard recycling"
+    },
+    {
+      "material": "reciclables",
+      "subbase": "Papel",
+      "filename": "assets/fotos/reciclables/papel.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:57_Cardboard_stacked_for_recycling_pick_up_in_Kuala_Lumpur,_Malaysia_-_free_photo_with_attribution_(Creative_Commons).jpg",
+      "license": "CC BY 3.0",
+      "creator": "Marek Ślusarczyk (Tupungato) Photo portfolio",
+      "original_title": "File:57 Cardboard stacked for recycling pick up in Kuala Lumpur, Malaysia - free photo with attribution (Creative Commons).jpg",
+      "query": "paper recycling stacks"
+    },
+    {
+      "material": "reciclables",
+      "subbase": "PET",
+      "filename": "assets/fotos/reciclables/pet.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bales_of_PET_bottles_closeup.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Grendelkhan",
+      "original_title": "File:Bales of PET bottles closeup.jpg",
+      "query": "PET plastic bottles recycling"
+    },
+    {
+      "material": "reciclables",
+      "subbase": "Plástico soplado",
+      "filename": "assets/fotos/reciclables/plastico-soplado.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:HDPE_Jerry_Can_Bales.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "ScrapManagement",
+      "original_title": "File:HDPE Jerry Can Bales.jpg",
+      "query": "plastic HDPE containers recycling"
+    },
+    {
+      "material": "reciclables",
+      "subbase": "Metales",
+      "filename": "assets/fotos/reciclables/metales.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Silver_and_gold_scrap_metal.jpg",
+      "license": "CC BY 4.0",
+      "creator": "W.carter",
+      "original_title": "File:Silver and gold scrap metal.jpg",
+      "query": "scrap metal recycling"
+    },
+    {
+      "material": "organicos",
+      "subbase": "Estiércoles pecuarios",
+      "filename": "assets/fotos/organicos/estiercoles-pecuarios.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:U.S_Department_of_Agriculture_(USDA)_Rural_Development_(RD)_Value-Added_Producer_Grant_to_manufacture_and_market_biodegradable_seeding_containers_of_composted_cow_manure_at_East_Canaan,_Connecticut_on_September_19,_2023_-_11.jpg",
+      "license": "Public domain",
+      "creator": "USDAgov",
+      "original_title": "File:U.S Department of Agriculture (USDA) Rural Development (RD) Value-Added Producer Grant to manufacture and market biodegradable seeding containers of composted cow manure at East Canaan, Connecticut on September 19, 2023 - 11.jpg",
+      "query": "cow manure compost agriculture"
+    },
+    {
+      "material": "organicos",
+      "subbase": "Residuos agroindustriales",
+      "filename": "assets/fotos/organicos/residuos-agroindustriales.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Crop_Residue_Management32_(38808379142).jpg",
+      "license": "Public domain",
+      "creator": "USDA NRCS",
+      "original_title": "File:Crop Residue Management32 (38808379142).jpg",
+      "query": "agricultural crop residue straw"
+    },
+    {
+      "material": "organicos",
+      "subbase": "Restos alimentarios",
+      "filename": "assets/fotos/organicos/restos-alimentarios.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Food_Scraps_and_Yard_Debris_Collection_in_Portland_2010_by_Tim_Jewett.JPG",
+      "license": "CC BY-SA 2.5",
+      "creator": "Tim Jewett",
+      "original_title": "File:Food Scraps and Yard Debris Collection in Portland 2010 by Tim Jewett.JPG",
+      "query": "kitchen food scraps compost"
+    },
+    {
+      "material": "organicos",
+      "subbase": "Lodos y biosólidos especiales",
+      "filename": "assets/fotos/organicos/lodos-y-biosolidos-especiales.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Activated_sludge_tank_Viikinm%C3%A4ki_Wastewater_Treatment_Plant_1.jpg",
+      "license": "CC BY 4.0",
+      "creator": "Antti Leppänen",
+      "original_title": "File:Activated sludge tank Viikinmäki Wastewater Treatment Plant 1.jpg",
+      "query": "wastewater treatment sludge"
+    },
+    {
+      "material": "rcd",
+      "subbase": "Ladrillo y mampostería",
+      "filename": "assets/fotos/rcd/ladrillo-y-mamposteria.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Demolition_of_Cavendish_Mills_-_geograph.org.uk_-_1427232.jpg",
+      "license": "CC BY-SA 2.0",
+      "creator": "David Lally",
+      "original_title": "File:Demolition of Cavendish Mills - geograph.org.uk - 1427232.jpg",
+      "query": "brick demolition waste"
+    },
+    {
+      "material": "rcd",
+      "subbase": "Cerámicos y tejas",
+      "filename": "assets/fotos/rcd/ceramicos-y-tejas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:An_incomplete_Roman_ceramic_Lowther%27s_Group_1_and_Betts_Die_58,_relief-patterned_flue-tile_dating_from_AD_150-200._(FindID_841228).jpg",
+      "license": "CC BY 2.0",
+      "creator": "\nThe Portable Antiquities Scheme, Stuart Wyatt, 2017-04-05 20:19:06",
+      "original_title": "File:An incomplete Roman ceramic Lowther's Group 1 and Betts Die 58, relief-patterned flue-tile dating from AD 150-200. (FindID 841228).jpg",
+      "query": "ceramic tile debris"
+    },
+    {
+      "material": "rcd",
+      "subbase": "Fracciones separadas",
+      "filename": "assets/fotos/rcd/fracciones-separadas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Demolition_waste.jpg",
+      "license": "CC BY 2.5",
+      "creator": "User:Petr K",
+      "original_title": "File:Demolition waste.jpg",
+      "query": "metal waste demolition"
+    },
+    {
+      "material": "rcd",
+      "subbase": "Asfalto recuperado",
+      "filename": "assets/fotos/rcd/asfalto-recuperado.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:169th_St_81st_Av_td_(2019-07-09)_10.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Tdorante10",
+      "original_title": "File:169th St 81st Av td (2019-07-09) 10.jpg",
+      "query": "asphalt pavement milling"
+    },
+    {
+      "material": "plasticos",
+      "subbase": "PET (tipo 1)",
+      "filename": "assets/fotos/plasticos/pet-tipo-1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bales_of_PET_bottles_closeup.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Grendelkhan",
+      "original_title": "File:Bales of PET bottles closeup.jpg",
+      "query": "PET plastic bottles"
+    },
+    {
+      "material": "plasticos",
+      "subbase": "PP (tipo 5)",
+      "filename": "assets/fotos/plasticos/pp-tipo-5.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG",
+      "license": "Public domain",
+      "creator": "en:User:Polyparadig",
+      "original_title": "File:Mint box polypropylene lid.JPG",
+      "query": "polypropylene plastic food containers"
+    },
+    {
+      "material": "plasticos",
+      "subbase": "Mezclas aptas para valorización",
+      "filename": "assets/fotos/plasticos/mezclas-aptas-para-valorizacion.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Recycling_combine_-_Sunset_Pk,_NYC_05.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "CaptJayRuffins",
+      "original_title": "File:Recycling combine - Sunset Pk, NYC 05.jpg",
+      "query": "mixed recyclable plastics"
+    },
+    {
+      "material": "papel_carton",
+      "subbase": "Cartón corrugado",
+      "filename": "assets/fotos/papel_carton/carton-corrugado.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Boxes1.jpg",
+      "license": "CC BY-SA 2.0",
+      "creator": "skrewtape",
+      "original_title": "File:Boxes1.jpg",
+      "query": "cardboard corrugated boxes stack"
+    },
+    {
+      "material": "papel_carton",
+      "subbase": "Papel blanco",
+      "filename": "assets/fotos/papel_carton/papel-blanco.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Nominet-2021-egm-members-list-on-paper-575-pages.jpg",
+      "license": "CC BY 4.0",
+      "creator": "Simon Blackler (Krystal Hosting t/a PublicBenefit.uk)",
+      "original_title": "File:Nominet-2021-egm-members-list-on-paper-575-pages.jpg",
+      "query": "white paper stacks"
+    },
+    {
+      "material": "papel_carton",
+      "subbase": "Papel mixto",
+      "filename": "assets/fotos/papel_carton/papel-mixto.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shanghai_recycling_transport_tricycle.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Ermell",
+      "original_title": "File:Shanghai recycling transport tricycle.jpg",
+      "query": "waste paper recycling"
+    },
+    {
+      "material": "papel_carton",
+      "subbase": "Periódicos y revistas",
+      "filename": "assets/fotos/papel_carton/periodicos-y-revistas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Interior_view_of_newspaper_delivery_room_showing_man_taking_stack_of_newspapers_from_machine)_-_World-Telegram_photo_LCCN95506971.jpg",
+      "license": "Public domain",
+      "creator": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+      "original_title": "File:Interior view of newspaper delivery room showing man taking stack of newspapers from machine) - World-Telegram photo LCCN95506971.jpg",
+      "query": "old newspapers stack"
+    },
+    {
+      "material": "papel_carton",
+      "subbase": "Envases multicapa",
+      "filename": "assets/fotos/papel_carton/envases-multicapa.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Dornbirn-Klaus_Thaler-collection_drink_paper_cartons-Tetra_Pak-01ASD.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Asurnipal",
+      "original_title": "File:Dornbirn-Klaus Thaler-collection drink paper cartons-Tetra Pak-01ASD.jpg",
+      "query": "Tetra Pak carton"
+    },
+    {
+      "material": "metales",
+      "subbase": "Cobre",
+      "filename": "assets/fotos/metales/cobre.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:CroweIMG_0099.JPG",
+      "license": "Public domain",
+      "creator": "Danielle Crowe",
+      "original_title": "File:CroweIMG 0099.JPG",
+      "query": "copper wire scrap metal"
+    },
+    {
+      "material": "metales",
+      "subbase": "Hierro y acero",
+      "filename": "assets/fotos/metales/hierro-y-acero.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Junk_Steel_(2855473860).jpg",
+      "license": "CC BY 2.0",
+      "creator": "Rennett Stowe from USA",
+      "original_title": "File:Junk Steel (2855473860).jpg",
+      "query": "steel beams scrap metal"
+    },
+    {
+      "material": "metales",
+      "subbase": "Acero inoxidable",
+      "filename": "assets/fotos/metales/acero-inoxidable.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Steel_Scrap_Compacted.JPG",
+      "license": "CC BY-SA 4.0",
+      "creator": "TeWeBs",
+      "original_title": "File:Steel Scrap Compacted.JPG",
+      "query": "stainless steel scrap"
+    },
+    {
+      "material": "metales",
+      "subbase": "Bronce, latón y otros",
+      "filename": "assets/fotos/metales/bronce-laton-y-otros.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:La_empresa.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Recemsa",
+      "original_title": "File:La empresa.jpg",
+      "query": "brass bronze scrap recycling"
+    },
+    {
+      "material": "madera",
+      "subbase": "Estibas y pallets",
+      "filename": "assets/fotos/madera/estibas-y-pallets.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Looking_north_along_Alaska_Railroad_tracks,_with_pallets_of_wood_stacked_at_right,_near_Nenana,_Alaska,_May_30,_1918_(AL%2BCA_5754).jpg",
+      "license": "Public domain",
+      "creator": "\nUnknown authorUnknown author",
+      "original_title": "File:Looking north along Alaska Railroad tracks, with pallets of wood stacked at right, near Nenana, Alaska, May 30, 1918 (AL+CA 5754).jpg",
+      "query": "wood pallets stacked"
+    },
+    {
+      "material": "madera",
+      "subbase": "Retales y recortes",
+      "filename": "assets/fotos/madera/retales-y-recortes.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:1915_-_Baronda_-_spotted_gum_timber_offcut_%27tiling%27_on_ground_on_outside_house_near_entrance_(similar_to_floor_detail_found_at_Penders)_(5061816b12).jpg",
+      "license": "CC BY 4.0",
+      "creator": "\nShikha Jhaldiyal",
+      "original_title": "File:1915 - Baronda - spotted gum timber offcut 'tiling' on ground on outside house near entrance (similar to floor detail found at Penders) (5061816b12).jpg",
+      "query": "wood offcuts timber"
+    },
+    {
+      "material": "madera",
+      "subbase": "Astillas limpias",
+      "filename": "assets/fotos/madera/astillas-limpias.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Wood_Chip_Mulch_Texture_DTXR-WD-CP-1.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Shadowmeld Photography",
+      "original_title": "File:Wood Chip Mulch Texture DTXR-WD-CP-1.jpg",
+      "query": "wood chips mulch"
+    },
+    {
+      "material": "madera",
+      "subbase": "Madera no apta",
+      "filename": "assets/fotos/madera/madera-no-apta.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Waste_containers_in_Hertfordshire.jpg",
+      "license": "CC BY 2.0",
+      "creator": "Alex Chan",
+      "original_title": "File:Waste containers in Hertfordshire.jpg",
+      "query": "wood waste sorting"
+    },
+    {
+      "material": "vidrio",
+      "subbase": "Envases retornables",
+      "filename": "assets/fotos/vidrio/envases-retornables.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Recycling_004_2024_10_23.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Friedrich Haag",
+      "original_title": "File:Recycling 004 2024 10 23.jpg",
+      "query": "glass bottles recycling"
+    },
+    {
+      "material": "vidrio",
+      "subbase": "Vidrio transparente",
+      "filename": "assets/fotos/vidrio/vidrio-transparente.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Glas_aus_Aufbereitungsanlage_wei%C3%9F_-_glass_cullet_white_(Alter_Fritz).JPG",
+      "license": "CC BY-SA 3.0",
+      "creator": "Alter Fritz",
+      "original_title": "File:Glas aus Aufbereitungsanlage weiß - glass cullet white (Alter Fritz).JPG",
+      "query": "clear glass cullet"
+    },
+    {
+      "material": "vidrio",
+      "subbase": "Vidrio verde",
+      "filename": "assets/fotos/vidrio/vidrio-verde.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Soju_bottles_in_a_glass_recycling_bin,_near_apartment_complex,_in_Korea.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Piotrus",
+      "original_title": "File:Soju bottles in a glass recycling bin, near apartment complex, in Korea.jpg",
+      "query": "green glass bottle recycling"
+    },
+    {
+      "material": "vidrio",
+      "subbase": "Vidrio ámbar",
+      "filename": "assets/fotos/vidrio/vidrio-ambar.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:DURAN%C2%AE_laboratory_bottle_amber_100ml.jpg",
+      "license": "CC BY-SA 3.0",
+      "creator": "Lucasbosch",
+      "original_title": "File:DURAN® laboratory bottle amber 100ml.jpg",
+      "query": "brown amber glass bottles"
+    },
+    {
+      "material": "llantas",
+      "subbase": "Carcasas aptas",
+      "filename": "assets/fotos/llantas/carcasas-aptas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Stack_pile_batch_of_old_used_car_and_tractor_tires.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "photosteve101",
+      "original_title": "File:Stack pile batch of old used car and tractor tires.jpg",
+      "query": "used car tires stack"
+    },
+    {
+      "material": "aceites",
+      "subbase": "Aceite de cocina usado",
+      "filename": "assets/fotos/aceites/aceite-de-cocina-usado.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cooking_Oil_Recycling_Container_in_Almendrales.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Daniel Capilla",
+      "original_title": "File:Cooking Oil Recycling Container in Almendrales.jpg",
+      "query": "used cooking oil container"
+    },
+    {
+      "material": "aceites",
+      "subbase": "Grasas alimentarias",
+      "filename": "assets/fotos/aceites/grasas-alimentarias.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:The_slave_of_grease_(back).jpg",
+      "license": "CC BY 2.0",
+      "creator": "Boston Public Library",
+      "original_title": "File:The slave of grease (back).jpg",
+      "query": "animal fat grease"
+    },
+    {
+      "material": "aceites",
+      "subbase": "Lubricantes minerales usados",
+      "filename": "assets/fotos/aceites/lubricantes-minerales-usados.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Woltec_Diesel_engine_Oil_208_Liters_Drum.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Frank - Sales Manager - Paul General Trading LLC",
+      "original_title": "File:Woltec Diesel engine Oil 208 Liters Drum.jpg",
+      "query": "used motor oil drums"
+    },
+    {
+      "material": "aceites",
+      "subbase": "Envases contaminados",
+      "filename": "assets/fotos/aceites/envases-contaminados.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Office_of_the_Administrator_(Lisa_P._Jackson)_-_Various_Images_(BP_Oil_Spill)_-_Transfering_contaminated_material_collected_offshore_to_lined_roll_off_containers_for_transport_to_wa_-_DPLA_-_b2a4c196adbce89a4dd2b04194c07c65.jpg",
+      "license": "Public domain",
+      "creator": "Environmental Protection Agency. Office of the Administrator. Office of Public Affairs. Office of Multimedia. (10/15/2014)",
+      "original_title": "File:Office of the Administrator (Lisa P. Jackson) - Various Images (BP Oil Spill) - Transfering contaminated material collected offshore to lined roll off containers for transport to wa - DPLA - b2a4c196adbce89a4dd2b04194c07c65.jpg",
+      "query": "contaminated oil containers"
+    },
+    {
+      "material": "textiles",
+      "subbase": "Ropa utilizable",
+      "filename": "assets/fotos/textiles/ropa-utilizable.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Axznt_clothing_and_Replenish_second-hand_clothing,_Huddersfield_Road,_Brighouse_-_geograph.org.uk_-_7412547.jpg",
+      "license": "CC BY-SA 2.0",
+      "creator": "Humphrey Bolton ",
+      "original_title": "File:Axznt clothing and Replenish second-hand clothing, Huddersfield Road, Brighouse - geograph.org.uk - 7412547.jpg",
+      "query": "second hand clothing reuse"
+    },
+    {
+      "material": "textiles",
+      "subbase": "Denim y retales",
+      "filename": "assets/fotos/textiles/denim-y-retales.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:An_upcycled_denim_patchwork_tote_bag_with_a_distressed_and_checkered_pattern.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Senator Choko",
+      "original_title": "File:An upcycled denim patchwork tote bag with a distressed and checkered pattern.jpg",
+      "query": "denim jeans upcycle"
+    },
+    {
+      "material": "raee",
+      "subbase": "Equipos recuperables",
+      "filename": "assets/fotos/raee/equipos-recuperables.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Pertandingan_loncat_api_indah_di_ujian_pencak_silat.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Ganjarmustika1904",
+      "original_title": "File:Pertandingan loncat api indah di ujian pencak silat.jpg",
+      "query": "refurbished computer laptops"
+    },
+    {
+      "material": "raee",
+      "subbase": "Tarjetas electrónicas",
+      "filename": "assets/fotos/raee/tarjetas-electronicas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Residuo_electronico_tarjeta_madre_colombia.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Crista Castellanos",
+      "original_title": "File:Residuo electronico tarjeta madre colombia.jpg",
+      "query": "electronic printed circuit board recycling"
+    },
+    {
+      "material": "raee",
+      "subbase": "Carcasas plásticas",
+      "filename": "assets/fotos/raee/carcasas-plasticas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Upcycled_Outdoor_Garden_Bench_from_Reclaimed_Materials.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "TracyWeru",
+      "original_title": "File:Upcycled Outdoor Garden Bench from Reclaimed Materials.jpg",
+      "query": "old computer plastic casing"
+    },
+    {
+      "material": "raee",
+      "subbase": "Baterías y pantallas",
+      "filename": "assets/fotos/raee/baterias-y-pantallas.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Energy_Conservation,_Use_Vs._Waste_DVIDS183720.jpg",
+      "license": "Public domain",
+      "creator": "Spc. April de Armas",
+      "original_title": "File:Energy Conservation, Use Vs. Waste DVIDS183720.jpg",
+      "query": "rechargeable battery waste"
+    }
+  ]
+}
