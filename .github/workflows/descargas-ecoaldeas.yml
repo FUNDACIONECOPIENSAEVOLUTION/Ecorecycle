@@ -1,0 +1,28 @@
+name: Publicar ZIP ECOALDEAS 01 y 02
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/descargas_ecoaldeas.py'
+      - '.github/workflows/descargas-ecoaldeas.yml'
+permissions:
+  contents: write
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verificar y comprimir paquetes
+        run: python scripts/descargas_ecoaldeas.py
+      - name: Publicar archivos ZIP para descarga desde la web
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add descargas/ECOALDEAS_PAQUETE_01_10_IMAGENES.zip descargas/ECOALDEAS_PAQUETE_02_10_IMAGENES.zip
+          if ! git diff --cached --quiet; then
+            git commit -m "Publicar ZIP de ECOALDEAS paquetes 01 y 02"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
