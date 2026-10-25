@@ -16,7 +16,7 @@ raee:["refurbished computer laptops","electric cable copper scrap","electronic p
 };
 const memo=new Map(),pending=[],seen=new WeakSet();let running=0;
 const creditList=fetch("./assets/fotos/creditos.json").then(r=>r.ok?r.json():null).then(d=>d?.fuentes||[]).catch(()=>[]);
-function slug(s){return s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,100);}
+function slug(s){return s.toLowerCase().replaceAll("¾","tres-cuartos").replaceAll("½","medio").replaceAll("⅜","tres-octavos").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,100);}
 function localPhoto(img,local,query){
  img.addEventListener("error",()=>{pending.push([img,query]);pump();},{once:true});
  img.addEventListener("load",async()=>{img.classList.add("is-loaded");const credits=await creditList;
