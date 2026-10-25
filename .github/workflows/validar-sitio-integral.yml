@@ -7,6 +7,7 @@ on:
       - 'ecoaldeas.html'
       - 'ecoaldeas-propuestas.html'
       - 'ecocia.html'
+      - 'biblioteca-visual.html'
       - 'fotos-catalogo.js'
       - 'fotos-catalogo.css'
       - 'assets/biblioteca/ecoaldeas/paquete-01/**'
@@ -30,7 +31,7 @@ jobs:
           from pathlib import Path
           import json,re,subprocess
           P=Path('.')
-          pages=['index.html','ecoaldeas.html','ecoaldeas-propuestas.html','ecocia.html']
+          pages=['index.html','ecoaldeas.html','ecoaldeas-propuestas.html','ecocia.html','biblioteca-visual.html']
           for name in pages:
             text=Path(name).read_text(encoding='utf8')
             scripts=re.findall(r'<script(?:\s[^>]*)?>(.*?)</script>',text,re.S|re.I)
@@ -59,5 +60,5 @@ jobs:
           assert len(unique)==4,unique
           assert Path('assets/organigramas/ecocia-referencia-institucional.jpg').is_file()
           assert Path('logo ecopiensa (1).png').is_file()
-          print('RESULTADO: 4 páginas, 4 vistas diferenciadas y 10 imágenes ECOALDEAS verificadas')
+          print('RESULTADO: 5 páginas, 4 vistas diferenciadas y 10 imágenes ECOALDEAS verificadas')
           PY
