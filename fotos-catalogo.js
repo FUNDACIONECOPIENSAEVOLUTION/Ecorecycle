@@ -1,115 +1,91 @@
-(()=>{"use strict";
-const topics={
-rio:["crushed aggregate stones quarry","gravel stones","gravel construction aggregate","small gravel quarry","cement grout sand","coarse sand construction"],
-reciclables:["corrugated cardboard recycling","paper recycling stacks","PET plastic bottles recycling","plastic HDPE containers recycling","scrap metal recycling"],
-organicos:["fruit vegetable compost waste","garden waste leaves branches","cow manure compost agriculture","agricultural crop residue straw","kitchen food scraps compost","wastewater treatment sludge"],
-rcd:["crushed concrete rubble","brick demolition waste","ceramic tile debris","soil aggregate construction","metal waste demolition","asphalt pavement milling"],
-plasticos:["PET plastic bottles","HDPE plastic jerrycan","LDPE plastic wrap film","polypropylene plastic food containers","mixed recyclable plastics","polystyrene foam waste"],
-papel_carton:["cardboard corrugated boxes stack","white paper stacks","waste paper recycling","old newspapers stack","Tetra Pak carton"],
-metales:["aluminium beverage cans scrap","copper wire scrap metal","steel beams scrap metal","stainless steel scrap","brass bronze scrap recycling"],
-madera:["wood pallets stacked","wood offcuts timber","sawdust woodworking","wood chips mulch","wood waste sorting"],
-vidrio:["glass bottles recycling","clear glass cullet","green glass bottle recycling","brown amber glass bottles","broken mixed glass recycling"],
-llantas:["used car tires stack","crumb rubber granules","black rubber powder","steel wire scrap tire","tire pyrolysis industrial reactor"],
-aceites:["used cooking oil container","animal fat grease","used motor oil drums","oil filters automotive waste","contaminated oil containers"],
-textiles:["second hand clothing reuse","cotton fabric scrap","denim jeans upcycle","polyester fabric scrap","mixed textile waste"],
-raee:["refurbished computer laptops","electric cable copper scrap","electronic printed circuit board recycling","old computer plastic casing","rechargeable battery waste"]
-};
-const memo=new Map(),pending=[],seen=new WeakSet();let running=0;
-const creditList=fetch("./assets/fotos/creditos.json").then(r=>r.ok?r.json():null).then(d=>d?.fuentes||[]).catch(()=>[]);
-const metalBatch=fetch("./assets/biblioteca/metales/manifest.json").then(r=>r.ok?r.json():null).then(d=>d?.imagenes||[]).catch(()=>[]);
-const fixedMetalProducts=new Set(["Latas compactadas","Lingotes industriales","Perfiles de aluminio","Cable separado","Cobre clasificado"]);
-function slug(s){return s.toLowerCase().replaceAll("¾","tres-cuartos").replaceAll("½","medio").replaceAll("⅜","tres-octavos").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,100);}
-function localPhoto(img,local,query){
- img.addEventListener("error",()=>{if(local.includes("/assets/biblioteca/metales/")){img.title="Foto individual pendiente de carga";return;}pending.push([img,query]);pump();},{once:true});
- img.addEventListener("load",async()=>{img.classList.add("is-loaded");const credits=await creditList;
- let v=credits.find(x=>("./"+x.filename)===local);
- if(!v&&local.includes("/assets/biblioteca/metales/")){const batch=await metalBatch;v=batch.find(x=>("./"+x.archivo)===local)}
- const a=img.closest("a");
- if(v&&a){a.href=v.fuente||v.source;a.target="_blank";a.rel="noopener noreferrer";a.title="Referencia ilustrativa · "+(v.titulo||v.original_title||v.nombre)+" · "+(v.licencia||v.license)}
- if(v){img.title="Imagen correspondiente a "+(v.nombre||query)+" · "+(v.licencia||v.license)}
- },{once:true});
- img.src=local;
+/* ECORECYCLE v1.4 — 100% imagenes locales, cero enlaces externos desde las fotografias. */
+(()=>{
+"use strict";
+const base="./assets/biblioteca/reciclables-secos/";
+const pending=[];
+let packItems=[],publicCredits=[],booted=false;
+const clean=s=>String(s||"").replace(/\*+$/,"").trim();
+const slug=s=>clean(s).toLowerCase().replaceAll("¾","tres-cuartos").replaceAll("½","medio").replaceAll("⅜","tres-octavos")
+ .normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+async function load(){
+ try{const r=await fetch(base+"manifest.json",{cache:"no-cache"});if(r.ok)packItems=(await r.json()).imagenes||[];}catch(_){}
+ try{const r=await fetch("./assets/fotos/creditos.json");if(r.ok)publicCredits=(await r.json()).fuentes||[];}catch(_){}
+ booted=true;paint();
 }
-const productPatterns=[
-[/compost|bokashi|abono/i,"mature compost soil"],
-[/humus|lombriz/i,"vermicompost earthworms"],
-[/biogás|biodigest/i,"anaerobic biogas digester tanks"],
-[/biocarbón|biochar/i,"biochar charcoal pieces"],
-[/briqueta|pellet/i,"wood biomass briquettes pellets"],
-[/hongo|seta/i,"oyster mushroom growing substrate"],
-[/acolchado|astilla/i,"wood chips mulch"],
-[/fertilizante|enmienda|suelo/i,"organic fertilizer soil bags"],
-[/adoquín|loseta|piso/i,"concrete paving stones"],
-[/bloque|ladrillo/i,"concrete construction blocks bricks"],
-[/tubería|canal/i,"concrete drainage pipes"],
-[/filamento|impresión 3D/i,"3d printing filament spool"],
-[/prótesis/i,"3D printed prosthetic hand"],
-[/madera plástica/i,"recycled plastic lumber"],
-[/escoba|cerda/i,"plastic broom brush"],
-[/mueble|silla|mesa/i,"outdoor furniture recycled"],
-[/papel|cuaderno|libreta/i,"recycled paper notebook"],
-[/caja|cartón|embalaje/i,"cardboard packaging boxes"],
-[/vidrio|mosaico/i,"recycled glass mosaic"],
-[/cobre|metal|acero|chatarra/i,"recycled scrap steel copper metal"],
-[/llanta|caucho|tapete/i,"recycled rubber tile floor"],
-[/biodiésel|aceite|jabón/i,"biodiesel used cooking oil"],
-[/textil|ropa|bolso/i,"recycled textile clothing"],
-[/electrón|computador|repuesto/i,"electronic recycling computers"],
-[/vía|asfalto|carretera/i,"asphalt roadway construction"]
-];
-function searchTerm(product,cat,i){const hit=productPatterns.find(([re])=>re.test(product));return hit?hit[1]:(topics[cat]||[])[i]||cat+" recycling material"}
-async function commons(query){
- const p=new URLSearchParams({action:"query",generator:"search",gsrsearch:query,gsrnamespace:"6",gsrlimit:"10",prop:"imageinfo",iiprop:"url|mime|extmetadata",iiurlwidth:"540",format:"json",origin:"*"});
- const r=await fetch("https://commons.wikimedia.org/w/api.php?"+p.toString());if(!r.ok)throw Error("Photo network unavailable");
- const j=await r.json();const a=Object.values(j.query?.pages||{}).sort((a,b)=>(a.index||0)-(b.index||0));
- for(const e of a){const ii=e.imageinfo?.[0];if(!ii||ii.mime!=="image/jpeg")continue;
- const lic=ii.extmetadata?.LicenseShortName?.value||"";if(!/(cc0|public domain|cc-by|cc by|CC BY|CC0)/i.test(lic))continue;
- if(ii.thumburl)return {src:ii.thumburl,page:ii.descriptionurl||ii.url,license:lic,name:e.title}}
+function exactPack(group,name){
+ if(active!=="reciclables")return null;
+ const x=packItems.find(x=>x.tipo===group&&clean(x.nombre)===clean(name));
+ return x?.archivo?{src:"./"+x.archivo,label:x.nombre,alt:x.alt||x.nombre,license:x.licencia||"Ilustracion original IA",credit:x.autor||"Fundación Ecopiensa Evolution",kind:"Imagen generada con IA, ilustrativa"}:null;
+}
+function localSub(group,name){
+ const p=exactPack(group,name);if(p)return p;
+ const x=publicCredits.find(x=>x.material===active&&clean(x.subbase)===clean(name));
+ return x?.filename?{src:"./"+x.filename,label:name,alt:name,license:x.license||"Licencia no registrada",credit:x.creator||"Autor no registrado",kind:"Fotografia externa ilustrativa alojada localmente"}:null;
+}
+function productFor(name){
+ const pack=exactPack("productos",name);if(pack)return pack;
+ // Las siguientes entregas se resolveran mediante sus propios manifiestos, nunca por fotos de otro producto.
  return null;
 }
-function put(img,query,local){
- if(!query||seen.has(img))return;seen.add(img);if(local){localPhoto(img,local,query)}else{pending.push([img,query]);pump()}
+function nodePhoto(source,label,variant){
+ const slot=document.createElement("div");slot.className="local-image-slot "+variant;
+ if(source?.src){
+  const btn=document.createElement("button");btn.type="button";btn.className="local-photo-button";
+  btn.setAttribute("aria-label","Ampliar imagen de "+label+" dentro de la página");
+  const img=document.createElement("img");img.src=source.src;img.alt=source.alt||label;img.loading="lazy";
+  img.addEventListener("error",()=>{btn.replaceWith(placeholder(label));},{once:true});
+  btn.appendChild(img);btn.addEventListener("click",()=>openPreview(source,label));
+  slot.appendChild(btn);
+ }else slot.appendChild(placeholder(label));
+ return slot;
 }
-function pump(){while(running<3&&pending.length){const [img,q]=pending.shift();if(!img.isConnected)continue;running++;
- if(!memo.has(q))memo.set(q,commons(q).catch(()=>null));
- memo.get(q).then(v=>{if(!v||!img.isConnected)return;
- img.addEventListener("load",()=>img.classList.add("is-loaded"),{once:true});img.src=v.src;
- img.alt="Fotografía ilustrativa: "+q;
- const a=img.closest("a");if(a){a.href=v.page;a.target="_blank";a.rel="noopener noreferrer";a.title="Foto externa: "+v.name+" · licencia "+v.license;}
- img.title="Wikimedia Commons · "+v.name+" · "+v.license;
- }).finally(()=>{running--;pump()});
-}}
-function applyPhotos(){
- const cat=window.DATA?window.DATA.find(x=>x.id===window.active):null;
- const chosen=cat||((typeof DATA!=="undefined")?DATA.find(x=>x.id===active):null);if(!chosen)return;
- const base=document.querySelector("#baseIcon");
- if(base&&!base.querySelector(".eco-base-photo")){
-  const baseImg=document.createElement("img");baseImg.className="eco-base-photo";
-  baseImg.alt="Imagen de referencia para la base principal "+chosen.n;
-  const first=chosen.b[0]?.[0]||"";
-  const loc=chosen.id==="metales"?"./assets/fotos/reciclables/metales.jpg":"./assets/fotos/"+chosen.id+"/"+slug(first)+".jpg";
-  baseImg.onerror=()=>baseImg.remove();baseImg.src=loc;base.appendChild(baseImg);
- }
- document.querySelectorAll(".item").forEach(card=>{
- const label=card.querySelector(".itemHead")?.textContent||"";
- const ix=chosen.b.findIndex(b=>b[0]===label);if(ix<0)return;
- const target=card.querySelector(".visual");if(target&&!target.querySelector(".eco-photo")){
-  const a=document.createElement("a");a.className="eco-photo-link";a.setAttribute("aria-label","Abrir procedencia y licencia de la foto");
-  const img=document.createElement("img");img.className="eco-photo";img.loading="lazy";
-  a.appendChild(img);target.appendChild(a);
-  const exact=chosen.id==="metales"?"./assets/biblioteca/metales/subbases/"+slug(label)+".jpg":"./assets/fotos/"+chosen.id+"/"+slug(label)+".jpg";
-  put(img,(topics[chosen.id]||[])[ix]||label+" material recycling",exact);
- }
- card.querySelectorAll(".product").forEach((p,i)=>{if(p.querySelector(".eco-thumb"))return;
- const label=(p.querySelector("span:last-child")?.textContent||p.textContent).trim();const clean=label.replace(/\*+$/,"");
- const img=document.createElement("img");img.className="eco-thumb";
- img.alt="Imagen individual correspondiente a: "+label;img.loading="lazy";
- const a=document.createElement("a");a.className="eco-thumb-link";a.appendChild(img);p.insertBefore(a,p.firstChild);
- const specific=chosen.id==="metales"&&fixedMetalProducts.has(clean)?"./assets/biblioteca/metales/productos/"+slug(clean)+".jpg":null;
- put(img,searchTerm(label,chosen.id,i),specific);
- });
- });
+function placeholder(name){
+ const div=document.createElement("div");div.className="image-pending";div.setAttribute("role","status");
+ div.textContent="Imagen pendiente";div.title="Pendiente de imagen individual: "+name;return div;
 }
-const prev=window.draw;if(typeof prev==="function"){window.draw=function(){prev();applyPhotos()};}
-applyPhotos();
+function buildDialog(){
+ if(document.querySelector("#ecorecycle-viewer"))return;
+ const dialog=document.createElement("dialog");dialog.id="ecorecycle-viewer";dialog.setAttribute("aria-label","Visor de imágenes ECORECYCLE");
+ dialog.innerHTML='<div class="viewer-top"><strong id="viewer-title"></strong><button class="viewer-close" type="button" aria-label="Cerrar visor">Cerrar ×</button></div><img id="viewer-img" alt=""><div class="viewer-details" id="viewer-details"></div>';
+ document.body.appendChild(dialog);
+ dialog.querySelector(".viewer-close").addEventListener("click",()=>dialog.close());
+ dialog.addEventListener("click",e=>{if(e.target===dialog)dialog.close();});
+}
+function openPreview(info,label){
+ buildDialog();
+ const d=document.querySelector("#ecorecycle-viewer");
+ document.querySelector("#viewer-title").textContent=label;
+ const im=document.querySelector("#viewer-img");im.src=info.src;im.alt=info.alt||label;
+ document.querySelector("#viewer-details").textContent=info.kind+" · "+info.credit+" · "+info.license+" · Imagen ilustrativa, no certifica producción propia.";
+ if(typeof d.showModal==="function")d.showModal();else d.setAttribute("open","");
+}
+function paint(){
+ if(!booted||typeof DATA==="undefined"||typeof active==="undefined")return;
+ const material=DATA.find(c=>c.id===active);if(!material)return;
+ const cards=[...document.querySelectorAll("#cards .item")];
+ for(const card of cards){
+  const heading=card.querySelector(".itemHead"),name=heading?.textContent?.trim();
+  if(!name)continue;
+  const visual=card.querySelector(".visual");
+  if(visual){visual.innerHTML="";visual.appendChild(nodePhoto(localSub("subbases",name),name,"subbase-photo"));}
+  for(const product of card.querySelectorAll(".product")){
+   const span=product.querySelector("span:last-child");
+   if(!span)continue;
+   const label=span.textContent.trim();
+   for(const elem of [...product.children])if(elem!==span)elem.remove();
+   product.insertBefore(nodePhoto(productFor(label),label,"producto-photo"),span);
+  }
+ }
+ const icon=document.querySelector("#baseIcon");
+ if(icon){
+  icon.innerHTML="";
+  // La foto de base se toma de la primera subbase adecuada, pero se etiqueta como ilustración general.
+  const first=material.b[0]?.[0];
+  icon.appendChild(nodePhoto(first?localSub("subbases",first):null,material.n,"base-photo"));
+ }
+}
+const previous=window.draw;
+if(typeof previous==="function"){window.draw=function(){previous();paint();};}
+document.addEventListener("DOMContentLoaded",load,{once:true});
+if(document.readyState!=="loading")load();
 })();
