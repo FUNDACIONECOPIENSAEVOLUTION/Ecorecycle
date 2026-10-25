@@ -3,7 +3,7 @@
 "use strict";
 const base="./assets/biblioteca/reciclables-secos/";
 const pending=[];
-let packItems=[],metalItems=[],organicItems=[],publicCredits=[],booted=false;
+let packItems=[],metalItems=[],organicItems=[],riverItems=[],publicCredits=[],booted=false;
 const clean=s=>String(s||"").replace(/\*+$/,"").trim();
 const slug=s=>clean(s).toLowerCase().replaceAll("¾","tres-cuartos").replaceAll("½","medio").replaceAll("⅜","tres-octavos")
  .normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
@@ -12,6 +12,7 @@ async function load(){
  try{const r=await fetch("./assets/fotos/creditos.json");if(r.ok)publicCredits=(await r.json()).fuentes||[];}catch(_){}
  try{const r=await fetch('./assets/biblioteca/metales/manifest.json');if(r.ok)metalItems=(await r.json()).imagenes||[];}catch(_){}
  try{const r=await fetch('./assets/biblioteca/organicos/manifest.json');if(r.ok)organicItems=(await r.json()).imagenes||[];}catch(_){}
+ try{const r=await fetch('./assets/biblioteca/rio/manifest.json');if(r.ok)riverItems=(await r.json()).imagenes||[];}catch(_){}
  booted=true;paint();
 }
 function exactPack(group,name){
@@ -25,8 +26,12 @@ function localSub(group,name){
  const x=publicCredits.find(x=>x.material===active&&clean(x.subbase)===clean(name));
  return x?.filename?{src:"./"+x.filename,label:name,alt:name,license:x.license||"Licencia no registrada",credit:x.creator||"Autor no registrado",kind:"Fotografia externa ilustrativa alojada localmente"}:null;
 }
-function productFor(name){
+function productFor(name,subbase){
  const pack=exactPack("productos",name);if(pack)return pack;
+ if(active==='rio'){
+   const item=riverItems.find(x=>clean(x.nombre)===clean(name)&&clean(x.subbase)===clean(subbase));
+   if(item)return {src:'./'+item.archivo,label:item.nombre,alt:item.alt||item.nombre,license:'Imagen generada con IA',credit:'ECORECYCLE · creación fotográfica conceptual',kind:'Recreación fotorrealista de una aplicación; no documenta obra construida'};
+ }
  if(active==='organicos'){const item=organicItems.find(x=>clean(x.nombre)===clean(name));if(item)return {src:'./'+item.archivo,label:item.nombre,alt:item.alt||item.nombre,license:'Creación original generada con IA',credit:'Fundación Ecopiensa Evolution',kind:'Ilustración conceptual de producto orgánico; uso agrícola condicionado a calidad y normativa'};}
  if(active==='metales'){const z=metalItems.find(x=>x.tipo==='productos'&&clean(x.nombre)===clean(name)&&x.archivo);if(z)return {src:'./'+z.archivo,label:z.nombre,alt:z.nombre,license:z.licencia||'Ver créditos',credit:z.autor||'Wikimedia Commons',kind:'Fotografía de referencia local bajo licencia indicada'};}
  // Las siguientes entregas se resolveran mediante sus propios manifiestos, nunca por fotos de otro producto.
@@ -78,7 +83,7 @@ function paint(){
    if(!span)continue;
    const label=span.textContent.trim();
    for(const elem of [...product.children])if(elem!==span)elem.remove();
-   product.insertBefore(nodePhoto(productFor(label),label,"producto-photo"),span);
+   product.insertBefore(nodePhoto(productFor(label,name),label,"producto-photo"),span);
   }
  }
  const icon=document.querySelector("#baseIcon");
