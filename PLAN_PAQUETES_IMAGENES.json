@@ -6,52 +6,6 @@
   "ecoaldeas_paquete01": 10,
   "paquetes_pendientes": [
     {
-      "grupo": "P02",
-      "imagenes": [
-        {
-          "tipo": "ecoaldea proceso interno",
-          "nombre": "Gallinaza: recogida y almacenamiento seguro"
-        },
-        {
-          "tipo": "ecoaldea proceso interno",
-          "nombre": "Porquinaza: caracterización y tratamiento"
-        },
-        {
-          "tipo": "ecoaldea proceso interno",
-          "nombre": "Estiércol bovino/caprino: tratamiento separado"
-        },
-        {
-          "tipo": "ecoaldea proceso interno",
-          "nombre": "Compostaje controlado con volteo y monitoreo"
-        },
-        {
-          "tipo": "ecoaldea proceso interno",
-          "nombre": "Compost maduro apto aplicado a suelo"
-        },
-        {
-          "tipo": "ecoaldea proceso interno",
-          "nombre": "Cultivo de forraje apropiado para animales"
-        },
-        {
-          "tipo": "ecoaldea proceso interno",
-          "nombre": "Captación y riego de agua protegida"
-        },
-        {
-          "tipo": "ecoaldea proceso interno",
-          "nombre": "Estanque piscícola y calidad del agua"
-        },
-        {
-          "tipo": "ecoaldea proceso interno",
-          "nombre": "Cosecha seleccionada para alimentación familiar"
-        },
-        {
-          "tipo": "ecoaldea proceso interno",
-          "nombre": "Excedentes clasificados y registrados para ECO-CIA"
-        }
-      ],
-      "cantidad": 10
-    },
-    {
       "grupo": "P03",
       "imagenes": [
         {
@@ -1360,6 +1314,21 @@
         }
       ],
       "cantidad": 4
+    }
+  ],
+  "ecoaldeas_paquete02": 10,
+  "paquetes_publicados": [
+    {
+      "id": "ECOALDEAS-01",
+      "imagenes": 10,
+      "ruta": "assets/biblioteca/ecoaldeas/paquete-01/manifest.json",
+      "zip": "descargas/ECOALDEAS_PAQUETE_01_10_IMAGENES.zip"
+    },
+    {
+      "id": "ECOALDEAS-02",
+      "imagenes": 10,
+      "ruta": "assets/biblioteca/ecoaldeas/paquete-02/manifest.json",
+      "zip": "descargas/ECOALDEAS_PAQUETE_02_10_IMAGENES.zip"
     }
   ]
 }
