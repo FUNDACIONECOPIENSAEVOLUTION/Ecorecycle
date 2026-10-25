@@ -14,15 +14,15 @@
 |---|---:|---:|---:|
 | Bases principales de materiales | 13 | 0 | 13 |
 | Subbases de materiales | 68 | 67 | 1 |
-| Productos y aplicaciones | 272 | 10 | 262 |
-| **Total material ECORECYCLE** | **353** | **77** | **276** |
+| Productos y aplicaciones | 272 | al menos 20 | como máximo 252 |
+| **Total material ECORECYCLE** | **353** | **al menos 87** | **como máximo 266** |
 
 Una fotografía de una subbase reutilizada en la cabecera **no cuenta como imagen independiente de base principal**. Las 67 fotografías de Wikimedia están alojadas localmente con metadatos de licencia, pero requieren revisión editorial de pertinencia; el conteo anterior es de presencia de archivos, no de exactitud visual certificada.
 
 ## Líneas territoriales
 - ECOALDEAS: primera biblioteca de **10 imágenes conceptuales originales** publicada en `assets/biblioteca/ecoaldeas/paquete-01/`; 4 propuestas deben mostrar 4 imágenes diferentes. Próximo paquete: 10 procesos específicos de recirculación interna.
-- ECO-CIA: **1 imagen de referencia general** y **8 módulos internos sin fotografía individual**.
-- ECO-TIENDAS: relación descrita en flujos, sección propia e imágenes pendientes de posterior fase.
+- ECO-CIA: **10 imágenes individuales vinculadas a 10 módulos y procesos**, además de la referencia general. Imágenes generadas con IA, ilustrativas.
+- ECO-TIENDAS: **10 imágenes individuales** en la sección independiente `ecotiendas.html`, con visor local y enlace desde la portada.
 
 ## Siguiente paquete (P02 — ECOALDEAS, 10)
 1. Gallinaza: recogida y almacenamiento seguro
@@ -52,3 +52,11 @@ Una fotografía de una subbase reutilizada en la cabecera **no cuenta como image
 El inventario de pendientes de materiales aparece nodo por nodo en `AUDITORIA_IMAGENES.csv` y los paquetes programados en `PLAN_PAQUETES_IMAGENES.json`. El número y las rutas están sujetos a validación de pertinencia visual: una imagen meramente similar no puede presentarse como el producto indicado.
 
 **Pendientes mínimos identificados:** 276 de materiales + 10 procesos internos adicionales de ecoaldeas + 8 módulos de ECO-CIA = **294** imágenes. Los módulos ECO-TIENDAS y nuevas aplicaciones que se añadan ampliarán el inventario.
+
+## Actualización del catálogo de imágenes
+
+- Se publicaron **10 imágenes originales locales de ECO-CIA**, **10 de eco-tiendas** y **10 de productos orgánicos**.
+- Los derivados orgánicos están enlazados por nombre exacto en `fotos-catalogo.js`; las otras dos líneas tienen sección específica con visor de imágenes.
+- El material ilustrativo original puede mostrar elementos de referencia; las imágenes públicas finales se recortan para evitar logotipos generados. El logotipo válido sigue siendo `logo ecopiensa (1).png`.
+- Los títulos de los archivos son descriptivos, sin números de paquete.
+- Continúan faltando imágenes individuales en numerosos productos del catálogo general. Las cifras con imagen se refieren a archivos localmente presentes, no certifican pertinencia visual perfecta.
