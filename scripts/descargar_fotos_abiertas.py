@@ -19,9 +19,15 @@ topics=json.loads(dict_text)
 output=BASE/"assets"/"fotos"
 output.mkdir(parents=True,exist_ok=True)
 catalog=[]
+old_meta={}
+prior=output/"creditos.json"
+if prior.exists():
+ try:
+  old_meta={x["filename"]:x for x in json.loads(prior.read_text(encoding="utf-8")).get("fuentes",[])}
+ except Exception: old_meta={}
 success=0
 def slug(s):
- s=s.lower()
+ s=s.lower().replace('¾','tres-cuartos').replace('½','medio').replace('⅜','tres-octavos')
  import unicodedata
  s=''.join(c for c in unicodedata.normalize('NFD',s) if unicodedata.category(c)!='Mn')
  return re.sub(r'[^a-z0-9]+','-',s).strip('-')[:100]
@@ -40,6 +46,18 @@ def search_photo(term):
   if not re.search(r'CC0|Public domain|CC BY|CC-BY',license,re.I):continue
   return {"thumb":info.get("thumburl") or info.get("url"),"source":info.get("descriptionurl") or "", "license":license, "creator":re.sub("<[^>]+>","",(ex.get("Artist") or {}).get("value","")), "title":item.get("title","")}
  return None
+fallbacks={
+"organicos":{"Frutas y verduras":"fruit vegetables compost","Podas y jardinería":"trees branches pruning"},
+"rcd":{"Concreto limpio":"concrete construction rubble","Tierras y materiales inertes":"soil excavation"},
+"plasticos":{"PEAD (tipo 2)":"plastic bottles containers","PEBD (tipo 4)":"plastic bags recycling"},
+"metales":{"Aluminio":"aluminium cans"},
+"madera":{"Aserrín limpio":"sawdust woodworking"},
+"vidrio":{"Vidrio mixto":"broken glass shards"},
+"llantas":{"Granulado de caucho":"rubber granules","Polvo de caucho":"black tire rubber","Acero recuperado":"steel wire","Pirólisis industrial":"industrial furnace recycling"},
+"aceites":{"Filtros aceitosos":"car oil filter"},
+"textiles":{"Algodón y fibras naturales":"cotton fabric","Poliéster separado":"polyester fabrics","Mezclas textiles":"textile waste"},
+"raee":{"Cables":"electrical copper wires"}
+}
 for cat in data:
  sec=cat["id"];terms=topics.get(sec,[])
  for ix,sub in enumerate(cat["b"]):
@@ -47,11 +65,14 @@ for cat in data:
   name=slug(sub[0])
   dest=output/sec/(name+".jpg");dest.parent.mkdir(parents=True,exist_ok=True)
   if dest.exists():
-   catalog.append({"material":sec,"subbase":sub[0],"filename":str(dest.relative_to(BASE)),"cached":True})
+   catalog.append({**old_meta.get(str(dest.relative_to(BASE)),{}),"material":sec,"subbase":sub[0],"filename":str(dest.relative_to(BASE)),"cached":True})
    continue
   try:
    item=search_photo(term)
-   if not item:continue
+   if not item:
+    alternate=fallbacks.get(sec,{}).get(sub[0],sec+" recycling")
+    item=search_photo(alternate)
+   if not item: continue
    raw=ask(item["thumb"])
    im=Image.open(io.BytesIO(raw)).convert("RGB")
    if im.width<260 or im.height<170:continue
