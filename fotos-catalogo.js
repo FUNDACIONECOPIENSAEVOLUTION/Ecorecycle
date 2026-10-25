@@ -93,7 +93,7 @@ function applyPhotos(){
   put(img,(topics[chosen.id]||[])[ix]||label+" material recycling",exact);
  }
  card.querySelectorAll(".product").forEach((p,i)=>{if(p.querySelector(".eco-thumb"))return;
- const label=(p.querySelector("span:last-child")?.textContent||p.textContent).trim();const clean=label.replace(/\\*+$/,"");
+ const label=(p.querySelector("span:last-child")?.textContent||p.textContent).trim();const clean=label.replace(/\*+$/,"");
  const img=document.createElement("img");img.className="eco-thumb";
  img.alt="Imagen individual correspondiente a: "+label;img.loading="lazy";
  const a=document.createElement("a");a.className="eco-thumb-link";a.appendChild(img);p.insertBefore(a,p.firstChild);
