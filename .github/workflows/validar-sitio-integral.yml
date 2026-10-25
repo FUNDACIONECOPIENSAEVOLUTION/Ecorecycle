@@ -8,6 +8,10 @@ on:
       - 'ecoaldeas-propuestas.html'
       - 'ecocia.html'
       - 'biblioteca-visual.html'
+      - 'ecotiendas.html'
+      - 'assets/biblioteca/ecocia/imagenes/**'
+      - 'assets/biblioteca/ecotiendas/imagenes/**'
+      - 'assets/biblioteca/organicos/productos/**'
       - 'fotos-catalogo.js'
       - 'fotos-catalogo.css'
       - 'assets/biblioteca/ecoaldeas/paquete-01/**'
@@ -31,7 +35,7 @@ jobs:
           from pathlib import Path
           import json,re,subprocess
           P=Path('.')
-          pages=['index.html','ecoaldeas.html','ecoaldeas-propuestas.html','ecocia.html','biblioteca-visual.html']
+          pages=['index.html','ecoaldeas.html','ecoaldeas-propuestas.html','ecocia.html','ecotiendas.html','biblioteca-visual.html']
           for name in pages:
             text=Path(name).read_text(encoding='utf8')
             scripts=re.findall(r'<script(?:\s[^>]*)?>(.*?)</script>',text,re.S|re.I)
@@ -60,5 +64,16 @@ jobs:
           assert len(unique)==4,unique
           assert Path('assets/organigramas/ecocia-referencia-institucional.jpg').is_file()
           assert Path('logo ecopiensa (1).png').is_file()
-          print('RESULTADO: 5 páginas, 4 vistas diferenciadas y 10 imágenes ECOALDEAS verificadas')
+          for folder in ['ecocia','ecotiendas','organicos']:
+            manifest=Path('assets/biblioteca')/folder/'manifest.json'
+            data=json.loads(manifest.read_text('utf8'))
+            assert len(data['imagenes'])==10
+            assert len({x['nombre'] for x in data['imagenes']})==10
+            for img in data['imagenes']:
+              path=Path(img['archivo'])
+              assert path.is_file() and path.stat().st_size>14000,img
+          for name in ['ECOCIA','ECOTIENDAS','ORGANICOS']:
+            assert Path('descargas/GALERIA_'+name+'_10_IMAGENES.zip').is_file()
+          assert 'assets/biblioteca/organicos/manifest.json' in Path('fotos-catalogo.js').read_text('utf8')
+          print('RESULTADO: 6 páginas, 4 vistas ECOALDEAS, 10 imágenes ECOALDEAS y 30 imágenes nuevas verificadas')
           PY
