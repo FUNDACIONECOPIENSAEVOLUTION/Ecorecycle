@@ -1,0 +1,46 @@
+name: Validar organigramas e imagenes ECORECYCLE
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'index.html'
+      - 'fotos-catalogo.js'
+      - 'fotos-catalogo.css'
+      - 'assets/biblioteca/metales/**'
+      - '.github/workflows/validar-ecorecycle.yml'
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validar JavaScript
+        run: |
+          node --check fotos-catalogo.js
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          html=Path('index.html').read_text(encoding='utf8')
+          m=re.search(r'<script>(.*?)</script>',html,re.S)
+          assert m
+          Path('/tmp/catalogo-inline.js').write_text(m.group(1),encoding='utf8')
+          PY
+          node --check /tmp/catalogo-inline.js
+      - name: Validar 10 imágenes únicas con sus nombres y logo oficial
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          d=json.loads(Path('assets/biblioteca/metales/manifest.json').read_text('utf8'))
+          rows=d['imagenes']
+          assert len(rows)==10, len(rows)
+          assert len({r['archivo'] for r in rows})==10
+          assert len({(r['tipo'],r['nombre']) for r in rows})==10
+          assert sum(r['tipo']=='subbases' for r in rows)==5
+          assert sum(r['tipo']=='productos' for r in rows)==5
+          for r in rows:
+            assert r['archivo'] and Path(r['archivo']).is_file(),r
+            assert r.get('fuente') and r.get('licencia'),r
+          assert Path('logo ecopiensa (1).png').is_file()
+          assert Path('biblioteca/metales/lote-01.html').is_file()
+          print('VALIDADO: 10/10 archivos con nombre, foto, fuente y licencia')
+          PY
