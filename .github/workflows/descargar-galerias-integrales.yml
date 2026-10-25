@@ -1,0 +1,28 @@
+name: Publicar descargas galerías ECO-CIA eco-tiendas orgánicos
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/descargar_galerias_ecocia_ecotiendas_organicos.py'
+      - '.github/workflows/descargar-galerias-integrales.yml'
+permissions:
+  contents: write
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validar diez imágenes por línea y comprimir
+        run: python scripts/descargar_galerias_ecocia_ecotiendas_organicos.py
+      - name: Publicar tres ZIP en la página
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add descargas/GALERIA_ECOCIA_10_IMAGENES.zip descargas/GALERIA_ECOTIENDAS_10_IMAGENES.zip descargas/GALERIA_ORGANICOS_10_IMAGENES.zip
+          if ! git diff --cached --quiet; then
+            git commit -m "Publicar descargas de ECO-CIA, eco-tiendas y productos orgánicos"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
