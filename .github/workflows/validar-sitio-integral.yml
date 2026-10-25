@@ -8,6 +8,7 @@ on:
       - 'ecoaldeas-propuestas.html'
       - 'ecocia.html'
       - 'biblioteca-visual.html'
+      - 'auditoria.html'
       - 'ecotiendas.html'
       - 'assets/biblioteca/ecocia/imagenes/**'
       - 'assets/biblioteca/ecotiendas/imagenes/**'
@@ -35,7 +36,7 @@ jobs:
           from pathlib import Path
           import json,re,subprocess
           P=Path('.')
-          pages=['index.html','ecoaldeas.html','ecoaldeas-propuestas.html','ecocia.html','ecotiendas.html','biblioteca-visual.html']
+          pages=['index.html','ecoaldeas.html','ecoaldeas-propuestas.html','ecocia.html','ecotiendas.html','biblioteca-visual.html','auditoria.html']
           for name in pages:
             text=Path(name).read_text(encoding='utf8')
             scripts=re.findall(r'<script(?:\s[^>]*)?>(.*?)</script>',text,re.S|re.I)
@@ -75,5 +76,15 @@ jobs:
           for name in ['ECOCIA','ECOTIENDAS','ORGANICOS']:
             assert Path('descargas/GALERIA_'+name+'_10_IMAGENES.zip').is_file()
           assert 'assets/biblioteca/organicos/manifest.json' in Path('fotos-catalogo.js').read_text('utf8')
-          print('RESULTADO: 6 páginas, 4 vistas ECOALDEAS, 10 imágenes ECOALDEAS y 30 imágenes nuevas verificadas')
+          audit=json.loads(Path('AUDITORIA_CATALOGO.json').read_text('utf8'))
+          assert audit['total_nodos_materiales']==353
+          assert audit['nodos_vinculados_con_imagen']+audit['nodos_pendientes']==353
+          river=json.loads(Path('assets/biblioteca/rio/manifest.json').read_text('utf8'))['imagenes']
+          assert len(river)==10
+          assert len({(x['subbase'],x['nombre']) for x in river})==10
+          for x in river:
+            assert Path(x['archivo']).exists() and Path(x['archivo']).stat().st_size>10000
+            assert 'paquete' not in Path(x['archivo']).name
+          assert len(list(Path('organigramas').glob('*.svg')))==13
+          print('RESULTADO: 7 páginas, 13 SVG, 353 nodos auditados, 10 nuevas fotos de río')
           PY
