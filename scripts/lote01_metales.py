@@ -18,6 +18,7 @@ specs=[
 ('productos','Cable separado','cable-separado.jpg','copper wire coil metal','copper,wire,cable'),
 ('productos','Cobre clasificado','cobre-clasificado.jpg','copper scrap metal pieces','copper,cobre'),
 ]
+CURATED={"Aluminio":"Aluminium for recycling.jpg","Cobre":"Copper wires.JPG","Hierro y acero":"Steel beams stacked beside a building in a construction yard.jpg","Acero inoxidable":"Steel Scrap Compacted.JPG","Bronce, latón y otros":"Close-up of brass plumbing valves with red handles in a home installation.jpg","Latas compactadas":"Compressed aluminium cans.jpg","Lingotes industriales":"Ingots.JPG","Perfiles de aluminio":"Novacel aluminium profiles protection.jpg","Cable separado":"Large coil.jpg","Cobre clasificado":"Alambre de cobre.JPG"}
 def get(url):
  req=Request(url,headers={'User-Agent':'EcorecycleReferenceGallery/1.0 (fundacionecopiensaevolution@gmail.com)'})
  with urlopen(req,timeout=35) as r:return r.read()
@@ -31,6 +32,22 @@ records=[]
 for idx,(kind,label,filename,query,required) in enumerate(specs,1):
  target=destroot/kind/filename
  target.parent.mkdir(parents=True,exist_ok=True)
+ if label in CURATED:
+  try:
+   p={'action':'query','titles':'File:'+CURATED[label],'prop':'imageinfo','iiprop':'url|mime|size|extmetadata','iiurlwidth':900,'format':'json'}
+   pages=json.loads(get('https://commons.wikimedia.org/w/api.php?'+urlencode(p))).get('query',{}).get('pages',{})
+   info=next(iter(pages.values())).get('imageinfo',[None])[0]
+   if info and info.get('mime')=='image/jpeg':
+    meta=info.get('extmetadata',{})
+    lic=plain(meta.get('LicenseShortName',{}).get('value',''))
+    if re.search(r'CC BY|CC-BY|CC0|Public domain',lic,re.I):
+     im=Image.open(io.BytesIO(get(info.get('thumburl') or info['url']))).convert('RGB')
+     im=ImageOps.fit(im,(900,560),Image.Resampling.LANCZOS)
+     im.save(target,'JPEG',quality=83,optimize=True,progressive=True)
+     rec={'numero':idx,'tipo':kind,'nombre':label,'archivo':str(target.relative_to(root)),'fuente':info.get('descriptionurl',''),'licencia':lic,'autor':plain(meta.get('Artist',{}).get('value','')),'titulo':'File:'+CURATED[label],'origen':'Foto externa seleccionada por correspondencia de material'}
+     records.append(rec);print('CURADA',label,rec['titulo'],flush=True)
+     continue
+  except Exception as e:print('NO CURADA',label,str(e)[:120],flush=True)
  if target.exists() and (kind,label) in previous:
   records.append(previous[(kind,label)]);continue
  success=None
