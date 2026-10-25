@@ -15,6 +15,16 @@ textiles:["second hand clothing reuse","cotton fabric scrap","denim jeans upcycl
 raee:["refurbished computer laptops","electric cable copper scrap","electronic printed circuit board recycling","old computer plastic casing","rechargeable battery waste"]
 };
 const memo=new Map(),pending=[],seen=new WeakSet();let running=0;
+const creditList=fetch("./assets/fotos/creditos.json").then(r=>r.ok?r.json():null).then(d=>d?.fuentes||[]).catch(()=>[]);
+function slug(s){return s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,100);}
+function localPhoto(img,local,query){
+ img.addEventListener("error",()=>{pending.push([img,query]);pump();},{once:true});
+ img.addEventListener("load",async()=>{img.classList.add("is-loaded");const credits=await creditList;
+ const v=credits.find(x=>("./"+x.filename)===local);const a=img.closest("a");
+ if(v&&a){a.href=v.source;a.target="_blank";a.rel="noopener noreferrer";a.title="Wikimedia Commons · "+v.original_title+" · "+v.license;}
+ },{once:true});
+ img.src=local;
+}
 const productPatterns=[
 [/compost|bokashi|abono/i,"mature compost soil"],
 [/humus|lombriz/i,"vermicompost earthworms"],
@@ -52,8 +62,8 @@ async function commons(query){
  if(ii.thumburl)return {src:ii.thumburl,page:ii.descriptionurl||ii.url,license:lic,name:e.title}}
  return null;
 }
-function put(img,query){
- if(!query||seen.has(img))return;seen.add(img);pending.push([img,query]);pump();
+function put(img,query,local){
+ if(!query||seen.has(img))return;seen.add(img);if(local){localPhoto(img,local,query)}else{pending.push([img,query]);pump()}
 }
 function pump(){while(running<3&&pending.length){const [img,q]=pending.shift();if(!img.isConnected)continue;running++;
  if(!memo.has(q))memo.set(q,commons(q).catch(()=>null));
@@ -73,7 +83,7 @@ function applyPhotos(){
  const target=card.querySelector(".visual");if(target&&!target.querySelector(".eco-photo")){
   const a=document.createElement("a");a.className="eco-photo-link";a.setAttribute("aria-label","Abrir procedencia y licencia de la foto");
   const img=document.createElement("img");img.className="eco-photo";img.loading="lazy";
-  a.appendChild(img);target.appendChild(a);put(img,(topics[chosen.id]||[])[ix]||label+" material recycling");
+  a.appendChild(img);target.appendChild(a);put(img,(topics[chosen.id]||[])[ix]||label+" material recycling","./assets/fotos/"+chosen.id+"/"+slug(label)+".jpg");
  }
  card.querySelectorAll(".product").forEach((p,i)=>{if(p.querySelector(".eco-thumb"))return;
  const label=p.textContent.trim();const img=document.createElement("img");img.className="eco-thumb";
