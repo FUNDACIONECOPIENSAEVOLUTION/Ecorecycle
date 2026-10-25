@@ -1,26 +1,34 @@
 # ECORECYCLE — Fundación Ecopiensa Evolution
 
-Catálogo público de bases principales, subbases y productos **potenciales** de aprovechamiento, organizado por material.
+Catálogo público de **bases → subbases → productos y aplicaciones**.
 
-## Catálogo visual
+## Estado actual
 
-- Abrir [index.html](./index.html) para explorar 11 líneas, filtrar subbases y buscar productos.
-- La carpeta [organigramas/](./organigramas/) contiene 11 láminas individuales SVG.
-- Cada lámina es adaptable, imprimible y puede descargarse en formato vectorial desde el catálogo.
-- La identidad gráfica usa verde/blanco y el logotipo institucional existente en el repositorio.
+- Versión web **1.2.0**.
+- **12 bases materiales + 1 vista general de reciclables** = 13 secciones.
+- **68 subbases** y **272 productos/aplicaciones potenciales**.
+- **13 organigramas SVG** individuales en [organigramas](./organigramas/).
+- Fotografías de referencia en las fichas, con procedencia y licencia de Wikimedia Commons.
+- Biblioteca de fotos locales en `assets/fotos/` mediante [flujo GitHub Actions](./.github/workflows/fotos-ecorecycle.yml), cuando su ejecución y permisos sean satisfactorios. Si faltan fotos locales, se realiza búsqueda fotográfica pública en el navegador.
 
-## Líneas incluidas
+## Materiales
 
-Material de río, material reciclable, material orgánico, RCD, plásticos, madera, vidrio, llantas usadas, aceites usados, textiles y RAEE.
+Río y agregados naturales; plásticos; papel y cartón; metales; orgánicos; RCD y escombros; madera; vidrio; llantas; aceites; textiles; RAEE. La vista general agrupa reciclables.
 
-## Convenciones y seguridad
+## Significado de los asteriscos
 
-Un asterisco (*) indica un producto o tecnología **sujeta a estudio técnico, pruebas de calidad y requisitos legales específicos**. Estas láminas no acreditan producción, instalaciones, permisos, certificaciones, rentabilidades ni productos efectivamente disponibles.
+Un asterisco (*) indica que el producto es una **oportunidad de valorización propuesta**; requiere evaluar tecnología, caracterización, pruebas de calidad, autorizaciones, inocuidad, normativa y mercado. El catálogo no acredita que todos los procesos estén operativos.
 
-Separar aceites de cocina usados de lubricantes minerales. Manejar baterías, filtros, aceites minerales y otros residuos peligrosos por gestores autorizados. El aceite de pirólisis no se representa como combustible vehicular listo para uso.
+## Galería y autoría
 
-**Confidencialidad:** Este repositorio contiene únicamente material general de difusión. El proyecto macro empresarial, sus fórmulas, presupuestos, diseños específicos y anexos internos no deben publicarse aquí.
+Las fotos públicas de Wikimedia son **ilustrativas**, no evidencias de que la Fundación cuente con esas plantas o fabrique el producto mostrado. Cada imagen tiene enlace a la procedencia/licencia cuando está disponible. Los metadatos de los activos locales se conservan en `assets/fotos/creditos.json`.
 
-## Estado
+Las recreaciones fotorrealistas originales del paquete piloto pueden subirse a las carpetas correspondientes tras su revisión; no están automáticamente incorporadas en GitHub mediante la descarga de Commons.
 
-Versión web: **1.1.0** · 11 diagramas SVG institucionales disponibles. Fotografía institucional por subbase y por producto: **en desarrollo**.
+## Regla de confidencialidad
+
+**No publicar el proyecto macro completo ni sus anexos internos.** Este repositorio contiene solamente materiales públicos de difusión y no debe incluir fórmulas, estudios internos, presupuestos confidenciales o datos privados de beneficiarios.
+
+## Seguridad ambiental
+
+No mezclar aceites de cocina con lubricantes minerales. Los RAEE peligrosos, baterías, filtros y residuos contaminados se gestionan por rutas habilitadas. Los lodos/biosólidos requieren caracterización y uso restringido; aceites y gases de pirólisis no se representan como combustibles vehiculares listos para usar.
