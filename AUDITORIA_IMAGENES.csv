@@ -1,354 +1,438 @@
-linea,base_id,tipo,subbase,nombre,estado,ruta_local
-"Material de río","rio","base principal","","Material de río","PENDIENTE",""
-"Material de río","rio","subbase","Triturado 1 pulgada","Triturado 1 pulgada","PUBLICADA","assets/fotos/rio/triturado-1-pulgada.jpg"
-"Material de río","rio","producto/aplicación","Triturado 1 pulgada","Bases y subbases viales","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Triturado 1 pulgada","Concretos de diseño","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Triturado 1 pulgada","Drenajes y filtros","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Triturado 1 pulgada","Obras civiles","PENDIENTE",""
-"Material de río","rio","subbase","Triturado ¾ pulgada","Triturado ¾ pulgada","PUBLICADA","assets/fotos/rio/triturado-tres-cuartos-pulgada.jpg"
-"Material de río","rio","producto/aplicación","Triturado ¾ pulgada","Concretos","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Triturado ¾ pulgada","Prefabricados","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Triturado ¾ pulgada","Andenes","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Triturado ¾ pulgada","Elementos de drenaje","PENDIENTE",""
-"Material de río","rio","subbase","Triturado ½ pulgada","Triturado ½ pulgada","PUBLICADA","assets/fotos/rio/triturado-medio-pulgada.jpg"
-"Material de río","rio","producto/aplicación","Triturado ½ pulgada","Bloques y mezclas","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Triturado ½ pulgada","Concreto no estructural","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Triturado ½ pulgada","Contrapisos","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Triturado ½ pulgada","Prefabricados","PENDIENTE",""
-"Material de río","rio","subbase","Gravilla ⅜ pulgada","Gravilla ⅜ pulgada","PUBLICADA","assets/fotos/rio/gravilla-tres-octavos-pulgada.jpg"
-"Material de río","rio","producto/aplicación","Gravilla ⅜ pulgada","Adoquines","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Gravilla ⅜ pulgada","Concretos finos","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Gravilla ⅜ pulgada","Acabados decorativos","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Gravilla ⅜ pulgada","Prefabricados","PENDIENTE",""
-"Material de río","rio","subbase","Grouting y arenón","Grouting y arenón","PUBLICADA","assets/fotos/rio/grouting-y-arenon.jpg"
-"Material de río","rio","producto/aplicación","Grouting y arenón","Morteros","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Grouting y arenón","Mampostería","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Grouting y arenón","Nivelaciones","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Grouting y arenón","Relleno controlado","PENDIENTE",""
-"Material de río","rio","subbase","Arena gruesa y fina","Arena gruesa y fina","PUBLICADA","assets/fotos/rio/arena-gruesa-y-fina.jpg"
-"Material de río","rio","producto/aplicación","Arena gruesa y fina","Pega de ladrillo","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Arena gruesa y fina","Repellos","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Arena gruesa y fina","Acabados","PENDIENTE",""
-"Material de río","rio","producto/aplicación","Arena gruesa y fina","Mezclas de concreto","PENDIENTE",""
-"Material reciclable","reciclables","base principal","","Material reciclable","PENDIENTE",""
-"Material reciclable","reciclables","subbase","Cartón","Cartón","PUBLICADA","assets/biblioteca/reciclables-secos/subbases/carton.jpg"
-"Material reciclable","reciclables","producto/aplicación","Cartón","Cajas y embalajes","PUBLICADA","assets/biblioteca/reciclables-secos/productos/cajas-y-embalajes.jpg"
-"Material reciclable","reciclables","producto/aplicación","Cartón","Láminas prensadas","PENDIENTE",""
-"Material reciclable","reciclables","producto/aplicación","Cartón","Separadores","PENDIENTE",""
-"Material reciclable","reciclables","producto/aplicación","Cartón","Pulpa moldeada","PENDIENTE",""
-"Material reciclable","reciclables","subbase","Papel","Papel","PUBLICADA","assets/biblioteca/reciclables-secos/subbases/papel.jpg"
-"Material reciclable","reciclables","producto/aplicación","Papel","Papel reciclado","PUBLICADA","assets/biblioteca/reciclables-secos/productos/papel-reciclado.jpg"
-"Material reciclable","reciclables","producto/aplicación","Papel","Cuadernos","PENDIENTE",""
-"Material reciclable","reciclables","producto/aplicación","Papel","Bolsas y sobres","PENDIENTE",""
-"Material reciclable","reciclables","producto/aplicación","Papel","Pulpa para moldes","PENDIENTE",""
-"Material reciclable","reciclables","subbase","PET","PET","PUBLICADA","assets/biblioteca/reciclables-secos/subbases/pet.jpg"
-"Material reciclable","reciclables","producto/aplicación","PET","Escamas lavadas","PUBLICADA","assets/biblioteca/reciclables-secos/productos/escamas-lavadas.jpg"
-"Material reciclable","reciclables","producto/aplicación","PET","Fibra reciclada","PENDIENTE",""
-"Material reciclable","reciclables","producto/aplicación","PET","Filamento 3D","PENDIENTE",""
-"Material reciclable","reciclables","producto/aplicación","PET","Escobas y cerdas","PENDIENTE",""
-"Material reciclable","reciclables","subbase","Plástico soplado","Plástico soplado","PUBLICADA","assets/biblioteca/reciclables-secos/subbases/plastico-soplado.jpg"
-"Material reciclable","reciclables","producto/aplicación","Plástico soplado","Granza de PEAD","PUBLICADA","assets/biblioteca/reciclables-secos/productos/granza-de-pead.jpg"
-"Material reciclable","reciclables","producto/aplicación","Plástico soplado","Canecas","PENDIENTE",""
-"Material reciclable","reciclables","producto/aplicación","Plástico soplado","Tuberías no presurizadas","PENDIENTE",""
-"Material reciclable","reciclables","producto/aplicación","Plástico soplado","Mobiliario plástico","PENDIENTE",""
-"Material reciclable","reciclables","subbase","Metales","Metales","PUBLICADA","assets/biblioteca/reciclables-secos/subbases/metales.jpg"
-"Material reciclable","reciclables","producto/aplicación","Metales","Chatarra clasificada","PUBLICADA","assets/biblioteca/reciclables-secos/productos/chatarra-clasificada.jpg"
-"Material reciclable","reciclables","producto/aplicación","Metales","Piezas fundidas","PENDIENTE",""
-"Material reciclable","reciclables","producto/aplicación","Metales","Perfiles industriales","PENDIENTE",""
-"Material reciclable","reciclables","producto/aplicación","Metales","Componentes y repuestos","PENDIENTE",""
-"Material orgánico","organicos","base principal","","Material orgánico","PENDIENTE",""
-"Material orgánico","organicos","subbase","Frutas y verduras","Frutas y verduras","PUBLICADA","assets/fotos/organicos/frutas-y-verduras.jpg"
-"Material orgánico","organicos","producto/aplicación","Frutas y verduras","Compost estabilizado","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Frutas y verduras","Humus de lombriz","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Frutas y verduras","Enmiendas de suelo","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Frutas y verduras","Biogás","PENDIENTE",""
-"Material orgánico","organicos","subbase","Podas y jardinería","Podas y jardinería","PUBLICADA","assets/fotos/organicos/podas-y-jardineria.jpg"
-"Material orgánico","organicos","producto/aplicación","Podas y jardinería","Acolchado vegetal","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Podas y jardinería","Astillas","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Podas y jardinería","Compost vegetal","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Podas y jardinería","Biocarbón","PENDIENTE",""
-"Material orgánico","organicos","subbase","Estiércoles pecuarios","Estiércoles pecuarios","PUBLICADA","assets/fotos/organicos/estiercoles-pecuarios.jpg"
-"Material orgánico","organicos","producto/aplicación","Estiércoles pecuarios","Abono compostado","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Estiércoles pecuarios","Biogás","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Estiércoles pecuarios","Digestato tratado","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Estiércoles pecuarios","Fertilizante formulado","PENDIENTE",""
-"Material orgánico","organicos","subbase","Residuos agroindustriales","Residuos agroindustriales","PUBLICADA","assets/fotos/organicos/residuos-agroindustriales.jpg"
-"Material orgánico","organicos","producto/aplicación","Residuos agroindustriales","Compost agrícola","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Residuos agroindustriales","Sustrato para hongos","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Residuos agroindustriales","Briquetas de biomasa","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Residuos agroindustriales","Biocarbón","PENDIENTE",""
-"Material orgánico","organicos","subbase","Restos alimentarios","Restos alimentarios","PUBLICADA","assets/fotos/organicos/restos-alimentarios.jpg"
-"Material orgánico","organicos","producto/aplicación","Restos alimentarios","Compost controlado","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Restos alimentarios","Bokashi","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Restos alimentarios","Biogás","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Restos alimentarios","Mejoradores del suelo","PENDIENTE",""
-"Material orgánico","organicos","subbase","Lodos y biosólidos especiales","Lodos y biosólidos especiales","PUBLICADA","assets/fotos/organicos/lodos-y-biosolidos-especiales.jpg"
-"Material orgánico","organicos","producto/aplicación","Lodos y biosólidos especiales","Caracterización especializada","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Lodos y biosólidos especiales","Tratamiento autorizado","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Lodos y biosólidos especiales","Usos condicionados a normativa","PENDIENTE",""
-"Material orgánico","organicos","producto/aplicación","Lodos y biosólidos especiales","Gestión por operadores habilitados","PENDIENTE",""
-"Escombros y RCD","rcd","base principal","","Escombros y RCD","PENDIENTE",""
-"Escombros y RCD","rcd","subbase","Concreto limpio","Concreto limpio","PUBLICADA","assets/fotos/rcd/concreto-limpio.jpg"
-"Escombros y RCD","rcd","producto/aplicación","Concreto limpio","Árido reciclado","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Concreto limpio","Subbases viales","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Concreto limpio","Bloques no estructurales","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Concreto limpio","Prefabricados","PENDIENTE",""
-"Escombros y RCD","rcd","subbase","Ladrillo y mampostería","Ladrillo y mampostería","PUBLICADA","assets/fotos/rcd/ladrillo-y-mamposteria.jpg"
-"Escombros y RCD","rcd","producto/aplicación","Ladrillo y mampostería","Ladrillos ecológicos","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Ladrillo y mampostería","Adoquines","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Ladrillo y mampostería","Agregados para morteros","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Ladrillo y mampostería","Calados y celosías","PENDIENTE",""
-"Escombros y RCD","rcd","subbase","Cerámicos y tejas","Cerámicos y tejas","PUBLICADA","assets/fotos/rcd/ceramicos-y-tejas.jpg"
-"Escombros y RCD","rcd","producto/aplicación","Cerámicos y tejas","Granulado cerámico","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Cerámicos y tejas","Adoquines decorativos","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Cerámicos y tejas","Áridos mixtos","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Cerámicos y tejas","Material para senderos","PENDIENTE",""
-"Escombros y RCD","rcd","subbase","Tierras y materiales inertes","Tierras y materiales inertes","PUBLICADA","assets/fotos/rcd/tierras-y-materiales-inertes.jpg"
-"Escombros y RCD","rcd","producto/aplicación","Tierras y materiales inertes","Rellenos autorizados","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Tierras y materiales inertes","Nivelaciones","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Tierras y materiales inertes","Estabilización de terreno","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Tierras y materiales inertes","Bases para senderos","PENDIENTE",""
-"Escombros y RCD","rcd","subbase","Fracciones separadas","Fracciones separadas","PUBLICADA","assets/fotos/rcd/fracciones-separadas.jpg"
-"Escombros y RCD","rcd","producto/aplicación","Fracciones separadas","Metales a reciclaje","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Fracciones separadas","Madera aprovechable","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Fracciones separadas","Plásticos recuperables","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Fracciones separadas","Reutilización de piezas","PENDIENTE",""
-"Escombros y RCD","rcd","subbase","Asfalto recuperado","Asfalto recuperado","PUBLICADA","assets/fotos/rcd/asfalto-recuperado.jpg"
-"Escombros y RCD","rcd","producto/aplicación","Asfalto recuperado","Fresado asfáltico clasificado","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Asfalto recuperado","Recuperación en mezclas","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Asfalto recuperado","Subbases con material recuperado","PENDIENTE",""
-"Escombros y RCD","rcd","producto/aplicación","Asfalto recuperado","Gestión de fracciones contaminadas","PENDIENTE",""
-"Plásticos detallados","plasticos","base principal","","Plásticos detallados","PENDIENTE",""
-"Plásticos detallados","plasticos","subbase","PET (tipo 1)","PET (tipo 1)","PUBLICADA","assets/fotos/plasticos/pet-tipo-1.jpg"
-"Plásticos detallados","plasticos","producto/aplicación","PET (tipo 1)","Escamas de PET","PENDIENTE",""
-"Plásticos detallados","plasticos","producto/aplicación","PET (tipo 1)","Fibra poliéster","PENDIENTE",""
-"Plásticos detallados","plasticos","producto/aplicación","PET (tipo 1)","Filamento 3D","PENDIENTE",""
-"Plásticos detallados","plasticos","producto/aplicación","PET (tipo 1)","Cerdas y flejes","PENDIENTE",""
-"Plásticos detallados","plasticos","subbase","PEAD (tipo 2)","PEAD (tipo 2)","PUBLICADA","assets/fotos/plasticos/pead-tipo-2.jpg"
-"Plásticos detallados","plasticos","producto/aplicación","PEAD (tipo 2)","Granza reciclada","PENDIENTE",""
-"Plásticos detallados","plasticos","producto/aplicación","PEAD (tipo 2)","Canecas","PENDIENTE",""
-"Plásticos detallados","plasticos","producto/aplicación","PEAD (tipo 2)","Tablas plásticas","PENDIENTE",""
-"Plásticos detallados","plasticos","producto/aplicación","PEAD (tipo 2)","Recipientes no alimentarios","PENDIENTE",""
-"Plásticos detallados","plasticos","subbase","PEBD (tipo 4)","PEBD (tipo 4)","PUBLICADA","assets/fotos/plasticos/pebd-tipo-4.jpg"
-"Plásticos detallados","plasticos","producto/aplicación","PEBD (tipo 4)","Pellets reciclados","PENDIENTE",""
-"Plásticos detallados","plasticos","producto/aplicación","PEBD (tipo 4)","Bolsas industriales","PENDIENTE",""
-"Plásticos detallados","plasticos","producto/aplicación","PEBD (tipo 4)","Láminas plásticas","PENDIENTE",""
-"Plásticos detallados","plasticos","producto/aplicación","PEBD (tipo 4)","Madera plástica","PENDIENTE",""
-"Plásticos detallados","plasticos","subbase","PP (tipo 5)","PP (tipo 5)","PUBLICADA","assets/fotos/plasticos/pp-tipo-5.jpg"
-"Plásticos detallados","plasticos","producto/aplicación","PP (tipo 5)","Granza de PP","PENDIENTE",""
-"Plásticos detallados","plasticos","producto/aplicación","PP (tipo 5)","Materas","PENDIENTE",""
-"Plásticos detallados","plasticos","producto/aplicación","PP (tipo 5)","Mobiliario","PENDIENTE",""
-"Plásticos detallados","plasticos","producto/aplicación","PP (tipo 5)","Componentes moldeados","PENDIENTE",""
-"Plásticos detallados","plasticos","subbase","Mezclas aptas para valorización","Mezclas aptas para valorización","PUBLICADA","assets/fotos/plasticos/mezclas-aptas-para-valorizacion.jpg"
-"Plásticos detallados","plasticos","producto/aplicación","Mezclas aptas para valorización","Separación adicional","PENDIENTE",""
-"Plásticos detallados","plasticos","producto/aplicación","Mezclas aptas para valorización","Material compuesto","PENDIENTE",""
-"Plásticos detallados","plasticos","producto/aplicación","Mezclas aptas para valorización","Aceite de pirólisis industrial","PENDIENTE",""
-"Plásticos detallados","plasticos","producto/aplicación","Mezclas aptas para valorización","Gas energético industrial","PENDIENTE",""
-"Cartón y papel","papel_carton","base principal","","Cartón y papel","PENDIENTE",""
-"Cartón y papel","papel_carton","subbase","Cartón corrugado","Cartón corrugado","PUBLICADA","assets/fotos/papel_carton/carton-corrugado.jpg"
-"Cartón y papel","papel_carton","producto/aplicación","Cartón corrugado","Cajas recicladas","PENDIENTE",""
-"Cartón y papel","papel_carton","producto/aplicación","Cartón corrugado","Láminas para empaque","PENDIENTE",""
-"Cartón y papel","papel_carton","producto/aplicación","Cartón corrugado","Separadores de cartón","PENDIENTE",""
-"Cartón y papel","papel_carton","producto/aplicación","Cartón corrugado","Pulpa moldeada","PENDIENTE",""
-"Cartón y papel","papel_carton","subbase","Papel blanco","Papel blanco","PUBLICADA","assets/fotos/papel_carton/papel-blanco.jpg"
-"Cartón y papel","papel_carton","producto/aplicación","Papel blanco","Papel reciclado","PENDIENTE",""
-"Cartón y papel","papel_carton","producto/aplicación","Papel blanco","Cuadernos y libretas","PENDIENTE",""
-"Cartón y papel","papel_carton","producto/aplicación","Papel blanco","Pulpa de celulosa","PENDIENTE",""
-"Cartón y papel","papel_carton","producto/aplicación","Papel blanco","Papel de impresión reciclado","PENDIENTE",""
-"Cartón y papel","papel_carton","subbase","Papel mixto","Papel mixto","PUBLICADA","assets/fotos/papel_carton/papel-mixto.jpg"
-"Cartón y papel","papel_carton","producto/aplicación","Papel mixto","Cartón gris","PENDIENTE",""
-"Cartón y papel","papel_carton","producto/aplicación","Papel mixto","Bandejas moldeadas","PENDIENTE",""
-"Cartón y papel","papel_carton","producto/aplicación","Papel mixto","Papel de embalaje","PENDIENTE",""
-"Cartón y papel","papel_carton","producto/aplicación","Papel mixto","Aislantes de celulosa","PENDIENTE",""
-"Cartón y papel","papel_carton","subbase","Periódicos y revistas","Periódicos y revistas","PUBLICADA","assets/fotos/papel_carton/periodicos-y-revistas.jpg"
-"Cartón y papel","papel_carton","producto/aplicación","Periódicos y revistas","Pulpa recuperada","PENDIENTE",""
-"Cartón y papel","papel_carton","producto/aplicación","Periódicos y revistas","Cartón reciclado","PENDIENTE",""
-"Cartón y papel","papel_carton","producto/aplicación","Periódicos y revistas","Manualidades","PENDIENTE",""
-"Cartón y papel","papel_carton","producto/aplicación","Periódicos y revistas","Papel recuperado","PENDIENTE",""
-"Cartón y papel","papel_carton","subbase","Envases multicapa","Envases multicapa","PUBLICADA","assets/fotos/papel_carton/envases-multicapa.jpg"
-"Cartón y papel","papel_carton","producto/aplicación","Envases multicapa","Recuperación de fibras","PENDIENTE",""
-"Cartón y papel","papel_carton","producto/aplicación","Envases multicapa","Paneles compuestos","PENDIENTE",""
-"Cartón y papel","papel_carton","producto/aplicación","Envases multicapa","Separación de polialuminio","PENDIENTE",""
-"Cartón y papel","papel_carton","producto/aplicación","Envases multicapa","Gestión industrial especializada","PENDIENTE",""
-"Metales","metales","base principal","","Metales","PENDIENTE",""
-"Metales","metales","subbase","Aluminio","Aluminio","PUBLICADA","assets/biblioteca/metales/subbases/aluminio.jpg"
-"Metales","metales","producto/aplicación","Aluminio","Latas compactadas","PUBLICADA","assets/biblioteca/metales/productos/latas-compactadas.jpg"
-"Metales","metales","producto/aplicación","Aluminio","Lingotes industriales","PUBLICADA","assets/biblioteca/metales/productos/lingotes-industriales.jpg"
-"Metales","metales","producto/aplicación","Aluminio","Perfiles de aluminio","PUBLICADA","assets/biblioteca/metales/productos/perfiles-de-aluminio.jpg"
-"Metales","metales","producto/aplicación","Aluminio","Componentes moldeados","PENDIENTE",""
-"Metales","metales","subbase","Cobre","Cobre","PUBLICADA","assets/biblioteca/metales/subbases/cobre.jpg"
-"Metales","metales","producto/aplicación","Cobre","Cable separado","PUBLICADA","assets/biblioteca/metales/productos/cable-separado.jpg"
-"Metales","metales","producto/aplicación","Cobre","Cobre clasificado","PUBLICADA","assets/biblioteca/metales/productos/cobre-clasificado.jpg"
-"Metales","metales","producto/aplicación","Cobre","Alambre industrial","PENDIENTE",""
-"Metales","metales","producto/aplicación","Cobre","Componentes recuperados","PENDIENTE",""
-"Metales","metales","subbase","Hierro y acero","Hierro y acero","PUBLICADA","assets/biblioteca/metales/subbases/hierro-y-acero.jpg"
-"Metales","metales","producto/aplicación","Hierro y acero","Chatarra ferrosa","PENDIENTE",""
-"Metales","metales","producto/aplicación","Hierro y acero","Perfiles siderúrgicos","PENDIENTE",""
-"Metales","metales","producto/aplicación","Hierro y acero","Piezas fundidas","PENDIENTE",""
-"Metales","metales","producto/aplicación","Hierro y acero","Varillas industriales","PENDIENTE",""
-"Metales","metales","subbase","Acero inoxidable","Acero inoxidable","PUBLICADA","assets/biblioteca/metales/subbases/acero-inoxidable.jpg"
-"Metales","metales","producto/aplicación","Acero inoxidable","Retales por aleación","PENDIENTE",""
-"Metales","metales","producto/aplicación","Acero inoxidable","Materia prima inoxidable","PENDIENTE",""
-"Metales","metales","producto/aplicación","Acero inoxidable","Repuestos metálicos","PENDIENTE",""
-"Metales","metales","producto/aplicación","Acero inoxidable","Accesorios industriales","PENDIENTE",""
-"Metales","metales","subbase","Bronce, latón y otros","Bronce, latón y otros","PUBLICADA","assets/biblioteca/metales/subbases/bronce-laton-y-otros.jpg"
-"Metales","metales","producto/aplicación","Bronce, latón y otros","Metales clasificados","PENDIENTE",""
-"Metales","metales","producto/aplicación","Bronce, latón y otros","Aleaciones recuperadas","PENDIENTE",""
-"Metales","metales","producto/aplicación","Bronce, latón y otros","Fundición especializada","PENDIENTE",""
-"Metales","metales","producto/aplicación","Bronce, latón y otros","Piezas industriales","PENDIENTE",""
-"Madera recuperada","madera","base principal","","Madera recuperada","PENDIENTE",""
-"Madera recuperada","madera","subbase","Estibas y pallets","Estibas y pallets","PUBLICADA","assets/fotos/madera/estibas-y-pallets.jpg"
-"Madera recuperada","madera","producto/aplicación","Estibas y pallets","Muebles restaurados","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Estibas y pallets","Huertas elevadas","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Estibas y pallets","Tablas reutilizadas","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Estibas y pallets","Embalajes","PENDIENTE",""
-"Madera recuperada","madera","subbase","Retales y recortes","Retales y recortes","PUBLICADA","assets/fotos/madera/retales-y-recortes.jpg"
-"Madera recuperada","madera","producto/aplicación","Retales y recortes","Artesanías","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Retales y recortes","Juguetes y objetos","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Retales y recortes","Revestimientos","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Retales y recortes","Pequeño mobiliario","PENDIENTE",""
-"Madera recuperada","madera","subbase","Aserrín limpio","Aserrín limpio","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Aserrín limpio","Briquetas","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Aserrín limpio","Pellets","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Aserrín limpio","Sustratos acondicionados","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Aserrín limpio","Absorbentes industriales","PENDIENTE",""
-"Madera recuperada","madera","subbase","Astillas limpias","Astillas limpias","PUBLICADA","assets/fotos/madera/astillas-limpias.jpg"
-"Madera recuperada","madera","producto/aplicación","Astillas limpias","Acolchado","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Astillas limpias","Camas vegetales","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Astillas limpias","Biocarbón","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Astillas limpias","Compost con aporte carbono","PENDIENTE",""
-"Madera recuperada","madera","subbase","Madera no apta","Madera no apta","PUBLICADA","assets/fotos/madera/madera-no-apta.jpg"
-"Madera recuperada","madera","producto/aplicación","Madera no apta","Clasificación específica","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Madera no apta","Aislamiento de tratadas","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Madera no apta","Gestor autorizado","PENDIENTE",""
-"Madera recuperada","madera","producto/aplicación","Madera no apta","No mezclar en compost","PENDIENTE",""
-"Vidrio","vidrio","base principal","","Vidrio","PENDIENTE",""
-"Vidrio","vidrio","subbase","Envases retornables","Envases retornables","PUBLICADA","assets/fotos/vidrio/envases-retornables.jpg"
-"Vidrio","vidrio","producto/aplicación","Envases retornables","Lavado autorizado","PENDIENTE",""
-"Vidrio","vidrio","producto/aplicación","Envases retornables","Reutilización","PENDIENTE",""
-"Vidrio","vidrio","producto/aplicación","Envases retornables","Circuitos de retorno","PENDIENTE",""
-"Vidrio","vidrio","producto/aplicación","Envases retornables","Envases retornados","PENDIENTE",""
-"Vidrio","vidrio","subbase","Vidrio transparente","Vidrio transparente","PUBLICADA","assets/fotos/vidrio/vidrio-transparente.jpg"
-"Vidrio","vidrio","producto/aplicación","Vidrio transparente","Calcín limpio","PENDIENTE",""
-"Vidrio","vidrio","producto/aplicación","Vidrio transparente","Nuevos envases industriales","PENDIENTE",""
-"Vidrio","vidrio","producto/aplicación","Vidrio transparente","Vidrio triturado","PENDIENTE",""
-"Vidrio","vidrio","producto/aplicación","Vidrio transparente","Materias primas industriales","PENDIENTE",""
-"Vidrio","vidrio","subbase","Vidrio verde","Vidrio verde","PUBLICADA","assets/fotos/vidrio/vidrio-verde.jpg"
-"Vidrio","vidrio","producto/aplicación","Vidrio verde","Calcín por color","PENDIENTE",""
-"Vidrio","vidrio","producto/aplicación","Vidrio verde","Nuevos envases industriales","PENDIENTE",""
-"Vidrio","vidrio","producto/aplicación","Vidrio verde","Mosaicos","PENDIENTE",""
-"Vidrio","vidrio","producto/aplicación","Vidrio verde","Artesanías","PENDIENTE",""
-"Vidrio","vidrio","subbase","Vidrio ámbar","Vidrio ámbar","PUBLICADA","assets/fotos/vidrio/vidrio-ambar.jpg"
-"Vidrio","vidrio","producto/aplicación","Vidrio ámbar","Calcín por color","PENDIENTE",""
-"Vidrio","vidrio","producto/aplicación","Vidrio ámbar","Vidrio industrial","PENDIENTE",""
-"Vidrio","vidrio","producto/aplicación","Vidrio ámbar","Decoración y mosaicos","PENDIENTE",""
-"Vidrio","vidrio","producto/aplicación","Vidrio ámbar","Árido para usos autorizados","PENDIENTE",""
-"Vidrio","vidrio","subbase","Vidrio mixto","Vidrio mixto","PUBLICADA","assets/fotos/vidrio/vidrio-mixto.jpg"
-"Vidrio","vidrio","producto/aplicación","Vidrio mixto","Separación adicional","PENDIENTE",""
-"Vidrio","vidrio","producto/aplicación","Vidrio mixto","Áridos decorativos","PENDIENTE",""
-"Vidrio","vidrio","producto/aplicación","Vidrio mixto","Pavimentos especiales","PENDIENTE",""
-"Vidrio","vidrio","producto/aplicación","Vidrio mixto","Recuperación industrial","PENDIENTE",""
-"Llantas usadas","llantas","base principal","","Llantas usadas","PENDIENTE",""
-"Llantas usadas","llantas","subbase","Carcasas aptas","Carcasas aptas","PUBLICADA","assets/fotos/llantas/carcasas-aptas.jpg"
-"Llantas usadas","llantas","producto/aplicación","Carcasas aptas","Reencauche certificado","PENDIENTE",""
-"Llantas usadas","llantas","producto/aplicación","Carcasas aptas","Reutilización controlada","PENDIENTE",""
-"Llantas usadas","llantas","producto/aplicación","Carcasas aptas","Segunda vida útil","PENDIENTE",""
-"Llantas usadas","llantas","producto/aplicación","Carcasas aptas","Reducción de descarte","PENDIENTE",""
-"Llantas usadas","llantas","subbase","Granulado de caucho","Granulado de caucho","PUBLICADA","assets/fotos/llantas/granulado-de-caucho.jpg"
-"Llantas usadas","llantas","producto/aplicación","Granulado de caucho","Pisos amortiguantes","PENDIENTE",""
-"Llantas usadas","llantas","producto/aplicación","Granulado de caucho","Losetas de seguridad","PENDIENTE",""
-"Llantas usadas","llantas","producto/aplicación","Granulado de caucho","Superficies deportivas","PENDIENTE",""
-"Llantas usadas","llantas","producto/aplicación","Granulado de caucho","Asfalto modificado","PENDIENTE",""
-"Llantas usadas","llantas","subbase","Polvo de caucho","Polvo de caucho","PUBLICADA","assets/fotos/llantas/polvo-de-caucho.jpg"
-"Llantas usadas","llantas","producto/aplicación","Polvo de caucho","Mezclas asfálticas","PENDIENTE",""
-"Llantas usadas","llantas","producto/aplicación","Polvo de caucho","Selladores","PENDIENTE",""
-"Llantas usadas","llantas","producto/aplicación","Polvo de caucho","Compuestos industriales","PENDIENTE",""
-"Llantas usadas","llantas","producto/aplicación","Polvo de caucho","Tapetes de caucho","PENDIENTE",""
-"Llantas usadas","llantas","subbase","Acero recuperado","Acero recuperado","PUBLICADA","assets/fotos/llantas/acero-recuperado.jpg"
-"Llantas usadas","llantas","producto/aplicación","Acero recuperado","Chatarra clasificada","PENDIENTE",""
-"Llantas usadas","llantas","producto/aplicación","Acero recuperado","Fundición industrial","PENDIENTE",""
-"Llantas usadas","llantas","producto/aplicación","Acero recuperado","Materia prima metalúrgica","PENDIENTE",""
-"Llantas usadas","llantas","producto/aplicación","Acero recuperado","Recuperación comercial","PENDIENTE",""
-"Llantas usadas","llantas","subbase","Pirólisis industrial","Pirólisis industrial","PUBLICADA","assets/fotos/llantas/pirolisis-industrial.jpg"
-"Llantas usadas","llantas","producto/aplicación","Pirólisis industrial","Aceite de pirólisis","PENDIENTE",""
-"Llantas usadas","llantas","producto/aplicación","Pirólisis industrial","Gas energético","PENDIENTE",""
-"Llantas usadas","llantas","producto/aplicación","Pirólisis industrial","Negro de carbón recuperado","PENDIENTE",""
-"Llantas usadas","llantas","producto/aplicación","Pirólisis industrial","Acero separado","PENDIENTE",""
-"Aceites usados","aceites","base principal","","Aceites usados","PENDIENTE",""
-"Aceites usados","aceites","subbase","Aceite de cocina usado","Aceite de cocina usado","PUBLICADA","assets/fotos/aceites/aceite-de-cocina-usado.jpg"
-"Aceites usados","aceites","producto/aplicación","Aceite de cocina usado","Biodiésel industrial","PENDIENTE",""
-"Aceites usados","aceites","producto/aplicación","Aceite de cocina usado","Jabones técnicos","PENDIENTE",""
-"Aceites usados","aceites","producto/aplicación","Aceite de cocina usado","Insumo oleoquímico","PENDIENTE",""
-"Aceites usados","aceites","producto/aplicación","Aceite de cocina usado","Gestión posconsumo","PENDIENTE",""
-"Aceites usados","aceites","subbase","Grasas alimentarias","Grasas alimentarias","PUBLICADA","assets/fotos/aceites/grasas-alimentarias.jpg"
-"Aceites usados","aceites","producto/aplicación","Grasas alimentarias","Pretratamiento","PENDIENTE",""
-"Aceites usados","aceites","producto/aplicación","Grasas alimentarias","Materia prima técnica","PENDIENTE",""
-"Aceites usados","aceites","producto/aplicación","Grasas alimentarias","Biodigestión especializada","PENDIENTE",""
-"Aceites usados","aceites","producto/aplicación","Grasas alimentarias","Gestión diferenciada","PENDIENTE",""
-"Aceites usados","aceites","subbase","Lubricantes minerales usados","Lubricantes minerales usados","PUBLICADA","assets/fotos/aceites/lubricantes-minerales-usados.jpg"
-"Aceites usados","aceites","producto/aplicación","Lubricantes minerales usados","Re-refinación industrial","PENDIENTE",""
-"Aceites usados","aceites","producto/aplicación","Lubricantes minerales usados","Bases lubricantes recuperadas","PENDIENTE",""
-"Aceites usados","aceites","producto/aplicación","Lubricantes minerales usados","Valorización autorizada","PENDIENTE",""
-"Aceites usados","aceites","producto/aplicación","Lubricantes minerales usados","Trazabilidad con gestor","PENDIENTE",""
-"Aceites usados","aceites","subbase","Filtros aceitosos","Filtros aceitosos","PUBLICADA","assets/fotos/aceites/filtros-aceitosos.jpg"
-"Aceites usados","aceites","producto/aplicación","Filtros aceitosos","Separación controlada","PENDIENTE",""
-"Aceites usados","aceites","producto/aplicación","Filtros aceitosos","Recuperación por gestor","PENDIENTE",""
-"Aceites usados","aceites","producto/aplicación","Filtros aceitosos","Metales tratados","PENDIENTE",""
-"Aceites usados","aceites","producto/aplicación","Filtros aceitosos","Gestión peligrosa","PENDIENTE",""
-"Aceites usados","aceites","subbase","Envases contaminados","Envases contaminados","PUBLICADA","assets/fotos/aceites/envases-contaminados.jpg"
-"Aceites usados","aceites","producto/aplicación","Envases contaminados","Acopio separado","PENDIENTE",""
-"Aceites usados","aceites","producto/aplicación","Envases contaminados","Descontaminación autorizada","PENDIENTE",""
-"Aceites usados","aceites","producto/aplicación","Envases contaminados","Recuperación condicionada","PENDIENTE",""
-"Aceites usados","aceites","producto/aplicación","Envases contaminados","Disposición por gestor","PENDIENTE",""
-"Textiles","textiles","base principal","","Textiles","PENDIENTE",""
-"Textiles","textiles","subbase","Ropa utilizable","Ropa utilizable","PUBLICADA","assets/fotos/textiles/ropa-utilizable.jpg"
-"Textiles","textiles","producto/aplicación","Ropa utilizable","Reutilización social","PENDIENTE",""
-"Textiles","textiles","producto/aplicación","Ropa utilizable","Ropa de segunda mano","PENDIENTE",""
-"Textiles","textiles","producto/aplicación","Ropa utilizable","Rediseño creativo","PENDIENTE",""
-"Textiles","textiles","producto/aplicación","Ropa utilizable","Reparación","PENDIENTE",""
-"Textiles","textiles","subbase","Algodón y fibras naturales","Algodón y fibras naturales","PUBLICADA","assets/fotos/textiles/algodon-y-fibras-naturales.jpg"
-"Textiles","textiles","producto/aplicación","Algodón y fibras naturales","Trapos industriales","PENDIENTE",""
-"Textiles","textiles","producto/aplicación","Algodón y fibras naturales","Fibra de relleno","PENDIENTE",""
-"Textiles","textiles","producto/aplicación","Algodón y fibras naturales","Aislantes","PENDIENTE",""
-"Textiles","textiles","producto/aplicación","Algodón y fibras naturales","Hilados reciclados","PENDIENTE",""
-"Textiles","textiles","subbase","Denim y retales","Denim y retales","PUBLICADA","assets/fotos/textiles/denim-y-retales.jpg"
-"Textiles","textiles","producto/aplicación","Denim y retales","Bolsos","PENDIENTE",""
-"Textiles","textiles","producto/aplicación","Denim y retales","Estuches","PENDIENTE",""
-"Textiles","textiles","producto/aplicación","Denim y retales","Tapicería","PENDIENTE",""
-"Textiles","textiles","producto/aplicación","Denim y retales","Accesorios","PENDIENTE",""
-"Textiles","textiles","subbase","Poliéster separado","Poliéster separado","PUBLICADA","assets/fotos/textiles/poliester-separado.jpg"
-"Textiles","textiles","producto/aplicación","Poliéster separado","Fibra reciclada industrial","PENDIENTE",""
-"Textiles","textiles","producto/aplicación","Poliéster separado","Rellenos textiles","PENDIENTE",""
-"Textiles","textiles","producto/aplicación","Poliéster separado","Hilatura recuperada","PENDIENTE",""
-"Textiles","textiles","producto/aplicación","Poliéster separado","Fieltros","PENDIENTE",""
-"Textiles","textiles","subbase","Mezclas textiles","Mezclas textiles","PUBLICADA","assets/fotos/textiles/mezclas-textiles.jpg"
-"Textiles","textiles","producto/aplicación","Mezclas textiles","Clasificación","PENDIENTE",""
-"Textiles","textiles","producto/aplicación","Mezclas textiles","Paneles acústicos","PENDIENTE",""
-"Textiles","textiles","producto/aplicación","Mezclas textiles","Acolchados","PENDIENTE",""
-"Textiles","textiles","producto/aplicación","Mezclas textiles","Recuperación industrial","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","base principal","","Residuos electrónicos RAEE","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","subbase","Equipos recuperables","Equipos recuperables","PUBLICADA","assets/fotos/raee/equipos-recuperables.jpg"
-"Residuos electrónicos RAEE","raee","producto/aplicación","Equipos recuperables","Computadores reacondicionados","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","producto/aplicación","Equipos recuperables","Repuestos funcionales","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","producto/aplicación","Equipos recuperables","Donaciones tecnológicas","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","producto/aplicación","Equipos recuperables","Segunda vida útil","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","subbase","Cables","Cables","PUBLICADA","assets/fotos/raee/cables.jpg"
-"Residuos electrónicos RAEE","raee","producto/aplicación","Cables","Cobre recuperado","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","producto/aplicación","Cables","Aluminio recuperado","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","producto/aplicación","Cables","Fracción plástica separada","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","producto/aplicación","Cables","Comercialización controlada","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","subbase","Tarjetas electrónicas","Tarjetas electrónicas","PUBLICADA","assets/fotos/raee/tarjetas-electronicas.jpg"
-"Residuos electrónicos RAEE","raee","producto/aplicación","Tarjetas electrónicas","Placas separadas","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","producto/aplicación","Tarjetas electrónicas","Metales por refinador","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","producto/aplicación","Tarjetas electrónicas","Recuperación especializada","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","producto/aplicación","Tarjetas electrónicas","Trazabilidad","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","subbase","Carcasas plásticas","Carcasas plásticas","PUBLICADA","assets/fotos/raee/carcasas-plasticas.jpg"
-"Residuos electrónicos RAEE","raee","producto/aplicación","Carcasas plásticas","Plásticos clasificados","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","producto/aplicación","Carcasas plásticas","Granza industrial","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","producto/aplicación","Carcasas plásticas","Carcasas reutilizables","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","producto/aplicación","Carcasas plásticas","Repuestos","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","subbase","Baterías y pantallas","Baterías y pantallas","PUBLICADA","assets/fotos/raee/baterias-y-pantallas.jpg"
-"Residuos electrónicos RAEE","raee","producto/aplicación","Baterías y pantallas","Aislamiento seguro","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","producto/aplicación","Baterías y pantallas","Gestor RAEE autorizado","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","producto/aplicación","Baterías y pantallas","Recuperación especializada","PENDIENTE",""
-"Residuos electrónicos RAEE","raee","producto/aplicación","Baterías y pantallas","Prohibido tratamiento artesanal","PENDIENTE",""
+﻿linea,categoria,subbase,nombre,tipo,estado,imagen,origen,control_calidad,derechos
+MATERIALES,Material de río,,Material de río,base,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material de río,Triturado 1 pulgada,Triturado 1 pulgada,subbase,VINCULADA_REVISAR,assets/fotos/rio/triturado-1-pulgada.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Material de río,Triturado 1 pulgada,Bases y subbases viales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material de río,Triturado 1 pulgada,Concretos de diseño,producto,VINCULADA_REVISAR,assets/biblioteca/rio/productos/triturado_1_pulgada/concretos_de_diseno.jpg,IA,hiperrealismo editorial pendiente de aprobación,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material de río,Triturado 1 pulgada,Drenajes y filtros,producto,VINCULADA_REVISAR,assets/biblioteca/rio/productos/triturado_1_pulgada/drenajes_y_filtros.jpg,IA,hiperrealismo editorial pendiente de aprobación,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material de río,Triturado 1 pulgada,Obras civiles,producto,VINCULADA_REVISAR,assets/biblioteca/rio/productos/triturado_1_pulgada/obras_civiles.jpg,IA,hiperrealismo editorial pendiente de aprobación,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material de río,Triturado ¾ pulgada,Triturado ¾ pulgada,subbase,VINCULADA_REVISAR,assets/fotos/rio/triturado-tres-cuartos-pulgada.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Material de río,Triturado ¾ pulgada,Concretos,producto,VINCULADA_REVISAR,assets/biblioteca/rio/productos/triturado_tres_cuartos_pulgada/concretos.jpg,IA,hiperrealismo editorial pendiente de aprobación,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material de río,Triturado ¾ pulgada,Prefabricados,producto,VINCULADA_REVISAR,assets/biblioteca/rio/productos/triturado_tres_cuartos_pulgada/prefabricados.jpg,IA,hiperrealismo editorial pendiente de aprobación,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material de río,Triturado ¾ pulgada,Andenes,producto,VINCULADA_REVISAR,assets/biblioteca/rio/productos/triturado_tres_cuartos_pulgada/andenes.jpg,IA,hiperrealismo editorial pendiente de aprobación,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material de río,Triturado ¾ pulgada,Elementos de drenaje,producto,VINCULADA_REVISAR,assets/biblioteca/rio/productos/triturado_tres_cuartos_pulgada/elementos_de_drenaje.jpg,IA,hiperrealismo editorial pendiente de aprobación,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material de río,Triturado ½ pulgada,Triturado ½ pulgada,subbase,VINCULADA_REVISAR,assets/fotos/rio/triturado-medio-pulgada.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Material de río,Triturado ½ pulgada,Bloques y mezclas,producto,VINCULADA_REVISAR,assets/biblioteca/rio/productos/triturado_medio_pulgada/bloques_y_mezclas.jpg,IA,hiperrealismo editorial pendiente de aprobación,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material de río,Triturado ½ pulgada,Concreto no estructural,producto,VINCULADA_REVISAR,assets/biblioteca/rio/productos/triturado_medio_pulgada/concreto_no_estructural.jpg,IA,hiperrealismo editorial pendiente de aprobación,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material de río,Triturado ½ pulgada,Contrapisos,producto,VINCULADA_REVISAR,assets/biblioteca/rio/productos/triturado_medio_pulgada/contrapisos.jpg,IA,hiperrealismo editorial pendiente de aprobación,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material de río,Triturado ½ pulgada,Prefabricados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material de río,Gravilla ⅜ pulgada,Gravilla ⅜ pulgada,subbase,VINCULADA_REVISAR,assets/fotos/rio/gravilla-tres-octavos-pulgada.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Material de río,Gravilla ⅜ pulgada,Adoquines,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material de río,Gravilla ⅜ pulgada,Concretos finos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material de río,Gravilla ⅜ pulgada,Acabados decorativos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material de río,Gravilla ⅜ pulgada,Prefabricados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material de río,Grouting y arenón,Grouting y arenón,subbase,VINCULADA_REVISAR,assets/fotos/rio/grouting-y-arenon.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Material de río,Grouting y arenón,Morteros,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material de río,Grouting y arenón,Mampostería,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material de río,Grouting y arenón,Nivelaciones,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material de río,Grouting y arenón,Relleno controlado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material de río,Arena gruesa y fina,Arena gruesa y fina,subbase,VINCULADA_REVISAR,assets/fotos/rio/arena-gruesa-y-fina.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Material de río,Arena gruesa y fina,Pega de ladrillo,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material de río,Arena gruesa y fina,Repellos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material de río,Arena gruesa y fina,Acabados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material de río,Arena gruesa y fina,Mezclas de concreto,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,,Material reciclable,base,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,Cartón,Cartón,subbase,VINCULADA_REVISAR,assets/biblioteca/reciclables-secos/subbases/carton.jpg,IA,referencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material reciclable,Cartón,Cajas y embalajes,producto,VINCULADA_REVISAR,assets/biblioteca/reciclables-secos/productos/cajas-y-embalajes.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material reciclable,Cartón,Láminas prensadas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,Cartón,Separadores,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,Cartón,Pulpa moldeada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,Papel,Papel,subbase,VINCULADA_REVISAR,assets/biblioteca/reciclables-secos/subbases/papel.jpg,IA,referencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material reciclable,Papel,Papel reciclado,producto,VINCULADA_REVISAR,assets/biblioteca/reciclables-secos/productos/papel-reciclado.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material reciclable,Papel,Cuadernos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,Papel,Bolsas y sobres,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,Papel,Pulpa para moldes,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,PET,PET,subbase,VINCULADA_REVISAR,assets/biblioteca/reciclables-secos/subbases/pet.jpg,IA,referencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material reciclable,PET,Escamas lavadas,producto,VINCULADA_REVISAR,assets/biblioteca/reciclables-secos/productos/escamas-lavadas.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material reciclable,PET,Fibra reciclada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,PET,Filamento 3D,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,PET,Escobas y cerdas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,Plástico soplado,Plástico soplado,subbase,VINCULADA_REVISAR,assets/biblioteca/reciclables-secos/subbases/plastico-soplado.jpg,IA,referencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material reciclable,Plástico soplado,Granza de PEAD,producto,VINCULADA_REVISAR,assets/biblioteca/reciclables-secos/productos/granza-de-pead.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material reciclable,Plástico soplado,Canecas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,Plástico soplado,Tuberías no presurizadas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,Plástico soplado,Mobiliario plástico,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,Metales,Metales,subbase,VINCULADA_REVISAR,assets/biblioteca/reciclables-secos/subbases/metales.jpg,IA,referencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material reciclable,Metales,Chatarra clasificada,producto,VINCULADA_REVISAR,assets/biblioteca/reciclables-secos/productos/chatarra-clasificada.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material reciclable,Metales,Piezas fundidas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,Metales,Perfiles industriales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material reciclable,Metales,Componentes y repuestos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material orgánico,,Material orgánico,base,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material orgánico,Frutas y verduras,Frutas y verduras,subbase,VINCULADA_REVISAR,assets/fotos/organicos/frutas-y-verduras.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Material orgánico,Frutas y verduras,Compost estabilizado,producto,VINCULADA_REVISAR,assets/biblioteca/organicos/productos/compost_estabilizado.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material orgánico,Frutas y verduras,Humus de lombriz,producto,VINCULADA_REVISAR,assets/biblioteca/organicos/productos/humus_de_lombriz.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material orgánico,Frutas y verduras,Enmiendas de suelo,producto,VINCULADA_REVISAR,assets/biblioteca/organicos/productos/enmiendas_de_suelo.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material orgánico,Frutas y verduras,Biogás,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material orgánico,Podas y jardinería,Podas y jardinería,subbase,VINCULADA_REVISAR,assets/fotos/organicos/podas-y-jardineria.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Material orgánico,Podas y jardinería,Acolchado vegetal,producto,VINCULADA_REVISAR,assets/biblioteca/organicos/productos/acolchado_vegetal.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material orgánico,Podas y jardinería,Astillas,producto,VINCULADA_REVISAR,assets/biblioteca/organicos/productos/astillas.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material orgánico,Podas y jardinería,Compost vegetal,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material orgánico,Podas y jardinería,Biocarbón,producto,VINCULADA_REVISAR,assets/biblioteca/organicos/productos/biocarbon.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material orgánico,Estiércoles pecuarios,Estiércoles pecuarios,subbase,VINCULADA_REVISAR,assets/fotos/organicos/estiercoles-pecuarios.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Material orgánico,Estiércoles pecuarios,Abono compostado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material orgánico,Estiércoles pecuarios,Biogás,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material orgánico,Estiércoles pecuarios,Digestato tratado,producto,VINCULADA_REVISAR,assets/biblioteca/organicos/productos/digestato_tratado.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material orgánico,Estiércoles pecuarios,Fertilizante formulado,producto,VINCULADA_REVISAR,assets/biblioteca/organicos/productos/fertilizante_formulado.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material orgánico,Residuos agroindustriales,Residuos agroindustriales,subbase,VINCULADA_REVISAR,assets/fotos/organicos/residuos-agroindustriales.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Material orgánico,Residuos agroindustriales,Compost agrícola,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material orgánico,Residuos agroindustriales,Sustrato para hongos,producto,VINCULADA_REVISAR,assets/biblioteca/organicos/productos/sustrato_para_hongos.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material orgánico,Residuos agroindustriales,Briquetas de biomasa,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material orgánico,Residuos agroindustriales,Biocarbón,producto,VINCULADA_REVISAR,assets/biblioteca/organicos/productos/biocarbon.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material orgánico,Restos alimentarios,Restos alimentarios,subbase,VINCULADA_REVISAR,assets/fotos/organicos/restos-alimentarios.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Material orgánico,Restos alimentarios,Compost controlado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material orgánico,Restos alimentarios,Bokashi,producto,VINCULADA_REVISAR,assets/biblioteca/organicos/productos/bokashi.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Material orgánico,Restos alimentarios,Biogás,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material orgánico,Restos alimentarios,Mejoradores del suelo,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material orgánico,Lodos y biosólidos especiales,Lodos y biosólidos especiales,subbase,VINCULADA_REVISAR,assets/fotos/organicos/lodos-y-biosolidos-especiales.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Material orgánico,Lodos y biosólidos especiales,Caracterización especializada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material orgánico,Lodos y biosólidos especiales,Tratamiento autorizado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material orgánico,Lodos y biosólidos especiales,Usos condicionados a normativa,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Material orgánico,Lodos y biosólidos especiales,Gestión por operadores habilitados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,,Escombros y RCD,base,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Concreto limpio,Concreto limpio,subbase,VINCULADA_REVISAR,assets/fotos/rcd/concreto-limpio.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Escombros y RCD,Concreto limpio,Árido reciclado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Concreto limpio,Subbases viales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Concreto limpio,Bloques no estructurales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Concreto limpio,Prefabricados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Ladrillo y mampostería,Ladrillo y mampostería,subbase,VINCULADA_REVISAR,assets/fotos/rcd/ladrillo-y-mamposteria.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Escombros y RCD,Ladrillo y mampostería,Ladrillos ecológicos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Ladrillo y mampostería,Adoquines,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Ladrillo y mampostería,Agregados para morteros,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Ladrillo y mampostería,Calados y celosías,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Cerámicos y tejas,Cerámicos y tejas,subbase,VINCULADA_REVISAR,assets/fotos/rcd/ceramicos-y-tejas.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Escombros y RCD,Cerámicos y tejas,Granulado cerámico,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Cerámicos y tejas,Adoquines decorativos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Cerámicos y tejas,Áridos mixtos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Cerámicos y tejas,Material para senderos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Tierras y materiales inertes,Tierras y materiales inertes,subbase,VINCULADA_REVISAR,assets/fotos/rcd/tierras-y-materiales-inertes.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Escombros y RCD,Tierras y materiales inertes,Rellenos autorizados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Tierras y materiales inertes,Nivelaciones,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Tierras y materiales inertes,Estabilización de terreno,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Tierras y materiales inertes,Bases para senderos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Fracciones separadas,Fracciones separadas,subbase,VINCULADA_REVISAR,assets/fotos/rcd/fracciones-separadas.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Escombros y RCD,Fracciones separadas,Metales a reciclaje,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Fracciones separadas,Madera aprovechable,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Fracciones separadas,Plásticos recuperables,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Fracciones separadas,Reutilización de piezas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Asfalto recuperado,Asfalto recuperado,subbase,VINCULADA_REVISAR,assets/fotos/rcd/asfalto-recuperado.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Escombros y RCD,Asfalto recuperado,Fresado asfáltico clasificado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Asfalto recuperado,Recuperación en mezclas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Asfalto recuperado,Subbases con material recuperado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Escombros y RCD,Asfalto recuperado,Gestión de fracciones contaminadas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,,Plásticos detallados,base,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PET (tipo 1),PET (tipo 1),subbase,VINCULADA_REVISAR,assets/fotos/plasticos/pet-tipo-1.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Plásticos detallados,PET (tipo 1),Escamas de PET,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PET (tipo 1),Fibra poliéster,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PET (tipo 1),Filamento 3D,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PET (tipo 1),Cerdas y flejes,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PEAD (tipo 2),PEAD (tipo 2),subbase,VINCULADA_REVISAR,assets/fotos/plasticos/pead-tipo-2.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Plásticos detallados,PEAD (tipo 2),Granza reciclada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PEAD (tipo 2),Canecas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PEAD (tipo 2),Tablas plásticas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PEAD (tipo 2),Recipientes no alimentarios,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PEBD (tipo 4),PEBD (tipo 4),subbase,VINCULADA_REVISAR,assets/fotos/plasticos/pebd-tipo-4.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Plásticos detallados,PEBD (tipo 4),Pellets reciclados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PEBD (tipo 4),Bolsas industriales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PEBD (tipo 4),Láminas plásticas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PEBD (tipo 4),Madera plástica,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PP (tipo 5),PP (tipo 5),subbase,VINCULADA_REVISAR,assets/fotos/plasticos/pp-tipo-5.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Plásticos detallados,PP (tipo 5),Granza de PP,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PP (tipo 5),Materas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PP (tipo 5),Mobiliario,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,PP (tipo 5),Componentes moldeados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,Mezclas aptas para valorización,Mezclas aptas para valorización,subbase,VINCULADA_REVISAR,assets/fotos/plasticos/mezclas-aptas-para-valorizacion.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Plásticos detallados,Mezclas aptas para valorización,Separación adicional,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,Mezclas aptas para valorización,Material compuesto,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,Mezclas aptas para valorización,Aceite de pirólisis industrial,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Plásticos detallados,Mezclas aptas para valorización,Gas energético industrial,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,,Cartón y papel,base,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Cartón corrugado,Cartón corrugado,subbase,VINCULADA_REVISAR,assets/fotos/papel_carton/carton-corrugado.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Cartón y papel,Cartón corrugado,Cajas recicladas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Cartón corrugado,Láminas para empaque,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Cartón corrugado,Separadores de cartón,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Cartón corrugado,Pulpa moldeada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Papel blanco,Papel blanco,subbase,VINCULADA_REVISAR,assets/fotos/papel_carton/papel-blanco.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Cartón y papel,Papel blanco,Papel reciclado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Papel blanco,Cuadernos y libretas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Papel blanco,Pulpa de celulosa,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Papel blanco,Papel de impresión reciclado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Papel mixto,Papel mixto,subbase,VINCULADA_REVISAR,assets/fotos/papel_carton/papel-mixto.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Cartón y papel,Papel mixto,Cartón gris,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Papel mixto,Bandejas moldeadas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Papel mixto,Papel de embalaje,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Papel mixto,Aislantes de celulosa,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Periódicos y revistas,Periódicos y revistas,subbase,VINCULADA_REVISAR,assets/fotos/papel_carton/periodicos-y-revistas.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Cartón y papel,Periódicos y revistas,Pulpa recuperada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Periódicos y revistas,Cartón reciclado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Periódicos y revistas,Manualidades,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Periódicos y revistas,Papel recuperado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Envases multicapa,Envases multicapa,subbase,VINCULADA_REVISAR,assets/fotos/papel_carton/envases-multicapa.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Cartón y papel,Envases multicapa,Recuperación de fibras,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Envases multicapa,Paneles compuestos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Envases multicapa,Separación de polialuminio,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Cartón y papel,Envases multicapa,Gestión industrial especializada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,,Metales,base,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,Aluminio,Aluminio,subbase,VINCULADA_REVISAR,assets/biblioteca/metales/subbases/aluminio.jpg,IA,referencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Metales,Aluminio,Latas compactadas,producto,VINCULADA_REVISAR,assets/biblioteca/metales/productos/latas-compactadas.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Metales,Aluminio,Lingotes industriales,producto,VINCULADA_REVISAR,assets/biblioteca/metales/productos/lingotes-industriales.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Metales,Aluminio,Perfiles de aluminio,producto,VINCULADA_REVISAR,assets/biblioteca/metales/productos/perfiles-de-aluminio.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Metales,Aluminio,Componentes moldeados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,Cobre,Cobre,subbase,VINCULADA_REVISAR,assets/biblioteca/metales/subbases/cobre.jpg,IA,referencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Metales,Cobre,Cable separado,producto,VINCULADA_REVISAR,assets/biblioteca/metales/productos/cable-separado.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Metales,Cobre,Cobre clasificado,producto,VINCULADA_REVISAR,assets/biblioteca/metales/productos/cobre-clasificado.jpg,IA,ilustración/pertinencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Metales,Cobre,Alambre industrial,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,Cobre,Componentes recuperados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,Hierro y acero,Hierro y acero,subbase,VINCULADA_REVISAR,assets/biblioteca/metales/subbases/hierro-y-acero.jpg,IA,referencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Metales,Hierro y acero,Chatarra ferrosa,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,Hierro y acero,Perfiles siderúrgicos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,Hierro y acero,Piezas fundidas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,Hierro y acero,Varillas industriales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,Acero inoxidable,Acero inoxidable,subbase,VINCULADA_REVISAR,assets/biblioteca/metales/subbases/acero-inoxidable.jpg,IA,referencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Metales,Acero inoxidable,Retales por aleación,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,Acero inoxidable,Materia prima inoxidable,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,Acero inoxidable,Repuestos metálicos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,Acero inoxidable,Accesorios industriales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,"Bronce, latón y otros","Bronce, latón y otros",subbase,VINCULADA_REVISAR,assets/biblioteca/metales/subbases/bronce-laton-y-otros.jpg,IA,referencia por revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+MATERIALES,Metales,"Bronce, latón y otros",Metales clasificados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,"Bronce, latón y otros",Aleaciones recuperadas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,"Bronce, latón y otros",Fundición especializada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Metales,"Bronce, latón y otros",Piezas industriales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,,Madera recuperada,base,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Estibas y pallets,Estibas y pallets,subbase,VINCULADA_REVISAR,assets/fotos/madera/estibas-y-pallets.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Madera recuperada,Estibas y pallets,Muebles restaurados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Estibas y pallets,Huertas elevadas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Estibas y pallets,Tablas reutilizadas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Estibas y pallets,Embalajes,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Retales y recortes,Retales y recortes,subbase,VINCULADA_REVISAR,assets/fotos/madera/retales-y-recortes.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Madera recuperada,Retales y recortes,Artesanías,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Retales y recortes,Juguetes y objetos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Retales y recortes,Revestimientos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Retales y recortes,Pequeño mobiliario,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Aserrín limpio,Aserrín limpio,subbase,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Aserrín limpio,Briquetas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Aserrín limpio,Pellets,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Aserrín limpio,Sustratos acondicionados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Aserrín limpio,Absorbentes industriales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Astillas limpias,Astillas limpias,subbase,VINCULADA_REVISAR,assets/fotos/madera/astillas-limpias.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Madera recuperada,Astillas limpias,Acolchado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Astillas limpias,Camas vegetales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Astillas limpias,Biocarbón,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Astillas limpias,Compost con aporte carbono,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Madera no apta,Madera no apta,subbase,VINCULADA_REVISAR,assets/fotos/madera/madera-no-apta.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Madera recuperada,Madera no apta,Clasificación específica,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Madera no apta,Aislamiento de tratadas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Madera no apta,Gestor autorizado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Madera recuperada,Madera no apta,No mezclar en compost,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,,Vidrio,base,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Envases retornables,Envases retornables,subbase,VINCULADA_REVISAR,assets/fotos/vidrio/envases-retornables.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Vidrio,Envases retornables,Lavado autorizado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Envases retornables,Reutilización,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Envases retornables,Circuitos de retorno,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Envases retornables,Envases retornados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio transparente,Vidrio transparente,subbase,VINCULADA_REVISAR,assets/fotos/vidrio/vidrio-transparente.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Vidrio,Vidrio transparente,Calcín limpio,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio transparente,Nuevos envases industriales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio transparente,Vidrio triturado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio transparente,Materias primas industriales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio verde,Vidrio verde,subbase,VINCULADA_REVISAR,assets/fotos/vidrio/vidrio-verde.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Vidrio,Vidrio verde,Calcín por color,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio verde,Nuevos envases industriales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio verde,Mosaicos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio verde,Artesanías,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio ámbar,Vidrio ámbar,subbase,VINCULADA_REVISAR,assets/fotos/vidrio/vidrio-ambar.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Vidrio,Vidrio ámbar,Calcín por color,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio ámbar,Vidrio industrial,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio ámbar,Decoración y mosaicos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio ámbar,Árido para usos autorizados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio mixto,Vidrio mixto,subbase,VINCULADA_REVISAR,assets/fotos/vidrio/vidrio-mixto.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Vidrio,Vidrio mixto,Separación adicional,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio mixto,Áridos decorativos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio mixto,Pavimentos especiales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Vidrio,Vidrio mixto,Recuperación industrial,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,,Llantas usadas,base,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Carcasas aptas,Carcasas aptas,subbase,VINCULADA_REVISAR,assets/fotos/llantas/carcasas-aptas.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Llantas usadas,Carcasas aptas,Reencauche certificado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Carcasas aptas,Reutilización controlada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Carcasas aptas,Segunda vida útil,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Carcasas aptas,Reducción de descarte,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Granulado de caucho,Granulado de caucho,subbase,VINCULADA_REVISAR,assets/fotos/llantas/granulado-de-caucho.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Llantas usadas,Granulado de caucho,Pisos amortiguantes,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Granulado de caucho,Losetas de seguridad,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Granulado de caucho,Superficies deportivas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Granulado de caucho,Asfalto modificado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Polvo de caucho,Polvo de caucho,subbase,VINCULADA_REVISAR,assets/fotos/llantas/polvo-de-caucho.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Llantas usadas,Polvo de caucho,Mezclas asfálticas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Polvo de caucho,Selladores,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Polvo de caucho,Compuestos industriales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Polvo de caucho,Tapetes de caucho,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Acero recuperado,Acero recuperado,subbase,VINCULADA_REVISAR,assets/fotos/llantas/acero-recuperado.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Llantas usadas,Acero recuperado,Chatarra clasificada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Acero recuperado,Fundición industrial,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Acero recuperado,Materia prima metalúrgica,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Acero recuperado,Recuperación comercial,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Pirólisis industrial,Pirólisis industrial,subbase,VINCULADA_REVISAR,assets/fotos/llantas/pirolisis-industrial.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Llantas usadas,Pirólisis industrial,Aceite de pirólisis,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Pirólisis industrial,Gas energético,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Pirólisis industrial,Negro de carbón recuperado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Llantas usadas,Pirólisis industrial,Acero separado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,,Aceites usados,base,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Aceite de cocina usado,Aceite de cocina usado,subbase,VINCULADA_REVISAR,assets/fotos/aceites/aceite-de-cocina-usado.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Aceites usados,Aceite de cocina usado,Biodiésel industrial,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Aceite de cocina usado,Jabones técnicos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Aceite de cocina usado,Insumo oleoquímico,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Aceite de cocina usado,Gestión posconsumo,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Grasas alimentarias,Grasas alimentarias,subbase,VINCULADA_REVISAR,assets/fotos/aceites/grasas-alimentarias.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Aceites usados,Grasas alimentarias,Pretratamiento,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Grasas alimentarias,Materia prima técnica,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Grasas alimentarias,Biodigestión especializada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Grasas alimentarias,Gestión diferenciada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Lubricantes minerales usados,Lubricantes minerales usados,subbase,VINCULADA_REVISAR,assets/fotos/aceites/lubricantes-minerales-usados.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Aceites usados,Lubricantes minerales usados,Re-refinación industrial,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Lubricantes minerales usados,Bases lubricantes recuperadas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Lubricantes minerales usados,Valorización autorizada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Lubricantes minerales usados,Trazabilidad con gestor,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Filtros aceitosos,Filtros aceitosos,subbase,VINCULADA_REVISAR,assets/fotos/aceites/filtros-aceitosos.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Aceites usados,Filtros aceitosos,Separación controlada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Filtros aceitosos,Recuperación por gestor,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Filtros aceitosos,Metales tratados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Filtros aceitosos,Gestión peligrosa,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Envases contaminados,Envases contaminados,subbase,VINCULADA_REVISAR,assets/fotos/aceites/envases-contaminados.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Aceites usados,Envases contaminados,Acopio separado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Envases contaminados,Descontaminación autorizada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Envases contaminados,Recuperación condicionada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Aceites usados,Envases contaminados,Disposición por gestor,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,,Textiles,base,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Ropa utilizable,Ropa utilizable,subbase,VINCULADA_REVISAR,assets/fotos/textiles/ropa-utilizable.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Textiles,Ropa utilizable,Reutilización social,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Ropa utilizable,Ropa de segunda mano,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Ropa utilizable,Rediseño creativo,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Ropa utilizable,Reparación,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Algodón y fibras naturales,Algodón y fibras naturales,subbase,VINCULADA_REVISAR,assets/fotos/textiles/algodon-y-fibras-naturales.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Textiles,Algodón y fibras naturales,Trapos industriales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Algodón y fibras naturales,Fibra de relleno,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Algodón y fibras naturales,Aislantes,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Algodón y fibras naturales,Hilados reciclados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Denim y retales,Denim y retales,subbase,VINCULADA_REVISAR,assets/fotos/textiles/denim-y-retales.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Textiles,Denim y retales,Bolsos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Denim y retales,Estuches,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Denim y retales,Tapicería,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Denim y retales,Accesorios,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Poliéster separado,Poliéster separado,subbase,VINCULADA_REVISAR,assets/fotos/textiles/poliester-separado.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Textiles,Poliéster separado,Fibra reciclada industrial,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Poliéster separado,Rellenos textiles,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Poliéster separado,Hilatura recuperada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Poliéster separado,Fieltros,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Mezclas textiles,Mezclas textiles,subbase,VINCULADA_REVISAR,assets/fotos/textiles/mezclas-textiles.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Textiles,Mezclas textiles,Clasificación,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Mezclas textiles,Paneles acústicos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Mezclas textiles,Acolchados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Textiles,Mezclas textiles,Recuperación industrial,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,,Residuos electrónicos RAEE,base,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Equipos recuperables,Equipos recuperables,subbase,VINCULADA_REVISAR,assets/fotos/raee/equipos-recuperables.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Residuos electrónicos RAEE,Equipos recuperables,Computadores reacondicionados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Equipos recuperables,Repuestos funcionales,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Equipos recuperables,Donaciones tecnológicas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Equipos recuperables,Segunda vida útil,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Cables,Cables,subbase,VINCULADA_REVISAR,assets/fotos/raee/cables.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Residuos electrónicos RAEE,Cables,Cobre recuperado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Cables,Aluminio recuperado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Cables,Fracción plástica separada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Cables,Comercialización controlada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Tarjetas electrónicas,Tarjetas electrónicas,subbase,VINCULADA_REVISAR,assets/fotos/raee/tarjetas-electronicas.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Residuos electrónicos RAEE,Tarjetas electrónicas,Placas separadas,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Tarjetas electrónicas,Metales por refinador,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Tarjetas electrónicas,Recuperación especializada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Tarjetas electrónicas,Trazabilidad,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Carcasas plásticas,Carcasas plásticas,subbase,VINCULADA_REVISAR,assets/fotos/raee/carcasas-plasticas.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Residuos electrónicos RAEE,Carcasas plásticas,Plásticos clasificados,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Carcasas plásticas,Granza industrial,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Carcasas plásticas,Carcasas reutilizables,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Carcasas plásticas,Repuestos,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Baterías y pantallas,Baterías y pantallas,subbase,VINCULADA_REVISAR,assets/fotos/raee/baterias-y-pantallas.jpg,Wikimedia Commons,referencia por revisar,referencia de tercero con licencia documentada
+MATERIALES,Residuos electrónicos RAEE,Baterías y pantallas,Aislamiento seguro,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Baterías y pantallas,Gestor RAEE autorizado,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Baterías y pantallas,Recuperación especializada,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+MATERIALES,Residuos electrónicos RAEE,Baterías y pantallas,Prohibido tratamiento artesanal,producto,PENDIENTE_CREAR,,,pendiente,pendiente
+ECOALDEAS,ECOALDEAS,,Parcelación colaborativa,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-01/01_parcelacion_colaborativa.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Finca integral sistemática,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-01/02_finca_integral_sistematica.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Huerta y hortalizas,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-01/03_huerta_hortalizas.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Frutales y forrajes,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-01/04_frutales_y_forrajes.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Gallinas y pollos,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-01/05_avicultura_gallinas.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Porcicultura,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-01/06_porcicultura.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Bovinos y caprinos,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-01/07_bovinos_y_caprinos.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Piscicultura,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-01/08_acuicultura_peces.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Tratamiento orgánico,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-01/09_compostaje_controlado.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Autoconsumo y excedentes,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-01/10_autoconsumo_y_excedentes.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Gallinaza: recolección segura,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-02/01_gallinaza_recogida_segura.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Porquinaza: tratamiento,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-02/02_porquinaza_tratamiento.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Estiércol bovino y caprino,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-02/03_estiercol_bovino_caprino.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Compostaje monitoreado,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-02/04_compostaje_monitoreado.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Compost maduro para suelo,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-02/05_compost_maduro_para_suelo.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Cultivo de forrajes,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-02/06_forrajes_para_animales.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Agua captada y riego protegido,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-02/07_captacion_y_riego_protegido.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Estanque y calidad del agua,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-02/08_estanque_calidad_del_agua.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Cosecha para autoconsumo,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-02/09_cosecha_para_autoconsumo.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Excedentes hacia ECO-CIA,módulo/proceso,VINCULADA_REVISAR,assets/biblioteca/ecoaldeas/paquete-02/10_excedentes_para_ecocia.jpg,IA,ilustración conceptual; revisión específica pendiente,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-CIA,ECO-CIA,,Recepción y pesaje,módulo,VINCULADA_REVISAR,assets/biblioteca/ecocia/imagenes/recepcion_y_pesaje.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-CIA,ECO-CIA,,Inspección y clasificación,módulo,VINCULADA_REVISAR,assets/biblioteca/ecocia/imagenes/inspeccion_y_clasificacion.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-CIA,ECO-CIA,,Transformación agroindustrial,módulo,VINCULADA_REVISAR,assets/biblioteca/ecocia/imagenes/transformacion_agroindustrial.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-CIA,ECO-CIA,,Empaque y etiquetado,módulo,VINCULADA_REVISAR,assets/biblioteca/ecocia/imagenes/empaque_y_etiquetado.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-CIA,ECO-CIA,,Almacenamiento seco,módulo,VINCULADA_REVISAR,assets/biblioteca/ecocia/imagenes/almacenamiento_seco.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-CIA,ECO-CIA,,Refrigeración y cadena fría,módulo,VINCULADA_REVISAR,assets/biblioteca/ecocia/imagenes/refrigeracion_y_cadena_fria.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-CIA,ECO-CIA,,Distribución y despacho,módulo,VINCULADA_REVISAR,assets/biblioteca/ecocia/imagenes/distribucion_y_despacho.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-CIA,ECO-CIA,,Educación y servicios,módulo,VINCULADA_REVISAR,assets/biblioteca/ecocia/imagenes/educacion_agroindustrial.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-CIA,ECO-CIA,,Cargue y consolidación de pedidos,módulo,VINCULADA_REVISAR,assets/biblioteca/ecocia/imagenes/cargue_y_consolidacion.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-CIA,ECO-CIA,,Ruta territorial de distribución,módulo,VINCULADA_REVISAR,assets/biblioteca/ecocia/imagenes/ruta_territorial.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-TIENDAS,ECO-TIENDAS,,Eco-tienda comunitaria,módulo,VINCULADA_REVISAR,assets/biblioteca/ecotiendas/imagenes/eco_tienda_comunitaria.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-TIENDAS,ECO-TIENDAS,,Mercado campesino,módulo,VINCULADA_REVISAR,assets/biblioteca/ecotiendas/imagenes/mercado_campesino.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-TIENDAS,ECO-TIENDAS,,Feria regional,módulo,VINCULADA_REVISAR,assets/biblioteca/ecotiendas/imagenes/feria_regional.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-TIENDAS,ECO-TIENDAS,,Exhibición de productos frescos,módulo,VINCULADA_REVISAR,assets/biblioteca/ecotiendas/imagenes/exhibicion_fresca.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-TIENDAS,ECO-TIENDAS,,Exhibición de productos transformados,módulo,VINCULADA_REVISAR,assets/biblioteca/ecotiendas/imagenes/exhibicion_transformados.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-TIENDAS,ECO-TIENDAS,,Atención en caja,módulo,VINCULADA_REVISAR,assets/biblioteca/ecotiendas/imagenes/atencion_en_caja.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-TIENDAS,ECO-TIENDAS,,Pedidos y domicilios,módulo,VINCULADA_REVISAR,assets/biblioteca/ecotiendas/imagenes/pedidos_y_domicilios.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-TIENDAS,ECO-TIENDAS,,Degustación y promoción,módulo,VINCULADA_REVISAR,assets/biblioteca/ecotiendas/imagenes/degustacion_promocion.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-TIENDAS,ECO-TIENDAS,,Articulación comunitaria,módulo,VINCULADA_REVISAR,assets/biblioteca/ecotiendas/imagenes/articulacion_comunitaria.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-TIENDAS,ECO-TIENDAS,,Consumo responsable,módulo,VINCULADA_REVISAR,assets/biblioteca/ecotiendas/imagenes/consumo_responsable.jpg,IA,borrador visual: recorte de infografía,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECOALDEAS,ECOALDEAS,,Infografía de sistema diversificado,organigrama,VINCULADA_REVISAR,assets/organigramas/ecoaldeas-sistema-diversificado.jpg,IA,ilustración a revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ECO-CIA,ECO-CIA,,Referencia arquitectónica,organigrama,VINCULADA_REVISAR,assets/organigramas/ecocia-referencia-institucional.jpg,IA,ilustración a revisar,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ORGANIGRAMAS,Diagrama de materiales,,Material de río,organigrama,VINCULADA_REVISAR,organigramas/rio.svg,diagrama,diagrama SVG con símbolos; pendiente de enriquecer con fotos,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ORGANIGRAMAS,Diagrama de materiales,,Material reciclable,organigrama,VINCULADA_REVISAR,organigramas/reciclables.svg,diagrama,diagrama SVG con símbolos; pendiente de enriquecer con fotos,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ORGANIGRAMAS,Diagrama de materiales,,Material orgánico,organigrama,VINCULADA_REVISAR,organigramas/organicos.svg,diagrama,diagrama SVG con símbolos; pendiente de enriquecer con fotos,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ORGANIGRAMAS,Diagrama de materiales,,Escombros y RCD,organigrama,VINCULADA_REVISAR,organigramas/rcd.svg,diagrama,diagrama SVG con símbolos; pendiente de enriquecer con fotos,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ORGANIGRAMAS,Diagrama de materiales,,Plásticos detallados,organigrama,VINCULADA_REVISAR,organigramas/plasticos.svg,diagrama,diagrama SVG con símbolos; pendiente de enriquecer con fotos,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ORGANIGRAMAS,Diagrama de materiales,,Cartón y papel,organigrama,VINCULADA_REVISAR,organigramas/papel_carton.svg,diagrama,diagrama SVG con símbolos; pendiente de enriquecer con fotos,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ORGANIGRAMAS,Diagrama de materiales,,Metales,organigrama,VINCULADA_REVISAR,organigramas/metales.svg,diagrama,diagrama SVG con símbolos; pendiente de enriquecer con fotos,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ORGANIGRAMAS,Diagrama de materiales,,Madera recuperada,organigrama,VINCULADA_REVISAR,organigramas/madera.svg,diagrama,diagrama SVG con símbolos; pendiente de enriquecer con fotos,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ORGANIGRAMAS,Diagrama de materiales,,Vidrio,organigrama,VINCULADA_REVISAR,organigramas/vidrio.svg,diagrama,diagrama SVG con símbolos; pendiente de enriquecer con fotos,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ORGANIGRAMAS,Diagrama de materiales,,Llantas usadas,organigrama,VINCULADA_REVISAR,organigramas/llantas.svg,diagrama,diagrama SVG con símbolos; pendiente de enriquecer con fotos,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ORGANIGRAMAS,Diagrama de materiales,,Aceites usados,organigrama,VINCULADA_REVISAR,organigramas/aceites.svg,diagrama,diagrama SVG con símbolos; pendiente de enriquecer con fotos,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ORGANIGRAMAS,Diagrama de materiales,,Textiles,organigrama,VINCULADA_REVISAR,organigramas/textiles.svg,diagrama,diagrama SVG con símbolos; pendiente de enriquecer con fotos,"ilustración con IA, uso público sujeto a condiciones aplicables"
+ORGANIGRAMAS,Diagrama de materiales,,Residuos electrónicos RAEE,organigrama,VINCULADA_REVISAR,organigramas/raee.svg,diagrama,diagrama SVG con símbolos; pendiente de enriquecer con fotos,"ilustración con IA, uso público sujeto a condiciones aplicables"
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,finca integral,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecoaldeas/fuentes/finca_integral.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,granja diversificada,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecoaldeas/fuentes/granja_diversificada.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,paquete02 a,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecoaldeas/fuentes/paquete02_a.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,paquete02 b,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecoaldeas/fuentes/paquete02_b.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,red excedentes,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecoaldeas/fuentes/red_excedentes.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,red familiar,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecoaldeas/fuentes/red_familiar.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,VISTA PREVIA PAQUETE02,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecoaldeas/paquete-02/VISTA_PREVIA_PAQUETE02.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,almacenamiento seco,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecocia/fuentes/almacenamiento_seco.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,cargue y consolidacion,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecocia/fuentes/cargue_y_consolidacion.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,distribucion y despacho,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecocia/fuentes/distribucion_y_despacho.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,educacion agroindustrial,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecocia/fuentes/educacion_agroindustrial.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,empaque y etiquetado,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecocia/fuentes/empaque_y_etiquetado.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,inspeccion y clasificacion,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecocia/fuentes/inspeccion_y_clasificacion.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,recepcion y pesaje,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecocia/fuentes/recepcion_y_pesaje.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,refrigeracion y cadena fria,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecocia/fuentes/refrigeracion_y_cadena_fria.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,ruta territorial,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecocia/fuentes/ruta_territorial.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,transformacion agroindustrial,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecocia/fuentes/transformacion_agroindustrial.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,articulacion comunitaria,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecotiendas/fuentes/articulacion_comunitaria.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,atencion en caja,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecotiendas/fuentes/atencion_en_caja.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,consumo responsable,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecotiendas/fuentes/consumo_responsable.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,degustacion promocion,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecotiendas/fuentes/degustacion_promocion.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,eco tienda comunitaria,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecotiendas/fuentes/eco_tienda_comunitaria.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,exhibicion fresca,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecotiendas/fuentes/exhibicion_fresca.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,exhibicion transformados,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecotiendas/fuentes/exhibicion_transformados.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,feria regional,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecotiendas/fuentes/feria_regional.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,mercado campesino,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecotiendas/fuentes/mercado_campesino.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,pedidos y domicilios,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/ecotiendas/fuentes/pedidos_y_domicilios.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,catalogo organicos,fuente/borrador,BANCO_SIN_ASIGNAR,assets/biblioteca/organicos/fuentes/catalogo_organicos.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
+BANCO DE IMÁGENES,Archivo existente sin nodo propio,,ecoaldeas-borrador-v1,fuente/borrador,BANCO_SIN_ASIGNAR,assets/organigramas/ecoaldeas-borrador-v1.jpg,archivo local,revisar antes de asignar a un producto,comprobar origen y licencia
