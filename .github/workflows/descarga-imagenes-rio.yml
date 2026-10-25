@@ -1,0 +1,31 @@
+name: Descargar imágenes hiperrealistas de material de río
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/descarga_imagenes_rio.py'
+      - '.github/workflows/descarga-imagenes-rio.yml'
+permissions:
+  contents: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Comprimir imágenes nombradas y validar ZIP
+        run: python scripts/descarga_imagenes_rio.py
+      - name: Publicar descarga en GitHub Pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add descargas/APLICACIONES_MATERIAL_DE_RIO.zip
+          if ! git diff --cached --quiet; then
+            git commit -m "Publicar descarga de fotos hiperrealistas de materiales de río"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
