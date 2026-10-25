@@ -1,0 +1,112 @@
+{
+  "lote": 1,
+  "material": "Metales",
+  "imagenes": [
+    {
+      "numero": 1,
+      "tipo": "subbases",
+      "nombre": "Aluminio",
+      "archivo": "assets/biblioteca/metales/subbases/aluminio.jpg",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Drinking_can_ring-pull_tab.jpg",
+      "licencia": "CC BY 2.0",
+      "autor": "Marcos André",
+      "titulo": "File:Drinking can ring-pull tab.jpg",
+      "origen": "Foto de referencia externa, no evidencia institucional"
+    },
+    {
+      "numero": 2,
+      "tipo": "subbases",
+      "nombre": "Cobre",
+      "archivo": "assets/biblioteca/metales/subbases/cobre.jpg",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Post-medieval_copper-alloy_pins_found_within_iron_bowl_(FindID_121047).jpg",
+      "licencia": "CC BY-SA 4.0",
+      "autor": "\nNorthamptonshire County Council, Tom Brindle, 2006-02-01 13:23:53",
+      "titulo": "File:Post-medieval copper-alloy pins found within iron bowl (FindID 121047).jpg",
+      "origen": "Foto de referencia externa, no evidencia institucional"
+    },
+    {
+      "numero": 3,
+      "tipo": "subbases",
+      "nombre": "Hierro y acero",
+      "archivo": "assets/biblioteca/metales/subbases/hierro-y-acero.jpg",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Iron_and_Steel_(4941879233).jpg",
+      "licencia": "CC BY-SA 2.0",
+      "autor": "Arlington County",
+      "titulo": "File:Iron and Steel (4941879233).jpg",
+      "origen": "Foto de referencia externa, no evidencia institucional"
+    },
+    {
+      "numero": 4,
+      "tipo": "subbases",
+      "nombre": "Acero inoxidable",
+      "archivo": "assets/biblioteca/metales/subbases/acero-inoxidable.jpg",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Steel_Scrap_Compacted.JPG",
+      "licencia": "CC BY-SA 4.0",
+      "autor": "TeWeBs",
+      "titulo": "File:Steel Scrap Compacted.JPG",
+      "origen": "Foto de referencia externa, no evidencia institucional"
+    },
+    {
+      "numero": 5,
+      "tipo": "subbases",
+      "nombre": "Bronce, latón y otros",
+      "archivo": "assets/biblioteca/metales/subbases/bronce-laton-y-otros.jpg",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Brass_Founders%27_Pillar,_Nicolson_Square.jpg",
+      "licencia": "CC BY-SA 2.0",
+      "autor": "Kim Traynor",
+      "titulo": "File:Brass Founders' Pillar, Nicolson Square.jpg",
+      "origen": "Foto de referencia externa, no evidencia institucional"
+    },
+    {
+      "numero": 6,
+      "tipo": "productos",
+      "nombre": "Latas compactadas",
+      "archivo": "",
+      "estado": "Foto específica pendiente"
+    },
+    {
+      "numero": 7,
+      "tipo": "productos",
+      "nombre": "Lingotes industriales",
+      "archivo": "assets/biblioteca/metales/productos/lingotes-industriales.jpg",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Ingots.JPG",
+      "licencia": "CC BY-SA 3.0",
+      "autor": "MetalShaper",
+      "titulo": "File:Ingots.JPG",
+      "origen": "Foto de referencia externa, no evidencia institucional"
+    },
+    {
+      "numero": 8,
+      "tipo": "productos",
+      "nombre": "Perfiles de aluminio",
+      "archivo": "assets/biblioteca/metales/productos/perfiles-de-aluminio.jpg",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Aluminium-4.jpg",
+      "licencia": "CC BY 3.0",
+      "autor": "Unknown authorUnknown author",
+      "titulo": "File:Aluminium-4.jpg",
+      "origen": "Foto de referencia externa, no evidencia institucional"
+    },
+    {
+      "numero": 9,
+      "tipo": "productos",
+      "nombre": "Cable separado",
+      "archivo": "assets/biblioteca/metales/productos/cable-separado.jpg",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Copper-alloy_finger_ring_made_from_a_band_of_wire,_possibly_Roman_in_date_(FindID_291723).jpg",
+      "licencia": "CC BY-SA 2.0",
+      "autor": "\nBirmingham Museums Trust, Tom Brindle, 2010-03-17 17:30:08",
+      "titulo": "File:Copper-alloy finger ring made from a band of wire, possibly Roman in date (FindID 291723).jpg",
+      "origen": "Foto de referencia externa, no evidencia institucional"
+    },
+    {
+      "numero": 10,
+      "tipo": "productos",
+      "nombre": "Cobre clasificado",
+      "archivo": "assets/biblioteca/metales/productos/cobre-clasificado.jpg",
+      "fuente": "https://commons.wikimedia.org/wiki/File:Eight_pieces_of_copper_alloy_sheet_and_one_cast_copper_alloy_foot._All_of_these_artefacts_probably_date_from_the_late_medieval_to_post_medieval_periods_(1400_-_1650)._(FindID_68704).jpg",
+      "licencia": "CC BY-SA 2.0",
+      "autor": "\nBirmingham Museums Trust, Peter Reavill, 2004-06-22 13:41:17",
+      "titulo": "File:Eight pieces of copper alloy sheet and one cast copper alloy foot. All of these artefacts probably date from the late medieval to post medieval periods (1400 - 1650). (FindID 68704).jpg",
+      "origen": "Foto de referencia externa, no evidencia institucional"
+    }
+  ]
+}
