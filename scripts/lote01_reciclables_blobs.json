@@ -1,0 +1,79 @@
+{
+  "numero_paquete": 1,
+  "material": "Material reciclable",
+  "tipo": "Reciclables secos I",
+  "imagen_principal": "Cartón",
+  "total": 10,
+  "imagenes": [
+    {
+      "tipo": "subbases",
+      "nombre": "Cartón",
+      "blob_sha": "28d6240a08017c9c42cc984c6e84ebc6eea71151",
+      "alt": "Cartón corrugado recuperado y apilado",
+      "archivo": "assets/biblioteca/reciclables-secos/subbases/carton.jpg"
+    },
+    {
+      "tipo": "subbases",
+      "nombre": "Papel",
+      "blob_sha": "29c99da258ed9660642be26d4f97283303f3b3f8",
+      "alt": "Pilas de papel recuperado para reciclaje",
+      "archivo": "assets/biblioteca/reciclables-secos/subbases/papel.jpg"
+    },
+    {
+      "tipo": "subbases",
+      "nombre": "PET",
+      "blob_sha": "a63e0c6b8d32cfd558496e0e0bebe921db671de8",
+      "alt": "Botellas PET compactadas para reciclaje",
+      "archivo": "assets/biblioteca/reciclables-secos/subbases/pet.jpg"
+    },
+    {
+      "tipo": "subbases",
+      "nombre": "Plástico soplado",
+      "blob_sha": "a451ca7a828b2f6c1348595452f39114427f2ffc",
+      "alt": "Envases plásticos soplados tipo PEAD recuperados",
+      "archivo": "assets/biblioteca/reciclables-secos/subbases/plastico-soplado.jpg"
+    },
+    {
+      "tipo": "subbases",
+      "nombre": "Metales",
+      "blob_sha": "98a25dc5314aaf061fa18bf52046ac987c3e7fac",
+      "alt": "Chatarra metálica separada por tipo de material",
+      "archivo": "assets/biblioteca/reciclables-secos/subbases/metales.jpg"
+    },
+    {
+      "tipo": "productos",
+      "nombre": "Cajas y embalajes",
+      "blob_sha": "e0906b41eae433cbc6a90afecc3bbdf373efabb3",
+      "alt": "Cajas y embalajes de cartón reciclado",
+      "archivo": "assets/biblioteca/reciclables-secos/productos/cajas-y-embalajes.jpg"
+    },
+    {
+      "tipo": "productos",
+      "nombre": "Papel reciclado",
+      "blob_sha": "61d5b069dcabed1df1c712b9ef86821ace89844b",
+      "alt": "Hojas y cuadernos de papel reciclado",
+      "archivo": "assets/biblioteca/reciclables-secos/productos/papel-reciclado.jpg"
+    },
+    {
+      "tipo": "productos",
+      "nombre": "Escamas lavadas",
+      "blob_sha": "05d1a378826342e5efefa04445dda940f73d4b5e",
+      "alt": "Escamas transparentes de PET triturado y lavado",
+      "archivo": "assets/biblioteca/reciclables-secos/productos/escamas-lavadas.jpg"
+    },
+    {
+      "tipo": "productos",
+      "nombre": "Granza de PEAD",
+      "blob_sha": "d50c57a9768407dd37b03e8bed8fb6094599bffc",
+      "alt": "Granza blanca de polietileno de alta densidad PEAD",
+      "archivo": "assets/biblioteca/reciclables-secos/productos/granza-de-pead.jpg"
+    },
+    {
+      "tipo": "productos",
+      "nombre": "Chatarra clasificada",
+      "blob_sha": "e6700aed042783f466d43896299a5c062093947c",
+      "alt": "Chatarra metálica clasificada en varios contenedores",
+      "archivo": "assets/biblioteca/reciclables-secos/productos/chatarra-clasificada.jpg"
+    }
+  ]
+}
