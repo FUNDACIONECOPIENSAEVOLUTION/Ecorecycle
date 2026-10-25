@@ -1,0 +1,46 @@
+name: Auditoría integral de imágenes ECORECYCLE
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/auditar_catalogo_integral.py'
+      - '.github/workflows/auditar-catalogo-integral.yml'
+permissions:
+  contents: write
+jobs:
+  inventariar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generar listado y grupos
+        run: python scripts/auditar_catalogo_integral.py
+      - name: Validar cobertura y ausencia de secretos
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          j=json.loads(Path('AUDITORIA_CATALOGO.json').read_text('utf8'))
+          assert j['total_nodos_materiales']==353
+          assert j['nodos_vinculados_con_imagen']+j['nodos_pendientes']==353
+          allitems=json.loads(Path('PLAN_PAQUETES_IMAGENES.json').read_text('utf8'))['grupos_pendientes']
+          assert all(g['cantidad']<=10 for g in allitems)
+          for p in ('AUDITORIA_VISUAL.md','AUDITORIA_CATALOGO.json','AUDITORIA_IMAGENES.csv','PLAN_PAQUETES_IMAGENES.json'):
+            t=Path(p).read_text(encoding='utf-8-sig')
+            assert 'PROYECTO_MACRO_ECOPIENSA_PRESENTACION_GENERAL.pdf' not in t
+          print('VERIFICACIÓN: 353 nodos; grupos max 10; datos macro no publicados')
+          PY
+      - name: Publicar inventario
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add AUDITORIA_VISUAL.md AUDITORIA_CATALOGO.json AUDITORIA_IMAGENES.csv PLAN_PAQUETES_IMAGENES.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualizar inventario visual integral y grupos pendientes"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
