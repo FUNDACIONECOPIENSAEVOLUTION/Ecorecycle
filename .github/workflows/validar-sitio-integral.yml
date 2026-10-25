@@ -1,0 +1,63 @@
+name: Validar sitio integral ECORECYCLE
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'index.html'
+      - 'ecoaldeas.html'
+      - 'ecoaldeas-propuestas.html'
+      - 'ecocia.html'
+      - 'fotos-catalogo.js'
+      - 'fotos-catalogo.css'
+      - 'assets/biblioteca/ecoaldeas/paquete-01/**'
+      - '.github/workflows/validar-sitio-integral.yml'
+permissions:
+  contents: read
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Inspeccionar scripts, imágenes y vínculos locales
+        run: |
+          node --check fotos-catalogo.js
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from urllib.parse import unquote,urlparse
+          from pathlib import Path
+          import json,re,subprocess
+          P=Path('.')
+          pages=['index.html','ecoaldeas.html','ecoaldeas-propuestas.html','ecocia.html']
+          for name in pages:
+            text=Path(name).read_text(encoding='utf8')
+            scripts=re.findall(r'<script(?:\s[^>]*)?>(.*?)</script>',text,re.S|re.I)
+            for i,s in enumerate(scripts):
+              path=Path('/tmp')/(name.replace('.html','')+'-'+str(i)+'.js')
+              path.write_text(s,encoding='utf8')
+              subprocess.run(['node','--check',str(path)],check=True)
+            class LocalRefParser(HTMLParser):
+              def __init__(self):super().__init__();self.paths=[]
+              def handle_starttag(self,t,attrs):
+                at=dict(attrs)
+                for k in ('src','href'):
+                  u=at.get(k,'')
+                  if u.startswith('./') and not ('+' in u or "'" in u):
+                    self.paths.append(unquote(urlparse(u).path.removeprefix('./')))
+            parser=LocalRefParser();parser.feed(text)
+            missing=[path for path in parser.paths if path and not (P/path).exists()]
+            assert not missing,(name,missing)
+            print('OK',name,'scripts:',len(scripts),'rutas locales:',len(parser.paths))
+          manifest=json.loads(Path('assets/biblioteca/ecoaldeas/paquete-01/manifest.json').read_text())
+          assert len(manifest['imagenes'])==10
+          for row in manifest['imagenes']:
+            assert Path(row['archivo']).is_file(),row['archivo']
+          proposals=Path('ecoaldeas-propuestas.html').read_text('utf8')
+          unique=set(re.findall(r'assets/biblioteca/ecoaldeas/fuentes/([a-z_-]+.jpg)',proposals))
+          assert len(unique)==4,unique
+          assert Path('assets/organigramas/ecocia-referencia-institucional.jpg').is_file()
+          assert Path('logo ecopiensa (1).png').is_file()
+          print('RESULTADO: 4 páginas, 4 vistas diferenciadas y 10 imágenes ECOALDEAS verificadas')
+          PY
