@@ -1,0 +1,86 @@
+{
+  "version": "1.0",
+  "aviso": "Imágenes conceptuales originales individuales. No son fotografías de instalaciones reales.",
+  "imagenes": [
+    {
+      "tipo": "base",
+      "familia": "rio",
+      "nombre": "Material de río",
+      "archivo": "assets/biblioteca/individuales/material-de-rio.svg",
+      "licencia": "Ilustración vectorial original",
+      "origen": "Creación institucional conceptual"
+    },
+    {
+      "tipo": "base",
+      "familia": "reciclables",
+      "nombre": "Material reciclable",
+      "archivo": "assets/biblioteca/individuales/material-reciclable.svg",
+      "licencia": "Ilustración vectorial original",
+      "origen": "Creación institucional conceptual"
+    },
+    {
+      "tipo": "base",
+      "familia": "organicos",
+      "nombre": "Material orgánico",
+      "archivo": "assets/biblioteca/individuales/material-organico.svg",
+      "licencia": "Ilustración vectorial original",
+      "origen": "Creación institucional conceptual"
+    },
+    {
+      "tipo": "base",
+      "familia": "rcd",
+      "nombre": "Escombros y RCD",
+      "archivo": "assets/biblioteca/individuales/escombros-rcd.svg",
+      "licencia": "Ilustración vectorial original",
+      "origen": "Creación institucional conceptual"
+    },
+    {
+      "tipo": "subbase",
+      "familia": "organicos",
+      "nombre": "Frutas y verduras",
+      "archivo": "assets/biblioteca/individuales/frutas-y-verduras.svg",
+      "licencia": "Ilustración vectorial original",
+      "origen": "Creación institucional conceptual"
+    },
+    {
+      "tipo": "subbase",
+      "familia": "organicos",
+      "nombre": "Podas y jardinería",
+      "archivo": "assets/biblioteca/individuales/podas-y-jardineria.svg",
+      "licencia": "Ilustración vectorial original",
+      "origen": "Creación institucional conceptual"
+    },
+    {
+      "tipo": "subbase",
+      "familia": "organicos",
+      "nombre": "Estiércoles pecuarios",
+      "archivo": "assets/biblioteca/individuales/estiercoles-pecuarios.svg",
+      "licencia": "Ilustración vectorial original",
+      "origen": "Creación institucional conceptual"
+    },
+    {
+      "tipo": "subbase",
+      "familia": "organicos",
+      "nombre": "Residuos agroindustriales",
+      "archivo": "assets/biblioteca/individuales/residuos-agroindustriales.svg",
+      "licencia": "Ilustración vectorial original",
+      "origen": "Creación institucional conceptual"
+    },
+    {
+      "tipo": "subbase",
+      "familia": "organicos",
+      "nombre": "Restos alimentarios",
+      "archivo": "assets/biblioteca/individuales/restos-alimentarios.svg",
+      "licencia": "Ilustración vectorial original",
+      "origen": "Creación institucional conceptual"
+    },
+    {
+      "tipo": "subbase",
+      "familia": "organicos",
+      "nombre": "Lodos y biosólidos especiales",
+      "archivo": "assets/biblioteca/individuales/lodos-y-biosolidos-especiales.svg",
+      "licencia": "Ilustración vectorial original",
+      "origen": "Creación institucional conceptual"
+    }
+  ]
+}
