@@ -38,7 +38,7 @@ const ids={'Material de río':'rio','Escombros y RCD':'rcd','Material orgánico'
 DATA=a.items.filter(x=>x.linea==='MATERIALES');
 for(const node of DATA){
  const family=ids[node.categoria];
- const cleanName=String(node.nombre||'').replace(/\\*+$/,'').trim();
+ const cleanName=String(node.nombre||'').replaceAll('*','').trim();
  const ref=family?atlas[family+'|'+(node.tipo==='producto'?'producto':'subbase')+'|'+cleanName]:null;
  if(ref?.src && node.tipo!=='base'){
   node.imagen=ref.src;node.estado='VINCULADA_REVISAR';node.origen='Atlas institucional (escena individual)';
