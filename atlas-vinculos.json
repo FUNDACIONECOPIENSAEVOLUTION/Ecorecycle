@@ -4,28 +4,32 @@
   "aviso": "Vínculos a referencias que representan el material o aplicación del título; requieren validación técnica para uso real.",
   "vinculos": {
     "rio|subbase|Triturado 1 pulgada": {
-      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/t1.jpg",
+      "src": "./assets/biblioteca/atlas-integrado/materiales/triturado-1-pulgada.jpg",
       "label": "Triturado 1”",
       "alt": "Referencia visual de Triturado 1”",
-      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas",
+      "archivo_local": true
     },
     "rio|subbase|Triturado ¾ pulgada": {
-      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/t2.jpg",
+      "src": "./assets/biblioteca/atlas-integrado/materiales/triturado-tres-cuartos-pulgada.jpg",
       "label": "Triturado ¾”",
       "alt": "Referencia visual de Triturado ¾”",
-      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas",
+      "archivo_local": true
     },
     "rio|subbase|Triturado ½ pulgada": {
-      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/t3.jpg",
+      "src": "./assets/biblioteca/atlas-integrado/materiales/triturado-medio-pulgada.jpg",
       "label": "Triturado ½”",
       "alt": "Referencia visual de Triturado ½”",
-      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas",
+      "archivo_local": true
     },
     "rio|subbase|Gravilla ⅜ pulgada": {
-      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/t4.jpg",
+      "src": "./assets/biblioteca/atlas-integrado/materiales/gravilla-tres-octavos-pulgada.jpg",
       "label": "Gravilla ⅜”",
       "alt": "Referencia visual de Gravilla ⅜”",
-      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas",
+      "archivo_local": true
     },
     "rio|subbase|Grouting y arenón": {
       "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/an.jpg",
@@ -46,10 +50,11 @@
       "origen": "Atlas institucional de materiales y aplicaciones constructivas"
     },
     "rio|producto|Concretos de diseño": {
-      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/co.jpg",
+      "src": "./assets/biblioteca/atlas-integrado/materiales/concreto-dosificado.jpg",
       "label": "Concreto dosificado",
       "alt": "Referencia visual de Concreto dosificado",
-      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas",
+      "archivo_local": true
     },
     "rio|producto|Drenajes y filtros": {
       "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-06/filtros-franceses.jpg",
@@ -70,16 +75,18 @@
       "origen": "Atlas institucional de materiales y aplicaciones constructivas"
     },
     "rio|producto|Prefabricados": {
-      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-07/prefabricados-arquitectonicos.jpg",
+      "src": "./assets/biblioteca/atlas-integrado/aplicaciones/prefabricados-arquitectonicos.jpg",
       "label": "Prefabricados arquitectónicos",
       "alt": "Referencia visual de Prefabricados arquitectónicos",
-      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas",
+      "archivo_local": true
     },
     "rio|producto|Andenes": {
-      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-03/andenes-peatonales.jpg",
+      "src": "./assets/biblioteca/atlas-integrado/aplicaciones/andenes-peatonales.jpg",
       "label": "Andenes peatonales",
       "alt": "Referencia visual de Andenes peatonales",
-      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas",
+      "archivo_local": true
     },
     "rio|producto|Elementos de drenaje": {
       "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-06/obras-arte-drenaje.jpg",
@@ -106,16 +113,18 @@
       "origen": "Atlas institucional de materiales y aplicaciones constructivas"
     },
     "rio|producto|Adoquines": {
-      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-05/adoquines.jpg",
+      "src": "./assets/biblioteca/atlas-integrado/aplicaciones/adoquines.jpg",
       "label": "Adoquines",
       "alt": "Referencia visual de Adoquines",
-      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas",
+      "archivo_local": true
     },
     "rio|producto|Concretos finos": {
-      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/co.jpg",
+      "src": "./assets/biblioteca/atlas-integrado/materiales/concreto-dosificado.jpg",
       "label": "Concreto dosificado",
       "alt": "Referencia visual de Concreto dosificado",
-      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas",
+      "archivo_local": true
     },
     "rio|producto|Acabados decorativos": {
       "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/modelos/paquete-16-paisajismo/elementos-arquitectonicos.jpg",
@@ -148,16 +157,18 @@
       "origen": "Atlas institucional de materiales y aplicaciones constructivas"
     },
     "rio|producto|Pega de ladrillo": {
-      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-05/mortero-pega.jpg",
+      "src": "./assets/biblioteca/atlas-integrado/aplicaciones/mortero-para-pega.jpg",
       "label": "Mortero para pega",
       "alt": "Referencia visual de Mortero para pega",
-      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas",
+      "archivo_local": true
     },
     "rio|producto|Repellos": {
-      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-05/repellos-panetes.jpg",
+      "src": "./assets/biblioteca/atlas-integrado/aplicaciones/repellos-y-panetes.jpg",
       "label": "Repellos y pañetes",
       "alt": "Referencia visual de Repellos y pañetes",
-      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas",
+      "archivo_local": true
     },
     "rio|producto|Acabados": {
       "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/modelos/paquete-13-morteros/estuco-pared.jpg",
@@ -166,10 +177,11 @@
       "origen": "Atlas institucional de materiales y aplicaciones constructivas"
     },
     "rio|producto|Mezclas de concreto": {
-      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/co.jpg",
+      "src": "./assets/biblioteca/atlas-integrado/materiales/concreto-dosificado.jpg",
       "label": "Concreto dosificado",
       "alt": "Referencia visual de Concreto dosificado",
-      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas",
+      "archivo_local": true
     },
     "rcd|subbase|Concreto limpio": {
       "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rc.jpg",
@@ -220,10 +232,11 @@
       "origen": "Atlas institucional de materiales y aplicaciones constructivas"
     },
     "rcd|producto|Prefabricados": {
-      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-07/prefabricados-arquitectonicos.jpg",
+      "src": "./assets/biblioteca/atlas-integrado/aplicaciones/prefabricados-arquitectonicos.jpg",
       "label": "Prefabricados arquitectónicos",
       "alt": "Referencia visual de Prefabricados arquitectónicos",
-      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas",
+      "archivo_local": true
     },
     "rcd|producto|Ladrillos ecológicos": {
       "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-05/ladrillos-no-cocidos.jpg",
@@ -232,10 +245,11 @@
       "origen": "Atlas institucional de materiales y aplicaciones constructivas"
     },
     "rcd|producto|Adoquines": {
-      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-05/adoquines.jpg",
+      "src": "./assets/biblioteca/atlas-integrado/aplicaciones/adoquines.jpg",
       "label": "Adoquines",
       "alt": "Referencia visual de Adoquines",
-      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas",
+      "archivo_local": true
     },
     "rcd|producto|Agregados para morteros": {
       "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rf.jpg",
@@ -256,10 +270,11 @@
       "origen": "Atlas institucional de materiales y aplicaciones constructivas"
     },
     "rcd|producto|Adoquines decorativos": {
-      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-05/adoquines.jpg",
+      "src": "./assets/biblioteca/atlas-integrado/aplicaciones/adoquines.jpg",
       "label": "Adoquines",
       "alt": "Referencia visual de Adoquines",
-      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas",
+      "archivo_local": true
     },
     "rcd|producto|Áridos mixtos": {
       "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/mi.jpg",
@@ -315,5 +330,6 @@
       "alt": "Referencia visual de Subbase con RCD",
       "origen": "Atlas institucional de materiales y aplicaciones constructivas"
     }
-  }
+  },
+  "nota_integracion": "Copias locales de imágenes originales seleccionadas del atlas; el repositorio fuente no se modifica. Imágenes ilustrativas sujetas a validación visual."
 }
