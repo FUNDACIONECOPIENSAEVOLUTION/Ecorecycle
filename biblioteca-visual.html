@@ -21,19 +21,7 @@
 </main><dialog id="viewer" class="modal"><div style="display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:10px"><strong id="viewerName"></strong><button type="button" id="close">Cerrar ×</button></div><div class="viewer-crop"><img id="viewerImage" alt=""></div><p style="font-size:12px;color:#597566" id="viewerCredit"></p></dialog><footer>Fundación Ecopiensa Evolution · Biblioteca de difusión pública · Sin proyecto macro confidencial</footer><script>
 const modal=document.getElementById('viewer');document.getElementById('close').onclick=()=>modal.close();modal.onclick=e=>{if(e.target===modal)modal.close()};
 function item(dst,name,path,meta){if(!path)return;
-const alternatives={
- 'Huerta y hortalizas':'assets/biblioteca/ecoaldeas/individuales/cosecha-autoconsumo.svg',
- 'Frutales y forrajes':'assets/biblioteca/ecoaldeas/individuales/cultivo-de-forrajes.svg',
- 'Gallinas y pollos':'assets/biblioteca/ecoaldeas/individuales/gallinaza-recoleccion-segura.svg',
- 'Porcicultura':'assets/biblioteca/ecoaldeas/individuales/porquinaza-tratamiento.svg',
- 'Bovinos y caprinos':'assets/biblioteca/ecoaldeas/individuales/estiercol-bovino-caprino.svg',
- 'Piscicultura':'assets/biblioteca/ecoaldeas/individuales/estanque-calidad-agua.svg',
- 'Tratamiento orgánico':'assets/biblioteca/ecoaldeas/individuales/compostaje-monitoreado.svg',
- 'Autoconsumo y excedentes':'assets/biblioteca/ecoaldeas/individuales/excedentes-eco-cia.svg'
-};
-const original=path;
-if(path.includes('/ecoaldeas/paquete-01/') && alternatives[name])path=alternatives[name];
-const cropped=path.includes('/ecoaldeas/paquete-02/');
+const cropped=path.includes('/ecoaldeas/paquete-02/')&&!path.endsWith('.svg');
 const node=document.createElement('article');node.className='card'+(cropped?' focus-one':'');const b=document.createElement('button'),img=document.createElement('img'),title=document.createElement('h3'),cap=document.createElement('p');b.type='button';img.src='./'+path.replace(/^\.\//,'');img.alt=name;img.loading='lazy';img.decoding='async';b.appendChild(img);title.textContent=name;cap.textContent=meta;
 b.onclick=()=>{modal.classList.toggle('single-view',cropped);document.getElementById('viewerName').textContent=name;const big=document.getElementById('viewerImage');big.src=img.src;big.alt=name;document.getElementById('viewerCredit').textContent=meta;modal.showModal()};
 node.append(b,title,cap);
