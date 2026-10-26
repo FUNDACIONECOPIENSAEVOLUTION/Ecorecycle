@@ -1,19 +1,13 @@
 {
   "fecha": "2026-10-26",
-  "estado": "PLAN DE TRABAJO INTERNO: no enlazar en la página pública.",
-  "total_faltantes": 219,
+  "estado": "PLAN INTERNO: no enlazar desde la web pública",
+  "total_faltantes": 218,
   "grupos_pendientes": [
     {
       "grupo": "G01",
       "familia": "Material reciclable",
       "cantidad": 10,
       "imagenes": [
-        {
-          "nombre": "Material reciclable",
-          "subbase": "",
-          "tipo": "base",
-          "archivo_recomendado": "assets/biblioteca/material-reciclable/material-reciclable.svg"
-        },
         {
           "nombre": "Láminas prensadas",
           "subbase": "Cartón",
@@ -67,20 +61,20 @@
           "subbase": "PET",
           "tipo": "producto",
           "archivo_recomendado": "assets/biblioteca/material-reciclable/pet/escobas-y-cerdas.svg"
+        },
+        {
+          "nombre": "Canecas",
+          "subbase": "Plástico soplado",
+          "tipo": "producto",
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/plastico-soplado/canecas.svg"
         }
       ]
     },
     {
       "grupo": "G02",
       "familia": "Material reciclable",
-      "cantidad": 6,
+      "cantidad": 5,
       "imagenes": [
-        {
-          "nombre": "Canecas",
-          "subbase": "Plástico soplado",
-          "tipo": "producto",
-          "archivo_recomendado": "assets/biblioteca/material-reciclable/plastico-soplado/canecas.svg"
-        },
         {
           "nombre": "Tuberías no presurizadas",
           "subbase": "Plástico soplado",
@@ -1535,5 +1529,5 @@
       ]
     }
   ],
-  "regla": "Un archivo individual por material o aplicación. Grupos de máximo diez. El nombre del archivo no debe contener número de grupo o lote. Antes de publicar validar visualmente la correspondencia exacta con título, ausencia de mosaicos y adecuada visibilidad."
+  "regla": "Hasta diez imágenes individuales por grupo, nombre descriptivo sin numeración del grupo. Exigir correspondencia exacta entre imagen y título."
 }
