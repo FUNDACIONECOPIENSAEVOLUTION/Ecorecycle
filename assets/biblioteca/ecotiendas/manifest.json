@@ -4,73 +4,95 @@
   "imagenes": [
     {
       "nombre": "Eco-tienda comunitaria",
-      "archivo": "assets/biblioteca/ecotiendas/imagenes/eco_tienda_comunitaria.jpg",
-      "alt": "Ilustración conceptual de Eco-tienda comunitaria",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecotiendas/individuales/eco-tienda-comunitaria.svg",
+      "alt": "Escena ilustrativa individual de Eco-tienda comunitaria",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecotiendas/imagenes/eco_tienda_comunitaria.jpg",
+      "estado": "Ilustración individual actualizada"
     },
     {
       "nombre": "Mercado campesino",
-      "archivo": "assets/biblioteca/ecotiendas/imagenes/mercado_campesino.jpg",
-      "alt": "Ilustración conceptual de Mercado campesino",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecotiendas/individuales/mercado-campesino.svg",
+      "alt": "Escena ilustrativa individual de Mercado campesino",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecotiendas/imagenes/mercado_campesino.jpg",
+      "estado": "Ilustración individual actualizada"
     },
     {
       "nombre": "Feria regional",
-      "archivo": "assets/biblioteca/ecotiendas/imagenes/feria_regional.jpg",
-      "alt": "Ilustración conceptual de Feria regional",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecotiendas/individuales/feria-regional.svg",
+      "alt": "Escena ilustrativa individual de Feria regional",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecotiendas/imagenes/feria_regional.jpg",
+      "estado": "Ilustración individual actualizada"
     },
     {
       "nombre": "Exhibición de productos frescos",
-      "archivo": "assets/biblioteca/ecotiendas/imagenes/exhibicion_fresca.jpg",
-      "alt": "Ilustración conceptual de Exhibición de productos frescos",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecotiendas/individuales/exhibicion-fresca.svg",
+      "alt": "Escena ilustrativa individual de Exhibición de productos frescos",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecotiendas/imagenes/exhibicion_fresca.jpg",
+      "estado": "Ilustración individual actualizada"
     },
     {
       "nombre": "Exhibición de productos transformados",
-      "archivo": "assets/biblioteca/ecotiendas/imagenes/exhibicion_transformados.jpg",
-      "alt": "Ilustración conceptual de Exhibición de productos transformados",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecotiendas/individuales/exhibicion-transformados.svg",
+      "alt": "Escena ilustrativa individual de Exhibición de productos transformados",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecotiendas/imagenes/exhibicion_transformados.jpg",
+      "estado": "Ilustración individual actualizada"
     },
     {
       "nombre": "Atención en caja",
-      "archivo": "assets/biblioteca/ecotiendas/imagenes/atencion_en_caja.jpg",
-      "alt": "Ilustración conceptual de Atención en caja",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecotiendas/individuales/atencion-en-caja.svg",
+      "alt": "Escena ilustrativa individual de Atención en caja",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecotiendas/imagenes/atencion_en_caja.jpg",
+      "estado": "Ilustración individual actualizada"
     },
     {
       "nombre": "Pedidos y domicilios",
-      "archivo": "assets/biblioteca/ecotiendas/imagenes/pedidos_y_domicilios.jpg",
-      "alt": "Ilustración conceptual de Pedidos y domicilios",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecotiendas/individuales/pedidos-domicilios.svg",
+      "alt": "Escena ilustrativa individual de Pedidos y domicilios",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecotiendas/imagenes/pedidos_y_domicilios.jpg",
+      "estado": "Ilustración individual actualizada"
     },
     {
       "nombre": "Degustación y promoción",
-      "archivo": "assets/biblioteca/ecotiendas/imagenes/degustacion_promocion.jpg",
-      "alt": "Ilustración conceptual de Degustación y promoción",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecotiendas/individuales/degustacion-promocion.svg",
+      "alt": "Escena ilustrativa individual de Degustación y promoción",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecotiendas/imagenes/degustacion_promocion.jpg",
+      "estado": "Ilustración individual actualizada"
     },
     {
       "nombre": "Articulación comunitaria",
-      "archivo": "assets/biblioteca/ecotiendas/imagenes/articulacion_comunitaria.jpg",
-      "alt": "Ilustración conceptual de Articulación comunitaria",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecotiendas/individuales/articulacion-comunitaria.svg",
+      "alt": "Escena ilustrativa individual de Articulación comunitaria",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecotiendas/imagenes/articulacion_comunitaria.jpg",
+      "estado": "Ilustración individual actualizada"
     },
     {
       "nombre": "Consumo responsable",
-      "archivo": "assets/biblioteca/ecotiendas/imagenes/consumo_responsable.jpg",
-      "alt": "Ilustración conceptual de Consumo responsable",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecotiendas/individuales/consumo-responsable.svg",
+      "alt": "Escena ilustrativa individual de Consumo responsable",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecotiendas/imagenes/consumo_responsable.jpg",
+      "estado": "Ilustración individual actualizada"
     }
-  ]
+  ],
+  "version": "2.0",
+  "aviso": "Ilustraciones independientes, no fotografías de locales reales"
 }
