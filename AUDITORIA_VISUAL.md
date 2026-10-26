@@ -1,22 +1,23 @@
-# Auditoría integral de imágenes — ECORECYCLE
-Actualización: 2026-10-25 20:30 UTC. Se revisaron archivos, manifiestos y rutas del sitio; la pertinencia visual requiere inspección editorial adicional.
+# Auditoría de imágenes ECORECYCLE
 
-## Resumen
-- Archivos gráficos localizados en GitHub: **195** (incluye organigramas, fuentes, recursos y logos).
-- Nodos de materiales requeridos: **353** (13 bases, 68 subbases, 272 productos/aplicaciones).
-- Nodos con archivo local y ruta de carga prevista: **98**; son candidatos a revisión, **no aprobaciones de calidad**.
-- Nodos sin imagen individual correcta: **255**.
-- Diagramas de materiales: **13 SVG existentes**, todavía esquemáticos y no plenamente fotográficos.
-- Archivos/fuentes de consulta sin nodo asignado: **29** (no se borran).
-- Grupos previstos para completar nodos faltantes: **35** de hasta diez fotografías.
-- ECOALDEAS y ECO-CIA son **proyectos distintos**: las ecoaldeas son fincas diversificadas, no un modelo circular de edificio; ECO-CIA recibe excedentes para acopio y transformación.
+**Actualización:** 26 de octubre de 2026. La información de este documento corresponde a rutas y manifiestos del repositorio; la publicación de GitHub Pages debe verificarse visualmente en el navegador.
 
-## Revisión visual pendiente
-Las imágenes recortadas de infografías de ECO-CIA, ECO-TIENDAS y algunos productos orgánicos son **provisionales**. Las diez nuevas imágenes de río son más realistas, pero requieren comprobar escala, coherencia material y correspondencia técnica. Las fotos de Wikimedia requieren conservar atribución y licencia; el clic de la web se mantiene dentro del sitio.
+## Estado del catálogo de materiales
+- **353** nodos entre bases, subbases y productos (13 líneas de materiales).
+- **134** nodos con una imagen asociada y **219** todavía pendientes.
+- **225** archivos gráficos contabilizados en este repositorio, incluidos **30 nuevos SVG** independientes, junto con archivos históricos que se conservan sin borrarse.
+- **52 vínculos contextuales** al atlas `ecopresentacione` de la Fundación (28 de material de río y 24 de RCD), sin editar ese repositorio. Algunos vínculos reemplazan imágenes previamente existentes, de modo que no equivalen a 52 nodos nuevos.
+- **10 ilustraciones originales de productos orgánicos**, **10 de bases/subbases**, y **10 de procesos de ECOALDEAS**. Sus nombres de archivo describen el contenido y no contienen identificadores de grupo.
+- La auditoría navegable `auditoria.html` muestra ahora el catálogo actualizado. La planificación de imágenes faltantes se conserva internamente y no se publica en la interfaz.
 
-## Próximos trabajos
-- Ver lista completa por nodo en \`AUDITORIA_IMAGENES.csv\`.
-- Grupos previstos en \`PLAN_PAQUETES_IMAGENES.json\`.
-- Informes públicos navegables en \`auditoria.html\`.
-- Cada archivo nuevo debe tener nombre descriptivo, ruta estable, texto alternativo y nota de procedencia. Mantener intacto \`logo ecopiensa (1).png\`.
-- El macroproyecto privado no está incluido en esta auditoría.
+## Cambios de calidad aplicados
+- Se retiraron de las tarjetas de materiales orgánicos las imágenes que eran recortes de otras infografías y se colocaron ilustraciones individuales originales.
+- Se reemplazaron las diez tarjetas de procesos de ECOALDEAS por archivos SVG independientes, sin composición de dos fotografías, títulos internos ni puntos negros del montaje anterior.
+- Se corrigieron asociaciones erróneas entre nombre y fotografía en el catálogo ECOALDEAS y se priorizaron imágenes pertinentes del atlas para materiales de río y RCD.
+- Las imágenes de ECO-CIA y eco-tiendas continúan siendo archivos ilustrativos anteriores; se aplicó encuadre de su escena principal, pero **todavía requieren sustitución por archivos individuales**.
+- Los archivos originales no se borraron: permanecen como históricos, excluidos de las tarjetas públicas donde se encontraron errores.
+
+## Limitaciones y criterio de validación
+La asociación de una imagen con un nodo **no representa aprobación editorial ni técnica definitiva**. Las ilustraciones SVG recién creadas son vectores conceptuales, **no fotografías** de una instalación o producto real. Las fotografías con licencia de terceros requieren conservar créditos. El material de río y los RCD deben validarse de acuerdo con su granulometría, aplicación, calidad de mezcla y normas aplicables. Ninguna ilustración prueba una instalación ejecutada, convenio, producción o servicio certificado.
+
+La cobertura incompleta se identifica con el estado de imagen individual en preparación, en lugar de ilustrar un producto con una fotografía diferente.
