@@ -24,16 +24,19 @@ function search(){let q=$('#query').value.toLowerCase().normalize('NFD').replace
 filtered=DATA.filter(x=>(!cat||x.categoria===cat)&&(!state||x.estado===state)&&(!q||(x.nombre+' '+x.categoria+' '+x.subbase).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').includes(q)));render();}
 $('#query').oninput=search;$('#category').onchange=search;$('#status').onchange=search;
 (async()=>{try{
-const [res,atlasRes,organicRes]=await Promise.all([
+const [res,atlasRes,organicRes,originalRes]=await Promise.all([
  fetch('./AUDITORIA_CATALOGO.json',{cache:'no-store'}),
  fetch('./atlas-vinculos.json',{cache:'no-store'}),
- fetch('./assets/biblioteca/organicos/manifest.json',{cache:'no-store'})
+ fetch('./assets/biblioteca/organicos/manifest.json',{cache:'no-store'}),
+ fetch('./assets/biblioteca/individuales/manifest.json',{cache:'no-store'})
 ]);
 if(!res.ok)throw Error('Inventario no disponible');
 const a=await res.json();
 const atlas=atlasRes.ok?(await atlasRes.json()).vinculos||{}:{};
 const organic=organicRes.ok?(await organicRes.json()).imagenes||[]:[];
 const orgByName=new Map(organic.filter(x=>x.archivo&&x.archivo.endsWith('.svg')).map(x=>[x.nombre,x.archivo]));
+const originals=originalRes.ok?(await originalRes.json()).imagenes||[]:[];
+const originalsMap=new Map(originals.map(x=>[x.familia+'|'+x.tipo+'|'+x.nombre,x.archivo]));
 const ids={'Material de río':'rio','Escombros y RCD':'rcd','Material orgánico':'organicos'};
 DATA=a.items.filter(x=>x.linea==='MATERIALES');
 for(const node of DATA){
@@ -42,6 +45,10 @@ for(const node of DATA){
  const ref=family?atlas[family+'|'+(node.tipo==='producto'?'producto':'subbase')+'|'+cleanName]:null;
  if(ref?.src && node.tipo!=='base'){
   node.imagen=ref.src;node.estado='VINCULADA_REVISAR';node.origen='Atlas institucional (escena individual)';
+ }
+ const ownOriginal=family?originalsMap.get(family+'|'+node.tipo+'|'+cleanName):null;
+ if(ownOriginal){
+  node.imagen=ownOriginal;node.estado='VINCULADA_REVISAR';node.origen='Ilustración conceptual individual original';
  }
  if(family==='organicos' && node.tipo==='producto' && orgByName.has(cleanName)){
   node.imagen=orgByName.get(cleanName);node.estado='VINCULADA_REVISAR';
@@ -52,7 +59,7 @@ const linked=DATA.filter(x=>x.estado==='VINCULADA_REVISAR').length;
 $('#total').textContent=DATA.length;
 $('#linked').textContent=linked;
 $('#pending').textContent=DATA.length-linked;
-$('#assets').textContent=a.total_archivos_imagen+10;
+$('#assets').textContent=a.total_archivos_imagen+20;
 const categories=[...new Set(DATA.map(x=>x.categoria))];for(const c of categories){let o=document.createElement('option');o.value=c;o.textContent=c;$('#category').append(o)}
 const diagramData=[['rio','Material de río'],['reciclables','Material reciclable'],['organicos','Material orgánico'],['rcd','RCD y escombros'],['plasticos','Plásticos'],['papel_carton','Papel y cartón'],['metales','Metales'],['madera','Madera'],['vidrio','Vidrio'],['llantas','Llantas'],['aceites','Aceites'],['textiles','Textiles'],['raee','RAEE']];
 for(const [id,n] of diagramData){const node=document.createElement('article');node.className='orgcard';const b=document.createElement('button');b.type='button';const image=document.createElement('img');image.src='./organigramas/'+id+'.svg';image.alt='Organigrama de '+n;b.append(image);b.onclick=()=>openView(image.src,'Organigrama · '+n,'Diagrama vectorial institucional con símbolos. Productos individuales en desarrollo.');const h=document.createElement('h3');h.textContent=n;const p=document.createElement('p');p.textContent='Ver esquema completo dentro del sitio';node.append(b,h,p);$('#diagramas').append(node);}
