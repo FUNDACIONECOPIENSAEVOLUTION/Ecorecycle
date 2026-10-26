@@ -4,83 +4,116 @@
   "imagenes": [
     {
       "nombre": "Compost estabilizado",
-      "archivo": "assets/biblioteca/organicos/productos/compost_estabilizado.jpg",
-      "alt": "Ilustración conceptual de Compost estabilizado",
-      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "archivo": "assets/biblioteca/organicos/individuales/compost-estabilizado.svg",
+      "alt": "Ilustración individual de Compost estabilizado",
+      "origen": "Ilustración vectorial original individual, diseñada para representar el producto nombrado",
       "derechos": "Creación por IA sin fotografías externas",
-      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola",
+      "archivo_anterior": "assets/biblioteca/organicos/productos/compost_estabilizado.jpg",
+      "estado": "Publicada como ilustración conceptual individual",
+      "tipo": "ilustracion-original"
     },
     {
       "nombre": "Humus de lombriz",
-      "archivo": "assets/biblioteca/organicos/productos/humus_de_lombriz.jpg",
-      "alt": "Ilustración conceptual de Humus de lombriz",
-      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "archivo": "assets/biblioteca/organicos/individuales/humus-de-lombriz.svg",
+      "alt": "Ilustración individual de Humus de lombriz",
+      "origen": "Ilustración vectorial original individual, diseñada para representar el producto nombrado",
       "derechos": "Creación por IA sin fotografías externas",
-      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola",
+      "archivo_anterior": "assets/biblioteca/organicos/productos/humus_de_lombriz.jpg",
+      "estado": "Publicada como ilustración conceptual individual",
+      "tipo": "ilustracion-original"
     },
     {
       "nombre": "Enmiendas de suelo",
-      "archivo": "assets/biblioteca/organicos/productos/enmiendas_de_suelo.jpg",
-      "alt": "Ilustración conceptual de Enmiendas de suelo",
-      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "archivo": "assets/biblioteca/organicos/individuales/enmiendas-de-suelo.svg",
+      "alt": "Ilustración individual de Enmiendas de suelo",
+      "origen": "Ilustración vectorial original individual, diseñada para representar el producto nombrado",
       "derechos": "Creación por IA sin fotografías externas",
-      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola",
+      "archivo_anterior": "assets/biblioteca/organicos/productos/enmiendas_de_suelo.jpg",
+      "estado": "Publicada como ilustración conceptual individual",
+      "tipo": "ilustracion-original"
     },
     {
       "nombre": "Acolchado vegetal",
-      "archivo": "assets/biblioteca/organicos/productos/acolchado_vegetal.jpg",
-      "alt": "Ilustración conceptual de Acolchado vegetal",
-      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "archivo": "assets/biblioteca/organicos/individuales/acolchado-vegetal.svg",
+      "alt": "Ilustración individual de Acolchado vegetal",
+      "origen": "Ilustración vectorial original individual, diseñada para representar el producto nombrado",
       "derechos": "Creación por IA sin fotografías externas",
-      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola",
+      "archivo_anterior": "assets/biblioteca/organicos/productos/acolchado_vegetal.jpg",
+      "estado": "Publicada como ilustración conceptual individual",
+      "tipo": "ilustracion-original"
     },
     {
       "nombre": "Astillas",
-      "archivo": "assets/biblioteca/organicos/productos/astillas.jpg",
-      "alt": "Ilustración conceptual de Astillas",
-      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "archivo": "assets/biblioteca/organicos/individuales/astillas.svg",
+      "alt": "Ilustración individual de Astillas",
+      "origen": "Ilustración vectorial original individual, diseñada para representar el producto nombrado",
       "derechos": "Creación por IA sin fotografías externas",
-      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola",
+      "archivo_anterior": "assets/biblioteca/organicos/productos/astillas.jpg",
+      "estado": "Publicada como ilustración conceptual individual",
+      "tipo": "ilustracion-original"
     },
     {
       "nombre": "Biocarbón",
-      "archivo": "assets/biblioteca/organicos/productos/biocarbon.jpg",
-      "alt": "Ilustración conceptual de Biocarbón",
-      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "archivo": "assets/biblioteca/organicos/individuales/biocarbon.svg",
+      "alt": "Ilustración individual de Biocarbón",
+      "origen": "Ilustración vectorial original individual, diseñada para representar el producto nombrado",
       "derechos": "Creación por IA sin fotografías externas",
-      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola",
+      "archivo_anterior": "assets/biblioteca/organicos/productos/biocarbon.jpg",
+      "estado": "Publicada como ilustración conceptual individual",
+      "tipo": "ilustracion-original"
     },
     {
       "nombre": "Digestato tratado",
-      "archivo": "assets/biblioteca/organicos/productos/digestato_tratado.jpg",
-      "alt": "Ilustración conceptual de Digestato tratado",
-      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "archivo": "assets/biblioteca/organicos/individuales/digestato-tratado.svg",
+      "alt": "Ilustración individual de Digestato tratado",
+      "origen": "Ilustración vectorial original individual, diseñada para representar el producto nombrado",
       "derechos": "Creación por IA sin fotografías externas",
-      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola",
+      "archivo_anterior": "assets/biblioteca/organicos/productos/digestato_tratado.jpg",
+      "estado": "Publicada como ilustración conceptual individual",
+      "tipo": "ilustracion-original"
     },
     {
       "nombre": "Fertilizante formulado",
-      "archivo": "assets/biblioteca/organicos/productos/fertilizante_formulado.jpg",
-      "alt": "Ilustración conceptual de Fertilizante formulado",
-      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "archivo": "assets/biblioteca/organicos/individuales/fertilizante-formulado.svg",
+      "alt": "Ilustración individual de Fertilizante formulado",
+      "origen": "Ilustración vectorial original individual, diseñada para representar el producto nombrado",
       "derechos": "Creación por IA sin fotografías externas",
-      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola",
+      "archivo_anterior": "assets/biblioteca/organicos/productos/fertilizante_formulado.jpg",
+      "estado": "Publicada como ilustración conceptual individual",
+      "tipo": "ilustracion-original"
     },
     {
       "nombre": "Sustrato para hongos",
-      "archivo": "assets/biblioteca/organicos/productos/sustrato_para_hongos.jpg",
-      "alt": "Ilustración conceptual de Sustrato para hongos",
-      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "archivo": "assets/biblioteca/organicos/individuales/sustrato-para-hongos.svg",
+      "alt": "Ilustración individual de Sustrato para hongos",
+      "origen": "Ilustración vectorial original individual, diseñada para representar el producto nombrado",
       "derechos": "Creación por IA sin fotografías externas",
-      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola",
+      "archivo_anterior": "assets/biblioteca/organicos/productos/sustrato_para_hongos.jpg",
+      "estado": "Publicada como ilustración conceptual individual",
+      "tipo": "ilustracion-original"
     },
     {
       "nombre": "Bokashi",
-      "archivo": "assets/biblioteca/organicos/productos/bokashi.jpg",
-      "alt": "Ilustración conceptual de Bokashi",
-      "origen": "Ilustración original con IA; recorte y representación conceptual específica",
+      "archivo": "assets/biblioteca/organicos/individuales/bokashi.svg",
+      "alt": "Ilustración individual de Bokashi",
+      "origen": "Ilustración vectorial original individual, diseñada para representar el producto nombrado",
       "derechos": "Creación por IA sin fotografías externas",
-      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola"
+      "nota": "Producto sujeto a estabilización, pruebas de calidad y requisitos aplicables antes de uso agrícola",
+      "archivo_anterior": "assets/biblioteca/organicos/productos/bokashi.jpg",
+      "estado": "Publicada como ilustración conceptual individual",
+      "tipo": "ilustracion-original"
     }
-  ]
+  ],
+  "version": "2.0.0",
+  "aviso": "Ilustraciones individuales originales. No son fotografías de instalaciones ni pruebas de producción o comercialización de productos.",
+  "archivos_anteriores": "Conservados en el repositorio como material de archivo, excluidos del catálogo por incluir recortes de varias escenas."
 }
