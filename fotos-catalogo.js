@@ -1,4 +1,4 @@
-/* ECORECYCLE v2.0 — referencias individuales verificadas, del catálogo local y del atlas institucional. */
+/* ECORECYCLE v2.1 — referencias individuales verificadas, del catálogo local y del atlas institucional. */
 (()=>{
 "use strict";
 const base="./assets/biblioteca/reciclables-secos/";
@@ -45,7 +45,12 @@ function productFor(name,subbase){
    const item=riverItems.find(x=>clean(x.nombre)===clean(name)&&clean(x.subbase)===clean(subbase));
    if(item)return {src:'./'+item.archivo,label:item.nombre,alt:item.alt||item.nombre,license:'Imagen generada con IA',credit:'ECORECYCLE · creación fotográfica conceptual',kind:'Recreación fotorrealista de una aplicación; no documenta obra construida'};
  }
- // No mostrar recortes del organigrama como fotografías de productos orgánicos.
+ if(active==='organicos'){
+   const item=organicItems.find(x=>clean(x.nombre)===clean(name)&&x.archivo&&x.archivo.endsWith('.svg'));
+   if(item)return {src:'./'+item.archivo,label:item.nombre,alt:item.alt||('Ilustración de '+name),
+      license:'Ilustración vectorial original',credit:'Fundación Ecopiensa Evolution',
+      kind:'Ilustración individual conceptual del producto; no es una fotografía de producción real',fit:'contain'};
+ }
  if(atlas)return atlas;
  if(active==='metales'){const z=metalItems.find(x=>x.tipo==='productos'&&clean(x.nombre)===clean(name)&&x.archivo);if(z)return {src:'./'+z.archivo,label:z.nombre,alt:z.nombre,license:z.licencia||'Ver créditos',credit:z.autor||'Wikimedia Commons',kind:'Fotografía de referencia local bajo licencia indicada'};}
  // Las siguientes entregas se resolveran mediante sus propios manifiestos, nunca por fotos de otro producto.
