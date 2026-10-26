@@ -1,13 +1,14 @@
-/* ECORECYCLE v1.4 — 100% imagenes locales, cero enlaces externos desde las fotografias. */
+/* ECORECYCLE v2.0 — referencias individuales verificadas, del catálogo local y del atlas institucional. */
 (()=>{
 "use strict";
 const base="./assets/biblioteca/reciclables-secos/";
 const pending=[];
-let packItems=[],metalItems=[],organicItems=[],riverItems=[],publicCredits=[],booted=false;
+let packItems=[],metalItems=[],organicItems=[],riverItems=[],publicCredits=[],atlasLinks={},booted=false;
 const clean=s=>String(s||"").replace(/\*+$/,"").trim();
 const slug=s=>clean(s).toLowerCase().replaceAll("¾","tres-cuartos").replaceAll("½","medio").replaceAll("⅜","tres-octavos")
  .normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 async function load(){
+ try{const r=await fetch('./atlas-vinculos.json',{cache:'no-store'});if(r.ok)atlasLinks=(await r.json()).vinculos||{};}catch(_){}
  try{const r=await fetch(base+"manifest.json",{cache:"no-cache"});if(r.ok)packItems=(await r.json()).imagenes||[];}catch(_){}
  try{const r=await fetch("./assets/fotos/creditos.json");if(r.ok)publicCredits=(await r.json()).fuentes||[];}catch(_){}
  try{const r=await fetch('./assets/biblioteca/metales/manifest.json');if(r.ok)metalItems=(await r.json()).imagenes||[];}catch(_){}
@@ -15,24 +16,37 @@ async function load(){
  try{const r=await fetch('./assets/biblioteca/rio/manifest.json');if(r.ok)riverItems=(await r.json()).imagenes||[];}catch(_){}
  booted=true;paint();
 }
+function fromAtlas(kind,name){
+ const item=atlasLinks[active+"|"+kind+"|"+clean(name)];
+ if(!item?.src)return null;
+ return {src:item.src,label:name,alt:"Imagen de "+name+" · "+item.label,
+         license:"Referencia conceptual institucional",credit:"Atlas de materiales Ecopiensa Evolution",
+         kind:"Imagen individual seleccionada para corresponder al nombre. No documenta una obra ejecutada.",
+         fit:item.src.includes("/imagenes/materiales/")?"contain":"cover"};
+}
 function exactPack(group,name){
  if(active!=="reciclables")return null;
  const x=packItems.find(x=>x.tipo===group&&clean(x.nombre)===clean(name));
  return x?.archivo?{src:"./"+x.archivo,label:x.nombre,alt:x.alt||x.nombre,license:x.licencia||"Ilustracion original IA",credit:x.autor||"Fundación Ecopiensa Evolution",kind:"Imagen generada con IA, ilustrativa"}:null;
 }
 function localSub(group,name){
+ const ownAtlas=fromAtlas('subbase',name);if(ownAtlas)return ownAtlas;
  const p=exactPack(group,name);if(p)return p;
  if(active==='metales'){const z=metalItems.find(x=>x.tipo===group&&clean(x.nombre)===clean(name)&&x.archivo);if(z)return {src:'./'+z.archivo,label:z.nombre,alt:z.nombre,license:z.licencia||'Ver créditos',credit:z.autor||'Wikimedia Commons',kind:'Fotografía de referencia local bajo licencia indicada'};}
  const x=publicCredits.find(x=>x.material===active&&clean(x.subbase)===clean(name));
  return x?.filename?{src:"./"+x.filename,label:name,alt:name,license:x.license||"Licencia no registrada",credit:x.creator||"Autor no registrado",kind:"Fotografia externa ilustrativa alojada localmente"}:null;
 }
 function productFor(name,subbase){
- const pack=exactPack("productos",name);if(pack)return pack;
+ // El enlace de atlas se empareja por material y título; no se muestran recortes erróneos.
+ const atlas=fromAtlas('producto',name);
+ if(atlas && active==='rcd')return atlas;
+ const pack=exactPack('productos',name);if(pack)return pack;
  if(active==='rio'){
    const item=riverItems.find(x=>clean(x.nombre)===clean(name)&&clean(x.subbase)===clean(subbase));
    if(item)return {src:'./'+item.archivo,label:item.nombre,alt:item.alt||item.nombre,license:'Imagen generada con IA',credit:'ECORECYCLE · creación fotográfica conceptual',kind:'Recreación fotorrealista de una aplicación; no documenta obra construida'};
  }
- if(active==='organicos'){const item=organicItems.find(x=>clean(x.nombre)===clean(name));if(item)return {src:'./'+item.archivo,label:item.nombre,alt:item.alt||item.nombre,license:'Creación original generada con IA',credit:'Fundación Ecopiensa Evolution',kind:'Ilustración conceptual de producto orgánico; uso agrícola condicionado a calidad y normativa'};}
+ // No mostrar recortes del organigrama como fotografías de productos orgánicos.
+ if(atlas)return atlas;
  if(active==='metales'){const z=metalItems.find(x=>x.tipo==='productos'&&clean(x.nombre)===clean(name)&&x.archivo);if(z)return {src:'./'+z.archivo,label:z.nombre,alt:z.nombre,license:z.licencia||'Ver créditos',credit:z.autor||'Wikimedia Commons',kind:'Fotografía de referencia local bajo licencia indicada'};}
  // Las siguientes entregas se resolveran mediante sus propios manifiestos, nunca por fotos de otro producto.
  return null;
@@ -42,7 +56,7 @@ function nodePhoto(source,label,variant){
  if(source?.src){
   const btn=document.createElement("button");btn.type="button";btn.className="local-photo-button";
   btn.setAttribute("aria-label","Ampliar imagen de "+label+" dentro de la página");
-  const img=document.createElement("img");img.src=source.src;img.alt=source.alt||label;img.loading="lazy";
+  const img=document.createElement("img");img.src=source.src;img.alt=source.alt||label;img.loading="lazy";img.decoding="async";img.referrerPolicy="no-referrer";if(source.fit==="contain")img.className="fit-contain";
   img.addEventListener("error",()=>{btn.replaceWith(placeholder(label));},{once:true});
   btn.appendChild(img);btn.addEventListener("click",()=>openPreview(source,label));
   slot.appendChild(btn);
@@ -51,7 +65,7 @@ function nodePhoto(source,label,variant){
 }
 function placeholder(name){
  const div=document.createElement("div");div.className="image-pending";div.setAttribute("role","status");
- div.textContent="Imagen pendiente";div.title="Pendiente de imagen individual: "+name;return div;
+ div.textContent="Imagen individual en preparación";div.title="Falta una imagen que corresponda exactamente a: "+name;return div;
 }
 function buildDialog(){
  if(document.querySelector("#ecorecycle-viewer"))return;
@@ -89,9 +103,11 @@ function paint(){
  const icon=document.querySelector("#baseIcon");
  if(icon){
   icon.innerHTML="";
-  // La foto de base se toma de la primera subbase adecuada, pero se etiqueta como ilustración general.
+  // La imagen de base es una fracción de referencia solo cuando hay una subbase apropiada.
   const first=material.b[0]?.[0];
-  icon.appendChild(nodePhoto(first?localSub("subbases",first):null,material.n,"base-photo"));
+  const example=first?localSub("subbases",first):null;
+  if(example)example.alt="Ejemplo de "+first+" dentro de "+material.n+" (no representa todas las fracciones)";
+  icon.appendChild(nodePhoto(example,material.n,"base-photo"));
  }
 }
 const previous=window.draw;
