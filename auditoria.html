@@ -3,13 +3,13 @@
 </style></head><body><header><img src="./logo%20ecopiensa%20(1).png" alt="Logotipo oficial de Fundación Ecopiensa Evolution"><div><div style="letter-spacing:2px;font-size:11px;font-weight:800">FUNDACIÓN ECOPIENSA EVOLUTION · ECORECYCLE</div><h1>Inventario visual integral</h1><p>Organigramas, fotografías alojadas, referencias por revisar y grupos pendientes</p></div></header><main><nav class="nav"><a href="./index.html">Portada</a><a href="./biblioteca-visual.html">Biblioteca visual</a><a href="./ecoaldeas-propuestas.html">ECOALDEAS</a><a href="./ecocia.html">ECO-CIA</a><a href="./ecotiendas.html">Eco-tiendas</a></nav><div class="note"><strong>Qué significa el estado:</strong> «Imagen vinculada · revisar» indica que existe un archivo y el sitio tiene una ruta para él, <strong>no</strong> que la fotografía esté aprobada. «Pendiente» significa que todavía falta una imagen específica de ese nodo. Los recortes de infografías requieren revisión; no se representan como fotos de proyectos ejecutados. El logotipo original se conserva intacto y las imágenes se amplían aquí, sin redirigir a otra web.</div><div class="statgrid"><div class="stat"><strong id="total">—</strong><span>Nodos de materiales</span></div><div class="stat"><strong id="linked">—</strong><span>Con imagen local para revisar</span></div><div class="stat"><strong id="pending">—</strong><span>Pendientes de imagen</span></div><div class="stat"><strong id="assets">—</strong><span>Archivos gráficos en repositorio</span></div></div>
 <h2>Organigramas que ya tenemos</h2><p class="small">Las láminas SVG explican la clasificación de materiales. Sus fotografías individuales siguen completándose en las fichas de ECORECYCLE.</p><div class="organigramas" id="diagramas"></div>
 <h2>Inventario por base, subbase y producto</h2><div class="filters"><input id="query" type="search" placeholder="Buscar un producto o aplicación por nombre…" aria-label="Buscar imagen"/><select id="category" aria-label="Categoría"><option value="">Todos los materiales</option></select><select id="status" aria-label="Estado"><option value="">Todos los estados</option><option value="VINCULADA_REVISAR">Con imagen</option><option value="PENDIENTE_CREAR">Falta crear</option><option value="ARCHIVO_FALTANTE">Archivo roto</option></select></div><p class="small" id="shown">Cargando inventario…</p><div class="catalog" id="catalog"></div><button class="showmore" id="more">Mostrar más resultados</button>
-<h2>Plan de creación de imágenes</h2><p class="small">Los grupos sirven únicamente para organizar el trabajo. Los archivos de imagen siempre tendrán nombres descriptivos, sin números de paquete.</p><div class="groups" id="groups"></div></main><dialog class="modal" id="viewer"><div class="modalhead"><strong id="photoTitle"></strong><button id="close" type="button">Cerrar ×</button></div><img id="photoLarge" alt=""><p class="small" id="photoCredit"></p></dialog><footer>Fundación Ecopiensa Evolution · Catálogo público · Sin documentos privados del macroproyecto</footer><script>
-let DATA=[],GROUPS=[],filtered=[],display=0;const PAGE=36;const $=s=>document.querySelector(s);
+</main><dialog class="modal" id="viewer"><div class="modalhead"><strong id="photoTitle"></strong><button id="close" type="button">Cerrar ×</button></div><img id="photoLarge" alt=""><p class="small" id="photoCredit"></p></dialog><footer>Fundación Ecopiensa Evolution · Catálogo público · Sin documentos privados del macroproyecto</footer><script>
+let DATA=[],filtered=[],display=0;const PAGE=36;const $=s=>document.querySelector(s);
 function openView(src,name,description){const d=$('#viewer');$('#photoTitle').textContent=name;$('#photoLarge').src=src;$('#photoLarge').alt=name;$('#photoCredit').textContent=description||'Referencia visual para revisión';d.showModal();}
 $('#close').onclick=()=>$('#viewer').close();$('#viewer').onclick=e=>{if(e.target===$('#viewer'))$('#viewer').close()};
 function createTile(x){const el=document.createElement('article');el.className='node';
 const area=document.createElement('div');area.className='thumb';
-if(x.imagen&&x.estado==='VINCULADA_REVISAR'){const b=document.createElement('button'),img=document.createElement('img');b.type='button';img.src='./'+x.imagen;img.loading='lazy';img.alt=x.nombre;
+if(x.imagen&&x.estado==='VINCULADA_REVISAR'){const b=document.createElement('button'),img=document.createElement('img');b.type='button';img.src=/^https?:\/\//.test(x.imagen)?x.imagen:'./'+x.imagen;img.loading='lazy';img.alt=x.nombre;
 img.onerror=()=>{b.replaceWith(document.createTextNode('Imagen no disponible'))};
 b.append(img);b.onclick=()=>openView(img.src,x.nombre,x.origen+' · '+x.control_calidad);area.append(b);
 }else{area.textContent=x.estado==='ARCHIVO_FALTANTE'?'Archivo no encontrado':'Imagen independiente pendiente';}
@@ -24,13 +24,39 @@ function search(){let q=$('#query').value.toLowerCase().normalize('NFD').replace
 filtered=DATA.filter(x=>(!cat||x.categoria===cat)&&(!state||x.estado===state)&&(!q||(x.nombre+' '+x.categoria+' '+x.subbase).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').includes(q)));render();}
 $('#query').oninput=search;$('#category').onchange=search;$('#status').onchange=search;
 (async()=>{try{
-const [res,plan]=await Promise.all([fetch('./AUDITORIA_CATALOGO.json'),fetch('./PLAN_PAQUETES_IMAGENES.json')]);if(!res.ok||!plan.ok)throw Error('Inventario no disponible');
-const a=await res.json(),b=await plan.json();DATA=a.items.filter(x=>x.linea==='MATERIALES');GROUPS=b.grupos_pendientes||[];
-$('#total').textContent=a.total_nodos_materiales;$('#linked').textContent=a.nodos_vinculados_con_imagen;$('#pending').textContent=a.nodos_pendientes;$('#assets').textContent=a.total_archivos_imagen;
+const [res,atlasRes,organicRes]=await Promise.all([
+ fetch('./AUDITORIA_CATALOGO.json',{cache:'no-store'}),
+ fetch('./atlas-vinculos.json',{cache:'no-store'}),
+ fetch('./assets/biblioteca/organicos/manifest.json',{cache:'no-store'})
+]);
+if(!res.ok)throw Error('Inventario no disponible');
+const a=await res.json();
+const atlas=atlasRes.ok?(await atlasRes.json()).vinculos||{}:{};
+const organic=organicRes.ok?(await organicRes.json()).imagenes||[]:[];
+const orgByName=new Map(organic.filter(x=>x.archivo&&x.archivo.endsWith('.svg')).map(x=>[x.nombre,x.archivo]));
+const ids={'Material de río':'rio','Escombros y RCD':'rcd','Material orgánico':'organicos'};
+DATA=a.items.filter(x=>x.linea==='MATERIALES');
+for(const node of DATA){
+ const family=ids[node.categoria];
+ const cleanName=String(node.nombre||'').replace(/\\*+$/,'').trim();
+ const ref=family?atlas[family+'|'+(node.tipo==='producto'?'producto':'subbase')+'|'+cleanName]:null;
+ if(ref?.src && node.tipo!=='base'){
+  node.imagen=ref.src;node.estado='VINCULADA_REVISAR';node.origen='Atlas institucional (escena individual)';
+ }
+ if(family==='organicos' && node.tipo==='producto' && orgByName.has(cleanName)){
+  node.imagen=orgByName.get(cleanName);node.estado='VINCULADA_REVISAR';
+  node.origen='Ilustración vectorial individual original';
+ }
+}
+const linked=DATA.filter(x=>x.estado==='VINCULADA_REVISAR').length;
+$('#total').textContent=DATA.length;
+$('#linked').textContent=linked;
+$('#pending').textContent=DATA.length-linked;
+$('#assets').textContent=a.total_archivos_imagen+10;
 const categories=[...new Set(DATA.map(x=>x.categoria))];for(const c of categories){let o=document.createElement('option');o.value=c;o.textContent=c;$('#category').append(o)}
 const diagramData=[['rio','Material de río'],['reciclables','Material reciclable'],['organicos','Material orgánico'],['rcd','RCD y escombros'],['plasticos','Plásticos'],['papel_carton','Papel y cartón'],['metales','Metales'],['madera','Madera'],['vidrio','Vidrio'],['llantas','Llantas'],['aceites','Aceites'],['textiles','Textiles'],['raee','RAEE']];
 for(const [id,n] of diagramData){const node=document.createElement('article');node.className='orgcard';const b=document.createElement('button');b.type='button';const image=document.createElement('img');image.src='./organigramas/'+id+'.svg';image.alt='Organigrama de '+n;b.append(image);b.onclick=()=>openView(image.src,'Organigrama · '+n,'Diagrama vectorial institucional con símbolos. Productos individuales en desarrollo.');const h=document.createElement('h3');h.textContent=n;const p=document.createElement('p');p.textContent='Ver esquema completo dentro del sitio';node.append(b,h,p);$('#diagramas').append(node);}
-for(const group of GROUPS){const d=document.createElement('details');d.className='group';const sum=document.createElement('summary');sum.textContent=group.familia+' · '+group.cantidad+' imágenes por producir';const ul=document.createElement('ul');for(const img of group.imagenes){const li=document.createElement('li');li.textContent=img.nombre+(img.subbase?' · '+img.subbase:'');ul.append(li)}d.append(sum,ul);$('#groups').append(d)}
+
 search();
 }catch(e){$('#shown').textContent='No fue posible cargar el inventario. Consulta AUDITORIA_VISUAL.md en el repositorio.'}
 })();
