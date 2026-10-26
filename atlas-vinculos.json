@@ -1,0 +1,319 @@
+{
+  "version": "2.0.0",
+  "fuente": "Atlas visual institucional ECOPIENSA (repositorio de consulta sin modificaciones)",
+  "aviso": "Vínculos a referencias que representan el material o aplicación del título; requieren validación técnica para uso real.",
+  "vinculos": {
+    "rio|subbase|Triturado 1 pulgada": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/t1.jpg",
+      "label": "Triturado 1”",
+      "alt": "Referencia visual de Triturado 1”",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|subbase|Triturado ¾ pulgada": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/t2.jpg",
+      "label": "Triturado ¾”",
+      "alt": "Referencia visual de Triturado ¾”",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|subbase|Triturado ½ pulgada": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/t3.jpg",
+      "label": "Triturado ½”",
+      "alt": "Referencia visual de Triturado ½”",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|subbase|Gravilla ⅜ pulgada": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/t4.jpg",
+      "label": "Gravilla ⅜”",
+      "alt": "Referencia visual de Gravilla ⅜”",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|subbase|Grouting y arenón": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/an.jpg",
+      "label": "Arenón",
+      "alt": "Referencia visual de Arenón",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|subbase|Arena gruesa y fina": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/ag.jpg",
+      "label": "Arena gruesa",
+      "alt": "Referencia visual de Arena gruesa",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Bases y subbases viales": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-04/subbases-carreteras.jpg",
+      "label": "Subbases de carreteras",
+      "alt": "Referencia visual de Subbases de carreteras",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Concretos de diseño": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/co.jpg",
+      "label": "Concreto dosificado",
+      "alt": "Referencia visual de Concreto dosificado",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Drenajes y filtros": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-06/filtros-franceses.jpg",
+      "label": "Filtros franceses",
+      "alt": "Referencia visual de Filtros franceses",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Obras civiles": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/modelos/paquete-18-estructuras-hidraulica/cimientos-mamposteria.jpg",
+      "label": "Cimientos y mampostería en construcción",
+      "alt": "Referencia visual de Cimientos y mampostería en construcción",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Concretos": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-03/calzadas-concreto.jpg",
+      "label": "Calzadas de concreto",
+      "alt": "Referencia visual de Calzadas de concreto",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Prefabricados": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-07/prefabricados-arquitectonicos.jpg",
+      "label": "Prefabricados arquitectónicos",
+      "alt": "Referencia visual de Prefabricados arquitectónicos",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Andenes": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-03/andenes-peatonales.jpg",
+      "label": "Andenes peatonales",
+      "alt": "Referencia visual de Andenes peatonales",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Elementos de drenaje": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-06/obras-arte-drenaje.jpg",
+      "label": "Obras de arte de drenaje",
+      "alt": "Referencia visual de Obras de arte de drenaje",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Bloques y mezclas": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-04/bloques-huecos-cemento.jpg",
+      "label": "Bloques huecos de cemento",
+      "alt": "Referencia visual de Bloques huecos de cemento",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Concreto no estructural": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-07/concreto-pobre.jpg",
+      "label": "Concreto pobre / base tratada",
+      "alt": "Referencia visual de Concreto pobre / base tratada",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Contrapisos": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-04/contrapisos-soleras.jpg",
+      "label": "Contrapisos y soleras",
+      "alt": "Referencia visual de Contrapisos y soleras",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Adoquines": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-05/adoquines.jpg",
+      "label": "Adoquines",
+      "alt": "Referencia visual de Adoquines",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Concretos finos": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/co.jpg",
+      "label": "Concreto dosificado",
+      "alt": "Referencia visual de Concreto dosificado",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Acabados decorativos": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/modelos/paquete-16-paisajismo/elementos-arquitectonicos.jpg",
+      "label": "Elementos arquitectónicos decorativos",
+      "alt": "Referencia visual de Elementos arquitectónicos decorativos",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Morteros": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/mo.jpg",
+      "label": "Mortero de pega o pañete",
+      "alt": "Referencia visual de Mortero de pega o pañete",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Mampostería": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-04/mamposteria-reforzada.jpg",
+      "label": "Muros de mampostería reforzada",
+      "alt": "Referencia visual de Muros de mampostería reforzada",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Nivelaciones": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-05/morteros-nivelacion.jpg",
+      "label": "Morteros de nivelación",
+      "alt": "Referencia visual de Morteros de nivelación",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Relleno controlado": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-07/relleno-fluido.jpg",
+      "label": "Relleno fluido controlado",
+      "alt": "Referencia visual de Relleno fluido controlado",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Pega de ladrillo": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-05/mortero-pega.jpg",
+      "label": "Mortero para pega",
+      "alt": "Referencia visual de Mortero para pega",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Repellos": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-05/repellos-panetes.jpg",
+      "label": "Repellos y pañetes",
+      "alt": "Referencia visual de Repellos y pañetes",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Acabados": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/modelos/paquete-13-morteros/estuco-pared.jpg",
+      "label": "Acabado de estuco y pañete",
+      "alt": "Referencia visual de Acabado de estuco y pañete",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rio|producto|Mezclas de concreto": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/co.jpg",
+      "label": "Concreto dosificado",
+      "alt": "Referencia visual de Concreto dosificado",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|subbase|Concreto limpio": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rc.jpg",
+      "label": "Agregado reciclado de concreto",
+      "alt": "Referencia visual de Agregado reciclado de concreto",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|subbase|Ladrillo y mampostería": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/modelos/paquete-09-bloques/ladrillos-bloques.jpg",
+      "label": "Ladrillos y bloques apilados",
+      "alt": "Referencia visual de Ladrillos y bloques apilados",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|subbase|Cerámicos y tejas": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rm.jpg",
+      "label": "Agregado cerámico recuperado",
+      "alt": "Referencia visual de Agregado cerámico recuperado",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|subbase|Tierras y materiales inertes": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/mi.jpg",
+      "label": "Todo-uno / mezcla granular",
+      "alt": "Referencia visual de Todo-uno / mezcla granular",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|subbase|Asfalto recuperado": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/ra.jpg",
+      "label": "Asfalto recuperado (RAP)",
+      "alt": "Referencia visual de Asfalto recuperado (RAP)",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Árido reciclado": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rc.jpg",
+      "label": "Agregado reciclado de concreto",
+      "alt": "Referencia visual de Agregado reciclado de concreto",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Subbases viales": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rs.jpg",
+      "label": "Subbase con RCD",
+      "alt": "Referencia visual de Subbase con RCD",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Bloques no estructurales": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-04/bloques-huecos-cemento.jpg",
+      "label": "Bloques huecos de cemento",
+      "alt": "Referencia visual de Bloques huecos de cemento",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Prefabricados": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-07/prefabricados-arquitectonicos.jpg",
+      "label": "Prefabricados arquitectónicos",
+      "alt": "Referencia visual de Prefabricados arquitectónicos",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Ladrillos ecológicos": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-05/ladrillos-no-cocidos.jpg",
+      "label": "Ladrillos no cocidos / bloques",
+      "alt": "Referencia visual de Ladrillos no cocidos / bloques",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Adoquines": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-05/adoquines.jpg",
+      "label": "Adoquines",
+      "alt": "Referencia visual de Adoquines",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Agregados para morteros": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rf.jpg",
+      "label": "Fino reciclado de RCD",
+      "alt": "Referencia visual de Fino reciclado de RCD",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Calados y celosías": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/modelos/paquete-09-bloques/celosia-01.jpg",
+      "label": "Celosía decorativa · modelo A",
+      "alt": "Referencia visual de Celosía decorativa · modelo A",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Granulado cerámico": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rm.jpg",
+      "label": "Agregado cerámico recuperado",
+      "alt": "Referencia visual de Agregado cerámico recuperado",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Adoquines decorativos": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-05/adoquines.jpg",
+      "label": "Adoquines",
+      "alt": "Referencia visual de Adoquines",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Áridos mixtos": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/mi.jpg",
+      "label": "Todo-uno / mezcla granular",
+      "alt": "Referencia visual de Todo-uno / mezcla granular",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Material para senderos": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-04/afirmado-rural.jpg",
+      "label": "Afirmado rural",
+      "alt": "Referencia visual de Afirmado rural",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Rellenos autorizados": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-06/rellenos-zanjas.jpg",
+      "label": "Rellenos y zanjas",
+      "alt": "Referencia visual de Rellenos y zanjas",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Nivelaciones": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/modelos/paquete-17-acabados-viviendas/nivelacion-piso.jpg",
+      "label": "Nivelación de piso con mortero",
+      "alt": "Referencia visual de Nivelación de piso con mortero",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Estabilización de terreno": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-07/estabilizacion-taludes.jpg",
+      "label": "Estabilización de taludes",
+      "alt": "Referencia visual de Estabilización de taludes",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Bases para senderos": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/bg.jpg",
+      "label": "Base granular",
+      "alt": "Referencia visual de Base granular",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Fresado asfáltico clasificado": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/ra.jpg",
+      "label": "Asfalto recuperado (RAP)",
+      "alt": "Referencia visual de Asfalto recuperado (RAP)",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Recuperación en mezclas": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-03/recuperacion-pavimento-rap.jpg",
+      "label": "Recuperación de pavimento RAP",
+      "alt": "Referencia visual de Recuperación de pavimento RAP",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    },
+    "rcd|producto|Subbases con material recuperado": {
+      "src": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rs.jpg",
+      "label": "Subbase con RCD",
+      "alt": "Referencia visual de Subbase con RCD",
+      "origen": "Atlas institucional de materiales y aplicaciones constructivas"
+    }
+  }
+}
