@@ -2,8 +2,8 @@
   "fecha_auditoria": "2026-10-26",
   "total_archivos_imagen": 225,
   "total_nodos_materiales": 353,
-  "nodos_vinculados_con_imagen": 134,
-  "nodos_pendientes": 219,
+  "nodos_vinculados_con_imagen": 135,
+  "nodos_pendientes": 218,
   "organigramas_materiales": 13,
   "banco_de_imagenes_no_asignadas": 29,
   "grupos_pendientes": 35,
@@ -387,11 +387,11 @@
       "subbase": "",
       "nombre": "Material reciclable",
       "tipo": "base",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "assets/biblioteca/individuales/material-reciclable.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Correspondencia temática exacta, ilustración conceptual",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
