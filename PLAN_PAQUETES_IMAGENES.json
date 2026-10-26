@@ -1,112 +1,10 @@
 {
-  "fecha": "2026-10-25 20:30 UTC",
+  "fecha": "2026-10-26",
+  "estado": "PLAN DE TRABAJO INTERNO: no enlazar en la página pública.",
+  "total_faltantes": 219,
   "grupos_pendientes": [
     {
       "grupo": "G01",
-      "familia": "Material de río",
-      "cantidad": 10,
-      "imagenes": [
-        {
-          "nombre": "Material de río",
-          "subbase": "",
-          "tipo": "base",
-          "archivo_recomendado": "material-de-rio.jpg"
-        },
-        {
-          "nombre": "Bases y subbases viales",
-          "subbase": "Triturado 1 pulgada",
-          "tipo": "producto",
-          "archivo_recomendado": "bases-y-subbases-viales.jpg"
-        },
-        {
-          "nombre": "Prefabricados",
-          "subbase": "Triturado ½ pulgada",
-          "tipo": "producto",
-          "archivo_recomendado": "prefabricados.jpg"
-        },
-        {
-          "nombre": "Adoquines",
-          "subbase": "Gravilla ⅜ pulgada",
-          "tipo": "producto",
-          "archivo_recomendado": "adoquines.jpg"
-        },
-        {
-          "nombre": "Concretos finos",
-          "subbase": "Gravilla ⅜ pulgada",
-          "tipo": "producto",
-          "archivo_recomendado": "concretos-finos.jpg"
-        },
-        {
-          "nombre": "Acabados decorativos",
-          "subbase": "Gravilla ⅜ pulgada",
-          "tipo": "producto",
-          "archivo_recomendado": "acabados-decorativos.jpg"
-        },
-        {
-          "nombre": "Prefabricados",
-          "subbase": "Gravilla ⅜ pulgada",
-          "tipo": "producto",
-          "archivo_recomendado": "prefabricados.jpg"
-        },
-        {
-          "nombre": "Morteros",
-          "subbase": "Grouting y arenón",
-          "tipo": "producto",
-          "archivo_recomendado": "morteros.jpg"
-        },
-        {
-          "nombre": "Mampostería",
-          "subbase": "Grouting y arenón",
-          "tipo": "producto",
-          "archivo_recomendado": "mamposteria.jpg"
-        },
-        {
-          "nombre": "Nivelaciones",
-          "subbase": "Grouting y arenón",
-          "tipo": "producto",
-          "archivo_recomendado": "nivelaciones.jpg"
-        }
-      ]
-    },
-    {
-      "grupo": "G02",
-      "familia": "Material de río",
-      "cantidad": 5,
-      "imagenes": [
-        {
-          "nombre": "Relleno controlado",
-          "subbase": "Grouting y arenón",
-          "tipo": "producto",
-          "archivo_recomendado": "relleno-controlado.jpg"
-        },
-        {
-          "nombre": "Pega de ladrillo",
-          "subbase": "Arena gruesa y fina",
-          "tipo": "producto",
-          "archivo_recomendado": "pega-de-ladrillo.jpg"
-        },
-        {
-          "nombre": "Repellos",
-          "subbase": "Arena gruesa y fina",
-          "tipo": "producto",
-          "archivo_recomendado": "repellos.jpg"
-        },
-        {
-          "nombre": "Acabados",
-          "subbase": "Arena gruesa y fina",
-          "tipo": "producto",
-          "archivo_recomendado": "acabados.jpg"
-        },
-        {
-          "nombre": "Mezclas de concreto",
-          "subbase": "Arena gruesa y fina",
-          "tipo": "producto",
-          "archivo_recomendado": "mezclas-de-concreto.jpg"
-        }
-      ]
-    },
-    {
-      "grupo": "G03",
       "familia": "Material reciclable",
       "cantidad": 10,
       "imagenes": [
@@ -114,66 +12,66 @@
           "nombre": "Material reciclable",
           "subbase": "",
           "tipo": "base",
-          "archivo_recomendado": "material-reciclable.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/material-reciclable.svg"
         },
         {
           "nombre": "Láminas prensadas",
           "subbase": "Cartón",
           "tipo": "producto",
-          "archivo_recomendado": "laminas-prensadas.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/carton/laminas-prensadas.svg"
         },
         {
           "nombre": "Separadores",
           "subbase": "Cartón",
           "tipo": "producto",
-          "archivo_recomendado": "separadores.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/carton/separadores.svg"
         },
         {
           "nombre": "Pulpa moldeada",
           "subbase": "Cartón",
           "tipo": "producto",
-          "archivo_recomendado": "pulpa-moldeada.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/carton/pulpa-moldeada.svg"
         },
         {
           "nombre": "Cuadernos",
           "subbase": "Papel",
           "tipo": "producto",
-          "archivo_recomendado": "cuadernos.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/papel/cuadernos.svg"
         },
         {
           "nombre": "Bolsas y sobres",
           "subbase": "Papel",
           "tipo": "producto",
-          "archivo_recomendado": "bolsas-y-sobres.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/papel/bolsas-y-sobres.svg"
         },
         {
           "nombre": "Pulpa para moldes",
           "subbase": "Papel",
           "tipo": "producto",
-          "archivo_recomendado": "pulpa-para-moldes.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/papel/pulpa-para-moldes.svg"
         },
         {
           "nombre": "Fibra reciclada",
           "subbase": "PET",
           "tipo": "producto",
-          "archivo_recomendado": "fibra-reciclada.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/pet/fibra-reciclada.svg"
         },
         {
           "nombre": "Filamento 3D",
           "subbase": "PET",
           "tipo": "producto",
-          "archivo_recomendado": "filamento-3d.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/pet/filamento-3d.svg"
         },
         {
           "nombre": "Escobas y cerdas",
           "subbase": "PET",
           "tipo": "producto",
-          "archivo_recomendado": "escobas-y-cerdas.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/pet/escobas-y-cerdas.svg"
         }
       ]
     },
     {
-      "grupo": "G04",
+      "grupo": "G02",
       "familia": "Material reciclable",
       "cantidad": 6,
       "imagenes": [
@@ -181,311 +79,171 @@
           "nombre": "Canecas",
           "subbase": "Plástico soplado",
           "tipo": "producto",
-          "archivo_recomendado": "canecas.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/plastico-soplado/canecas.svg"
         },
         {
           "nombre": "Tuberías no presurizadas",
           "subbase": "Plástico soplado",
           "tipo": "producto",
-          "archivo_recomendado": "tuberias-no-presurizadas.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/plastico-soplado/tuberias-no-presurizadas.svg"
         },
         {
           "nombre": "Mobiliario plástico",
           "subbase": "Plástico soplado",
           "tipo": "producto",
-          "archivo_recomendado": "mobiliario-plastico.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/plastico-soplado/mobiliario-plastico.svg"
         },
         {
           "nombre": "Piezas fundidas",
           "subbase": "Metales",
           "tipo": "producto",
-          "archivo_recomendado": "piezas-fundidas.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/metales/piezas-fundidas.svg"
         },
         {
           "nombre": "Perfiles industriales",
           "subbase": "Metales",
           "tipo": "producto",
-          "archivo_recomendado": "perfiles-industriales.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/metales/perfiles-industriales.svg"
         },
         {
           "nombre": "Componentes y repuestos",
           "subbase": "Metales",
           "tipo": "producto",
-          "archivo_recomendado": "componentes-y-repuestos.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-reciclable/metales/componentes-y-repuestos.svg"
         }
       ]
     },
     {
-      "grupo": "G05",
+      "grupo": "G03",
       "familia": "Material orgánico",
       "cantidad": 10,
       "imagenes": [
         {
-          "nombre": "Material orgánico",
-          "subbase": "",
-          "tipo": "base",
-          "archivo_recomendado": "material-organico.jpg"
-        },
-        {
           "nombre": "Biogás",
           "subbase": "Frutas y verduras",
           "tipo": "producto",
-          "archivo_recomendado": "biogas.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-organico/frutas-y-verduras/biogas.svg"
         },
         {
           "nombre": "Compost vegetal",
           "subbase": "Podas y jardinería",
           "tipo": "producto",
-          "archivo_recomendado": "compost-vegetal.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-organico/podas-y-jardineria/compost-vegetal.svg"
         },
         {
           "nombre": "Abono compostado",
           "subbase": "Estiércoles pecuarios",
           "tipo": "producto",
-          "archivo_recomendado": "abono-compostado.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-organico/estiercoles-pecuarios/abono-compostado.svg"
         },
         {
           "nombre": "Biogás",
           "subbase": "Estiércoles pecuarios",
           "tipo": "producto",
-          "archivo_recomendado": "biogas.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-organico/estiercoles-pecuarios/biogas.svg"
         },
         {
           "nombre": "Compost agrícola",
           "subbase": "Residuos agroindustriales",
           "tipo": "producto",
-          "archivo_recomendado": "compost-agricola.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-organico/residuos-agroindustriales/compost-agricola.svg"
         },
         {
           "nombre": "Briquetas de biomasa",
           "subbase": "Residuos agroindustriales",
           "tipo": "producto",
-          "archivo_recomendado": "briquetas-de-biomasa.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-organico/residuos-agroindustriales/briquetas-de-biomasa.svg"
         },
         {
           "nombre": "Compost controlado",
           "subbase": "Restos alimentarios",
           "tipo": "producto",
-          "archivo_recomendado": "compost-controlado.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-organico/restos-alimentarios/compost-controlado.svg"
         },
         {
           "nombre": "Biogás",
           "subbase": "Restos alimentarios",
           "tipo": "producto",
-          "archivo_recomendado": "biogas.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-organico/restos-alimentarios/biogas.svg"
         },
         {
           "nombre": "Mejoradores del suelo",
           "subbase": "Restos alimentarios",
           "tipo": "producto",
-          "archivo_recomendado": "mejoradores-del-suelo.jpg"
-        }
-      ]
-    },
-    {
-      "grupo": "G06",
-      "familia": "Material orgánico",
-      "cantidad": 4,
-      "imagenes": [
+          "archivo_recomendado": "assets/biblioteca/material-organico/restos-alimentarios/mejoradores-del-suelo.svg"
+        },
         {
           "nombre": "Caracterización especializada",
           "subbase": "Lodos y biosólidos especiales",
           "tipo": "producto",
-          "archivo_recomendado": "caracterizacion-especializada.jpg"
-        },
+          "archivo_recomendado": "assets/biblioteca/material-organico/lodos-y-biosolidos-especiales/caracterizacion-especializada.svg"
+        }
+      ]
+    },
+    {
+      "grupo": "G04",
+      "familia": "Material orgánico",
+      "cantidad": 3,
+      "imagenes": [
         {
           "nombre": "Tratamiento autorizado",
           "subbase": "Lodos y biosólidos especiales",
           "tipo": "producto",
-          "archivo_recomendado": "tratamiento-autorizado.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-organico/lodos-y-biosolidos-especiales/tratamiento-autorizado.svg"
         },
         {
           "nombre": "Usos condicionados a normativa",
           "subbase": "Lodos y biosólidos especiales",
           "tipo": "producto",
-          "archivo_recomendado": "usos-condicionados-a-normativa.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-organico/lodos-y-biosolidos-especiales/usos-condicionados-a-normativa.svg"
         },
         {
           "nombre": "Gestión por operadores habilitados",
           "subbase": "Lodos y biosólidos especiales",
           "tipo": "producto",
-          "archivo_recomendado": "gestion-por-operadores-habilitados.jpg"
+          "archivo_recomendado": "assets/biblioteca/material-organico/lodos-y-biosolidos-especiales/gestion-por-operadores-habilitados.svg"
         }
       ]
     },
     {
-      "grupo": "G07",
+      "grupo": "G05",
       "familia": "Escombros y RCD",
-      "cantidad": 10,
+      "cantidad": 5,
       "imagenes": [
-        {
-          "nombre": "Escombros y RCD",
-          "subbase": "",
-          "tipo": "base",
-          "archivo_recomendado": "escombros-y-rcd.jpg"
-        },
-        {
-          "nombre": "Árido reciclado",
-          "subbase": "Concreto limpio",
-          "tipo": "producto",
-          "archivo_recomendado": "arido-reciclado.jpg"
-        },
-        {
-          "nombre": "Subbases viales",
-          "subbase": "Concreto limpio",
-          "tipo": "producto",
-          "archivo_recomendado": "subbases-viales.jpg"
-        },
-        {
-          "nombre": "Bloques no estructurales",
-          "subbase": "Concreto limpio",
-          "tipo": "producto",
-          "archivo_recomendado": "bloques-no-estructurales.jpg"
-        },
-        {
-          "nombre": "Prefabricados",
-          "subbase": "Concreto limpio",
-          "tipo": "producto",
-          "archivo_recomendado": "prefabricados.jpg"
-        },
-        {
-          "nombre": "Ladrillos ecológicos",
-          "subbase": "Ladrillo y mampostería",
-          "tipo": "producto",
-          "archivo_recomendado": "ladrillos-ecologicos.jpg"
-        },
-        {
-          "nombre": "Adoquines",
-          "subbase": "Ladrillo y mampostería",
-          "tipo": "producto",
-          "archivo_recomendado": "adoquines.jpg"
-        },
-        {
-          "nombre": "Agregados para morteros",
-          "subbase": "Ladrillo y mampostería",
-          "tipo": "producto",
-          "archivo_recomendado": "agregados-para-morteros.jpg"
-        },
-        {
-          "nombre": "Calados y celosías",
-          "subbase": "Ladrillo y mampostería",
-          "tipo": "producto",
-          "archivo_recomendado": "calados-y-celosias.jpg"
-        },
-        {
-          "nombre": "Granulado cerámico",
-          "subbase": "Cerámicos y tejas",
-          "tipo": "producto",
-          "archivo_recomendado": "granulado-ceramico.jpg"
-        }
-      ]
-    },
-    {
-      "grupo": "G08",
-      "familia": "Escombros y RCD",
-      "cantidad": 10,
-      "imagenes": [
-        {
-          "nombre": "Adoquines decorativos",
-          "subbase": "Cerámicos y tejas",
-          "tipo": "producto",
-          "archivo_recomendado": "adoquines-decorativos.jpg"
-        },
-        {
-          "nombre": "Áridos mixtos",
-          "subbase": "Cerámicos y tejas",
-          "tipo": "producto",
-          "archivo_recomendado": "aridos-mixtos.jpg"
-        },
-        {
-          "nombre": "Material para senderos",
-          "subbase": "Cerámicos y tejas",
-          "tipo": "producto",
-          "archivo_recomendado": "material-para-senderos.jpg"
-        },
-        {
-          "nombre": "Rellenos autorizados",
-          "subbase": "Tierras y materiales inertes",
-          "tipo": "producto",
-          "archivo_recomendado": "rellenos-autorizados.jpg"
-        },
-        {
-          "nombre": "Nivelaciones",
-          "subbase": "Tierras y materiales inertes",
-          "tipo": "producto",
-          "archivo_recomendado": "nivelaciones.jpg"
-        },
-        {
-          "nombre": "Estabilización de terreno",
-          "subbase": "Tierras y materiales inertes",
-          "tipo": "producto",
-          "archivo_recomendado": "estabilizacion-de-terreno.jpg"
-        },
-        {
-          "nombre": "Bases para senderos",
-          "subbase": "Tierras y materiales inertes",
-          "tipo": "producto",
-          "archivo_recomendado": "bases-para-senderos.jpg"
-        },
         {
           "nombre": "Metales a reciclaje",
           "subbase": "Fracciones separadas",
           "tipo": "producto",
-          "archivo_recomendado": "metales-a-reciclaje.jpg"
+          "archivo_recomendado": "assets/biblioteca/escombros-y-rcd/fracciones-separadas/metales-a-reciclaje.svg"
         },
         {
           "nombre": "Madera aprovechable",
           "subbase": "Fracciones separadas",
           "tipo": "producto",
-          "archivo_recomendado": "madera-aprovechable.jpg"
+          "archivo_recomendado": "assets/biblioteca/escombros-y-rcd/fracciones-separadas/madera-aprovechable.svg"
         },
         {
           "nombre": "Plásticos recuperables",
           "subbase": "Fracciones separadas",
           "tipo": "producto",
-          "archivo_recomendado": "plasticos-recuperables.jpg"
-        }
-      ]
-    },
-    {
-      "grupo": "G09",
-      "familia": "Escombros y RCD",
-      "cantidad": 5,
-      "imagenes": [
+          "archivo_recomendado": "assets/biblioteca/escombros-y-rcd/fracciones-separadas/plasticos-recuperables.svg"
+        },
         {
           "nombre": "Reutilización de piezas",
           "subbase": "Fracciones separadas",
           "tipo": "producto",
-          "archivo_recomendado": "reutilizacion-de-piezas.jpg"
-        },
-        {
-          "nombre": "Fresado asfáltico clasificado",
-          "subbase": "Asfalto recuperado",
-          "tipo": "producto",
-          "archivo_recomendado": "fresado-asfaltico-clasificado.jpg"
-        },
-        {
-          "nombre": "Recuperación en mezclas",
-          "subbase": "Asfalto recuperado",
-          "tipo": "producto",
-          "archivo_recomendado": "recuperacion-en-mezclas.jpg"
-        },
-        {
-          "nombre": "Subbases con material recuperado",
-          "subbase": "Asfalto recuperado",
-          "tipo": "producto",
-          "archivo_recomendado": "subbases-con-material-recuperado.jpg"
+          "archivo_recomendado": "assets/biblioteca/escombros-y-rcd/fracciones-separadas/reutilizacion-de-piezas.svg"
         },
         {
           "nombre": "Gestión de fracciones contaminadas",
           "subbase": "Asfalto recuperado",
           "tipo": "producto",
-          "archivo_recomendado": "gestion-de-fracciones-contaminadas.jpg"
+          "archivo_recomendado": "assets/biblioteca/escombros-y-rcd/asfalto-recuperado/gestion-de-fracciones-contaminadas.svg"
         }
       ]
     },
     {
-      "grupo": "G10",
+      "grupo": "G06",
       "familia": "Plásticos detallados",
       "cantidad": 10,
       "imagenes": [
@@ -493,66 +251,66 @@
           "nombre": "Plásticos detallados",
           "subbase": "",
           "tipo": "base",
-          "archivo_recomendado": "plasticos-detallados.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/plasticos-detallados.svg"
         },
         {
           "nombre": "Escamas de PET",
           "subbase": "PET (tipo 1)",
           "tipo": "producto",
-          "archivo_recomendado": "escamas-de-pet.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pet-tipo-1/escamas-de-pet.svg"
         },
         {
           "nombre": "Fibra poliéster",
           "subbase": "PET (tipo 1)",
           "tipo": "producto",
-          "archivo_recomendado": "fibra-poliester.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pet-tipo-1/fibra-poliester.svg"
         },
         {
           "nombre": "Filamento 3D",
           "subbase": "PET (tipo 1)",
           "tipo": "producto",
-          "archivo_recomendado": "filamento-3d.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pet-tipo-1/filamento-3d.svg"
         },
         {
           "nombre": "Cerdas y flejes",
           "subbase": "PET (tipo 1)",
           "tipo": "producto",
-          "archivo_recomendado": "cerdas-y-flejes.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pet-tipo-1/cerdas-y-flejes.svg"
         },
         {
           "nombre": "Granza reciclada",
           "subbase": "PEAD (tipo 2)",
           "tipo": "producto",
-          "archivo_recomendado": "granza-reciclada.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pead-tipo-2/granza-reciclada.svg"
         },
         {
           "nombre": "Canecas",
           "subbase": "PEAD (tipo 2)",
           "tipo": "producto",
-          "archivo_recomendado": "canecas.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pead-tipo-2/canecas.svg"
         },
         {
           "nombre": "Tablas plásticas",
           "subbase": "PEAD (tipo 2)",
           "tipo": "producto",
-          "archivo_recomendado": "tablas-plasticas.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pead-tipo-2/tablas-plasticas.svg"
         },
         {
           "nombre": "Recipientes no alimentarios",
           "subbase": "PEAD (tipo 2)",
           "tipo": "producto",
-          "archivo_recomendado": "recipientes-no-alimentarios.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pead-tipo-2/recipientes-no-alimentarios.svg"
         },
         {
           "nombre": "Pellets reciclados",
           "subbase": "PEBD (tipo 4)",
           "tipo": "producto",
-          "archivo_recomendado": "pellets-reciclados.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pebd-tipo-4/pellets-reciclados.svg"
         }
       ]
     },
     {
-      "grupo": "G11",
+      "grupo": "G07",
       "familia": "Plásticos detallados",
       "cantidad": 10,
       "imagenes": [
@@ -560,66 +318,66 @@
           "nombre": "Bolsas industriales",
           "subbase": "PEBD (tipo 4)",
           "tipo": "producto",
-          "archivo_recomendado": "bolsas-industriales.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pebd-tipo-4/bolsas-industriales.svg"
         },
         {
           "nombre": "Láminas plásticas",
           "subbase": "PEBD (tipo 4)",
           "tipo": "producto",
-          "archivo_recomendado": "laminas-plasticas.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pebd-tipo-4/laminas-plasticas.svg"
         },
         {
           "nombre": "Madera plástica",
           "subbase": "PEBD (tipo 4)",
           "tipo": "producto",
-          "archivo_recomendado": "madera-plastica.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pebd-tipo-4/madera-plastica.svg"
         },
         {
           "nombre": "Granza de PP",
           "subbase": "PP (tipo 5)",
           "tipo": "producto",
-          "archivo_recomendado": "granza-de-pp.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pp-tipo-5/granza-de-pp.svg"
         },
         {
           "nombre": "Materas",
           "subbase": "PP (tipo 5)",
           "tipo": "producto",
-          "archivo_recomendado": "materas.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pp-tipo-5/materas.svg"
         },
         {
           "nombre": "Mobiliario",
           "subbase": "PP (tipo 5)",
           "tipo": "producto",
-          "archivo_recomendado": "mobiliario.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pp-tipo-5/mobiliario.svg"
         },
         {
           "nombre": "Componentes moldeados",
           "subbase": "PP (tipo 5)",
           "tipo": "producto",
-          "archivo_recomendado": "componentes-moldeados.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/pp-tipo-5/componentes-moldeados.svg"
         },
         {
           "nombre": "Separación adicional",
           "subbase": "Mezclas aptas para valorización",
           "tipo": "producto",
-          "archivo_recomendado": "separacion-adicional.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/mezclas-aptas-para-valorizacion/separacion-adicional.svg"
         },
         {
           "nombre": "Material compuesto",
           "subbase": "Mezclas aptas para valorización",
           "tipo": "producto",
-          "archivo_recomendado": "material-compuesto.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/mezclas-aptas-para-valorizacion/material-compuesto.svg"
         },
         {
           "nombre": "Aceite de pirólisis industrial",
           "subbase": "Mezclas aptas para valorización",
           "tipo": "producto",
-          "archivo_recomendado": "aceite-de-pirolisis-industrial.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/mezclas-aptas-para-valorizacion/aceite-de-pirolisis-industrial.svg"
         }
       ]
     },
     {
-      "grupo": "G12",
+      "grupo": "G08",
       "familia": "Plásticos detallados",
       "cantidad": 1,
       "imagenes": [
@@ -627,12 +385,12 @@
           "nombre": "Gas energético industrial",
           "subbase": "Mezclas aptas para valorización",
           "tipo": "producto",
-          "archivo_recomendado": "gas-energetico-industrial.jpg"
+          "archivo_recomendado": "assets/biblioteca/plasticos-detallados/mezclas-aptas-para-valorizacion/gas-energetico-industrial.svg"
         }
       ]
     },
     {
-      "grupo": "G13",
+      "grupo": "G09",
       "familia": "Cartón y papel",
       "cantidad": 10,
       "imagenes": [
@@ -640,66 +398,66 @@
           "nombre": "Cartón y papel",
           "subbase": "",
           "tipo": "base",
-          "archivo_recomendado": "carton-y-papel.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/carton-y-papel.svg"
         },
         {
           "nombre": "Cajas recicladas",
           "subbase": "Cartón corrugado",
           "tipo": "producto",
-          "archivo_recomendado": "cajas-recicladas.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/carton-corrugado/cajas-recicladas.svg"
         },
         {
           "nombre": "Láminas para empaque",
           "subbase": "Cartón corrugado",
           "tipo": "producto",
-          "archivo_recomendado": "laminas-para-empaque.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/carton-corrugado/laminas-para-empaque.svg"
         },
         {
           "nombre": "Separadores de cartón",
           "subbase": "Cartón corrugado",
           "tipo": "producto",
-          "archivo_recomendado": "separadores-de-carton.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/carton-corrugado/separadores-de-carton.svg"
         },
         {
           "nombre": "Pulpa moldeada",
           "subbase": "Cartón corrugado",
           "tipo": "producto",
-          "archivo_recomendado": "pulpa-moldeada.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/carton-corrugado/pulpa-moldeada.svg"
         },
         {
           "nombre": "Papel reciclado",
           "subbase": "Papel blanco",
           "tipo": "producto",
-          "archivo_recomendado": "papel-reciclado.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/papel-blanco/papel-reciclado.svg"
         },
         {
           "nombre": "Cuadernos y libretas",
           "subbase": "Papel blanco",
           "tipo": "producto",
-          "archivo_recomendado": "cuadernos-y-libretas.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/papel-blanco/cuadernos-y-libretas.svg"
         },
         {
           "nombre": "Pulpa de celulosa",
           "subbase": "Papel blanco",
           "tipo": "producto",
-          "archivo_recomendado": "pulpa-de-celulosa.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/papel-blanco/pulpa-de-celulosa.svg"
         },
         {
           "nombre": "Papel de impresión reciclado",
           "subbase": "Papel blanco",
           "tipo": "producto",
-          "archivo_recomendado": "papel-de-impresion-reciclado.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/papel-blanco/papel-de-impresion-reciclado.svg"
         },
         {
           "nombre": "Cartón gris",
           "subbase": "Papel mixto",
           "tipo": "producto",
-          "archivo_recomendado": "carton-gris.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/papel-mixto/carton-gris.svg"
         }
       ]
     },
     {
-      "grupo": "G14",
+      "grupo": "G10",
       "familia": "Cartón y papel",
       "cantidad": 10,
       "imagenes": [
@@ -707,66 +465,66 @@
           "nombre": "Bandejas moldeadas",
           "subbase": "Papel mixto",
           "tipo": "producto",
-          "archivo_recomendado": "bandejas-moldeadas.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/papel-mixto/bandejas-moldeadas.svg"
         },
         {
           "nombre": "Papel de embalaje",
           "subbase": "Papel mixto",
           "tipo": "producto",
-          "archivo_recomendado": "papel-de-embalaje.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/papel-mixto/papel-de-embalaje.svg"
         },
         {
           "nombre": "Aislantes de celulosa",
           "subbase": "Papel mixto",
           "tipo": "producto",
-          "archivo_recomendado": "aislantes-de-celulosa.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/papel-mixto/aislantes-de-celulosa.svg"
         },
         {
           "nombre": "Pulpa recuperada",
           "subbase": "Periódicos y revistas",
           "tipo": "producto",
-          "archivo_recomendado": "pulpa-recuperada.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/periodicos-y-revistas/pulpa-recuperada.svg"
         },
         {
           "nombre": "Cartón reciclado",
           "subbase": "Periódicos y revistas",
           "tipo": "producto",
-          "archivo_recomendado": "carton-reciclado.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/periodicos-y-revistas/carton-reciclado.svg"
         },
         {
           "nombre": "Manualidades",
           "subbase": "Periódicos y revistas",
           "tipo": "producto",
-          "archivo_recomendado": "manualidades.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/periodicos-y-revistas/manualidades.svg"
         },
         {
           "nombre": "Papel recuperado",
           "subbase": "Periódicos y revistas",
           "tipo": "producto",
-          "archivo_recomendado": "papel-recuperado.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/periodicos-y-revistas/papel-recuperado.svg"
         },
         {
           "nombre": "Recuperación de fibras",
           "subbase": "Envases multicapa",
           "tipo": "producto",
-          "archivo_recomendado": "recuperacion-de-fibras.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/envases-multicapa/recuperacion-de-fibras.svg"
         },
         {
           "nombre": "Paneles compuestos",
           "subbase": "Envases multicapa",
           "tipo": "producto",
-          "archivo_recomendado": "paneles-compuestos.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/envases-multicapa/paneles-compuestos.svg"
         },
         {
           "nombre": "Separación de polialuminio",
           "subbase": "Envases multicapa",
           "tipo": "producto",
-          "archivo_recomendado": "separacion-de-polialuminio.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/envases-multicapa/separacion-de-polialuminio.svg"
         }
       ]
     },
     {
-      "grupo": "G15",
+      "grupo": "G11",
       "familia": "Cartón y papel",
       "cantidad": 1,
       "imagenes": [
@@ -774,12 +532,12 @@
           "nombre": "Gestión industrial especializada",
           "subbase": "Envases multicapa",
           "tipo": "producto",
-          "archivo_recomendado": "gestion-industrial-especializada.jpg"
+          "archivo_recomendado": "assets/biblioteca/carton-y-papel/envases-multicapa/gestion-industrial-especializada.svg"
         }
       ]
     },
     {
-      "grupo": "G16",
+      "grupo": "G12",
       "familia": "Metales",
       "cantidad": 10,
       "imagenes": [
@@ -787,66 +545,66 @@
           "nombre": "Metales",
           "subbase": "",
           "tipo": "base",
-          "archivo_recomendado": "metales.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/metales.svg"
         },
         {
           "nombre": "Componentes moldeados",
           "subbase": "Aluminio",
           "tipo": "producto",
-          "archivo_recomendado": "componentes-moldeados.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/aluminio/componentes-moldeados.svg"
         },
         {
           "nombre": "Alambre industrial",
           "subbase": "Cobre",
           "tipo": "producto",
-          "archivo_recomendado": "alambre-industrial.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/cobre/alambre-industrial.svg"
         },
         {
           "nombre": "Componentes recuperados",
           "subbase": "Cobre",
           "tipo": "producto",
-          "archivo_recomendado": "componentes-recuperados.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/cobre/componentes-recuperados.svg"
         },
         {
           "nombre": "Chatarra ferrosa",
           "subbase": "Hierro y acero",
           "tipo": "producto",
-          "archivo_recomendado": "chatarra-ferrosa.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/hierro-y-acero/chatarra-ferrosa.svg"
         },
         {
           "nombre": "Perfiles siderúrgicos",
           "subbase": "Hierro y acero",
           "tipo": "producto",
-          "archivo_recomendado": "perfiles-siderurgicos.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/hierro-y-acero/perfiles-siderurgicos.svg"
         },
         {
           "nombre": "Piezas fundidas",
           "subbase": "Hierro y acero",
           "tipo": "producto",
-          "archivo_recomendado": "piezas-fundidas.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/hierro-y-acero/piezas-fundidas.svg"
         },
         {
           "nombre": "Varillas industriales",
           "subbase": "Hierro y acero",
           "tipo": "producto",
-          "archivo_recomendado": "varillas-industriales.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/hierro-y-acero/varillas-industriales.svg"
         },
         {
           "nombre": "Retales por aleación",
           "subbase": "Acero inoxidable",
           "tipo": "producto",
-          "archivo_recomendado": "retales-por-aleacion.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/acero-inoxidable/retales-por-aleacion.svg"
         },
         {
           "nombre": "Materia prima inoxidable",
           "subbase": "Acero inoxidable",
           "tipo": "producto",
-          "archivo_recomendado": "materia-prima-inoxidable.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/acero-inoxidable/materia-prima-inoxidable.svg"
         }
       ]
     },
     {
-      "grupo": "G17",
+      "grupo": "G13",
       "familia": "Metales",
       "cantidad": 6,
       "imagenes": [
@@ -854,42 +612,42 @@
           "nombre": "Repuestos metálicos",
           "subbase": "Acero inoxidable",
           "tipo": "producto",
-          "archivo_recomendado": "repuestos-metalicos.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/acero-inoxidable/repuestos-metalicos.svg"
         },
         {
           "nombre": "Accesorios industriales",
           "subbase": "Acero inoxidable",
           "tipo": "producto",
-          "archivo_recomendado": "accesorios-industriales.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/acero-inoxidable/accesorios-industriales.svg"
         },
         {
           "nombre": "Metales clasificados",
           "subbase": "Bronce, latón y otros",
           "tipo": "producto",
-          "archivo_recomendado": "metales-clasificados.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/bronce-laton-y-otros/metales-clasificados.svg"
         },
         {
           "nombre": "Aleaciones recuperadas",
           "subbase": "Bronce, latón y otros",
           "tipo": "producto",
-          "archivo_recomendado": "aleaciones-recuperadas.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/bronce-laton-y-otros/aleaciones-recuperadas.svg"
         },
         {
           "nombre": "Fundición especializada",
           "subbase": "Bronce, latón y otros",
           "tipo": "producto",
-          "archivo_recomendado": "fundicion-especializada.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/bronce-laton-y-otros/fundicion-especializada.svg"
         },
         {
           "nombre": "Piezas industriales",
           "subbase": "Bronce, latón y otros",
           "tipo": "producto",
-          "archivo_recomendado": "piezas-industriales.jpg"
+          "archivo_recomendado": "assets/biblioteca/metales/bronce-laton-y-otros/piezas-industriales.svg"
         }
       ]
     },
     {
-      "grupo": "G18",
+      "grupo": "G14",
       "familia": "Madera recuperada",
       "cantidad": 10,
       "imagenes": [
@@ -897,66 +655,66 @@
           "nombre": "Madera recuperada",
           "subbase": "",
           "tipo": "base",
-          "archivo_recomendado": "madera-recuperada.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/madera-recuperada.svg"
         },
         {
           "nombre": "Muebles restaurados",
           "subbase": "Estibas y pallets",
           "tipo": "producto",
-          "archivo_recomendado": "muebles-restaurados.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/estibas-y-pallets/muebles-restaurados.svg"
         },
         {
           "nombre": "Huertas elevadas",
           "subbase": "Estibas y pallets",
           "tipo": "producto",
-          "archivo_recomendado": "huertas-elevadas.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/estibas-y-pallets/huertas-elevadas.svg"
         },
         {
           "nombre": "Tablas reutilizadas",
           "subbase": "Estibas y pallets",
           "tipo": "producto",
-          "archivo_recomendado": "tablas-reutilizadas.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/estibas-y-pallets/tablas-reutilizadas.svg"
         },
         {
           "nombre": "Embalajes",
           "subbase": "Estibas y pallets",
           "tipo": "producto",
-          "archivo_recomendado": "embalajes.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/estibas-y-pallets/embalajes.svg"
         },
         {
           "nombre": "Artesanías",
           "subbase": "Retales y recortes",
           "tipo": "producto",
-          "archivo_recomendado": "artesanias.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/retales-y-recortes/artesanias.svg"
         },
         {
           "nombre": "Juguetes y objetos",
           "subbase": "Retales y recortes",
           "tipo": "producto",
-          "archivo_recomendado": "juguetes-y-objetos.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/retales-y-recortes/juguetes-y-objetos.svg"
         },
         {
           "nombre": "Revestimientos",
           "subbase": "Retales y recortes",
           "tipo": "producto",
-          "archivo_recomendado": "revestimientos.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/retales-y-recortes/revestimientos.svg"
         },
         {
           "nombre": "Pequeño mobiliario",
           "subbase": "Retales y recortes",
           "tipo": "producto",
-          "archivo_recomendado": "pequeno-mobiliario.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/retales-y-recortes/pequeno-mobiliario.svg"
         },
         {
           "nombre": "Aserrín limpio",
           "subbase": "Aserrín limpio",
           "tipo": "subbase",
-          "archivo_recomendado": "aserrin-limpio.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/aserrin-limpio/aserrin-limpio.svg"
         }
       ]
     },
     {
-      "grupo": "G19",
+      "grupo": "G15",
       "familia": "Madera recuperada",
       "cantidad": 10,
       "imagenes": [
@@ -964,66 +722,66 @@
           "nombre": "Briquetas",
           "subbase": "Aserrín limpio",
           "tipo": "producto",
-          "archivo_recomendado": "briquetas.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/aserrin-limpio/briquetas.svg"
         },
         {
           "nombre": "Pellets",
           "subbase": "Aserrín limpio",
           "tipo": "producto",
-          "archivo_recomendado": "pellets.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/aserrin-limpio/pellets.svg"
         },
         {
           "nombre": "Sustratos acondicionados",
           "subbase": "Aserrín limpio",
           "tipo": "producto",
-          "archivo_recomendado": "sustratos-acondicionados.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/aserrin-limpio/sustratos-acondicionados.svg"
         },
         {
           "nombre": "Absorbentes industriales",
           "subbase": "Aserrín limpio",
           "tipo": "producto",
-          "archivo_recomendado": "absorbentes-industriales.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/aserrin-limpio/absorbentes-industriales.svg"
         },
         {
           "nombre": "Acolchado",
           "subbase": "Astillas limpias",
           "tipo": "producto",
-          "archivo_recomendado": "acolchado.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/astillas-limpias/acolchado.svg"
         },
         {
           "nombre": "Camas vegetales",
           "subbase": "Astillas limpias",
           "tipo": "producto",
-          "archivo_recomendado": "camas-vegetales.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/astillas-limpias/camas-vegetales.svg"
         },
         {
           "nombre": "Biocarbón",
           "subbase": "Astillas limpias",
           "tipo": "producto",
-          "archivo_recomendado": "biocarbon.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/astillas-limpias/biocarbon.svg"
         },
         {
           "nombre": "Compost con aporte carbono",
           "subbase": "Astillas limpias",
           "tipo": "producto",
-          "archivo_recomendado": "compost-con-aporte-carbono.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/astillas-limpias/compost-con-aporte-carbono.svg"
         },
         {
           "nombre": "Clasificación específica",
           "subbase": "Madera no apta",
           "tipo": "producto",
-          "archivo_recomendado": "clasificacion-especifica.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/madera-no-apta/clasificacion-especifica.svg"
         },
         {
           "nombre": "Aislamiento de tratadas",
           "subbase": "Madera no apta",
           "tipo": "producto",
-          "archivo_recomendado": "aislamiento-de-tratadas.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/madera-no-apta/aislamiento-de-tratadas.svg"
         }
       ]
     },
     {
-      "grupo": "G20",
+      "grupo": "G16",
       "familia": "Madera recuperada",
       "cantidad": 2,
       "imagenes": [
@@ -1031,18 +789,18 @@
           "nombre": "Gestor autorizado",
           "subbase": "Madera no apta",
           "tipo": "producto",
-          "archivo_recomendado": "gestor-autorizado.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/madera-no-apta/gestor-autorizado.svg"
         },
         {
           "nombre": "No mezclar en compost",
           "subbase": "Madera no apta",
           "tipo": "producto",
-          "archivo_recomendado": "no-mezclar-en-compost.jpg"
+          "archivo_recomendado": "assets/biblioteca/madera-recuperada/madera-no-apta/no-mezclar-en-compost.svg"
         }
       ]
     },
     {
-      "grupo": "G21",
+      "grupo": "G17",
       "familia": "Vidrio",
       "cantidad": 10,
       "imagenes": [
@@ -1050,66 +808,66 @@
           "nombre": "Vidrio",
           "subbase": "",
           "tipo": "base",
-          "archivo_recomendado": "vidrio.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio.svg"
         },
         {
           "nombre": "Lavado autorizado",
           "subbase": "Envases retornables",
           "tipo": "producto",
-          "archivo_recomendado": "lavado-autorizado.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/envases-retornables/lavado-autorizado.svg"
         },
         {
           "nombre": "Reutilización",
           "subbase": "Envases retornables",
           "tipo": "producto",
-          "archivo_recomendado": "reutilizacion.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/envases-retornables/reutilizacion.svg"
         },
         {
           "nombre": "Circuitos de retorno",
           "subbase": "Envases retornables",
           "tipo": "producto",
-          "archivo_recomendado": "circuitos-de-retorno.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/envases-retornables/circuitos-de-retorno.svg"
         },
         {
           "nombre": "Envases retornados",
           "subbase": "Envases retornables",
           "tipo": "producto",
-          "archivo_recomendado": "envases-retornados.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/envases-retornables/envases-retornados.svg"
         },
         {
           "nombre": "Calcín limpio",
           "subbase": "Vidrio transparente",
           "tipo": "producto",
-          "archivo_recomendado": "calcin-limpio.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-transparente/calcin-limpio.svg"
         },
         {
           "nombre": "Nuevos envases industriales",
           "subbase": "Vidrio transparente",
           "tipo": "producto",
-          "archivo_recomendado": "nuevos-envases-industriales.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-transparente/nuevos-envases-industriales.svg"
         },
         {
           "nombre": "Vidrio triturado",
           "subbase": "Vidrio transparente",
           "tipo": "producto",
-          "archivo_recomendado": "vidrio-triturado.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-transparente/vidrio-triturado.svg"
         },
         {
           "nombre": "Materias primas industriales",
           "subbase": "Vidrio transparente",
           "tipo": "producto",
-          "archivo_recomendado": "materias-primas-industriales.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-transparente/materias-primas-industriales.svg"
         },
         {
           "nombre": "Calcín por color",
           "subbase": "Vidrio verde",
           "tipo": "producto",
-          "archivo_recomendado": "calcin-por-color.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-verde/calcin-por-color.svg"
         }
       ]
     },
     {
-      "grupo": "G22",
+      "grupo": "G18",
       "familia": "Vidrio",
       "cantidad": 10,
       "imagenes": [
@@ -1117,66 +875,66 @@
           "nombre": "Nuevos envases industriales",
           "subbase": "Vidrio verde",
           "tipo": "producto",
-          "archivo_recomendado": "nuevos-envases-industriales.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-verde/nuevos-envases-industriales.svg"
         },
         {
           "nombre": "Mosaicos",
           "subbase": "Vidrio verde",
           "tipo": "producto",
-          "archivo_recomendado": "mosaicos.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-verde/mosaicos.svg"
         },
         {
           "nombre": "Artesanías",
           "subbase": "Vidrio verde",
           "tipo": "producto",
-          "archivo_recomendado": "artesanias.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-verde/artesanias.svg"
         },
         {
           "nombre": "Calcín por color",
           "subbase": "Vidrio ámbar",
           "tipo": "producto",
-          "archivo_recomendado": "calcin-por-color.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-ambar/calcin-por-color.svg"
         },
         {
           "nombre": "Vidrio industrial",
           "subbase": "Vidrio ámbar",
           "tipo": "producto",
-          "archivo_recomendado": "vidrio-industrial.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-ambar/vidrio-industrial.svg"
         },
         {
           "nombre": "Decoración y mosaicos",
           "subbase": "Vidrio ámbar",
           "tipo": "producto",
-          "archivo_recomendado": "decoracion-y-mosaicos.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-ambar/decoracion-y-mosaicos.svg"
         },
         {
           "nombre": "Árido para usos autorizados",
           "subbase": "Vidrio ámbar",
           "tipo": "producto",
-          "archivo_recomendado": "arido-para-usos-autorizados.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-ambar/arido-para-usos-autorizados.svg"
         },
         {
           "nombre": "Separación adicional",
           "subbase": "Vidrio mixto",
           "tipo": "producto",
-          "archivo_recomendado": "separacion-adicional.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-mixto/separacion-adicional.svg"
         },
         {
           "nombre": "Áridos decorativos",
           "subbase": "Vidrio mixto",
           "tipo": "producto",
-          "archivo_recomendado": "aridos-decorativos.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-mixto/aridos-decorativos.svg"
         },
         {
           "nombre": "Pavimentos especiales",
           "subbase": "Vidrio mixto",
           "tipo": "producto",
-          "archivo_recomendado": "pavimentos-especiales.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-mixto/pavimentos-especiales.svg"
         }
       ]
     },
     {
-      "grupo": "G23",
+      "grupo": "G19",
       "familia": "Vidrio",
       "cantidad": 1,
       "imagenes": [
@@ -1184,12 +942,12 @@
           "nombre": "Recuperación industrial",
           "subbase": "Vidrio mixto",
           "tipo": "producto",
-          "archivo_recomendado": "recuperacion-industrial.jpg"
+          "archivo_recomendado": "assets/biblioteca/vidrio/vidrio-mixto/recuperacion-industrial.svg"
         }
       ]
     },
     {
-      "grupo": "G24",
+      "grupo": "G20",
       "familia": "Llantas usadas",
       "cantidad": 10,
       "imagenes": [
@@ -1197,66 +955,66 @@
           "nombre": "Llantas usadas",
           "subbase": "",
           "tipo": "base",
-          "archivo_recomendado": "llantas-usadas.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/llantas-usadas.svg"
         },
         {
           "nombre": "Reencauche certificado",
           "subbase": "Carcasas aptas",
           "tipo": "producto",
-          "archivo_recomendado": "reencauche-certificado.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/carcasas-aptas/reencauche-certificado.svg"
         },
         {
           "nombre": "Reutilización controlada",
           "subbase": "Carcasas aptas",
           "tipo": "producto",
-          "archivo_recomendado": "reutilizacion-controlada.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/carcasas-aptas/reutilizacion-controlada.svg"
         },
         {
           "nombre": "Segunda vida útil",
           "subbase": "Carcasas aptas",
           "tipo": "producto",
-          "archivo_recomendado": "segunda-vida-util.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/carcasas-aptas/segunda-vida-util.svg"
         },
         {
           "nombre": "Reducción de descarte",
           "subbase": "Carcasas aptas",
           "tipo": "producto",
-          "archivo_recomendado": "reduccion-de-descarte.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/carcasas-aptas/reduccion-de-descarte.svg"
         },
         {
           "nombre": "Pisos amortiguantes",
           "subbase": "Granulado de caucho",
           "tipo": "producto",
-          "archivo_recomendado": "pisos-amortiguantes.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/granulado-de-caucho/pisos-amortiguantes.svg"
         },
         {
           "nombre": "Losetas de seguridad",
           "subbase": "Granulado de caucho",
           "tipo": "producto",
-          "archivo_recomendado": "losetas-de-seguridad.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/granulado-de-caucho/losetas-de-seguridad.svg"
         },
         {
           "nombre": "Superficies deportivas",
           "subbase": "Granulado de caucho",
           "tipo": "producto",
-          "archivo_recomendado": "superficies-deportivas.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/granulado-de-caucho/superficies-deportivas.svg"
         },
         {
           "nombre": "Asfalto modificado",
           "subbase": "Granulado de caucho",
           "tipo": "producto",
-          "archivo_recomendado": "asfalto-modificado.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/granulado-de-caucho/asfalto-modificado.svg"
         },
         {
           "nombre": "Mezclas asfálticas",
           "subbase": "Polvo de caucho",
           "tipo": "producto",
-          "archivo_recomendado": "mezclas-asfalticas.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/polvo-de-caucho/mezclas-asfalticas.svg"
         }
       ]
     },
     {
-      "grupo": "G25",
+      "grupo": "G21",
       "familia": "Llantas usadas",
       "cantidad": 10,
       "imagenes": [
@@ -1264,66 +1022,66 @@
           "nombre": "Selladores",
           "subbase": "Polvo de caucho",
           "tipo": "producto",
-          "archivo_recomendado": "selladores.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/polvo-de-caucho/selladores.svg"
         },
         {
           "nombre": "Compuestos industriales",
           "subbase": "Polvo de caucho",
           "tipo": "producto",
-          "archivo_recomendado": "compuestos-industriales.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/polvo-de-caucho/compuestos-industriales.svg"
         },
         {
           "nombre": "Tapetes de caucho",
           "subbase": "Polvo de caucho",
           "tipo": "producto",
-          "archivo_recomendado": "tapetes-de-caucho.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/polvo-de-caucho/tapetes-de-caucho.svg"
         },
         {
           "nombre": "Chatarra clasificada",
           "subbase": "Acero recuperado",
           "tipo": "producto",
-          "archivo_recomendado": "chatarra-clasificada.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/acero-recuperado/chatarra-clasificada.svg"
         },
         {
           "nombre": "Fundición industrial",
           "subbase": "Acero recuperado",
           "tipo": "producto",
-          "archivo_recomendado": "fundicion-industrial.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/acero-recuperado/fundicion-industrial.svg"
         },
         {
           "nombre": "Materia prima metalúrgica",
           "subbase": "Acero recuperado",
           "tipo": "producto",
-          "archivo_recomendado": "materia-prima-metalurgica.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/acero-recuperado/materia-prima-metalurgica.svg"
         },
         {
           "nombre": "Recuperación comercial",
           "subbase": "Acero recuperado",
           "tipo": "producto",
-          "archivo_recomendado": "recuperacion-comercial.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/acero-recuperado/recuperacion-comercial.svg"
         },
         {
           "nombre": "Aceite de pirólisis",
           "subbase": "Pirólisis industrial",
           "tipo": "producto",
-          "archivo_recomendado": "aceite-de-pirolisis.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/pirolisis-industrial/aceite-de-pirolisis.svg"
         },
         {
           "nombre": "Gas energético",
           "subbase": "Pirólisis industrial",
           "tipo": "producto",
-          "archivo_recomendado": "gas-energetico.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/pirolisis-industrial/gas-energetico.svg"
         },
         {
           "nombre": "Negro de carbón recuperado",
           "subbase": "Pirólisis industrial",
           "tipo": "producto",
-          "archivo_recomendado": "negro-de-carbon-recuperado.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/pirolisis-industrial/negro-de-carbon-recuperado.svg"
         }
       ]
     },
     {
-      "grupo": "G26",
+      "grupo": "G22",
       "familia": "Llantas usadas",
       "cantidad": 1,
       "imagenes": [
@@ -1331,12 +1089,12 @@
           "nombre": "Acero separado",
           "subbase": "Pirólisis industrial",
           "tipo": "producto",
-          "archivo_recomendado": "acero-separado.jpg"
+          "archivo_recomendado": "assets/biblioteca/llantas-usadas/pirolisis-industrial/acero-separado.svg"
         }
       ]
     },
     {
-      "grupo": "G27",
+      "grupo": "G23",
       "familia": "Aceites usados",
       "cantidad": 10,
       "imagenes": [
@@ -1344,66 +1102,66 @@
           "nombre": "Aceites usados",
           "subbase": "",
           "tipo": "base",
-          "archivo_recomendado": "aceites-usados.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/aceites-usados.svg"
         },
         {
           "nombre": "Biodiésel industrial",
           "subbase": "Aceite de cocina usado",
           "tipo": "producto",
-          "archivo_recomendado": "biodiesel-industrial.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/aceite-de-cocina-usado/biodiesel-industrial.svg"
         },
         {
           "nombre": "Jabones técnicos",
           "subbase": "Aceite de cocina usado",
           "tipo": "producto",
-          "archivo_recomendado": "jabones-tecnicos.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/aceite-de-cocina-usado/jabones-tecnicos.svg"
         },
         {
           "nombre": "Insumo oleoquímico",
           "subbase": "Aceite de cocina usado",
           "tipo": "producto",
-          "archivo_recomendado": "insumo-oleoquimico.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/aceite-de-cocina-usado/insumo-oleoquimico.svg"
         },
         {
           "nombre": "Gestión posconsumo",
           "subbase": "Aceite de cocina usado",
           "tipo": "producto",
-          "archivo_recomendado": "gestion-posconsumo.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/aceite-de-cocina-usado/gestion-posconsumo.svg"
         },
         {
           "nombre": "Pretratamiento",
           "subbase": "Grasas alimentarias",
           "tipo": "producto",
-          "archivo_recomendado": "pretratamiento.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/grasas-alimentarias/pretratamiento.svg"
         },
         {
           "nombre": "Materia prima técnica",
           "subbase": "Grasas alimentarias",
           "tipo": "producto",
-          "archivo_recomendado": "materia-prima-tecnica.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/grasas-alimentarias/materia-prima-tecnica.svg"
         },
         {
           "nombre": "Biodigestión especializada",
           "subbase": "Grasas alimentarias",
           "tipo": "producto",
-          "archivo_recomendado": "biodigestion-especializada.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/grasas-alimentarias/biodigestion-especializada.svg"
         },
         {
           "nombre": "Gestión diferenciada",
           "subbase": "Grasas alimentarias",
           "tipo": "producto",
-          "archivo_recomendado": "gestion-diferenciada.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/grasas-alimentarias/gestion-diferenciada.svg"
         },
         {
           "nombre": "Re-refinación industrial",
           "subbase": "Lubricantes minerales usados",
           "tipo": "producto",
-          "archivo_recomendado": "re-refinacion-industrial.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/lubricantes-minerales-usados/re-refinacion-industrial.svg"
         }
       ]
     },
     {
-      "grupo": "G28",
+      "grupo": "G24",
       "familia": "Aceites usados",
       "cantidad": 10,
       "imagenes": [
@@ -1411,66 +1169,66 @@
           "nombre": "Bases lubricantes recuperadas",
           "subbase": "Lubricantes minerales usados",
           "tipo": "producto",
-          "archivo_recomendado": "bases-lubricantes-recuperadas.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/lubricantes-minerales-usados/bases-lubricantes-recuperadas.svg"
         },
         {
           "nombre": "Valorización autorizada",
           "subbase": "Lubricantes minerales usados",
           "tipo": "producto",
-          "archivo_recomendado": "valorizacion-autorizada.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/lubricantes-minerales-usados/valorizacion-autorizada.svg"
         },
         {
           "nombre": "Trazabilidad con gestor",
           "subbase": "Lubricantes minerales usados",
           "tipo": "producto",
-          "archivo_recomendado": "trazabilidad-con-gestor.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/lubricantes-minerales-usados/trazabilidad-con-gestor.svg"
         },
         {
           "nombre": "Separación controlada",
           "subbase": "Filtros aceitosos",
           "tipo": "producto",
-          "archivo_recomendado": "separacion-controlada.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/filtros-aceitosos/separacion-controlada.svg"
         },
         {
           "nombre": "Recuperación por gestor",
           "subbase": "Filtros aceitosos",
           "tipo": "producto",
-          "archivo_recomendado": "recuperacion-por-gestor.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/filtros-aceitosos/recuperacion-por-gestor.svg"
         },
         {
           "nombre": "Metales tratados",
           "subbase": "Filtros aceitosos",
           "tipo": "producto",
-          "archivo_recomendado": "metales-tratados.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/filtros-aceitosos/metales-tratados.svg"
         },
         {
           "nombre": "Gestión peligrosa",
           "subbase": "Filtros aceitosos",
           "tipo": "producto",
-          "archivo_recomendado": "gestion-peligrosa.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/filtros-aceitosos/gestion-peligrosa.svg"
         },
         {
           "nombre": "Acopio separado",
           "subbase": "Envases contaminados",
           "tipo": "producto",
-          "archivo_recomendado": "acopio-separado.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/envases-contaminados/acopio-separado.svg"
         },
         {
           "nombre": "Descontaminación autorizada",
           "subbase": "Envases contaminados",
           "tipo": "producto",
-          "archivo_recomendado": "descontaminacion-autorizada.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/envases-contaminados/descontaminacion-autorizada.svg"
         },
         {
           "nombre": "Recuperación condicionada",
           "subbase": "Envases contaminados",
           "tipo": "producto",
-          "archivo_recomendado": "recuperacion-condicionada.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/envases-contaminados/recuperacion-condicionada.svg"
         }
       ]
     },
     {
-      "grupo": "G29",
+      "grupo": "G25",
       "familia": "Aceites usados",
       "cantidad": 1,
       "imagenes": [
@@ -1478,12 +1236,12 @@
           "nombre": "Disposición por gestor",
           "subbase": "Envases contaminados",
           "tipo": "producto",
-          "archivo_recomendado": "disposicion-por-gestor.jpg"
+          "archivo_recomendado": "assets/biblioteca/aceites-usados/envases-contaminados/disposicion-por-gestor.svg"
         }
       ]
     },
     {
-      "grupo": "G30",
+      "grupo": "G26",
       "familia": "Textiles",
       "cantidad": 10,
       "imagenes": [
@@ -1491,66 +1249,66 @@
           "nombre": "Textiles",
           "subbase": "",
           "tipo": "base",
-          "archivo_recomendado": "textiles.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/textiles.svg"
         },
         {
           "nombre": "Reutilización social",
           "subbase": "Ropa utilizable",
           "tipo": "producto",
-          "archivo_recomendado": "reutilizacion-social.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/ropa-utilizable/reutilizacion-social.svg"
         },
         {
           "nombre": "Ropa de segunda mano",
           "subbase": "Ropa utilizable",
           "tipo": "producto",
-          "archivo_recomendado": "ropa-de-segunda-mano.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/ropa-utilizable/ropa-de-segunda-mano.svg"
         },
         {
           "nombre": "Rediseño creativo",
           "subbase": "Ropa utilizable",
           "tipo": "producto",
-          "archivo_recomendado": "rediseno-creativo.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/ropa-utilizable/rediseno-creativo.svg"
         },
         {
           "nombre": "Reparación",
           "subbase": "Ropa utilizable",
           "tipo": "producto",
-          "archivo_recomendado": "reparacion.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/ropa-utilizable/reparacion.svg"
         },
         {
           "nombre": "Trapos industriales",
           "subbase": "Algodón y fibras naturales",
           "tipo": "producto",
-          "archivo_recomendado": "trapos-industriales.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/algodon-y-fibras-naturales/trapos-industriales.svg"
         },
         {
           "nombre": "Fibra de relleno",
           "subbase": "Algodón y fibras naturales",
           "tipo": "producto",
-          "archivo_recomendado": "fibra-de-relleno.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/algodon-y-fibras-naturales/fibra-de-relleno.svg"
         },
         {
           "nombre": "Aislantes",
           "subbase": "Algodón y fibras naturales",
           "tipo": "producto",
-          "archivo_recomendado": "aislantes.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/algodon-y-fibras-naturales/aislantes.svg"
         },
         {
           "nombre": "Hilados reciclados",
           "subbase": "Algodón y fibras naturales",
           "tipo": "producto",
-          "archivo_recomendado": "hilados-reciclados.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/algodon-y-fibras-naturales/hilados-reciclados.svg"
         },
         {
           "nombre": "Bolsos",
           "subbase": "Denim y retales",
           "tipo": "producto",
-          "archivo_recomendado": "bolsos.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/denim-y-retales/bolsos.svg"
         }
       ]
     },
     {
-      "grupo": "G31",
+      "grupo": "G27",
       "familia": "Textiles",
       "cantidad": 10,
       "imagenes": [
@@ -1558,66 +1316,66 @@
           "nombre": "Estuches",
           "subbase": "Denim y retales",
           "tipo": "producto",
-          "archivo_recomendado": "estuches.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/denim-y-retales/estuches.svg"
         },
         {
           "nombre": "Tapicería",
           "subbase": "Denim y retales",
           "tipo": "producto",
-          "archivo_recomendado": "tapiceria.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/denim-y-retales/tapiceria.svg"
         },
         {
           "nombre": "Accesorios",
           "subbase": "Denim y retales",
           "tipo": "producto",
-          "archivo_recomendado": "accesorios.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/denim-y-retales/accesorios.svg"
         },
         {
           "nombre": "Fibra reciclada industrial",
           "subbase": "Poliéster separado",
           "tipo": "producto",
-          "archivo_recomendado": "fibra-reciclada-industrial.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/poliester-separado/fibra-reciclada-industrial.svg"
         },
         {
           "nombre": "Rellenos textiles",
           "subbase": "Poliéster separado",
           "tipo": "producto",
-          "archivo_recomendado": "rellenos-textiles.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/poliester-separado/rellenos-textiles.svg"
         },
         {
           "nombre": "Hilatura recuperada",
           "subbase": "Poliéster separado",
           "tipo": "producto",
-          "archivo_recomendado": "hilatura-recuperada.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/poliester-separado/hilatura-recuperada.svg"
         },
         {
           "nombre": "Fieltros",
           "subbase": "Poliéster separado",
           "tipo": "producto",
-          "archivo_recomendado": "fieltros.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/poliester-separado/fieltros.svg"
         },
         {
           "nombre": "Clasificación",
           "subbase": "Mezclas textiles",
           "tipo": "producto",
-          "archivo_recomendado": "clasificacion.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/mezclas-textiles/clasificacion.svg"
         },
         {
           "nombre": "Paneles acústicos",
           "subbase": "Mezclas textiles",
           "tipo": "producto",
-          "archivo_recomendado": "paneles-acusticos.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/mezclas-textiles/paneles-acusticos.svg"
         },
         {
           "nombre": "Acolchados",
           "subbase": "Mezclas textiles",
           "tipo": "producto",
-          "archivo_recomendado": "acolchados.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/mezclas-textiles/acolchados.svg"
         }
       ]
     },
     {
-      "grupo": "G32",
+      "grupo": "G28",
       "familia": "Textiles",
       "cantidad": 1,
       "imagenes": [
@@ -1625,12 +1383,12 @@
           "nombre": "Recuperación industrial",
           "subbase": "Mezclas textiles",
           "tipo": "producto",
-          "archivo_recomendado": "recuperacion-industrial.jpg"
+          "archivo_recomendado": "assets/biblioteca/textiles/mezclas-textiles/recuperacion-industrial.svg"
         }
       ]
     },
     {
-      "grupo": "G33",
+      "grupo": "G29",
       "familia": "Residuos electrónicos RAEE",
       "cantidad": 10,
       "imagenes": [
@@ -1638,66 +1396,66 @@
           "nombre": "Residuos electrónicos RAEE",
           "subbase": "",
           "tipo": "base",
-          "archivo_recomendado": "residuos-electronicos-raee.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/residuos-electronicos-raee.svg"
         },
         {
           "nombre": "Computadores reacondicionados",
           "subbase": "Equipos recuperables",
           "tipo": "producto",
-          "archivo_recomendado": "computadores-reacondicionados.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/equipos-recuperables/computadores-reacondicionados.svg"
         },
         {
           "nombre": "Repuestos funcionales",
           "subbase": "Equipos recuperables",
           "tipo": "producto",
-          "archivo_recomendado": "repuestos-funcionales.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/equipos-recuperables/repuestos-funcionales.svg"
         },
         {
           "nombre": "Donaciones tecnológicas",
           "subbase": "Equipos recuperables",
           "tipo": "producto",
-          "archivo_recomendado": "donaciones-tecnologicas.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/equipos-recuperables/donaciones-tecnologicas.svg"
         },
         {
           "nombre": "Segunda vida útil",
           "subbase": "Equipos recuperables",
           "tipo": "producto",
-          "archivo_recomendado": "segunda-vida-util.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/equipos-recuperables/segunda-vida-util.svg"
         },
         {
           "nombre": "Cobre recuperado",
           "subbase": "Cables",
           "tipo": "producto",
-          "archivo_recomendado": "cobre-recuperado.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/cables/cobre-recuperado.svg"
         },
         {
           "nombre": "Aluminio recuperado",
           "subbase": "Cables",
           "tipo": "producto",
-          "archivo_recomendado": "aluminio-recuperado.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/cables/aluminio-recuperado.svg"
         },
         {
           "nombre": "Fracción plástica separada",
           "subbase": "Cables",
           "tipo": "producto",
-          "archivo_recomendado": "fraccion-plastica-separada.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/cables/fraccion-plastica-separada.svg"
         },
         {
           "nombre": "Comercialización controlada",
           "subbase": "Cables",
           "tipo": "producto",
-          "archivo_recomendado": "comercializacion-controlada.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/cables/comercializacion-controlada.svg"
         },
         {
           "nombre": "Placas separadas",
           "subbase": "Tarjetas electrónicas",
           "tipo": "producto",
-          "archivo_recomendado": "placas-separadas.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/tarjetas-electronicas/placas-separadas.svg"
         }
       ]
     },
     {
-      "grupo": "G34",
+      "grupo": "G30",
       "familia": "Residuos electrónicos RAEE",
       "cantidad": 10,
       "imagenes": [
@@ -1705,66 +1463,66 @@
           "nombre": "Metales por refinador",
           "subbase": "Tarjetas electrónicas",
           "tipo": "producto",
-          "archivo_recomendado": "metales-por-refinador.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/tarjetas-electronicas/metales-por-refinador.svg"
         },
         {
           "nombre": "Recuperación especializada",
           "subbase": "Tarjetas electrónicas",
           "tipo": "producto",
-          "archivo_recomendado": "recuperacion-especializada.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/tarjetas-electronicas/recuperacion-especializada.svg"
         },
         {
           "nombre": "Trazabilidad",
           "subbase": "Tarjetas electrónicas",
           "tipo": "producto",
-          "archivo_recomendado": "trazabilidad.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/tarjetas-electronicas/trazabilidad.svg"
         },
         {
           "nombre": "Plásticos clasificados",
           "subbase": "Carcasas plásticas",
           "tipo": "producto",
-          "archivo_recomendado": "plasticos-clasificados.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/carcasas-plasticas/plasticos-clasificados.svg"
         },
         {
           "nombre": "Granza industrial",
           "subbase": "Carcasas plásticas",
           "tipo": "producto",
-          "archivo_recomendado": "granza-industrial.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/carcasas-plasticas/granza-industrial.svg"
         },
         {
           "nombre": "Carcasas reutilizables",
           "subbase": "Carcasas plásticas",
           "tipo": "producto",
-          "archivo_recomendado": "carcasas-reutilizables.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/carcasas-plasticas/carcasas-reutilizables.svg"
         },
         {
           "nombre": "Repuestos",
           "subbase": "Carcasas plásticas",
           "tipo": "producto",
-          "archivo_recomendado": "repuestos.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/carcasas-plasticas/repuestos.svg"
         },
         {
           "nombre": "Aislamiento seguro",
           "subbase": "Baterías y pantallas",
           "tipo": "producto",
-          "archivo_recomendado": "aislamiento-seguro.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/baterias-y-pantallas/aislamiento-seguro.svg"
         },
         {
           "nombre": "Gestor RAEE autorizado",
           "subbase": "Baterías y pantallas",
           "tipo": "producto",
-          "archivo_recomendado": "gestor-raee-autorizado.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/baterias-y-pantallas/gestor-raee-autorizado.svg"
         },
         {
           "nombre": "Recuperación especializada",
           "subbase": "Baterías y pantallas",
           "tipo": "producto",
-          "archivo_recomendado": "recuperacion-especializada.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/baterias-y-pantallas/recuperacion-especializada.svg"
         }
       ]
     },
     {
-      "grupo": "G35",
+      "grupo": "G31",
       "familia": "Residuos electrónicos RAEE",
       "cantidad": 1,
       "imagenes": [
@@ -1772,10 +1530,10 @@
           "nombre": "Prohibido tratamiento artesanal",
           "subbase": "Baterías y pantallas",
           "tipo": "producto",
-          "archivo_recomendado": "prohibido-tratamiento-artesanal.jpg"
+          "archivo_recomendado": "assets/biblioteca/residuos-electronicos-raee/baterias-y-pantallas/prohibido-tratamiento-artesanal.svg"
         }
       ]
     }
   ],
-  "regla": "Crear diez imágenes por grupo, con nombre propio por producto; no incluir palabra paquete ni grupo en título/archivo."
+  "regla": "Un archivo individual por material o aplicación. Grupos de máximo diez. El nombre del archivo no debe contener número de grupo o lote. Antes de publicar validar visualmente la correspondencia exacta con título, ausencia de mosaicos y adecuada visibilidad."
 }
