@@ -1,13 +1,13 @@
 {
-  "fecha_auditoria": "2026-10-25 20:30 UTC",
-  "total_archivos_imagen": 195,
+  "fecha_auditoria": "2026-10-26",
+  "total_archivos_imagen": 225,
   "total_nodos_materiales": 353,
-  "nodos_vinculados_con_imagen": 98,
-  "nodos_pendientes": 255,
+  "nodos_vinculados_con_imagen": 134,
+  "nodos_pendientes": 219,
   "organigramas_materiales": 13,
   "banco_de_imagenes_no_asignadas": 29,
   "grupos_pendientes": 35,
-  "aviso": "La presencia de un JPG no verifica fidelidad fotográfica ni permisos definitivos; revisar manualmente cada activo.",
+  "aviso": "Vinculado no equivale a aprobado: revisión visual y técnica pendiente por fotografía o ilustración. Las imágenes SVG son conceptos originales y no fotografías de operaciones.",
   "items": [
     {
       "linea": "MATERIALES",
@@ -15,11 +15,11 @@
       "subbase": "",
       "nombre": "Material de río",
       "tipo": "base",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "assets/biblioteca/individuales/material-de-rio.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Correspondencia exacta de rótulo; no es una fotografía",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -28,10 +28,10 @@
       "nombre": "Triturado 1 pulgada",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/rio/triturado-1-pulgada.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "./assets/biblioteca/atlas-integrado/materiales/triturado-1-pulgada.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -39,11 +39,11 @@
       "subbase": "Triturado 1 pulgada",
       "nombre": "Bases y subbases viales",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-04/subbases-carreteras.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -88,10 +88,10 @@
       "nombre": "Triturado ¾ pulgada",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/rio/triturado-tres-cuartos-pulgada.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "./assets/biblioteca/atlas-integrado/materiales/triturado-tres-cuartos-pulgada.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -148,10 +148,10 @@
       "nombre": "Triturado ½ pulgada",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/rio/triturado-medio-pulgada.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "./assets/biblioteca/atlas-integrado/materiales/triturado-medio-pulgada.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -195,11 +195,11 @@
       "subbase": "Triturado ½ pulgada",
       "nombre": "Prefabricados",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "./assets/biblioteca/atlas-integrado/aplicaciones/prefabricados-arquitectonicos.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -208,10 +208,10 @@
       "nombre": "Gravilla ⅜ pulgada",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/rio/gravilla-tres-octavos-pulgada.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "./assets/biblioteca/atlas-integrado/materiales/gravilla-tres-octavos-pulgada.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -219,11 +219,11 @@
       "subbase": "Gravilla ⅜ pulgada",
       "nombre": "Adoquines",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "./assets/biblioteca/atlas-integrado/aplicaciones/adoquines.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -231,11 +231,11 @@
       "subbase": "Gravilla ⅜ pulgada",
       "nombre": "Concretos finos",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "./assets/biblioteca/atlas-integrado/materiales/concreto-dosificado.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -243,11 +243,11 @@
       "subbase": "Gravilla ⅜ pulgada",
       "nombre": "Acabados decorativos",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/modelos/paquete-16-paisajismo/elementos-arquitectonicos.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -255,11 +255,11 @@
       "subbase": "Gravilla ⅜ pulgada",
       "nombre": "Prefabricados",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "./assets/biblioteca/atlas-integrado/aplicaciones/prefabricados-arquitectonicos.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -268,10 +268,10 @@
       "nombre": "Grouting y arenón",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/rio/grouting-y-arenon.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/an.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -279,11 +279,11 @@
       "subbase": "Grouting y arenón",
       "nombre": "Morteros",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/mo.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -291,11 +291,11 @@
       "subbase": "Grouting y arenón",
       "nombre": "Mampostería",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-04/mamposteria-reforzada.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -303,11 +303,11 @@
       "subbase": "Grouting y arenón",
       "nombre": "Nivelaciones",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-05/morteros-nivelacion.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -315,11 +315,11 @@
       "subbase": "Grouting y arenón",
       "nombre": "Relleno controlado",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-07/relleno-fluido.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -328,10 +328,10 @@
       "nombre": "Arena gruesa y fina",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/rio/arena-gruesa-y-fina.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/ag.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -339,11 +339,11 @@
       "subbase": "Arena gruesa y fina",
       "nombre": "Pega de ladrillo",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "./assets/biblioteca/atlas-integrado/aplicaciones/mortero-para-pega.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -351,11 +351,11 @@
       "subbase": "Arena gruesa y fina",
       "nombre": "Repellos",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "./assets/biblioteca/atlas-integrado/aplicaciones/repellos-y-panetes.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -363,11 +363,11 @@
       "subbase": "Arena gruesa y fina",
       "nombre": "Acabados",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/modelos/paquete-13-morteros/estuco-pared.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -375,11 +375,11 @@
       "subbase": "Arena gruesa y fina",
       "nombre": "Mezclas de concreto",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "./assets/biblioteca/atlas-integrado/materiales/concreto-dosificado.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -699,11 +699,11 @@
       "subbase": "",
       "nombre": "Material orgánico",
       "tipo": "base",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "assets/biblioteca/individuales/material-organico.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Correspondencia exacta de rótulo; no es una fotografía",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -712,10 +712,10 @@
       "nombre": "Frutas y verduras",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/organicos/frutas-y-verduras.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "assets/biblioteca/individuales/frutas-y-verduras.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Correspondencia exacta de rótulo; no es una fotografía",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -724,10 +724,10 @@
       "nombre": "Compost estabilizado",
       "tipo": "producto",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/biblioteca/organicos/productos/compost_estabilizado.jpg",
-      "origen": "IA",
-      "control_calidad": "ilustración/pertinencia por revisar",
-      "derechos": "ilustración con IA, uso público sujeto a condiciones aplicables"
+      "imagen": "assets/biblioteca/organicos/individuales/compost-estabilizado.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Sustituye un recorte equivocado",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -736,10 +736,10 @@
       "nombre": "Humus de lombriz",
       "tipo": "producto",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/biblioteca/organicos/productos/humus_de_lombriz.jpg",
-      "origen": "IA",
-      "control_calidad": "ilustración/pertinencia por revisar",
-      "derechos": "ilustración con IA, uso público sujeto a condiciones aplicables"
+      "imagen": "assets/biblioteca/organicos/individuales/humus-de-lombriz.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Sustituye un recorte equivocado",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -748,10 +748,10 @@
       "nombre": "Enmiendas de suelo",
       "tipo": "producto",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/biblioteca/organicos/productos/enmiendas_de_suelo.jpg",
-      "origen": "IA",
-      "control_calidad": "ilustración/pertinencia por revisar",
-      "derechos": "ilustración con IA, uso público sujeto a condiciones aplicables"
+      "imagen": "assets/biblioteca/organicos/individuales/enmiendas-de-suelo.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Sustituye un recorte equivocado",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -772,10 +772,10 @@
       "nombre": "Podas y jardinería",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/organicos/podas-y-jardineria.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "assets/biblioteca/individuales/podas-y-jardineria.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Correspondencia exacta de rótulo; no es una fotografía",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -784,10 +784,10 @@
       "nombre": "Acolchado vegetal",
       "tipo": "producto",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/biblioteca/organicos/productos/acolchado_vegetal.jpg",
-      "origen": "IA",
-      "control_calidad": "ilustración/pertinencia por revisar",
-      "derechos": "ilustración con IA, uso público sujeto a condiciones aplicables"
+      "imagen": "assets/biblioteca/organicos/individuales/acolchado-vegetal.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Sustituye un recorte equivocado",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -796,10 +796,10 @@
       "nombre": "Astillas",
       "tipo": "producto",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/biblioteca/organicos/productos/astillas.jpg",
-      "origen": "IA",
-      "control_calidad": "ilustración/pertinencia por revisar",
-      "derechos": "ilustración con IA, uso público sujeto a condiciones aplicables"
+      "imagen": "assets/biblioteca/organicos/individuales/astillas.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Sustituye un recorte equivocado",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -820,10 +820,10 @@
       "nombre": "Biocarbón",
       "tipo": "producto",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/biblioteca/organicos/productos/biocarbon.jpg",
-      "origen": "IA",
-      "control_calidad": "ilustración/pertinencia por revisar",
-      "derechos": "ilustración con IA, uso público sujeto a condiciones aplicables"
+      "imagen": "assets/biblioteca/organicos/individuales/biocarbon.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Sustituye un recorte equivocado",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -832,10 +832,10 @@
       "nombre": "Estiércoles pecuarios",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/organicos/estiercoles-pecuarios.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "assets/biblioteca/individuales/estiercoles-pecuarios.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Correspondencia exacta de rótulo; no es una fotografía",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -868,10 +868,10 @@
       "nombre": "Digestato tratado",
       "tipo": "producto",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/biblioteca/organicos/productos/digestato_tratado.jpg",
-      "origen": "IA",
-      "control_calidad": "ilustración/pertinencia por revisar",
-      "derechos": "ilustración con IA, uso público sujeto a condiciones aplicables"
+      "imagen": "assets/biblioteca/organicos/individuales/digestato-tratado.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Sustituye un recorte equivocado",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -880,10 +880,10 @@
       "nombre": "Fertilizante formulado",
       "tipo": "producto",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/biblioteca/organicos/productos/fertilizante_formulado.jpg",
-      "origen": "IA",
-      "control_calidad": "ilustración/pertinencia por revisar",
-      "derechos": "ilustración con IA, uso público sujeto a condiciones aplicables"
+      "imagen": "assets/biblioteca/organicos/individuales/fertilizante-formulado.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Sustituye un recorte equivocado",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -892,10 +892,10 @@
       "nombre": "Residuos agroindustriales",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/organicos/residuos-agroindustriales.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "assets/biblioteca/individuales/residuos-agroindustriales.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Correspondencia exacta de rótulo; no es una fotografía",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -916,10 +916,10 @@
       "nombre": "Sustrato para hongos",
       "tipo": "producto",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/biblioteca/organicos/productos/sustrato_para_hongos.jpg",
-      "origen": "IA",
-      "control_calidad": "ilustración/pertinencia por revisar",
-      "derechos": "ilustración con IA, uso público sujeto a condiciones aplicables"
+      "imagen": "assets/biblioteca/organicos/individuales/sustrato-para-hongos.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Sustituye un recorte equivocado",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -940,10 +940,10 @@
       "nombre": "Biocarbón",
       "tipo": "producto",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/biblioteca/organicos/productos/biocarbon.jpg",
-      "origen": "IA",
-      "control_calidad": "ilustración/pertinencia por revisar",
-      "derechos": "ilustración con IA, uso público sujeto a condiciones aplicables"
+      "imagen": "assets/biblioteca/organicos/individuales/biocarbon.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Sustituye un recorte equivocado",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -952,10 +952,10 @@
       "nombre": "Restos alimentarios",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/organicos/restos-alimentarios.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "assets/biblioteca/individuales/restos-alimentarios.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Correspondencia exacta de rótulo; no es una fotografía",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -976,10 +976,10 @@
       "nombre": "Bokashi",
       "tipo": "producto",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/biblioteca/organicos/productos/bokashi.jpg",
-      "origen": "IA",
-      "control_calidad": "ilustración/pertinencia por revisar",
-      "derechos": "ilustración con IA, uso público sujeto a condiciones aplicables"
+      "imagen": "assets/biblioteca/organicos/individuales/bokashi.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Sustituye un recorte equivocado",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -1012,10 +1012,10 @@
       "nombre": "Lodos y biosólidos especiales",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/organicos/lodos-y-biosolidos-especiales.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "assets/biblioteca/individuales/lodos-y-biosolidos-especiales.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Correspondencia exacta de rótulo; no es una fotografía",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -1071,11 +1071,11 @@
       "subbase": "",
       "nombre": "Escombros y RCD",
       "tipo": "base",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "assets/biblioteca/individuales/escombros-rcd.svg",
+      "origen": "Ilustración vectorial original individual",
+      "control_calidad": "Correspondencia exacta de rótulo; no es una fotografía",
+      "derechos": "Creación institucional original"
     },
     {
       "linea": "MATERIALES",
@@ -1084,10 +1084,10 @@
       "nombre": "Concreto limpio",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/rcd/concreto-limpio.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rc.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1095,11 +1095,11 @@
       "subbase": "Concreto limpio",
       "nombre": "Árido reciclado",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rc.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1107,11 +1107,11 @@
       "subbase": "Concreto limpio",
       "nombre": "Subbases viales",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rs.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1119,11 +1119,11 @@
       "subbase": "Concreto limpio",
       "nombre": "Bloques no estructurales",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-04/bloques-huecos-cemento.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1131,11 +1131,11 @@
       "subbase": "Concreto limpio",
       "nombre": "Prefabricados",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "./assets/biblioteca/atlas-integrado/aplicaciones/prefabricados-arquitectonicos.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1144,10 +1144,10 @@
       "nombre": "Ladrillo y mampostería",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/rcd/ladrillo-y-mamposteria.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/modelos/paquete-09-bloques/ladrillos-bloques.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1155,11 +1155,11 @@
       "subbase": "Ladrillo y mampostería",
       "nombre": "Ladrillos ecológicos",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-05/ladrillos-no-cocidos.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1167,11 +1167,11 @@
       "subbase": "Ladrillo y mampostería",
       "nombre": "Adoquines",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "./assets/biblioteca/atlas-integrado/aplicaciones/adoquines.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1179,11 +1179,11 @@
       "subbase": "Ladrillo y mampostería",
       "nombre": "Agregados para morteros",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rf.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1191,11 +1191,11 @@
       "subbase": "Ladrillo y mampostería",
       "nombre": "Calados y celosías",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/modelos/paquete-09-bloques/celosia-01.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1204,10 +1204,10 @@
       "nombre": "Cerámicos y tejas",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/rcd/ceramicos-y-tejas.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rm.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1215,11 +1215,11 @@
       "subbase": "Cerámicos y tejas",
       "nombre": "Granulado cerámico",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rm.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1227,11 +1227,11 @@
       "subbase": "Cerámicos y tejas",
       "nombre": "Adoquines decorativos",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "./assets/biblioteca/atlas-integrado/aplicaciones/adoquines.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1239,11 +1239,11 @@
       "subbase": "Cerámicos y tejas",
       "nombre": "Áridos mixtos",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/mi.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1251,11 +1251,11 @@
       "subbase": "Cerámicos y tejas",
       "nombre": "Material para senderos",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-04/afirmado-rural.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1264,10 +1264,10 @@
       "nombre": "Tierras y materiales inertes",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/rcd/tierras-y-materiales-inertes.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-01/mi.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1275,11 +1275,11 @@
       "subbase": "Tierras y materiales inertes",
       "nombre": "Rellenos autorizados",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-06/rellenos-zanjas.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1287,11 +1287,11 @@
       "subbase": "Tierras y materiales inertes",
       "nombre": "Nivelaciones",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/modelos/paquete-17-acabados-viviendas/nivelacion-piso.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1299,11 +1299,11 @@
       "subbase": "Tierras y materiales inertes",
       "nombre": "Estabilización de terreno",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-07/estabilizacion-taludes.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1311,11 +1311,11 @@
       "subbase": "Tierras y materiales inertes",
       "nombre": "Bases para senderos",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/bg.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1384,10 +1384,10 @@
       "nombre": "Asfalto recuperado",
       "tipo": "subbase",
       "estado": "VINCULADA_REVISAR",
-      "imagen": "assets/fotos/rcd/asfalto-recuperado.jpg",
-      "origen": "Wikimedia Commons",
-      "control_calidad": "referencia por revisar",
-      "derechos": "referencia de tercero con licencia documentada"
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/ra.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1395,11 +1395,11 @@
       "subbase": "Asfalto recuperado",
       "nombre": "Fresado asfáltico clasificado",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/ra.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1407,11 +1407,11 @@
       "subbase": "Asfalto recuperado",
       "nombre": "Recuperación en mezclas",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/aplicaciones/paquete-03/recuperacion-pavimento-rap.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
@@ -1419,11 +1419,11 @@
       "subbase": "Asfalto recuperado",
       "nombre": "Subbases con material recuperado",
       "tipo": "producto",
-      "estado": "PENDIENTE_CREAR",
-      "imagen": "",
-      "origen": "",
-      "control_calidad": "pendiente",
-      "derechos": "pendiente"
+      "estado": "VINCULADA_REVISAR",
+      "imagen": "https://fundacionecopiensaevolution.github.io/ecopresentacione/imagenes/materiales/paquete-02/rs.jpg",
+      "origen": "Atlas institucional sin modificar",
+      "control_calidad": "Imagen vinculada por correspondencia de texto; revisar pertinencia fotográfica final",
+      "derechos": "Imagen del repertorio institucional (no editada)"
     },
     {
       "linea": "MATERIALES",
