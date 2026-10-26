@@ -37,7 +37,7 @@ const organic=organicRes.ok?(await organicRes.json()).imagenes||[]:[];
 const orgByName=new Map(organic.filter(x=>x.archivo&&x.archivo.endsWith('.svg')).map(x=>[x.nombre,x.archivo]));
 const originals=originalRes.ok?(await originalRes.json()).imagenes||[]:[];
 const originalsMap=new Map(originals.map(x=>[x.familia+'|'+x.tipo+'|'+x.nombre,x.archivo]));
-const ids={'Material de río':'rio','Escombros y RCD':'rcd','Material orgánico':'organicos'};
+const ids={'Material de río':'rio','Material reciclable':'reciclables','Escombros y RCD':'rcd','Material orgánico':'organicos'};
 DATA=a.items.filter(x=>x.linea==='MATERIALES');
 for(const node of DATA){
  const family=ids[node.categoria];
