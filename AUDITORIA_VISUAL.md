@@ -5,7 +5,7 @@
 ## Estado del catálogo de materiales
 - **353** nodos entre bases, subbases y productos (13 líneas de materiales).
 - **135** nodos con una imagen asociada y **218** todavía pendientes.
-- **236** archivos gráficos contabilizados en este repositorio, incluidos **41 nuevos SVG** independientes, junto con archivos históricos que se conservan sin borrarse.
+- **256** archivos gráficos contabilizados en este repositorio, incluidos **61 nuevos SVG** independientes, junto con archivos históricos que se conservan sin borrarse.
 - **52 vínculos contextuales** al atlas `ecopresentacione` de la Fundación (28 de material de río y 24 de RCD), sin editar ese repositorio. Algunos vínculos reemplazan imágenes previamente existentes, de modo que no equivalen a 52 nodos nuevos.
 - **10 ilustraciones originales de productos orgánicos**, **10 de bases/subbases**, **10 de procesos de ECOALDEAS**, **10 de espacios y actividades de ECOALDEAS**, y **1 diagrama adicional de flujos**. Sus nombres de archivo describen el contenido y no contienen identificadores de grupo.
 - La auditoría navegable `auditoria.html` muestra ahora el catálogo actualizado. La planificación de imágenes faltantes se conserva internamente y no se publica en la interfaz.
