@@ -4,73 +4,95 @@
   "imagenes": [
     {
       "nombre": "Recepción y pesaje",
-      "archivo": "assets/biblioteca/ecocia/imagenes/recepcion_y_pesaje.jpg",
-      "alt": "Ilustración conceptual de Recepción y pesaje",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecocia/individuales/recepcion-y-pesaje.svg",
+      "alt": "Ilustración de Recepción y pesaje del centro ECO-CIA",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecocia/imagenes/recepcion_y_pesaje.jpg",
+      "estado": "Escena única conceptual"
     },
     {
       "nombre": "Inspección y clasificación",
-      "archivo": "assets/biblioteca/ecocia/imagenes/inspeccion_y_clasificacion.jpg",
-      "alt": "Ilustración conceptual de Inspección y clasificación",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecocia/individuales/inspeccion-y-clasificacion.svg",
+      "alt": "Ilustración de Inspección y clasificación del centro ECO-CIA",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecocia/imagenes/inspeccion_y_clasificacion.jpg",
+      "estado": "Escena única conceptual"
     },
     {
       "nombre": "Transformación agroindustrial",
-      "archivo": "assets/biblioteca/ecocia/imagenes/transformacion_agroindustrial.jpg",
-      "alt": "Ilustración conceptual de Transformación agroindustrial",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecocia/individuales/transformacion-agroindustrial.svg",
+      "alt": "Ilustración de Transformación agroindustrial del centro ECO-CIA",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecocia/imagenes/transformacion_agroindustrial.jpg",
+      "estado": "Escena única conceptual"
     },
     {
       "nombre": "Empaque y etiquetado",
-      "archivo": "assets/biblioteca/ecocia/imagenes/empaque_y_etiquetado.jpg",
-      "alt": "Ilustración conceptual de Empaque y etiquetado",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecocia/individuales/empaque-y-etiquetado.svg",
+      "alt": "Ilustración de Empaque y etiquetado del centro ECO-CIA",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecocia/imagenes/empaque_y_etiquetado.jpg",
+      "estado": "Escena única conceptual"
     },
     {
       "nombre": "Almacenamiento seco",
-      "archivo": "assets/biblioteca/ecocia/imagenes/almacenamiento_seco.jpg",
-      "alt": "Ilustración conceptual de Almacenamiento seco",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecocia/individuales/almacenamiento-seco.svg",
+      "alt": "Ilustración de Almacenamiento seco del centro ECO-CIA",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecocia/imagenes/almacenamiento_seco.jpg",
+      "estado": "Escena única conceptual"
     },
     {
       "nombre": "Refrigeración y cadena fría",
-      "archivo": "assets/biblioteca/ecocia/imagenes/refrigeracion_y_cadena_fria.jpg",
-      "alt": "Ilustración conceptual de Refrigeración y cadena fría",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecocia/individuales/refrigeracion-cadena-fria.svg",
+      "alt": "Ilustración de Refrigeración y cadena fría del centro ECO-CIA",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecocia/imagenes/refrigeracion_y_cadena_fria.jpg",
+      "estado": "Escena única conceptual"
     },
     {
       "nombre": "Distribución y despacho",
-      "archivo": "assets/biblioteca/ecocia/imagenes/distribucion_y_despacho.jpg",
-      "alt": "Ilustración conceptual de Distribución y despacho",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecocia/individuales/distribucion-despacho.svg",
+      "alt": "Ilustración de Distribución y despacho del centro ECO-CIA",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecocia/imagenes/distribucion_y_despacho.jpg",
+      "estado": "Escena única conceptual"
     },
     {
       "nombre": "Educación y servicios",
-      "archivo": "assets/biblioteca/ecocia/imagenes/educacion_agroindustrial.jpg",
-      "alt": "Ilustración conceptual de Educación y servicios",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecocia/individuales/educacion-y-servicios.svg",
+      "alt": "Ilustración de Educación y servicios del centro ECO-CIA",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecocia/imagenes/educacion_agroindustrial.jpg",
+      "estado": "Escena única conceptual"
     },
     {
       "nombre": "Cargue y consolidación de pedidos",
-      "archivo": "assets/biblioteca/ecocia/imagenes/cargue_y_consolidacion.jpg",
-      "alt": "Ilustración conceptual de Cargue y consolidación de pedidos",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecocia/individuales/cargue-consolidacion.svg",
+      "alt": "Ilustración de Cargue y consolidación de pedidos del centro ECO-CIA",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecocia/imagenes/cargue_y_consolidacion.jpg",
+      "estado": "Escena única conceptual"
     },
     {
       "nombre": "Ruta territorial de distribución",
-      "archivo": "assets/biblioteca/ecocia/imagenes/ruta_territorial.jpg",
-      "alt": "Ilustración conceptual de Ruta territorial de distribución",
-      "origen": "Creación original con IA, recorte de la ilustración para eliminar rótulos/logos de referencia",
-      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales"
+      "archivo": "assets/biblioteca/ecocia/individuales/ruta-territorial.svg",
+      "alt": "Ilustración de Ruta territorial de distribución del centro ECO-CIA",
+      "origen": "Ilustración vectorial original",
+      "derechos": "Ilustración generada con IA para el proyecto, sin atribución de instalaciones reales",
+      "archivo_anterior": "assets/biblioteca/ecocia/imagenes/ruta_territorial.jpg",
+      "estado": "Escena única conceptual"
     }
-  ]
+  ],
+  "version": "2.0",
+  "aviso": "Escenas individuales, sin montajes anteriores. No documentan infraestructura instalada."
 }
