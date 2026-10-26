@@ -30,7 +30,7 @@ function fromAtlas(kind,name){
  return {src:item.src,label:name,alt:"Imagen de "+name+" · "+item.label,
          license:"Referencia conceptual institucional",credit:"Atlas de materiales Ecopiensa Evolution",
          kind:"Imagen individual seleccionada para corresponder al nombre. No documenta una obra ejecutada.",
-         fit:item.src.includes("/imagenes/materiales/")?"contain":"cover"};
+         fit:(item.src.includes("/imagenes/materiales/")||item.src.includes("/atlas-integrado/materiales/"))?"contain":"cover"};
 }
 function exactPack(group,name){
  if(active!=="reciclables")return null;
