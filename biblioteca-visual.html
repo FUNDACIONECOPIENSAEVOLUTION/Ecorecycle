@@ -16,6 +16,7 @@
 <section class="group"><h2>Productos orgánicos para apoyo a los cultivos</h2><p>Diez ilustraciones individuales de productos derivados. Su uso agrícola requiere tratamiento, caracterización y control de calidad.</p><p><a href="./descargas/GALERIA_ORGANICOS_10_IMAGENES.zip" download style="display:inline-block;padding:9px 14px;background:#086b40;color:white;text-decoration:none;border-radius:9px;font-weight:700">Descargar las diez imágenes · ZIP</a></p><div id="organicos" class="grid"></div></section>
 <section class="group"><h2>Archivo fotográfico de materiales</h2><p>Subbases clasificadas por material, con créditos disponibles en el registro del repositorio. Algunas referencias requieren revisión editorial de exactitud.</p><div id="material" class="grid"></div></section>
 <section class="group"><h2>Estado de cobertura</h2><p>El catálogo general de materiales consta de 353 posiciones visuales; al menos 87 tienen imágenes locales vinculadas, incluidos diez productos orgánicos. El resto necesita imágenes específicas y revisión de pertinencia. Consulta el inventario detallado en GitHub.</p><nav><a href="https://github.com/FUNDACIONECOPIENSAEVOLUTION/Ecorecycle/blob/main/AUDITORIA_VISUAL.md">Auditoría pública</a></nav></section>
+<section class="group"><h2>Bases principales y materiales de entrada</h2><p>Ilustraciones originales independientes, cada una asociada a su material o subbase.</p><div id="bases-originales" class="grid"></div></section>
 </main><dialog id="viewer" class="modal"><div style="display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:10px"><strong id="viewerName"></strong><button type="button" id="close">Cerrar ×</button></div><div class="viewer-crop"><img id="viewerImage" alt=""></div><p style="font-size:12px;color:#597566" id="viewerCredit"></p></dialog><footer>Fundación Ecopiensa Evolution · Biblioteca de difusión pública · Sin proyecto macro confidencial</footer><script>
 const modal=document.getElementById('viewer');document.getElementById('close').onclick=()=>modal.close();modal.onclick=e=>{if(e.target===modal)modal.close()};
 function item(dst,name,path,meta){if(!path)return;
@@ -37,6 +38,7 @@ b.onclick=()=>{modal.classList.toggle('single-view',cropped);document.getElement
 node.append(b,title,cap);dst.appendChild(node);}
 (async()=>{let n=0;const load=async path=>{const x=await fetch(path);if(!x.ok)throw Error('No disponible '+path);return await x.json()};
 const sets=[
+['bases-originales','./assets/biblioteca/individuales/manifest.json'],
 ['eco','./assets/biblioteca/ecoaldeas/paquete-01/manifest.json'],
 ['eco2','./assets/biblioteca/ecoaldeas/paquete-02/manifest.json'],
 ['rec','./assets/biblioteca/reciclables-secos/manifest.json'],
