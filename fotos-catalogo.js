@@ -1,13 +1,14 @@
-/* ECORECYCLE v2.1 — referencias individuales verificadas, del catálogo local y del atlas institucional. */
+/* ECORECYCLE v2.2 — referencias individuales verificadas, del catálogo local y del atlas institucional. */
 (()=>{
 "use strict";
 const base="./assets/biblioteca/reciclables-secos/";
 const pending=[];
-let packItems=[],metalItems=[],organicItems=[],riverItems=[],publicCredits=[],atlasLinks={},booted=false;
+let packItems=[],metalItems=[],organicItems=[],riverItems=[],publicCredits=[],atlasLinks={},originalItems=[],booted=false;
 const clean=s=>String(s||"").replace(/\*+$/,"").trim();
 const slug=s=>clean(s).toLowerCase().replaceAll("¾","tres-cuartos").replaceAll("½","medio").replaceAll("⅜","tres-octavos")
  .normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 async function load(){
+ try{const r=await fetch('./assets/biblioteca/individuales/manifest.json',{cache:'no-store'});if(r.ok)originalItems=(await r.json()).imagenes||[];}catch(_){}
  try{const r=await fetch('./atlas-vinculos.json',{cache:'no-store'});if(r.ok)atlasLinks=(await r.json()).vinculos||{};}catch(_){}
  try{const r=await fetch(base+"manifest.json",{cache:"no-cache"});if(r.ok)packItems=(await r.json()).imagenes||[];}catch(_){}
  try{const r=await fetch("./assets/fotos/creditos.json");if(r.ok)publicCredits=(await r.json()).fuentes||[];}catch(_){}
@@ -15,6 +16,13 @@ async function load(){
  try{const r=await fetch('./assets/biblioteca/organicos/manifest.json');if(r.ok)organicItems=(await r.json()).imagenes||[];}catch(_){}
  try{const r=await fetch('./assets/biblioteca/rio/manifest.json');if(r.ok)riverItems=(await r.json()).imagenes||[];}catch(_){}
  booted=true;paint();
+}
+function fromOriginal(kind,name){
+ const item=originalItems.find(x=>x.familia===active&&x.tipo===kind&&clean(x.nombre)===clean(name));
+ if(!item?.archivo)return null;
+ return {src:'./'+item.archivo,label:item.nombre,alt:'Ilustración individual de '+item.nombre,
+ license:'Ilustración vectorial propia',credit:'Fundación Ecopiensa Evolution',
+ kind:'Recreación conceptual específica para '+item.nombre+'; no es registro de una operación real',fit:'contain'};
 }
 function fromAtlas(kind,name){
  const item=atlasLinks[active+"|"+kind+"|"+clean(name)];
@@ -30,6 +38,7 @@ function exactPack(group,name){
  return x?.archivo?{src:"./"+x.archivo,label:x.nombre,alt:x.alt||x.nombre,license:x.licencia||"Ilustracion original IA",credit:x.autor||"Fundación Ecopiensa Evolution",kind:"Imagen generada con IA, ilustrativa"}:null;
 }
 function localSub(group,name){
+ const original=fromOriginal('subbase',name);if(original)return original;
  const ownAtlas=fromAtlas('subbase',name);if(ownAtlas)return ownAtlas;
  const p=exactPack(group,name);if(p)return p;
  if(active==='metales'){const z=metalItems.find(x=>x.tipo===group&&clean(x.nombre)===clean(name)&&x.archivo);if(z)return {src:'./'+z.archivo,label:z.nombre,alt:z.nombre,license:z.licencia||'Ver créditos',credit:z.autor||'Wikimedia Commons',kind:'Fotografía de referencia local bajo licencia indicada'};}
@@ -110,8 +119,8 @@ function paint(){
   icon.innerHTML="";
   // La imagen de base es una fracción de referencia solo cuando hay una subbase apropiada.
   const first=material.b[0]?.[0];
-  const example=first?localSub("subbases",first):null;
-  if(example)example.alt="Ejemplo de "+first+" dentro de "+material.n+" (no representa todas las fracciones)";
+  const example=fromOriginal("base",material.n)||(first?localSub("subbases",first):null);
+  if(example && !fromOriginal("base",material.n))example.alt="Ejemplo de "+first+" dentro de "+material.n+" (no representa todas las fracciones)";
   icon.appendChild(nodePhoto(example,material.n,"base-photo"));
  }
 }
