@@ -5,162 +5,193 @@
       "numero": 1,
       "id": "01_gallinaza_recogida_segura",
       "nombre": "Gallinaza: recolección segura",
-      "archivo": "assets/biblioteca/ecoaldeas/paquete-02/01_gallinaza_recogida_segura.jpg",
+      "archivo": "assets/biblioteca/ecoaldeas/individuales/gallinaza-recoleccion-segura.svg",
       "pasos": [
         "Separar gallinaza",
         "Tratamiento controlado",
         "Enmienda solo si es apta"
       ],
-      "descripcion": "Gallinaza: recolección segura — Separar gallinaza, Tratamiento controlado, Enmienda solo si es apta",
+      "descripcion": "Ilustración individual conceptual de Gallinaza: recolección segura. Una sola escena, sin subimágenes ni rótulos internos.",
       "tipo": "proceso interno ECOALDEAS",
-      "origen": "Recreación editorial de material generado con IA",
+      "origen": "Ilustración vectorial original individual para Fundación Ecopiensa Evolution",
       "derechos": "Imagen original de IA, sin fotos de terceros",
-      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica."
+      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica.",
+      "archivo_anterior": "assets/biblioteca/ecoaldeas/paquete-02/01_gallinaza_recogida_segura.jpg",
+      "estado": "Publicada en SVG independiente",
+      "sin_fotografia_real": true
     },
     {
       "numero": 2,
       "id": "02_porquinaza_tratamiento",
       "nombre": "Porquinaza: tratamiento",
-      "archivo": "assets/biblioteca/ecoaldeas/paquete-02/02_porquinaza_tratamiento.jpg",
+      "archivo": "assets/biblioteca/ecoaldeas/individuales/porquinaza-tratamiento.svg",
       "pasos": [
         "Recolectar por separado",
         "Tratar de forma autorizada",
         "Gestionar digestato seguro"
       ],
-      "descripcion": "Porquinaza: tratamiento — Recolectar por separado, Tratar de forma autorizada, Gestionar digestato seguro",
+      "descripcion": "Ilustración individual conceptual de Porquinaza: tratamiento. Una sola escena, sin subimágenes ni rótulos internos.",
       "tipo": "proceso interno ECOALDEAS",
-      "origen": "Recreación editorial de material generado con IA",
+      "origen": "Ilustración vectorial original individual para Fundación Ecopiensa Evolution",
       "derechos": "Imagen original de IA, sin fotos de terceros",
-      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica."
+      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica.",
+      "archivo_anterior": "assets/biblioteca/ecoaldeas/paquete-02/02_porquinaza_tratamiento.jpg",
+      "estado": "Publicada en SVG independiente",
+      "sin_fotografia_real": true
     },
     {
       "numero": 3,
       "id": "03_estiercol_bovino_caprino",
       "nombre": "Estiércol bovino y caprino",
-      "archivo": "assets/biblioteca/ecoaldeas/paquete-02/03_estiercol_bovino_caprino.jpg",
+      "archivo": "assets/biblioteca/ecoaldeas/individuales/estiercol-bovino-caprino.svg",
       "pasos": [
         "Acopiar sin contaminar",
         "Estabilizar o compostar",
         "Uso agrícola validado"
       ],
-      "descripcion": "Estiércol bovino y caprino — Acopiar sin contaminar, Estabilizar o compostar, Uso agrícola validado",
+      "descripcion": "Ilustración individual conceptual de Estiércol bovino y caprino. Una sola escena, sin subimágenes ni rótulos internos.",
       "tipo": "proceso interno ECOALDEAS",
-      "origen": "Recreación editorial de material generado con IA",
+      "origen": "Ilustración vectorial original individual para Fundación Ecopiensa Evolution",
       "derechos": "Imagen original de IA, sin fotos de terceros",
-      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica."
+      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica.",
+      "archivo_anterior": "assets/biblioteca/ecoaldeas/paquete-02/03_estiercol_bovino_caprino.jpg",
+      "estado": "Publicada en SVG independiente",
+      "sin_fotografia_real": true
     },
     {
       "numero": 4,
       "id": "04_compostaje_monitoreado",
       "nombre": "Compostaje monitoreado",
-      "archivo": "assets/biblioteca/ecoaldeas/paquete-02/04_compostaje_monitoreado.jpg",
+      "archivo": "assets/biblioteca/ecoaldeas/individuales/compostaje-monitoreado.svg",
       "pasos": [
         "Mezclar residuos aptos",
         "Controlar temperatura",
         "Madurar el compost"
       ],
-      "descripcion": "Compostaje monitoreado — Mezclar residuos aptos, Controlar temperatura, Madurar el compost",
+      "descripcion": "Ilustración individual conceptual de Compostaje monitoreado. Una sola escena, sin subimágenes ni rótulos internos.",
       "tipo": "proceso interno ECOALDEAS",
-      "origen": "Recreación editorial de material generado con IA",
+      "origen": "Ilustración vectorial original individual para Fundación Ecopiensa Evolution",
       "derechos": "Imagen original de IA, sin fotos de terceros",
-      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica."
+      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica.",
+      "archivo_anterior": "assets/biblioteca/ecoaldeas/paquete-02/04_compostaje_monitoreado.jpg",
+      "estado": "Publicada en SVG independiente",
+      "sin_fotografia_real": true
     },
     {
       "numero": 5,
       "id": "05_compost_maduro_para_suelo",
       "nombre": "Compost maduro para suelo",
-      "archivo": "assets/biblioteca/ecoaldeas/paquete-02/05_compost_maduro_para_suelo.jpg",
+      "archivo": "assets/biblioteca/ecoaldeas/individuales/compost-maduro-para-suelo.svg",
       "pasos": [
         "Verificar madurez",
         "Dosificar según el suelo",
         "Mejorar el suelo agrícola"
       ],
-      "descripcion": "Compost maduro para suelo — Verificar madurez, Dosificar según el suelo, Mejorar el suelo agrícola",
+      "descripcion": "Ilustración individual conceptual de Compost maduro para suelo. Una sola escena, sin subimágenes ni rótulos internos.",
       "tipo": "proceso interno ECOALDEAS",
-      "origen": "Recreación editorial de material generado con IA",
+      "origen": "Ilustración vectorial original individual para Fundación Ecopiensa Evolution",
       "derechos": "Imagen original de IA, sin fotos de terceros",
-      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica."
+      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica.",
+      "archivo_anterior": "assets/biblioteca/ecoaldeas/paquete-02/05_compost_maduro_para_suelo.jpg",
+      "estado": "Publicada en SVG independiente",
+      "sin_fotografia_real": true
     },
     {
       "numero": 6,
       "id": "06_forrajes_para_animales",
       "nombre": "Cultivo de forrajes",
-      "archivo": "assets/biblioteca/ecoaldeas/paquete-02/06_forrajes_para_animales.jpg",
+      "archivo": "assets/biblioteca/ecoaldeas/individuales/cultivo-de-forrajes.svg",
       "pasos": [
         "Sembrar según el clima",
         "Cosechar y conservar",
         "Alimentación adecuada"
       ],
-      "descripcion": "Cultivo de forrajes — Sembrar según el clima, Cosechar y conservar, Alimentación adecuada",
+      "descripcion": "Ilustración individual conceptual de Cultivo de forrajes. Una sola escena, sin subimágenes ni rótulos internos.",
       "tipo": "proceso interno ECOALDEAS",
-      "origen": "Recreación editorial de material generado con IA",
+      "origen": "Ilustración vectorial original individual para Fundación Ecopiensa Evolution",
       "derechos": "Imagen original de IA, sin fotos de terceros",
-      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica."
+      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica.",
+      "archivo_anterior": "assets/biblioteca/ecoaldeas/paquete-02/06_forrajes_para_animales.jpg",
+      "estado": "Publicada en SVG independiente",
+      "sin_fotografia_real": true
     },
     {
       "numero": 7,
       "id": "07_captacion_y_riego_protegido",
       "nombre": "Agua captada y riego protegido",
-      "archivo": "assets/biblioteca/ecoaldeas/paquete-02/07_captacion_y_riego_protegido.jpg",
+      "archivo": "assets/biblioteca/ecoaldeas/individuales/agua-captada-riego-protegido.svg",
       "pasos": [
         "Captación permitida",
         "Almacenar agua segura",
         "Riego eficiente"
       ],
-      "descripcion": "Agua captada y riego protegido — Captación permitida, Almacenar agua segura, Riego eficiente",
+      "descripcion": "Ilustración individual conceptual de Agua captada y riego protegido. Una sola escena, sin subimágenes ni rótulos internos.",
       "tipo": "proceso interno ECOALDEAS",
-      "origen": "Recreación editorial de material generado con IA",
+      "origen": "Ilustración vectorial original individual para Fundación Ecopiensa Evolution",
       "derechos": "Imagen original de IA, sin fotos de terceros",
-      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica."
+      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica.",
+      "archivo_anterior": "assets/biblioteca/ecoaldeas/paquete-02/07_captacion_y_riego_protegido.jpg",
+      "estado": "Publicada en SVG independiente",
+      "sin_fotografia_real": true
     },
     {
       "numero": 8,
       "id": "08_estanque_calidad_del_agua",
       "nombre": "Estanque y calidad del agua",
-      "archivo": "assets/biblioteca/ecoaldeas/paquete-02/08_estanque_calidad_del_agua.jpg",
+      "archivo": "assets/biblioteca/ecoaldeas/individuales/estanque-calidad-agua.svg",
       "pasos": [
         "Monitorear parámetros",
         "Proteger de vertimientos",
         "Producción piscícola"
       ],
-      "descripcion": "Estanque y calidad del agua — Monitorear parámetros, Proteger de vertimientos, Producción piscícola",
+      "descripcion": "Ilustración individual conceptual de Estanque y calidad del agua. Una sola escena, sin subimágenes ni rótulos internos.",
       "tipo": "proceso interno ECOALDEAS",
-      "origen": "Recreación editorial de material generado con IA",
+      "origen": "Ilustración vectorial original individual para Fundación Ecopiensa Evolution",
       "derechos": "Imagen original de IA, sin fotos de terceros",
-      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica."
+      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica.",
+      "archivo_anterior": "assets/biblioteca/ecoaldeas/paquete-02/08_estanque_calidad_del_agua.jpg",
+      "estado": "Publicada en SVG independiente",
+      "sin_fotografia_real": true
     },
     {
       "numero": 9,
       "id": "09_cosecha_para_autoconsumo",
       "nombre": "Cosecha para autoconsumo",
-      "archivo": "assets/biblioteca/ecoaldeas/paquete-02/09_cosecha_para_autoconsumo.jpg",
+      "archivo": "assets/biblioteca/ecoaldeas/individuales/cosecha-autoconsumo.svg",
       "pasos": [
         "Cosechar y seleccionar",
         "Reservar para la familia",
         "Compartir en comunidad"
       ],
-      "descripcion": "Cosecha para autoconsumo — Cosechar y seleccionar, Reservar para la familia, Compartir en comunidad",
+      "descripcion": "Ilustración individual conceptual de Cosecha para autoconsumo. Una sola escena, sin subimágenes ni rótulos internos.",
       "tipo": "proceso interno ECOALDEAS",
-      "origen": "Recreación editorial de material generado con IA",
+      "origen": "Ilustración vectorial original individual para Fundación Ecopiensa Evolution",
       "derechos": "Imagen original de IA, sin fotos de terceros",
-      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica."
+      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica.",
+      "archivo_anterior": "assets/biblioteca/ecoaldeas/paquete-02/09_cosecha_para_autoconsumo.jpg",
+      "estado": "Publicada en SVG independiente",
+      "sin_fotografia_real": true
     },
     {
       "numero": 10,
       "id": "10_excedentes_para_ecocia",
       "nombre": "Excedentes hacia ECO-CIA",
-      "archivo": "assets/biblioteca/ecoaldeas/paquete-02/10_excedentes_para_ecocia.jpg",
+      "archivo": "assets/biblioteca/ecoaldeas/individuales/excedentes-eco-cia.svg",
       "pasos": [
         "Cubrir autoconsumo",
         "Clasificar y registrar",
         "Entregar a ECO-CIA"
       ],
-      "descripcion": "Excedentes hacia ECO-CIA — Cubrir autoconsumo, Clasificar y registrar, Entregar a ECO-CIA",
+      "descripcion": "Ilustración individual conceptual de Excedentes hacia ECO-CIA. Una sola escena, sin subimágenes ni rótulos internos.",
       "tipo": "proceso interno ECOALDEAS",
-      "origen": "Recreación editorial de material generado con IA",
+      "origen": "Ilustración vectorial original individual para Fundación Ecopiensa Evolution",
       "derechos": "Imagen original de IA, sin fotos de terceros",
-      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica."
+      "nota": "Ilustración conceptual. El tratamiento de residuos requiere validación técnica.",
+      "archivo_anterior": "assets/biblioteca/ecoaldeas/paquete-02/10_excedentes_para_ecocia.jpg",
+      "estado": "Publicada en SVG independiente",
+      "sin_fotografia_real": true
     }
   ],
-  "aviso": "Las ecoaldeas son fincas diversificadas. ECO-CIA es centro independiente; no se aplica estiércol crudo a alimentos."
+  "aviso": "Las imágenes visibles son ilustraciones individuales independientes; las láminas originales anteriores permanecen archivadas, pero no son las imágenes públicas de cada tarjeta.",
+  "version": "2.1.0"
 }
