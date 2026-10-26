@@ -4,10 +4,11 @@
 .card.focus-one img{object-fit:fill;transform:scale(1.73);transform-origin:left center}
 .modal .viewer-crop{overflow:hidden;max-height:75vh}
 .modal.single-view .viewer-crop{width:min(88vw,850px);height:min(56vw,480px);max-height:64vh}
-.modal.single-view .viewer-crop img{width:100%;height:100%;object-fit:fill;transform:scale(1.73);transform-origin:left center}.card h3{color:#0a633d;margin:10px 12px 5px;font-size:14px}.card p{font-size:11px;color:#5c7461;margin:0 12px 13px}.modal{border:0;border-radius:14px;max-width:min(95vw,1050px);box-shadow:0 18px 60px #063e2977}.modal::backdrop{background:#0d261dc7}.modal img{max-height:75vh;display:block;margin:auto;max-width:100%;object-fit:contain}.modal button{background:#075f3b;color:#fff;border:0;border-radius:8px;padding:8px 13px;cursor:pointer}.toolbar{display:flex;align-items:center;gap:12px;justify-content:space-between;margin-bottom:13px}.status{font-weight:750;color:var(--g)}footer{text-align:center;border-top:1px solid #d0e5d5;padding:20px;font-size:12px;color:#567561}
+.modal.single-view .viewer-crop img{width:100%;height:100%;object-fit:fill;transform:scale(1.73);transform-origin:left center}.card h3{color:#0a633d;margin:10px 12px 5px;font-size:14px}
+.card .save{display:inline-block;margin:0 12px 11px;font-size:12px;color:#087546;font-weight:750}.card p{font-size:11px;color:#5c7461;margin:0 12px 13px}.modal{border:0;border-radius:14px;max-width:min(95vw,1050px);box-shadow:0 18px 60px #063e2977}.modal::backdrop{background:#0d261dc7}.modal img{max-height:75vh;display:block;margin:auto;max-width:100%;object-fit:contain}.modal button{background:#075f3b;color:#fff;border:0;border-radius:8px;padding:8px 13px;cursor:pointer}.toolbar{display:flex;align-items:center;gap:12px;justify-content:space-between;margin-bottom:13px}.status{font-weight:750;color:var(--g)}footer{text-align:center;border-top:1px solid #d0e5d5;padding:20px;font-size:12px;color:#567561}
 </style></head><body><header><img src="./logo%20ecopiensa%20(1).png" alt="Logotipo original de Fundación Ecopiensa Evolution"><div><p>Fundación Ecopiensa Evolution · ECORECYCLE</p><h1>Biblioteca visual institucional · catálogo de imágenes</h1><p>Imágenes por línea de material y actividad · Nombres y créditos · Visor interno</p></div></header><main><nav><a href="./index.html">Portada</a><a href="./ecoaldeas-propuestas.html">ECOALDEAS</a><a href="./ecocia.html">ECO-CIA</a><a href="./index.html?material=organicos">Orgánicos</a></nav><div class="notice"><b>Regla de imágenes:</b> al pulsar una fotografía, se amplía dentro de esta página; no se envía a sitios externos. Las ilustraciones generadas con IA y las fotografías externas con licencia son referencias conceptuales y no prueban que exista una instalación de la Fundación. El logotipo es el archivo original sin modificaciones.</div><div class="toolbar"><strong class="status" id="count">Cargando imágenes del repositorio…</strong></div>
-<section class="group"><h2>ECOALDEAS · Espacios y actividades</h2><p>Parcelas, vivienda, cultivos, ganadería, peces, tratamiento y excedentes. Ilustraciones creadas con IA y alojadas localmente.</p><p><a href="./descargas/ECOALDEAS_PAQUETE_01_10_IMAGENES.zip" download style="display:inline-block;padding:9px 14px;border-radius:9px;background:#076339;color:white;text-decoration:none;font-weight:700">Descargar imágenes de ECOALDEAS</a></p><div id="eco" class="grid"></div></section>
-<section class="group"><h2>ECOALDEAS · Aprovechamiento y complementariedad</h2><p>Tratamiento diferenciado de estiércoles, compostaje, forrajes, agua, piscicultura, autoconsumo y excedentes. Diez láminas individuales ilustrativas de procesos con nombres exactos.</p><p><a href="./descargas/ECOALDEAS_PAQUETE_02_10_IMAGENES.zip" download style="display:inline-block;padding:9px 14px;border-radius:9px;background:#076339;color:white;text-decoration:none;font-weight:700">Descargar procesos de ECOALDEAS</a></p><div id="eco2" class="grid"></div></section>
+<section class="group"><h2>ECOALDEAS · Espacios y actividades</h2><p>Parcelas, vivienda, cultivos, ganadería, peces, tratamiento y excedentes. Ilustraciones creadas con IA y alojadas localmente.</p><p>Las ilustraciones nuevas se descargan individualmente desde cada tarjeta.</p><div id="eco" class="grid"></div></section>
+<section class="group"><h2>ECOALDEAS · Aprovechamiento y complementariedad</h2><p>Tratamiento diferenciado de estiércoles, compostaje, forrajes, agua, piscicultura, autoconsumo y excedentes. Diez láminas individuales ilustrativas de procesos con nombres exactos.</p><p>Las ilustraciones nuevas se descargan individualmente desde cada tarjeta.</p><div id="eco2" class="grid"></div></section>
 <section class="group"><h2>Materiales reciclables secos</h2><p>Subbases y productos derivados, identificados por nombre exacto.</p><div id="rec" class="grid"></div></section>
 <section class="group"><h2>Material de río · aplicaciones de construcción</h2><p>Diez fotografías hiperrealistas originales; cada aplicación se asocia a su subbase exacta. El visor abre cada fotografía dentro de ECORECYCLE.</p><p><a href="./descargas/APLICACIONES_MATERIAL_DE_RIO.zip" download style="display:inline-block;padding:9px 14px;border-radius:9px;background:#076339;color:white;text-decoration:none;font-weight:700">Descargar imágenes de material de río</a></p><div id="rio-productos" class="grid"></div></section>
 <section class="group"><h2>Conjunto METALES 01 · Diez fotografías de referencia</h2><p>Fotografías externas alojadas localmente con procedencia y licencias registradas.</p><div id="metal" class="grid"></div></section>
@@ -21,21 +22,23 @@
 const modal=document.getElementById('viewer');document.getElementById('close').onclick=()=>modal.close();modal.onclick=e=>{if(e.target===modal)modal.close()};
 function item(dst,name,path,meta){if(!path)return;
 const alternatives={
- 'Huerta y hortalizas':'assets/biblioteca/ecoaldeas/paquete-02/09_cosecha_para_autoconsumo.jpg',
- 'Frutales y forrajes':'assets/biblioteca/ecoaldeas/paquete-02/06_forrajes_para_animales.jpg',
- 'Gallinas y pollos':'assets/biblioteca/ecoaldeas/paquete-02/01_gallinaza_recogida_segura.jpg',
- 'Porcicultura':'assets/biblioteca/ecoaldeas/paquete-02/02_porquinaza_tratamiento.jpg',
- 'Bovinos y caprinos':'assets/biblioteca/ecoaldeas/paquete-02/03_estiercol_bovino_caprino.jpg',
- 'Piscicultura':'assets/biblioteca/ecoaldeas/paquete-02/08_estanque_calidad_del_agua.jpg',
- 'Tratamiento orgánico':'assets/biblioteca/ecoaldeas/paquete-02/04_compostaje_monitoreado.jpg',
- 'Autoconsumo y excedentes':'assets/biblioteca/ecoaldeas/paquete-02/10_excedentes_para_ecocia.jpg'
+ 'Huerta y hortalizas':'assets/biblioteca/ecoaldeas/individuales/cosecha-autoconsumo.svg',
+ 'Frutales y forrajes':'assets/biblioteca/ecoaldeas/individuales/cultivo-de-forrajes.svg',
+ 'Gallinas y pollos':'assets/biblioteca/ecoaldeas/individuales/gallinaza-recoleccion-segura.svg',
+ 'Porcicultura':'assets/biblioteca/ecoaldeas/individuales/porquinaza-tratamiento.svg',
+ 'Bovinos y caprinos':'assets/biblioteca/ecoaldeas/individuales/estiercol-bovino-caprino.svg',
+ 'Piscicultura':'assets/biblioteca/ecoaldeas/individuales/estanque-calidad-agua.svg',
+ 'Tratamiento orgánico':'assets/biblioteca/ecoaldeas/individuales/compostaje-monitoreado.svg',
+ 'Autoconsumo y excedentes':'assets/biblioteca/ecoaldeas/individuales/excedentes-eco-cia.svg'
 };
 const original=path;
 if(path.includes('/ecoaldeas/paquete-01/') && alternatives[name])path=alternatives[name];
 const cropped=path.includes('/ecoaldeas/paquete-02/');
 const node=document.createElement('article');node.className='card'+(cropped?' focus-one':'');const b=document.createElement('button'),img=document.createElement('img'),title=document.createElement('h3'),cap=document.createElement('p');b.type='button';img.src='./'+path.replace(/^\.\//,'');img.alt=name;img.loading='lazy';img.decoding='async';b.appendChild(img);title.textContent=name;cap.textContent=meta;
 b.onclick=()=>{modal.classList.toggle('single-view',cropped);document.getElementById('viewerName').textContent=name;const big=document.getElementById('viewerImage');big.src=img.src;big.alt=name;document.getElementById('viewerCredit').textContent=meta;modal.showModal()};
-node.append(b,title,cap);dst.appendChild(node);}
+node.append(b,title,cap);
+if(/\.svg$/i.test(path)){const save=document.createElement('a');save.className='save';save.textContent='Descargar imagen';save.href=img.src;save.download=path.split('/').pop();node.append(save);}
+dst.appendChild(node);}
 (async()=>{let n=0;const load=async path=>{const x=await fetch(path);if(!x.ok)throw Error('No disponible '+path);return await x.json()};
 const sets=[
 ['bases-originales','./assets/biblioteca/individuales/manifest.json'],
